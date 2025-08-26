@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bevy Labs//Bevy//
+METHOD:REQUEST
+BEGIN:VEVENT
+SUMMARY:CNCF and GDG Meetup 2025
+DTSTART;VALUE=DATE-TIME:20250227T233000Z
+DTEND;VALUE=DATE-TIME:20250228T020000Z
+DTSTAMP;VALUE=DATE-TIME:20250212T164208Z
+UID:cncf/10626/Event/Bevy
+SEQUENCE:1739378528
+ATTENDEE;CN="Andres Gonzales";PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT;RSVP=
+ TRUE:MAILTO:kevinrlinze@gmail.com
+DESCRIPTION:El dia 27 de Febrero se realizara un evento en conjunto entre 
+ la comunidad gdg y cloud native Cali en la Institución Uni...\n\nVirtual
+  event URL: https://community.cncf.io/m/j/cqq8vnqteyrry/?ml=AAIFQwmg7mAfc7
+ Ae-8vFKYqo
+LOCATION:Institución Universitaria Antonio José Camacho\, 28N - 102 Aven
+ ida 6a Norte\, Cali\, 760046
+PRIORITY:5
+STATUS:CONFIRMED
+URL:https://community.cncf.io/m/j/cqq8vnqteyrry/?ml=AAIFQwmg7mAfc7Ae-8vFKY
+ qo
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

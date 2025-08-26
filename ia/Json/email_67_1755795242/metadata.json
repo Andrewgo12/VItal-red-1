@@ -1,0 +1,152 @@
+{
+  "unique_id": "email_67_1755795242",
+  "message_id": "<5e38154d91b13149b594c032fdd82e126e657daeac1efaf12b91daaf73b69e68@nequi.com.co>",
+  "subject": "¡Llave registrada con éxito en Nequi!",
+  "from": [
+    {
+      "name": "",
+      "email": "somos@nequi.com.co"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date": "2025-02-20T12:39:34",
+  "date_string": "Thu, 20 Feb 2025 17:39:34 +0000 (UTC)",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 31482,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from smtp3060-fr4.mail-messaging.com (smtp3060-fr4.mail-messaging.com. [83.166.78.60])\r\n        by mx.google.com with ESMTPS id ffacd0b85a97d-38f259f7da2si15328502f8f.479.2025.02.20.09.39.34\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 09:39:34 -0800 (PST)",
+    "X-Google-Smtp-Source": "AGHT+IFBzzS1ULBdOaw6Re5CSGl+LHJ7xCObhNainROEU+Ag5odxTnBb5MltgpVF8i6i9TCDbTKs",
+    "X-Received": "by 2002:a5d:5f51:0:b0:38b:d7d2:12f6 with SMTP id ffacd0b85a97d-38f6e7584f1mr123804f8f.2.1740073174974;\r\n        Thu, 20 Feb 2025 09:39:34 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740073174; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=WCwzWkg9LgdcHSwgRp7OKtoyQBti4xcUtGtEifk3uVtiu4he5yRxNtoD4yBLg4qhnX\r\n         wMs6KDhQ23Ah+dBxMGsv4eCIFtzvpw8bKlLrPwLZvPEBg4Q0hwAD4G/N/lhGrO1C70Ea\r\n         Q7lYxTw+xf92NFRuaXopSKOrFnj95vP1seohBUUQwgKiyXnc2TeDOC4AqSOLncmqMfbN\r\n         i09GThLGSPovF0pU7Ncs5aNMEwNG1aXgeilV6xnfKbNkS9u8AXzGVwrc+fS3DVMD5B0K\r\n         MzWmfnysTrPk/5oHsLv7eJCBdIbcVaqv9iFEVfZmjbXU1J9spluvT7QRebT2Zx3AwnD7\r\n         Ifaw==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=list-unsubscribe:list-unsubscribe-post:mime-version:subject\r\n         :message-id:to:from:date:dkim-signature;\r\n        bh=DxE91SdMkSzi8lfSAhWphh/CMy8LacJmASl4R2GTpcg=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=hNUT0xPpCl5Arzoy7t2PHHSSMFf/TTsV2GdyHzU548oijkpiDgOT+aOBrAD80JUv2u\r\n         jflkV7iMV2WEYgPqlsCtJzeO1EM156pIN508YHa00U6vYI+74bBpqJnh/L11NP4MZ/no\r\n         sjBoWWQZ9dvqHFx+p3aiZdlqLkid6Ki8p9JLmu5GNnJVITWibsmBKnuxvYeDGUu0J8yy\r\n         v7+ZWTYo1JTqFZp8Wb3HV9e6IKuvXaCetq9Hs/3z07GcL/elyjCnBOM1XNogOzp+8ezx\r\n         Y/JyploxKMsr7qOBe6xsGaQpmHM1OR4nSa5JWk6QfZtWFS0EOhEtKtak3bZ8oKEbYUtt\r\n         jelw==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@notificaciones.nequi.com.co header.s=smtp1 header.b=gUn4AwmK;\r\n       spf=pass (google.com: domain of ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co designates 83.166.78.60 as permitted sender) smtp.mailfrom=\"ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=nequi.com.co",
+    "Return-Path": "<ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co>",
+    "Received-SPF": "pass (google.com: domain of ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co designates 83.166.78.60 as permitted sender) client-ip=83.166.78.60;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@notificaciones.nequi.com.co header.s=smtp1 header.b=gUn4AwmK;\r\n       spf=pass (google.com: domain of ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co designates 83.166.78.60 as permitted sender) smtp.mailfrom=\"ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=nequi.com.co",
+    "DKIM-Signature": "q=dns/txt; a=rsa-sha256; b=gUn4AwmKzVNcwbhFHuNLEB6hYqJNiMIZzm95GcNYGRMFf2vqwGcTq2cCGD7fGa+bX1UTQFxVLsNAttxhlG2FOx4xaAMRfUaGqcID711/WzA/IKQAfG4aw7Me4UDhGpZllNvo9Svk6/lD3w5pRnGQLdBLwyHpwp6lU4P65yiRgic=; s=smtp1; c=relaxed/relaxed; t=1740073174; d=notificaciones.nequi.com.co; v=1; bh=DxE91SdMkSzi8lfSAhWphh/CMy8LacJmASl4R2GTpcg=; h=Content-Type:MIME-Version:Date:From:To:Message-ID:Subject:List-Unsubscribe-Post:List-Unsubscribe;",
+    "Date": "Thu, 20 Feb 2025 17:39:34 +0000 (UTC)",
+    "From": "somos@nequi.com.co",
+    "To": "kevinrlinze@gmail.com",
+    "Message-ID": "<5e38154d91b13149b594c032fdd82e126e657daeac1efaf12b91daaf73b69e68@nequi.com.co>",
+    "Subject": "¡Llave registrada con éxito en Nequi!",
+    "MIME-Version": "1.0",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    "X-IB-WebHookData": "9456FED2B9793329958FD2D854F2098CF13C8FDBF620E70ECD3004B4D830CF5CD83F484F2428916B6D64C38754EE3C472B38732A935FCAFDDDFA46CBDE5AA167F52FD6712D87254E86F75A74A435311ECB5389B31614998F3911CD4FC819F1C82F2A08DB3B0405A507771B3E72A20496C95C7093364FDF02CC3FF5B11348ECE9402FFE29AB491E49CDA2A9EED04DE911FF370B5B5C047C293817CB7B701C2C7D56AE60CA96082D876E100FEBD0F3866F4A24418FF0C531E243BB9A967D65B36ABFF9ADD45879A19A456557801CDBBFF1043B12354D8D2EBD750344DC7732E06F790EEA7BB36A7A4C2A42C15678F361C15A5F303B628736FC370F83E297FFDFCA220AB609285206E6CBB50B3B9EF45F890C8AF7616E7F5BE28514C14BB105B32F7858FE78735EB379BE89F608FEE4EB931E325C8657F4A0D4F3902A4FB5F6D3DBAD2658F46A10C0856C74DE6B7FE89C9412A873B4ADDCD527D8571AA260CFFA088617FF73FBFA46BF7BB50DA35D508AA0C6FB71AB449168D0A5D58CEDDB50A612FE35233B4B0A1EA4E89EC0222E85701F55D3762279A25D0E4AE1DFDB827D0EC64061083010C15C45BC7B3193915EFA17D4CA083EAE3D944CD4599E46F247E369",
+    "List-Unsubscribe": "<https://tracking.notificaciones.nequi.com.co/tracking/1/unsubscribeUser/W-2DZXPxuxjD_MQwEsULWh03Tzr_dr-sEBHKHWOLFg6DommkEs98fbWodTlwgwTzCe-BSenPpHH6gRZLWGURrdYbRrQs5PfZobc4BGfGrtrH4ipYWlfasWRxKRq_UGMvke1jf1ymfcUv5wuC6P9R_UKzN0-SAJoGPyiBVRUQ73xmpu2YpaylVdpFPRw2nG53Na8BAt3bfoh_oOXVA6D9ZcjzpnV9tjUF24BzLZsFigytLSmVepzBGmuIUsQRY2k0Uzd42eYZKhOe2dLEHHtCfLrBh1xEWsYMeDoz6WXqznvtciElO_JkNaMZqlpFWGmAnN6Y3DDn1uE46eCqm4Rk3EVqTUcTVRW3wFRdueo8DBLXWqCt-rgh1OsTYZUyVn-TEw6gQOi4zokP18jR__7XGa0pB5xVreVqMULJvjLyaRvdyk8bp3I_Oxk_IXYPsFkdF637-QlwXdWgPg95I_wgpkDNuenPs-q1cuW1G6_JK7UZ-u1HTEiBBftp99abLoxiGPnLV-RhnSf1hRoWxAWoIMP1Dy6XUl2fCOS0qX4F6ABr_CWVNHMzkAqBmgWpLmMiQwIhzXU0nmqEsYkeKEvYHjAl6Quv_OxhH2z7Ts4NdRnvXSSJRjpLgVSG_7YyxGXk4NQP2EfbUXpDTeUMFgTrrp77h0C2C4PYp4tfo-71tp9F63nXJLn12TLmyE7IjAGEm2P0LRsUSCV7fDiyOcIIjdWRzScIUzB-uW8mzmz1f3SzVliFWhnfCBg6yaUq0DJtz6h3yHnKgVqGrVMvhIiewg==>, <mailto:unsubscribe@notificaciones.nequi.com.co?subject=unsubscribe|A06263A0709B56\r\n 3639CEA7D3AD118F0D|W-2DZXPxuxjD_MQwEsULWh03Tzr_dr-sEBHKHWOLFg6DommkEs98fbWodTlwgwTzCe-BSenPpHH6gRZLWGURrdYbRrQs5PfZobc4BGfGrtrH4ipYWlfasWRxKRq_UGMvke1jf1ymfcUv5wuC6P9R_UKzN0-SAJoGPyiBVRUQ73xmpu2YpaylVdpFPRw2nG53Na8BAt3bfoh_oOXVA6D9ZcjzpnV9tjUF24BzLZsFigytLSmVepzBGmuIUsQRY2k0Uzd42eYZKhOe2dLEHHtCfLrBh1xEWsYMeDoz6WXqznvtciElO_JkNaMZqlpFWGmAnN6Y3DDn1uE46eCqm4Rk3EVqTUcTVRW3wFRdueo8DBLXWqCt-rgh1OsTYZUyVn-TEw6gQOi4zokP18jR__7XGa0pB5xVreVqMULJvjLyaRvdyk8bp3I_Oxk_IXYPsFkdF637-QlwXdWgPg95I_wgpkDNuenPs-q1cuW1G6_JK7UZ-u1HTEiBBftp99abLoxiGPnLV-RhnSf1hRoWxAWoIMP1Dy6XUl2fCOS0qX4F6ABr_CWVNHMzkAqBmgWpLmMiQwIhzXU0nmqEsYkeKEvYHjAl6Quv_OxhH2z7Ts4NdRnvXSSJRjpLgVSG_7YyxGXk4NQP2EfbUXpDTeUMFgTrrp77h0C2C4PYp4tfo-71tp9F63nXJLn12TLmyE7IjAGEm2P0LRsUSCV7fDiyOcIIjdWRzScIUzB-uW8mzmz1f3SzVliFWhnfCBg6yaUq0DJtz6h3yHnKgVqGrVMvhIiewg==>",
+    "X-IB-Sending-Ip": "83.166.78.60",
+    "Content-Type": "multipart/alternative; boundary=\"=--1099286982_1740073174902_20983421\""
+  },
+  "extraction_timestamp": "2025-08-21T11:54:02.901999",
+  "received_headers": [
+    "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp174410wru;\r\n        Thu, 20 Feb 2025 09:39:35 -0800 (PST)",
+    "from smtp3060-fr4.mail-messaging.com (smtp3060-fr4.mail-messaging.com. [83.166.78.60])\r\n        by mx.google.com with ESMTPS id ffacd0b85a97d-38f259f7da2si15328502f8f.479.2025.02.20.09.39.34\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 09:39:34 -0800 (PST)"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IFBzzS1ULBdOaw6Re5CSGl+LHJ7xCObhNainROEU+Ag5odxTnBb5MltgpVF8i6i9TCDbTKs",
+    "X-Received": "by 2002:a5d:5f51:0:b0:38b:d7d2:12f6 with SMTP id ffacd0b85a97d-38f6e7584f1mr123804f8f.2.1740073174974;\r\n        Thu, 20 Feb 2025 09:39:34 -0800 (PST)",
+    "X-IB-WebHookData": "9456FED2B9793329958FD2D854F2098CF13C8FDBF620E70ECD3004B4D830CF5CD83F484F2428916B6D64C38754EE3C472B38732A935FCAFDDDFA46CBDE5AA167F52FD6712D87254E86F75A74A435311ECB5389B31614998F3911CD4FC819F1C82F2A08DB3B0405A507771B3E72A20496C95C7093364FDF02CC3FF5B11348ECE9402FFE29AB491E49CDA2A9EED04DE911FF370B5B5C047C293817CB7B701C2C7D56AE60CA96082D876E100FEBD0F3866F4A24418FF0C531E243BB9A967D65B36ABFF9ADD45879A19A456557801CDBBFF1043B12354D8D2EBD750344DC7732E06F790EEA7BB36A7A4C2A42C15678F361C15A5F303B628736FC370F83E297FFDFCA220AB609285206E6CBB50B3B9EF45F890C8AF7616E7F5BE28514C14BB105B32F7858FE78735EB379BE89F608FEE4EB931E325C8657F4A0D4F3902A4FB5F6D3DBAD2658F46A10C0856C74DE6B7FE89C9412A873B4ADDCD527D8571AA260CFFA088617FF73FBFA46BF7BB50DA35D508AA0C6FB71AB449168D0A5D58CEDDB50A612FE35233B4B0A1EA4E89EC0222E85701F55D3762279A25D0E4AE1DFDB827D0EC64061083010C15C45BC7B3193915EFA17D4CA083EAE3D944CD4599E46F247E369",
+    "X-IB-Sending-Ip": "83.166.78.60"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<5e38154d91b13149b594c032fdd82e126e657daeac1efaf12b91daaf73b69e68@nequi.com.co>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co designates 83.166.78.60 as permitted sender) client-ip=83.166.78.60;",
+    "dkim_signature": "q=dns/txt; a=rsa-sha256; b=gUn4AwmKzVNcwbhFHuNLEB6hYqJNiMIZzm95GcNYGRMFf2vqwGcTq2cCGD7fGa+bX1UTQFxVLsNAttxhlG2FOx4xaAMRfUaGqcID711/WzA/IKQAfG4aw7Me4UDhGpZllNvo9Svk6/lD3w5pRnGQLdBLwyHpwp6lU4P65yiRgic=; s=smtp1; c=relaxed/relaxed; t=1740073174; d=notificaciones.nequi.com.co; v=1; bh=DxE91SdMkSzi8lfSAhWphh/CMy8LacJmASl4R2GTpcg=; h=Content-Type:MIME-Version:Date:From:To:Message-ID:Subject:List-Unsubscribe-Post:List-Unsubscribe;",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@notificaciones.nequi.com.co header.s=smtp1 header.b=gUn4AwmK;\r\n       spf=pass (google.com: domain of ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co designates 83.166.78.60 as permitted sender) smtp.mailfrom=\"ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=nequi.com.co",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@notificaciones.nequi.com.co header.s=smtp1 header.b=gUn4AwmK;\r\n       spf=pass (google.com: domain of ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co designates 83.166.78.60 as permitted sender) smtp.mailfrom=\"ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=nequi.com.co"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp174410wru;\r\n        Thu, 20 Feb 2025 09:39:35 -0800 (PST)",
+      "from smtp3060-fr4.mail-messaging.com (smtp3060-fr4.mail-messaging.com. [83.166.78.60])\r\n        by mx.google.com with ESMTPS id ffacd0b85a97d-38f259f7da2si15328502f8f.479.2025.02.20.09.39.34\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 09:39:34 -0800 (PST)"
+    ],
+    "delivery_path": [
+      "smtp3060-fr4.mail-messaging.com"
+    ],
+    "total_hops": 2,
+    "delivery_delay": null,
+    "original_sender_ip": "83.166.78.60",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 1
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 24932
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": false,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 2
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 37,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@notificaciones.nequi.com.co header.s=smtp1 header.b=gUn4AwmK;\r\n       spf=pass (google.com: domain of ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co designates 83.166.78.60 as permitted sender) smtp.mailfrom=\"ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=nequi.com.co",
+  "dkim_signature": "q=dns/txt; a=rsa-sha256; b=gUn4AwmKzVNcwbhFHuNLEB6hYqJNiMIZzm95GcNYGRMFf2vqwGcTq2cCGD7fGa+bX1UTQFxVLsNAttxhlG2FOx4xaAMRfUaGqcID711/WzA/IKQAfG4aw7Me4UDhGpZllNvo9Svk6/lD3w5pRnGQLdBLwyHpwp6lU4P65yiRgic=; s=smtp1; c=relaxed/relaxed; t=1740073174; d=notificaciones.nequi.com.co; v=1; bh=DxE91SdMkSzi8lfSAhWphh/CMy8LacJmASl4R2GTpcg=; h=Content-Type:MIME-Version:Date:From:To:Message-ID:Subject:List-Unsubscribe-Post:List-Unsubscribe;",
+  "spf_result": "pass (google.com: domain of ib_bounces-kevinrlinze=gmail.com@notificaciones.nequi.com.co designates 83.166.78.60 as permitted sender) client-ip=83.166.78.60;"
+}

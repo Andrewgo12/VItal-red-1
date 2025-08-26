@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2025-08-21T12:42:56.624011",
+    "total_records": 4,
+    "source": "Gmail Emergency Data",
+    "version": "1.0"
+  },
+  "records": [
+    {
+      "id": "URG-55283262",
+      "patientName": "María Elena Rodríguez",
+      "urgencyLevel": "Urgente",
+      "condition": "MOTIVO DE CONSULTA:",
+      "arrivalTime": "2025-08-15T13:41:02.704676",
+      "triageCategory": "Amarillo",
+      "status": "En Triaje",
+      "location": "San Jos",
+      "summary": "Referencia urgente - Dolor torácico agudo \n            Estimado colega,\n            \n            Le refiero paciente María Elena Rodríguez, femenina de 45 años, quien presenta:\n            \n          ..."
+    },
+    {
+      "id": "URG-55143882",
+      "patientName": "Ana Sofía Martínez\n            Edad",
+      "urgencyLevel": "Urgente",
+      "condition": "Embarazo de alto riesgo - 32 semanas de gestación",
+      "arrivalTime": "2025-08-13T22:58:02.704860",
+      "triageCategory": "Amarillo",
+      "status": "En Triaje",
+      "location": "Ubicación no especificada",
+      "summary": "Embarazo de alto riesgo - Evaluación ginecológica \n            Estimada colega,\n            \n            Paciente: Ana Sofía Martínez\n            Edad: 28 años\n            Género: Femenino\n           ..."
+    },
+    {
+      "id": "URG-55277742",
+      "patientName": "Roberto Jiménez\n            Edad",
+      "urgencyLevel": "Moderado",
+      "condition": "Fractura de cadera derecha",
+      "arrivalTime": "2025-08-15T12:09:02.704906",
+      "triageCategory": "Verde",
+      "status": "En Triaje",
+      "location": "Ubicación no especificada",
+      "summary": "Fractura de cadera - Evaluación ortopédica \n            Estimado ortopedista,\n            \n            Paciente: Roberto Jiménez\n            Edad: 55 años\n            Género: Masculino\n            \n  ..."
+    },
+    {
+      "id": "URG-55290042",
+      "patientName": "José Miguel Torres\n            Edad",
+      "urgencyLevel": "Urgente",
+      "condition": "PRESUNTIVO:",
+      "arrivalTime": "2025-08-15T15:34:02.704948",
+      "triageCategory": "Amarillo",
+      "status": "En Triaje",
+      "location": "Ubicación no especificada",
+      "summary": "Accidente cerebrovascular - Evaluación neurológica urgente \n            Estimado neurólogo,\n            \n            Paciente: José Miguel Torres\n            Edad: 55 años\n            Género: Masculin..."
+    }
+  ],
+  "statistics": {
+    "by_urgency_level": {
+      "Urgente": 3,
+      "Moderado": 1
+    },
+    "by_triage_category": {
+      "Amarillo": 3,
+      "Verde": 1
+    },
+    "total_in_triage": 4
+  }
+}

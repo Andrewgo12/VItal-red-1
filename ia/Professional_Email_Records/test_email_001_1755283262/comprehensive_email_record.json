@@ -1,0 +1,111 @@
+{
+  "document_identification": {
+    "unique_identifier": "test_email_001_1755283262",
+    "document_type": "email_communication",
+    "schema_version": "2.0.0",
+    "processing_timestamp": "2025-08-21T12:28:02.704704",
+    "processing_system": "Gmail Data Extraction System v2.0 - Test Mode",
+    "data_integrity_status": "verified"
+  },
+  "communication_metadata": {
+    "message_identification": {
+      "message_id": "<test_1@example.com>",
+      "thread_id": "thread_1",
+      "conversation_topic": "Referencia urgente - Dolor torácico agudo",
+      "in_reply_to_message": "",
+      "reference_messages": []
+    },
+    "temporal_information": {
+      "sent_datetime": "2025-08-15T13:41:02.704676",
+      "sent_datetime_string": "Fri, 15 Aug 2025 13:41:02 ",
+      "received_datetime": "2025-08-15T13:41:02.704676",
+      "timezone_information": "+0000",
+      "processing_datetime": "2025-08-21T12:28:02.704740"
+    },
+    "participant_information": {
+      "sender_details": [
+        {
+          "display_name": "Dr. Carlos Mendoza",
+          "email_address": "dr.mendoza@hospitalsanjose.com",
+          "address_type": "primary",
+          "validation_status": "valid"
+        }
+      ],
+      "primary_recipients": [
+        {
+          "display_name": "Sistema de Referencia",
+          "email_address": "referencia@hospital.com",
+          "address_type": "primary",
+          "validation_status": "valid"
+        }
+      ],
+      "carbon_copy_recipients": [],
+      "blind_carbon_copy_recipients": [],
+      "reply_to_addresses": [],
+      "total_recipient_count": 1
+    },
+    "priority_and_sensitivity": {
+      "priority_level": "urgente",
+      "importance_level": "high",
+      "sensitivity_classification": "normal",
+      "delivery_receipt_requested": false,
+      "read_receipt_requested": false
+    }
+  },
+  "content_analysis": {
+    "subject_information": {
+      "subject_line": "Referencia urgente - Dolor torácico agudo",
+      "subject_length": 41,
+      "subject_language": "spanish",
+      "contains_special_characters": true
+    },
+    "content_structure": {
+      "is_multipart_message": false,
+      "content_type": "text/plain",
+      "character_encoding": "utf-8",
+      "message_size_bytes": 1082,
+      "message_size_human_readable": "1.1 KB"
+    },
+    "body_content": {
+      "plain_text_content": "\n            Estimado colega,\n            \n            Le refiero paciente María Elena Rodríguez, femenina de 45 años, quien presenta:\n            \n            MOTIVO DE CONSULTA:\n            Dolor torácico de inicio súbito, tipo opresivo, irradiado a brazo izquierdo\n            \n            ANTECEDENTES:\n            - Hipertensión arterial diagnosticada hace 2 años\n            - Diabetes mellitus tipo 2 en tratamiento\n            - Madre con antecedente de infarto agudo de miocardio\n            \n            SIGNOS VITALES:\n            - Presión arterial: 150/95 mmHg\n            - Frecuencia cardíaca: 110 bpm\n            - Temperatura: 36.8°C\n            - Saturación de oxígeno: 96%\n            \n            MEDICAMENTOS ACTUALES:\n            - Losartán 50mg cada 24 horas\n            - Metformina 850mg cada 12 horas\n            - Atorvastatina 20mg cada 24 horas\n            \n            Requiere evaluación cardiológica urgente.\n            \n            Cordialmente,\n            Dr. Carlos Mendoza\n            Medicina Interna\n            Hospital San José\n            ",
+      "html_content": "",
+      "raw_content": "\n            Estimado colega,\n            \n            Le refiero paciente María Elena Rodríguez, femenina de 45 años, quien presenta:\n            \n            MOTIVO DE CONSULTA:\n            Dolor torácico de inicio súbito, tipo opresivo, irradiado a brazo izquierdo\n            \n            ANTECEDENTES:\n            - Hipertensión arterial diagnosticada hace 2 años\n            - Diabetes mellitus tipo 2 en tratamiento\n            - Madre con antecedente de infarto agudo de miocardio\n            \n            SIGNOS VITALES:\n            - Presión arterial: 150/95 mmHg\n            - Frecuencia cardíaca: 110 bpm\n            - Temperatura: 36.8°C\n            - Saturación de oxígeno: 96%\n            \n            MEDICAMENTOS ACTUALES:\n            - Losartán 50mg cada 24 horas\n            - Metformina 850mg cada 12 horas\n            - Atorvastatina 20mg cada 24 horas\n            \n            Requiere evaluación cardiológica urgente.\n            \n            Cordialmente,\n            Dr. Carlos Mendoza\n            Medicina Interna\n            Hospital San José\n            ",
+      "content_preview": "\n            Estimado colega,\n            \n            Le refiero paciente María Elena Rodríguez, femenina de 45 años, quien presenta:\n            \n            MOTIVO DE CONSULTA:\n            Dolor to...",
+      "estimated_reading_time_minutes": 1,
+      "word_count": 105,
+      "character_count": 1082,
+      "contains_html_formatting": false,
+      "detected_language": "spanish"
+    }
+  },
+  "attachment_information": {
+    "attachment_summary": {
+      "has_attachments": false,
+      "total_attachment_count": 0,
+      "total_attachment_size_bytes": 0,
+      "total_attachment_size_human_readable": "0 B"
+    },
+    "attachment_details": [],
+    "attachment_categories": {
+      "document_files": [],
+      "image_files": [],
+      "archive_files": [],
+      "executable_files": [],
+      "other_files": [],
+      "category_counts": {
+        "documents": 0,
+        "images": 0,
+        "archives": 0,
+        "executables": 0,
+        "other": 0
+      }
+    },
+    "security_assessment": {
+      "potentially_dangerous_files": [],
+      "overall_risk_level": "none",
+      "scan_timestamp": "2025-08-21T12:28:02.704792"
+    }
+  },
+  "source_type": "professional",
+  "source_path": "/test/email_1"
+}

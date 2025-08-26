@@ -1,0 +1,55 @@
+{
+  "count": 1,
+  "total_size_bytes": 179890,
+  "files": [
+    {
+      "original_filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+      "saved_filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+      "file_path": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Imagenes\\email_75_1755795246\\Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+      "relative_path": "Imagenes\\email_75_1755795246\\Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+      "content_type": "image/jpeg",
+      "category": "image",
+      "size_bytes": 179890,
+      "size_human": "175.7 KB",
+      "md5_hash": "23fd34ea6de8ba9a891d279add9d5e38",
+      "attachment_index": 0,
+      "saved_successfully": true,
+      "security_analysis": {
+        "risk_level": "low",
+        "potential_threats": [],
+        "file_signature_valid": true,
+        "suspicious_extensions": false,
+        "encrypted": false,
+        "macro_enabled": false
+      },
+      "file_metadata": {
+        "file_stats": {
+          "size_bytes": 179890,
+          "creation_time": "2025-08-21T11:54:06.184590",
+          "modification_time": "2025-08-21T11:54:06.184590",
+          "access_time": "2025-08-21T11:54:06.200371",
+          "permissions": "666",
+          "inode": 844424930631686
+        },
+        "creation_time": null,
+        "modification_time": null,
+        "access_time": null,
+        "permissions": "",
+        "owner": "",
+        "file_type_details": {},
+        "embedded_metadata": {
+          "format": "JPEG",
+          "mode": "RGB",
+          "size": [
+            1280,
+            919
+          ],
+          "exif": {}
+        }
+      },
+      "processing_timestamp": "2025-08-21T11:54:06.201201",
+      "disposition": "inline",
+      "extracted_text": ""
+    }
+  ]
+}

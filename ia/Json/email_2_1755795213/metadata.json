@@ -1,0 +1,129 @@
+{
+  "unique_id": "email_2_1755795213",
+  "message_id": "<CAO_YAiu3eja-k=9erbPpC1wAAi8juX1L6pE62RH4Y4z-=wA23A@mail.gmail.com>",
+  "subject": "",
+  "from": [
+    {
+      "name": "Andres Gonzales",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "Andres Gonzales",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date": "2025-02-11T18:52:19",
+  "date_string": "Tue, 11 Feb 2025 18:52:19 -0500",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 2236,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "MIME-Version": "1.0",
+    "Date": "Tue, 11 Feb 2025 18:52:19 -0500",
+    "Message-ID": "<CAO_YAiu3eja-k=9erbPpC1wAAi8juX1L6pE62RH4Y4z-=wA23A@mail.gmail.com>",
+    "Subject": "",
+    "From": "Andres Gonzales <kevinrlinze@gmail.com>",
+    "To": "Andres Gonzales <kevinrlinze@gmail.com>",
+    "Content-Type": "multipart/alternative; boundary=\"000000000000f91144062de68338\""
+  },
+  "extraction_timestamp": "2025-08-21T11:53:33.878370",
+  "received_headers": [],
+  "x_headers": {},
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<CAO_YAiu3eja-k=9erbPpC1wAAi8juX1L6pE62RH4Y4z-=wA23A@mail.gmail.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "",
+    "dkim_signature": "",
+    "dmarc_result": "",
+    "authentication_results": "",
+    "received_spf": "",
+    "arc_authentication_results": [],
+    "message_security": "unknown"
+  },
+  "routing_info": {
+    "received_headers": [],
+    "delivery_path": [],
+    "total_hops": 0,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 713
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 964
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "CONSTITUCIONES DE COLOMBIA (1810 -1991)- Colombiamania.com <http://www.colombiamania.com/historia/index_historia/index_historia_0090.html> Una línea histórica de las cartas magnas de Colombia | Ámbito Jurídico <https://www.ambitojuridico.com/noticias/constitucional-y-derechos-humanos/una-linea-histo...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 0,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "",
+  "dkim_signature": "",
+  "spf_result": ""
+}

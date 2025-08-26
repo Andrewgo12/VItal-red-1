@@ -1,0 +1,271 @@
+{
+  "email_info": {
+    "unique_id": "email_84_1755795249",
+    "processing_timestamp": "2025-08-21T11:54:09.296423",
+    "schema_version": "1.0"
+  },
+  "metadata": {
+    "unique_id": "email_84_1755795249",
+    "message_id": "<CAEeyV92vfagc-Eo+37dgn36y6SRnkNK-bYNfBSv7zjUrnVtZ0Q@mail.gmail.com>",
+    "subject": "Pruebas psicológicas",
+    "from": [
+      {
+        "name": "Santiago Soler Moreno",
+        "email": "santiago.soler@phidias.com.co"
+      }
+    ],
+    "to": [
+      {
+        "name": "",
+        "email": "Kevinrlinze@gmail.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "reply_to": [],
+    "date": "2025-02-24T09:39:49",
+    "date_string": "Mon, 24 Feb 2025 09:39:49 -0500",
+    "received_date": null,
+    "thread_topic": "",
+    "thread_index": "",
+    "in_reply_to": "",
+    "references": "",
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "content_type": "multipart/alternative",
+    "charset": null,
+    "size": 10252,
+    "has_attachments": false,
+    "attachment_count": 0,
+    "attachment_names": [],
+    "is_multipart": true,
+    "headers": {
+      "Delivered-To": "kevinrlinze@gmail.com",
+      "Received": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id a640c23a62f3a-abb73980302sor1143690666b.4.2025.02.24.06.40.00\r\n        for <Kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Mon, 24 Feb 2025 06:40:00 -0800 (PST)",
+      "X-Received": "by 2002:a17:907:7808:b0:abb:4802:709e with SMTP id\r\n a640c23a62f3a-abc0de13481mr1176566866b.42.1740407999476; Mon, 24 Feb 2025\r\n 06:39:59 -0800 (PST)",
+      "ARC-Seal": "i=1; a=rsa-sha256; t=1740408000; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=Vr8SXDkBF6tNXvjv3Vks7SG63ryifJH6FOBbsmDJ8d2Tt0D+ecKFozN1gfzsyD16A1\r\n         c94fXBzGVWdaxUL4dNYWckuqLCatEs8NCMBeoJFFsX5rgVQmmsbolFIXyv6f/YqeP+PG\r\n         +7cr2dDBnKu6SIShk3Ufd4abyCYkzmQjg0OHmnWUEd1OXE1rUCeBRG0qAIMfXtK+5XXa\r\n         tFye5D7e7HXrSlIjQH5HgcoOjo8STjw9eSIiL7xToWzyXRfWt2sRDlWm4wl4rDeDSNAt\r\n         rCMMiabooSgu3YJX1myTqVPYOMqs/CL5wtj27SsJMHX9ReVd4rDl4e0QN7VLA5V9epTp\r\n         M0Vw==",
+      "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:subject:message-id:date:from:mime-version:dkim-signature;\r\n        bh=+wu1/ghtUy1/zOhEZjnv0fDXmKQMsbeFzV4M+47Oh4c=;\r\n        fh=d2ZiJyeLUfBNY7BtRGgb3ZZ/I/ln6WyQiURcdzldxqY=;\r\n        b=dclzxfGvK/3tJZ0BbtoHrc3g2MekQHvJJSzcU3dQDXvHCpL6d/2OEVLFkJt12VqNp+\r\n         CuBsEdXQsD9xfPcrdiK/q3YIr9TpmGxwkaEOHH8LEylFLPL7f5k3+dd+A42caNn9eRqw\r\n         ae4oyXjtM6jBUGvdXNjhwTda2v3Wx/R66ECzhiuixi5WBwtdZG6FLbLXFGXcd0/VeZIu\r\n         ClfMwpxA5hK4A5vwSV25r7VUWxfGwKmozCzz7tZlt1zJjBsIzbSrw46ihpstzAwOdhYH\r\n         BqB6hk3kzjCllxUDsKRNRNDtpEDUCa/H/pip4W8+DuyB78dGTEOa82Ud+2u9AyzssIcf\r\n         K45w==;\r\n        dara=google.com",
+      "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@phidias-com-co.20230601.gappssmtp.com header.s=20230601 header.b=3AaDF6T1;\r\n       spf=pass (google.com: domain of santiago.soler@phidias.com.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=santiago.soler@phidias.com.co;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=phidias.com.co;\r\n       dara=pass header.i=@gmail.com",
+      "Return-Path": "<santiago.soler@phidias.com.co>",
+      "Received-SPF": "pass (google.com: domain of santiago.soler@phidias.com.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+      "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@phidias-com-co.20230601.gappssmtp.com header.s=20230601 header.b=3AaDF6T1;\r\n       spf=pass (google.com: domain of santiago.soler@phidias.com.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=santiago.soler@phidias.com.co;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=phidias.com.co;\r\n       dara=pass header.i=@gmail.com",
+      "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=phidias-com-co.20230601.gappssmtp.com; s=20230601; t=1740407999; x=1741012799; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=+wu1/ghtUy1/zOhEZjnv0fDXmKQMsbeFzV4M+47Oh4c=;\r\n        b=3AaDF6T1igt1KHM/kO/T8r6Uh7PFGJHmmbgDCDPLRGUk/RvG7DuIDB01DPxZCVXfIn\r\n         4XkRjSzqc2aKVFzckHLxohSsFJc8FMZF+0iJM9R/R8LHzCjEPJVIZnqY0SliHRlXfZaw\r\n         81lFi2O6n3o/zFgrj81PaC89hfnMJR+HwWmdeaupBSwynOwSinj+cp+xoSHXo0briB1i\r\n         aTJyNP/5lZ+WO15CofU+IQcfuzTs4o4PjD1hcHC6ZGzCpXVtZ6sj2NgrtuMMJK8IrNpx\r\n         GKRrU0d/qC1cGRnRjSyEHWfTJZNAcKjuLvYQCLVbdYjz7mjFYd9vS+0/57VAQaruu/Nk\r\n         2Nvg==",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740407999; x=1741012799;\r\n        h=to:subject:message-id:date:from:mime-version:x-gm-message-state\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=+wu1/ghtUy1/zOhEZjnv0fDXmKQMsbeFzV4M+47Oh4c=;\r\n        b=geEmX1Qw9LHqrIq9xtaC84Y8S5wEAh2tJrGixowKBv1WH2354S26Wf95gTcMqEFnJG\r\n         1WXX0SrskOQmR8o2G6MiG5KFfAHJIbm16k1ArhmIqNWQsmWH8jkwHJldbq8nomPRHuH6\r\n         nJoZA682orXXnLIolo9uaBJ64qaJ5TIgvJn05N9r8vg5Tpl2CbYY0fnsy7JlH4CPcsg8\r\n         qj089eJWmyre/o7tsiKQB8UB3Lo1WodOQo8iD70X2gpWlJSLl02mbFBaj/gxQWBeqE3j\r\n         8VoBUhi+jbi9Wp2H//sUPaT2lU07tTyl56aP0BVgvodAGkq5OzFAzxKXnYsnGMVIz1JG\r\n         vH8A==",
+      "X-Gm-Message-State": "AOJu0YylVHrgALA5t/So5CbiBhOnUmnoSqNPsKZYzuxFBH3qtnfasO+T\r\n\t39B18CLFSVs5UMEYGl1QC2q9m0JtL9ff1M0n9WrSqp405MWSRiP7tXJ0HiussqJtinGnHEUQ4Xx\r\n\tECVZkL1pt2DyoV5102IJd4Z1h3lNgSw3rKyCKL2byQ6lYWnJuuRjb",
+      "X-Gm-Gg": "ASbGncvQkZCN0AGDYRgBkDHL48euMeSScVcgwIHtnONZYv98N6yUZ71Y84TcwQwE090\r\n\tyBMcTxxgffhLcFK13pKeOiETa7CEY/ty84aNDXh7nUCcJvOaEHTKtsuzVrZFYF/OunfDtb4gpDu\r\n\tOXUUbtdIQ=",
+      "X-Google-Smtp-Source": "AGHT+IHJnc2PJ4zLdeaHo6f673jIC3cw8HTL75jc2VKRA/FQYKyext0UZXnibFkgQP70mUsjPLjwsiczIfckgUQHLdA=",
+      "MIME-Version": "1.0",
+      "From": "Santiago Soler Moreno <santiago.soler@phidias.com.co>",
+      "Date": "Mon, 24 Feb 2025 09:39:49 -0500",
+      "X-Gm-Features": "AWEUYZlhVTrdy6diAtPVUnpcux44Tl5byDeGkOcgSTJqYUGwzhbfMK31hBld9DY",
+      "Message-ID": "<CAEeyV92vfagc-Eo+37dgn36y6SRnkNK-bYNfBSv7zjUrnVtZ0Q@mail.gmail.com>",
+      "Subject": "Pruebas psicológicas",
+      "To": "Kevinrlinze@gmail.com",
+      "Content-Type": "multipart/alternative; boundary=\"00000000000092d613062ee4504d\""
+    },
+    "extraction_timestamp": "2025-08-21T11:54:09.294787",
+    "received_headers": [
+      "by 2002:a5d:5c84:0:b0:38d:c57e:3a1b with SMTP id cf4csp1367832wrb;\r\n        Mon, 24 Feb 2025 06:40:00 -0800 (PST)",
+      "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id a640c23a62f3a-abb73980302sor1143690666b.4.2025.02.24.06.40.00\r\n        for <Kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Mon, 24 Feb 2025 06:40:00 -0800 (PST)"
+    ],
+    "x_headers": {
+      "X-Received": "by 2002:a17:907:7808:b0:abb:4802:709e with SMTP id\r\n a640c23a62f3a-abc0de13481mr1176566866b.42.1740407999476; Mon, 24 Feb 2025\r\n 06:39:59 -0800 (PST)",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740407999; x=1741012799;\r\n        h=to:subject:message-id:date:from:mime-version:x-gm-message-state\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=+wu1/ghtUy1/zOhEZjnv0fDXmKQMsbeFzV4M+47Oh4c=;\r\n        b=geEmX1Qw9LHqrIq9xtaC84Y8S5wEAh2tJrGixowKBv1WH2354S26Wf95gTcMqEFnJG\r\n         1WXX0SrskOQmR8o2G6MiG5KFfAHJIbm16k1ArhmIqNWQsmWH8jkwHJldbq8nomPRHuH6\r\n         nJoZA682orXXnLIolo9uaBJ64qaJ5TIgvJn05N9r8vg5Tpl2CbYY0fnsy7JlH4CPcsg8\r\n         qj089eJWmyre/o7tsiKQB8UB3Lo1WodOQo8iD70X2gpWlJSLl02mbFBaj/gxQWBeqE3j\r\n         8VoBUhi+jbi9Wp2H//sUPaT2lU07tTyl56aP0BVgvodAGkq5OzFAzxKXnYsnGMVIz1JG\r\n         vH8A==",
+      "X-Gm-Message-State": "AOJu0YylVHrgALA5t/So5CbiBhOnUmnoSqNPsKZYzuxFBH3qtnfasO+T\r\n\t39B18CLFSVs5UMEYGl1QC2q9m0JtL9ff1M0n9WrSqp405MWSRiP7tXJ0HiussqJtinGnHEUQ4Xx\r\n\tECVZkL1pt2DyoV5102IJd4Z1h3lNgSw3rKyCKL2byQ6lYWnJuuRjb",
+      "X-Gm-Gg": "ASbGncvQkZCN0AGDYRgBkDHL48euMeSScVcgwIHtnONZYv98N6yUZ71Y84TcwQwE090\r\n\tyBMcTxxgffhLcFK13pKeOiETa7CEY/ty84aNDXh7nUCcJvOaEHTKtsuzVrZFYF/OunfDtb4gpDu\r\n\tOXUUbtdIQ=",
+      "X-Google-Smtp-Source": "AGHT+IHJnc2PJ4zLdeaHo6f673jIC3cw8HTL75jc2VKRA/FQYKyext0UZXnibFkgQP70mUsjPLjwsiczIfckgUQHLdA=",
+      "X-Gm-Features": "AWEUYZlhVTrdy6diAtPVUnpcux44Tl5byDeGkOcgSTJqYUGwzhbfMK31hBld9DY"
+    },
+    "delivery_receipt": "",
+    "read_receipt": "",
+    "thread_info": {
+      "message_id": "<CAEeyV92vfagc-Eo+37dgn36y6SRnkNK-bYNfBSv7zjUrnVtZ0Q@mail.gmail.com>",
+      "in_reply_to": "",
+      "references": [],
+      "thread_topic": "",
+      "thread_index": "",
+      "is_reply": false,
+      "is_forward": false
+    },
+    "security_info": {
+      "spf_result": "pass (google.com: domain of santiago.soler@phidias.com.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+      "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=phidias-com-co.20230601.gappssmtp.com; s=20230601; t=1740407999; x=1741012799; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=+wu1/ghtUy1/zOhEZjnv0fDXmKQMsbeFzV4M+47Oh4c=;\r\n        b=3AaDF6T1igt1KHM/kO/T8r6Uh7PFGJHmmbgDCDPLRGUk/RvG7DuIDB01DPxZCVXfIn\r\n         4XkRjSzqc2aKVFzckHLxohSsFJc8FMZF+0iJM9R/R8LHzCjEPJVIZnqY0SliHRlXfZaw\r\n         81lFi2O6n3o/zFgrj81PaC89hfnMJR+HwWmdeaupBSwynOwSinj+cp+xoSHXo0briB1i\r\n         aTJyNP/5lZ+WO15CofU+IQcfuzTs4o4PjD1hcHC6ZGzCpXVtZ6sj2NgrtuMMJK8IrNpx\r\n         GKRrU0d/qC1cGRnRjSyEHWfTJZNAcKjuLvYQCLVbdYjz7mjFYd9vS+0/57VAQaruu/Nk\r\n         2Nvg==",
+      "dmarc_result": "",
+      "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@phidias-com-co.20230601.gappssmtp.com header.s=20230601 header.b=3AaDF6T1;\r\n       spf=pass (google.com: domain of santiago.soler@phidias.com.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=santiago.soler@phidias.com.co;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=phidias.com.co;\r\n       dara=pass header.i=@gmail.com",
+      "received_spf": "",
+      "arc_authentication_results": [
+        "i=1; mx.google.com;\r\n       dkim=pass header.i=@phidias-com-co.20230601.gappssmtp.com header.s=20230601 header.b=3AaDF6T1;\r\n       spf=pass (google.com: domain of santiago.soler@phidias.com.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=santiago.soler@phidias.com.co;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=phidias.com.co;\r\n       dara=pass header.i=@gmail.com"
+      ],
+      "message_security": "high"
+    },
+    "routing_info": {
+      "received_headers": [
+        "by 2002:a5d:5c84:0:b0:38d:c57e:3a1b with SMTP id cf4csp1367832wrb;\r\n        Mon, 24 Feb 2025 06:40:00 -0800 (PST)",
+        "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id a640c23a62f3a-abb73980302sor1143690666b.4.2025.02.24.06.40.00\r\n        for <Kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Mon, 24 Feb 2025 06:40:00 -0800 (PST)"
+      ],
+      "delivery_path": [
+        "mail-sor-f41.google.com"
+      ],
+      "total_hops": 2,
+      "delivery_delay": null,
+      "original_sender_ip": "209.85.220.41",
+      "final_recipient": ""
+    },
+    "content_analysis": {
+      "is_multipart": true,
+      "main_content_type": "multipart/alternative",
+      "charset": null,
+      "content_parts": [
+        {
+          "content_type": "multipart/alternative",
+          "charset": null,
+          "disposition": null,
+          "filename": null,
+          "size": 2
+        },
+        {
+          "content_type": "text/plain",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 536
+        },
+        {
+          "content_type": "text/html",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 4149
+        }
+      ],
+      "has_html": true,
+      "has_plain_text": true,
+      "has_attachments": false,
+      "has_inline_images": false,
+      "total_parts": 3
+    },
+    "priority_info": {
+      "priority": "",
+      "importance": "",
+      "sensitivity": "",
+      "precedence": "",
+      "urgency": "normal",
+      "delivery_receipt_requested": false,
+      "read_receipt_requested": false
+    },
+    "body_preview": "Hola Kevin, ¡Buen día! Espero que te encuentres muy bien. Te adjunto dos pruebas psicológicas que necesitamos que completes antes del miércoles. Esto nos permitirá continuar con el proceso de selección de manera oportuna. Si tienes alguna duda o inquietud, no dudes en hacérmelo saber. Estoy aquí par...",
+    "content_stats": {
+      "total_recipients": 1,
+      "subject_length": 20,
+      "has_thread_info": false,
+      "estimated_read_time": 1
+    },
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@phidias-com-co.20230601.gappssmtp.com header.s=20230601 header.b=3AaDF6T1;\r\n       spf=pass (google.com: domain of santiago.soler@phidias.com.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=santiago.soler@phidias.com.co;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=phidias.com.co;\r\n       dara=pass header.i=@gmail.com",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=phidias-com-co.20230601.gappssmtp.com; s=20230601; t=1740407999; x=1741012799; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=+wu1/ghtUy1/zOhEZjnv0fDXmKQMsbeFzV4M+47Oh4c=;\r\n        b=3AaDF6T1igt1KHM/kO/T8r6Uh7PFGJHmmbgDCDPLRGUk/RvG7DuIDB01DPxZCVXfIn\r\n         4XkRjSzqc2aKVFzckHLxohSsFJc8FMZF+0iJM9R/R8LHzCjEPJVIZnqY0SliHRlXfZaw\r\n         81lFi2O6n3o/zFgrj81PaC89hfnMJR+HwWmdeaupBSwynOwSinj+cp+xoSHXo0briB1i\r\n         aTJyNP/5lZ+WO15CofU+IQcfuzTs4o4PjD1hcHC6ZGzCpXVtZ6sj2NgrtuMMJK8IrNpx\r\n         GKRrU0d/qC1cGRnRjSyEHWfTJZNAcKjuLvYQCLVbdYjz7mjFYd9vS+0/57VAQaruu/Nk\r\n         2Nvg==",
+    "spf_result": "pass (google.com: domain of santiago.soler@phidias.com.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+  },
+  "content": {
+    "body": {
+      "text": "Hola Kevin,\n\n¡Buen día! Espero que te encuentres muy bien.\n\nTe adjunto dos pruebas psicológicas que necesitamos que completes antes del\nmiércoles. Esto nos permitirá continuar con el proceso de selección de\nmanera oportuna.\n\nSi tienes alguna duda o inquietud, no dudes en hacérmelo saber. Estoy aquí\npara ayudarte.\n\n¡Que tengas un excelente día!\n\nPrueba de personalidad: https://forms.gle/Jj8dGTTLvLdhtdxL9\nPrueba de valores: https://forms.gle/o9wTtTPAUXKYS2Dr8",
+      "html": "<div dir=\"ltr\"><div><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\">Hola Kevin,</span><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\">¡Buen día! Espero que te encuentres muy bien.</span><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\">Te adjunto dos pruebas psicológicas que necesitamos que completes antes del miércoles. Esto nos permitirá continuar con el proceso de selección de manera oportuna.</span></div><div><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\">Si tienes alguna duda o inquietud, no dudes en hacérmelo saber. Estoy aquí para ayudarte.</span><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\">¡Que tengas un excelente día!</span></div><div><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif;font-size:16px\"><br></span></div><span style=\"color:rgb(29,28,29);font-family:Slack-Lato,Slack-Fractions,appleLogo,sans-serif;font-variant-ligatures:common-ligatures;background-color:rgb(248,248,248)\">Prueba de personalidad: </span><a href=\"https://forms.gle/Jj8dGTTLvLdhtdxL9\" rel=\"noopener noreferrer\" aria-describedby=\"sk-tooltip-2567\" target=\"_blank\" style=\"box-sizing:inherit;font-family:Slack-Lato,Slack-Fractions,appleLogo,sans-serif;font-variant-ligatures:common-ligatures;background-color:rgb(248,248,248)\">https://forms.gle/Jj8dGTTLvLdhtdxL9</a><br style=\"box-sizing:inherit;color:rgb(29,28,29);font-family:Slack-Lato,Slack-Fractions,appleLogo,sans-serif;font-variant-ligatures:common-ligatures;background-color:rgb(248,248,248)\"><span style=\"color:rgb(29,28,29);font-family:Slack-Lato,Slack-Fractions,appleLogo,sans-serif;font-variant-ligatures:common-ligatures;background-color:rgb(248,248,248)\">Prueba de valores: </span><a href=\"https://forms.gle/o9wTtTPAUXKYS2Dr8\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"box-sizing:inherit;text-decoration-line:none;font-family:Slack-Lato,Slack-Fractions,appleLogo,sans-serif;font-variant-ligatures:common-ligatures;background-color:rgb(248,248,248)\">https://forms.gle/o9wTtTPAUXKYS2Dr8</a></div>\r\n\n",
+      "raw": ""
+    },
+    "extracted_text": {
+      "email_body": {
+        "text": "Hola Kevin,\n\n¡Buen día! Espero que te encuentres muy bien.\n\nTe adjunto dos pruebas psicológicas que necesitamos que completes antes del\nmiércoles. Esto nos permitirá continuar con el proceso de selección de\nmanera oportuna.\n\nSi tienes alguna duda o inquietud, no dudes en hacérmelo saber. Estoy aquí\npara ayudarte.\n\n¡Que tengas un excelente día!\n\nPrueba de personalidad: https://forms.gle/Jj8dGTTLvLdhtdxL9\nPrueba de valores: https://forms.gle/o9wTtTPAUXKYS2Dr8",
+        "html": "<div dir=\"ltr\"><div><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\">Hola Kevin,</span><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\">¡Buen día! Espero que te encuentres muy bien.</span><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\">Te adjunto dos pruebas psicológicas que necesitamos que completes antes del miércoles. Esto nos permitirá continuar con el proceso de selección de manera oportuna.</span></div><div><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\">Si tienes alguna duda o inquietud, no dudes en hacérmelo saber. Estoy aquí para ayudarte.</span><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><br style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\"><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif\">¡Que tengas un excelente día!</span></div><div><span style=\"color:rgb(0,0,0);font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica Neue&quot;,sans-serif;font-size:16px\"><br></span></div><span style=\"color:rgb(29,28,29);font-family:Slack-Lato,Slack-Fractions,appleLogo,sans-serif;font-variant-ligatures:common-ligatures;background-color:rgb(248,248,248)\">Prueba de personalidad: </span><a href=\"https://forms.gle/Jj8dGTTLvLdhtdxL9\" rel=\"noopener noreferrer\" aria-describedby=\"sk-tooltip-2567\" target=\"_blank\" style=\"box-sizing:inherit;font-family:Slack-Lato,Slack-Fractions,appleLogo,sans-serif;font-variant-ligatures:common-ligatures;background-color:rgb(248,248,248)\">https://forms.gle/Jj8dGTTLvLdhtdxL9</a><br style=\"box-sizing:inherit;color:rgb(29,28,29);font-family:Slack-Lato,Slack-Fractions,appleLogo,sans-serif;font-variant-ligatures:common-ligatures;background-color:rgb(248,248,248)\"><span style=\"color:rgb(29,28,29);font-family:Slack-Lato,Slack-Fractions,appleLogo,sans-serif;font-variant-ligatures:common-ligatures;background-color:rgb(248,248,248)\">Prueba de valores: </span><a href=\"https://forms.gle/o9wTtTPAUXKYS2Dr8\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"box-sizing:inherit;text-decoration-line:none;font-family:Slack-Lato,Slack-Fractions,appleLogo,sans-serif;font-variant-ligatures:common-ligatures;background-color:rgb(248,248,248)\">https://forms.gle/o9wTtTPAUXKYS2Dr8</a></div>\r\n\n",
+        "raw": ""
+      },
+      "attachments": []
+    }
+  },
+  "attachments": {
+    "count": 0,
+    "total_size_bytes": 0,
+    "files": []
+  },
+  "statistics": {
+    "text_length": {
+      "body_text": 461,
+      "body_html": 3879,
+      "total_extracted_text": 0
+    },
+    "attachments": {
+      "total_count": 0,
+      "by_category": {},
+      "by_type": {},
+      "total_size_bytes": 0,
+      "largest_file": null,
+      "smallest_file": null
+    },
+    "recipients": {
+      "to_count": 1,
+      "cc_count": 0,
+      "bcc_count": 0,
+      "total_recipients": 1
+    },
+    "headers": {
+      "total_headers": 22,
+      "x_headers_count": 6
+    }
+  },
+  "processing_info": {
+    "extraction_successful": true,
+    "errors": [],
+    "warnings": [],
+    "processing_time": 0.0033140182495117188,
+    "extraction_method": "imap_direct",
+    "retry_count": 0
+  },
+  "analysis": {
+    "content_analysis": {
+      "content_type": "html",
+      "language_detected": "es",
+      "sentiment": "neutral",
+      "urgency_indicators": [],
+      "topics": [],
+      "contains_links": true,
+      "contains_images": false,
+      "text_quality": "good"
+    },
+    "attachment_analysis": {
+      "total_count": 0,
+      "total_size_mb": 0,
+      "risk_assessment": "low",
+      "file_types": {},
+      "suspicious_files": [],
+      "encrypted_files": [],
+      "large_files": []
+    },
+    "security_analysis": {
+      "authentication_status": "unknown",
+      "spf_status": "pass",
+      "dkim_status": "pass",
+      "dmarc_status": "pass",
+      "overall_trust_score": 0.9999999999999999,
+      "security_warnings": []
+    },
+    "communication_analysis": {
+      "communication_type": "personal",
+      "recipient_count": 1,
+      "is_broadcast": false,
+      "is_personal": true,
+      "is_automated": false,
+      "thread_participation": false
+    },
+    "technical_analysis": {
+      "routing_hops": 2,
+      "delivery_delay_estimated": false,
+      "client_info": {},
+      "server_info": {},
+      "encryption_used": false
+    }
+  },
+  "quality_metrics": {
+    "completeness_score": 0.75,
+    "extraction_success_rate": 1.0,
+    "data_integrity_score": 1.0,
+    "overall_quality_score": 0.9000000000000001
+  }
+}

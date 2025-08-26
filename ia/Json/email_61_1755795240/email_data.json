@@ -1,0 +1,273 @@
+{
+  "email_info": {
+    "unique_id": "email_61_1755795240",
+    "processing_timestamp": "2025-08-21T11:54:00.313738",
+    "schema_version": "1.0"
+  },
+  "metadata": {
+    "unique_id": "email_61_1755795240",
+    "message_id": "<reqId=df6c3c50004f452882%reqId%nXlDm6VMBOK09qMr7YdGUXeM@google.com>",
+    "subject": "[#df6c3c50004f452882] Quota Increase Request [ref:nXlDm6VMBOK09qMr7YdGUXeM:ref]",
+    "from": [
+      {
+        "name": "",
+        "email": "cloudquota@google.com"
+      }
+    ],
+    "to": [
+      {
+        "name": "",
+        "email": "kevinrlinze@gmail.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "reply_to": [
+      {
+        "name": "",
+        "email": "cloudquota@google.com"
+      }
+    ],
+    "date": "2025-02-20T12:51:03",
+    "date_string": "Thu, 20 Feb 2025 17:51:03 +0000",
+    "received_date": null,
+    "thread_topic": "",
+    "thread_index": "",
+    "in_reply_to": "",
+    "references": "",
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "content_type": "multipart/alternative",
+    "charset": null,
+    "size": 8789,
+    "has_attachments": false,
+    "attachment_count": 0,
+    "attachment_names": [],
+    "is_multipart": true,
+    "headers": {
+      "Delivered-To": "kevinrlinze@gmail.com",
+      "Received": "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id 41be03b00d2f7-ae191861d59sor6627445a12.4.2025.02.20.09.51.03\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 09:51:03 -0800 (PST)",
+      "X-Received": "by 2002:a17:90b:5249:b0:2ee:5b98:23f3 with SMTP id\r\n 98e67ed59e1d1-2fce75d87f9mr65a91.0.1740073863561; Thu, 20 Feb 2025 09:51:03\r\n -0800 (PST)",
+      "ARC-Seal": "i=1; a=rsa-sha256; t=1740073863; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=A1lJF8B4jYX0+JyojmqAd2Ilc0Lqm7ivpIQaj1JJ/yntn+N5Avi/iMGQN1H/Wj3Zta\r\n         JNoHpmQi39blc1QWBn10Lp5c98fXu+qbFo5VMTvIpe2k7VKj4gXvFib3rSyYdIPrIPII\r\n         vlFntJ57b3nQBVy2Zti9KFUvcWjLf2dk2vTUnFsBCjHdn0arFgkDF0vsF2ouHo+495fn\r\n         XMyD+4oCeKPfHGi7emzUG0WME4s/DCryObfpuVfl1rULYd5ZZCEKyTYomBjW8M4BBkX1\r\n         pHa+ll505ijzEwpL8shrZwyaO6/mLe6jssWFjjSG+6t2BsGWYpK0VNEVE4REp0pTRj5E\r\n         GQNA==",
+      "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version\r\n         :dkim-signature;\r\n        bh=8j//6ip/vRnJIocqLMjuPSdHSS1HPhXqPzkNnLo4I60=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=aUFqbGSmL8y7hVHZ/cXXgxCb4gvyaT/wfd7z5p6h7iRkpcNbXOZLdse9lAVKZXaFoc\r\n         u7YaENg3iS2NZHI1GplSxTQXhpWA/0I7abBo7Fynx0ZFctwJiS9aZ17fgLav9J3pm1sf\r\n         7ShYayM6K/2WDRhEBw5x1BXa/K+QtAUGpKzrlihWCdijPRE/FqblwWQalTDkkR0Aa5LB\r\n         35SHisi+58IgU7Z3UHzesVQ9RvDZPmHeSkvllxHkkB1pSgpH5PeQOLT9Lwo+K4vS+z2g\r\n         OJlea1g5kiwlHAwyyRmK6IKnajQmBDEPCqMuGmMi7aDH/jKcDqo788gU8tsCOGOUEiDp\r\n         t6MQ==;\r\n        dara=google.com",
+      "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=o6+AV7K4;\r\n       spf=pass (google.com: domain of 3h2u3zwokc4agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3h2u3ZwoKC4Agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+      "Return-Path": "<3h2u3ZwoKC4Agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com>",
+      "Received-SPF": "pass (google.com: domain of 3h2u3zwokc4agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;",
+      "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=o6+AV7K4;\r\n       spf=pass (google.com: domain of 3h2u3zwokc4agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3h2u3ZwoKC4Agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+      "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1740073863; x=1740678663; dara=google.com;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version:from:to:cc\r\n         :subject:date:message-id:reply-to;\r\n        bh=8j//6ip/vRnJIocqLMjuPSdHSS1HPhXqPzkNnLo4I60=;\r\n        b=o6+AV7K4zRqru6UsEl2vk8c3/9/58S14TS+J/ooFU9xzb1myrBLTfB/NNsM9Ph4i2D\r\n         yIsUll3c8ZfrPeOKMHfeUXtcQz6foqyj0+SMm21eqCPuIhsgOZi1Iy80HPeZbZFoRLpY\r\n         dqK8frFX3NtR/4d45MeuWr8y99qlpuR+lV/phWDd5xpqb0xG+Efb4mcrjhz9TaKigNCs\r\n         vT/h9aA/MydG3YiP/WKRDVBT4bc8Tj7ArPDI5Tya3CITiXi5ETj8Fxu5wD/C76o2bA5T\r\n         ZcxlyK8R2vp/T0bo/RlYZI/C/cZY6ha1FhVUMqE92ZAG9B1HBoHtxUJSb5KOElakx0Db\r\n         KsHg==",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740073863; x=1740678663;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version\r\n         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=8j//6ip/vRnJIocqLMjuPSdHSS1HPhXqPzkNnLo4I60=;\r\n        b=TiHMqpUlNHWCZTxfnOW7sN2XHD2sVPJRyeKibnRvNJcaPmDNog/YYQh3RlGg3jQQHE\r\n         gIWf7iX0pZcg8psxYcwtvhOp74UQFet0lj/Xa5MBe3ubaN/y7n7FPOv4jRKLIfDhwCJE\r\n         gvWYVTQTvlPS99emuCM6N6s8nQHXHOC31jYfePEqjQSksQdQgFpx/ZVI0CF4965bKlZg\r\n         fl4okh0UYo2gNNke8qSttvF/kYHhuV/+Hd/46HjfhVp7uZ1EYMFR/WiAb8Ix8Z2hzYKa\r\n         NtsuQKX86hz4qAxDr40faroiIrip5qWU9uNfKZ2WwDIel8QX121jTMmbWL3698PLB1Oq\r\n         UHbg==",
+      "X-Gm-Message-State": "AOJu0YxoMgN9yxcOs5s7poxOlBa6cm8pE1PgANsGDZA1Y0t8wzIrjxU4\r\n\tjt0BeLBXUeWAamIrFoMh8cipQPnT/fL7CZu0UFhsRYt8RzUbKDeFkg4RH2jwuGB0UaNYXQSniId\r\n\ti4nPx3CGnYIYfrziZPJQ+BZielANQhU9AAYvqAfO0FqjqAcuc6Qg7GV3G0ywSfCdvag0b0iwCeS\r\n\tC6oUw7IkCw4txEodHouRcv5ZyunPh0EoPLOqAvwQQ8BXHv8ZW9hJ/HhKWt",
+      "X-Google-Smtp-Source": "AGHT+IGw3NmyNnHiCT/Ou99HEaKGY5VRvh4Rt3YY78sGH/WXwuzph2mImuO+t4F8N3v6hyJ2I7cbUztmIDcZdOeBYcOPBRDNhP45j6va",
+      "MIME-Version": "1.0",
+      "Reply-To": "cloudquota@google.com",
+      "Message-ID": "<reqId=df6c3c50004f452882%reqId%nXlDm6VMBOK09qMr7YdGUXeM@google.com>",
+      "Date": "Thu, 20 Feb 2025 17:51:03 +0000",
+      "Subject": "[#df6c3c50004f452882] Quota Increase Request [ref:nXlDm6VMBOK09qMr7YdGUXeM:ref]",
+      "From": "cloudquota@google.com",
+      "To": "kevinrlinze@gmail.com",
+      "Content-Type": "multipart/alternative; boundary=\"00000000000085c2d8062e968408\""
+    },
+    "extraction_timestamp": "2025-08-21T11:54:00.294741",
+    "received_headers": [
+      "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp178792wru;\r\n        Thu, 20 Feb 2025 09:51:04 -0800 (PST)",
+      "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id 41be03b00d2f7-ae191861d59sor6627445a12.4.2025.02.20.09.51.03\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 09:51:03 -0800 (PST)"
+    ],
+    "x_headers": {
+      "X-Received": "by 2002:a17:90b:5249:b0:2ee:5b98:23f3 with SMTP id\r\n 98e67ed59e1d1-2fce75d87f9mr65a91.0.1740073863561; Thu, 20 Feb 2025 09:51:03\r\n -0800 (PST)",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740073863; x=1740678663;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version\r\n         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=8j//6ip/vRnJIocqLMjuPSdHSS1HPhXqPzkNnLo4I60=;\r\n        b=TiHMqpUlNHWCZTxfnOW7sN2XHD2sVPJRyeKibnRvNJcaPmDNog/YYQh3RlGg3jQQHE\r\n         gIWf7iX0pZcg8psxYcwtvhOp74UQFet0lj/Xa5MBe3ubaN/y7n7FPOv4jRKLIfDhwCJE\r\n         gvWYVTQTvlPS99emuCM6N6s8nQHXHOC31jYfePEqjQSksQdQgFpx/ZVI0CF4965bKlZg\r\n         fl4okh0UYo2gNNke8qSttvF/kYHhuV/+Hd/46HjfhVp7uZ1EYMFR/WiAb8Ix8Z2hzYKa\r\n         NtsuQKX86hz4qAxDr40faroiIrip5qWU9uNfKZ2WwDIel8QX121jTMmbWL3698PLB1Oq\r\n         UHbg==",
+      "X-Gm-Message-State": "AOJu0YxoMgN9yxcOs5s7poxOlBa6cm8pE1PgANsGDZA1Y0t8wzIrjxU4\r\n\tjt0BeLBXUeWAamIrFoMh8cipQPnT/fL7CZu0UFhsRYt8RzUbKDeFkg4RH2jwuGB0UaNYXQSniId\r\n\ti4nPx3CGnYIYfrziZPJQ+BZielANQhU9AAYvqAfO0FqjqAcuc6Qg7GV3G0ywSfCdvag0b0iwCeS\r\n\tC6oUw7IkCw4txEodHouRcv5ZyunPh0EoPLOqAvwQQ8BXHv8ZW9hJ/HhKWt",
+      "X-Google-Smtp-Source": "AGHT+IGw3NmyNnHiCT/Ou99HEaKGY5VRvh4Rt3YY78sGH/WXwuzph2mImuO+t4F8N3v6hyJ2I7cbUztmIDcZdOeBYcOPBRDNhP45j6va"
+    },
+    "delivery_receipt": "",
+    "read_receipt": "",
+    "thread_info": {
+      "message_id": "<reqId=df6c3c50004f452882%reqId%nXlDm6VMBOK09qMr7YdGUXeM@google.com>",
+      "in_reply_to": "",
+      "references": [],
+      "thread_topic": "",
+      "thread_index": "",
+      "is_reply": false,
+      "is_forward": false
+    },
+    "security_info": {
+      "spf_result": "pass (google.com: domain of 3h2u3zwokc4agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;",
+      "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1740073863; x=1740678663; dara=google.com;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version:from:to:cc\r\n         :subject:date:message-id:reply-to;\r\n        bh=8j//6ip/vRnJIocqLMjuPSdHSS1HPhXqPzkNnLo4I60=;\r\n        b=o6+AV7K4zRqru6UsEl2vk8c3/9/58S14TS+J/ooFU9xzb1myrBLTfB/NNsM9Ph4i2D\r\n         yIsUll3c8ZfrPeOKMHfeUXtcQz6foqyj0+SMm21eqCPuIhsgOZi1Iy80HPeZbZFoRLpY\r\n         dqK8frFX3NtR/4d45MeuWr8y99qlpuR+lV/phWDd5xpqb0xG+Efb4mcrjhz9TaKigNCs\r\n         vT/h9aA/MydG3YiP/WKRDVBT4bc8Tj7ArPDI5Tya3CITiXi5ETj8Fxu5wD/C76o2bA5T\r\n         ZcxlyK8R2vp/T0bo/RlYZI/C/cZY6ha1FhVUMqE92ZAG9B1HBoHtxUJSb5KOElakx0Db\r\n         KsHg==",
+      "dmarc_result": "",
+      "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=o6+AV7K4;\r\n       spf=pass (google.com: domain of 3h2u3zwokc4agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3h2u3ZwoKC4Agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+      "received_spf": "",
+      "arc_authentication_results": [
+        "i=1; mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=o6+AV7K4;\r\n       spf=pass (google.com: domain of 3h2u3zwokc4agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3h2u3ZwoKC4Agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com"
+      ],
+      "message_security": "high"
+    },
+    "routing_info": {
+      "received_headers": [
+        "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp178792wru;\r\n        Thu, 20 Feb 2025 09:51:04 -0800 (PST)",
+        "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id 41be03b00d2f7-ae191861d59sor6627445a12.4.2025.02.20.09.51.03\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 09:51:03 -0800 (PST)"
+      ],
+      "delivery_path": [
+        "mail-sor-f69.google.com"
+      ],
+      "total_hops": 2,
+      "delivery_delay": null,
+      "original_sender_ip": "209.85.220.69",
+      "final_recipient": ""
+    },
+    "content_analysis": {
+      "is_multipart": true,
+      "main_content_type": "multipart/alternative",
+      "charset": null,
+      "content_parts": [
+        {
+          "content_type": "multipart/alternative",
+          "charset": null,
+          "disposition": null,
+          "filename": null,
+          "size": 2
+        },
+        {
+          "content_type": "text/plain",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 1481
+        },
+        {
+          "content_type": "text/html",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 1495
+        }
+      ],
+      "has_html": true,
+      "has_plain_text": true,
+      "has_attachments": false,
+      "has_inline_images": false,
+      "total_parts": 3
+    },
+    "priority_info": {
+      "priority": "",
+      "importance": "",
+      "sensitivity": "",
+      "precedence": "",
+      "urgency": "normal",
+      "delivery_receipt_requested": false,
+      "read_receipt_requested": false
+    },
+    "body_preview": "Hello, Please be aware that free trial accounts for the Cloud Platform have limited Compute Engine quota during their trial period. We understand you'd like to have more quota; that's great! We'd love to help you with that. Before we can move further, you'll need to upgrade to a paid account, becaus...",
+    "content_stats": {
+      "total_recipients": 1,
+      "subject_length": 79,
+      "has_thread_info": false,
+      "estimated_read_time": 1
+    },
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=o6+AV7K4;\r\n       spf=pass (google.com: domain of 3h2u3zwokc4agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3h2u3ZwoKC4Agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1740073863; x=1740678663; dara=google.com;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version:from:to:cc\r\n         :subject:date:message-id:reply-to;\r\n        bh=8j//6ip/vRnJIocqLMjuPSdHSS1HPhXqPzkNnLo4I60=;\r\n        b=o6+AV7K4zRqru6UsEl2vk8c3/9/58S14TS+J/ooFU9xzb1myrBLTfB/NNsM9Ph4i2D\r\n         yIsUll3c8ZfrPeOKMHfeUXtcQz6foqyj0+SMm21eqCPuIhsgOZi1Iy80HPeZbZFoRLpY\r\n         dqK8frFX3NtR/4d45MeuWr8y99qlpuR+lV/phWDd5xpqb0xG+Efb4mcrjhz9TaKigNCs\r\n         vT/h9aA/MydG3YiP/WKRDVBT4bc8Tj7ArPDI5Tya3CITiXi5ETj8Fxu5wD/C76o2bA5T\r\n         ZcxlyK8R2vp/T0bo/RlYZI/C/cZY6ha1FhVUMqE92ZAG9B1HBoHtxUJSb5KOElakx0Db\r\n         KsHg==",
+    "spf_result": "pass (google.com: domain of 3h2u3zwokc4agpsyhuysxeksskpi.gsqoizmrvpmr3ikqemp.gsq@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;"
+  },
+  "content": {
+    "body": {
+      "text": "Hello,\n\nPlease be aware that free trial accounts for the Cloud Platform have \nlimited Compute Engine quota during their trial period.\n\nWe understand you'd like to have more quota; that's great! We'd love to \nhelp you with that. Before we can move further, you'll need to upgrade to a \npaid account, because the trial accounts have a hard limit on quota [1]. To \ndo so, please follow these quick steps:\n\nLogin as Owner to your Google Developers Console at \nhttp://cloud.google.com/ Click 'Upgrade my account' from the top of any \npage once logged in to your Console.\nVoila! It's done. You've just been upgraded to a paid account.\nYou should now benefit from the upgraded free resource/courtesy quotas!\nFor more details on the default resource quotas provided with paid accounts,\nplease refer to our Compute Engine Resource Quotas documentation [2]. If \nyou need more quotas beyond the aforementioned, you can always submit \nanother quota increase request on the bottom of the latter page.\n\nI truly hope this information was helpful. Feel free to let us know if you \nrequire further assistance or have further questions in this regard.\n\nHave a nice day!\n\nSincerely,\nGoogle Cloud Support\n\n[1] Please be aware that free trial accounts for the Cloud Platform have \nlimited\nCompute Engine quota during their trial period (\nhttps://cloud.google.com/free-trial/docs/free-trial-quotas )\n\n[2] https://cloud.google.com/compute/docs/resource-quotas",
+      "html": "<pre>Hello,\r\n\r\nPlease be aware that free trial accounts for the Cloud Platform have limited Compute Engine quota during their trial period.\r\n\r\nWe understand you'd like to have more quota; that's great! We'd love to help you with that. Before we can move further, you'll need to upgrade to a paid account, because the trial accounts have a hard limit on quota [1]. To do so, please follow these quick steps:\r\n\r\nLogin as Owner to your Google Developers Console at http://cloud.google.com/ Click 'Upgrade my account' from the top of any page once logged in to your Console.\r\nVoila! It's done. You've just been upgraded to a paid account.\r\nYou should now benefit from the upgraded free resource/courtesy quotas!\r\nFor more details on the default resource quotas provided with paid accounts,\r\nplease refer to our Compute Engine Resource Quotas documentation [2]. If you need more quotas beyond the aforementioned, you can always submit another quota increase request on the bottom of the latter page.\r\n\r\nI truly hope this information was helpful. Feel free to let us know if you require further assistance or have further questions in this regard.\r\n\r\nHave a nice day!\r\n\r\nSincerely,\r\nGoogle Cloud Support\r\n\r\n[1] Please be aware that free trial accounts for the Cloud Platform have limited\r\nCompute Engine quota during their trial period (\r\nhttps://cloud.google.com/free-trial/docs/free-trial-quotas )\r\n\r\n[2] https://cloud.google.com/compute/docs/resource-quotas\r\n</pre>\n",
+      "raw": ""
+    },
+    "extracted_text": {
+      "email_body": {
+        "text": "Hello,\n\nPlease be aware that free trial accounts for the Cloud Platform have \nlimited Compute Engine quota during their trial period.\n\nWe understand you'd like to have more quota; that's great! We'd love to \nhelp you with that. Before we can move further, you'll need to upgrade to a \npaid account, because the trial accounts have a hard limit on quota [1]. To \ndo so, please follow these quick steps:\n\nLogin as Owner to your Google Developers Console at \nhttp://cloud.google.com/ Click 'Upgrade my account' from the top of any \npage once logged in to your Console.\nVoila! It's done. You've just been upgraded to a paid account.\nYou should now benefit from the upgraded free resource/courtesy quotas!\nFor more details on the default resource quotas provided with paid accounts,\nplease refer to our Compute Engine Resource Quotas documentation [2]. If \nyou need more quotas beyond the aforementioned, you can always submit \nanother quota increase request on the bottom of the latter page.\n\nI truly hope this information was helpful. Feel free to let us know if you \nrequire further assistance or have further questions in this regard.\n\nHave a nice day!\n\nSincerely,\nGoogle Cloud Support\n\n[1] Please be aware that free trial accounts for the Cloud Platform have \nlimited\nCompute Engine quota during their trial period (\nhttps://cloud.google.com/free-trial/docs/free-trial-quotas )\n\n[2] https://cloud.google.com/compute/docs/resource-quotas",
+        "html": "<pre>Hello,\r\n\r\nPlease be aware that free trial accounts for the Cloud Platform have limited Compute Engine quota during their trial period.\r\n\r\nWe understand you'd like to have more quota; that's great! We'd love to help you with that. Before we can move further, you'll need to upgrade to a paid account, because the trial accounts have a hard limit on quota [1]. To do so, please follow these quick steps:\r\n\r\nLogin as Owner to your Google Developers Console at http://cloud.google.com/ Click 'Upgrade my account' from the top of any page once logged in to your Console.\r\nVoila! It's done. You've just been upgraded to a paid account.\r\nYou should now benefit from the upgraded free resource/courtesy quotas!\r\nFor more details on the default resource quotas provided with paid accounts,\r\nplease refer to our Compute Engine Resource Quotas documentation [2]. If you need more quotas beyond the aforementioned, you can always submit another quota increase request on the bottom of the latter page.\r\n\r\nI truly hope this information was helpful. Feel free to let us know if you require further assistance or have further questions in this regard.\r\n\r\nHave a nice day!\r\n\r\nSincerely,\r\nGoogle Cloud Support\r\n\r\n[1] Please be aware that free trial accounts for the Cloud Platform have limited\r\nCompute Engine quota during their trial period (\r\nhttps://cloud.google.com/free-trial/docs/free-trial-quotas )\r\n\r\n[2] https://cloud.google.com/compute/docs/resource-quotas\r\n</pre>\n",
+        "raw": ""
+      },
+      "attachments": []
+    }
+  },
+  "attachments": {
+    "count": 0,
+    "total_size_bytes": 0,
+    "files": []
+  },
+  "statistics": {
+    "text_length": {
+      "body_text": 1436,
+      "body_html": 1463,
+      "total_extracted_text": 0
+    },
+    "attachments": {
+      "total_count": 0,
+      "by_category": {},
+      "by_type": {},
+      "total_size_bytes": 0,
+      "largest_file": null,
+      "smallest_file": null
+    },
+    "recipients": {
+      "to_count": 1,
+      "cc_count": 0,
+      "bcc_count": 0,
+      "total_recipients": 1
+    },
+    "headers": {
+      "total_headers": 21,
+      "x_headers_count": 4
+    }
+  },
+  "processing_info": {
+    "extraction_successful": true,
+    "errors": [],
+    "warnings": [],
+    "processing_time": 0.026389598846435547,
+    "extraction_method": "imap_direct",
+    "retry_count": 0
+  },
+  "analysis": {
+    "content_analysis": {
+      "content_type": "html",
+      "language_detected": "en",
+      "sentiment": "neutral",
+      "urgency_indicators": [],
+      "topics": [],
+      "contains_links": true,
+      "contains_images": false,
+      "text_quality": "good"
+    },
+    "attachment_analysis": {
+      "total_count": 0,
+      "total_size_mb": 0,
+      "risk_assessment": "low",
+      "file_types": {},
+      "suspicious_files": [],
+      "encrypted_files": [],
+      "large_files": []
+    },
+    "security_analysis": {
+      "authentication_status": "unknown",
+      "spf_status": "pass",
+      "dkim_status": "pass",
+      "dmarc_status": "pass",
+      "overall_trust_score": 0.9999999999999999,
+      "security_warnings": []
+    },
+    "communication_analysis": {
+      "communication_type": "personal",
+      "recipient_count": 1,
+      "is_broadcast": false,
+      "is_personal": true,
+      "is_automated": false,
+      "thread_participation": false
+    },
+    "technical_analysis": {
+      "routing_hops": 2,
+      "delivery_delay_estimated": false,
+      "client_info": {},
+      "server_info": {},
+      "encryption_used": false
+    }
+  },
+  "quality_metrics": {
+    "completeness_score": 0.75,
+    "extraction_success_rate": 1.0,
+    "data_integrity_score": 1.0,
+    "overall_quality_score": 0.9000000000000001
+  }
+}

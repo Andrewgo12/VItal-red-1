@@ -1,0 +1,90 @@
+# Gmail Data Extraction System Requirements
+# Core email processing
+imaplib2>=3.6
+email-validator>=2.0.0
+
+# Text extraction from various formats
+PyPDF2>=3.0.1
+pdfplumber>=0.9.0
+python-docx>=0.8.11
+openpyxl>=3.1.2
+xlrd>=2.0.1
+
+# OCR for image text extraction
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# HTML to text conversion
+html2text>=2020.1.16
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Data processing and utilities
+python-dateutil>=2.8.2
+chardet>=5.0.0
+tqdm>=4.65.0
+
+# JSON and data validation
+jsonschema>=4.17.0
+pydantic>=2.0.0
+
+# Logging and configuration
+colorlog>=6.7.0
+python-dotenv>=1.0.0
+
+# Optional: Enhanced email parsing
+flanker>=0.9.11
+
+# Optional: Advanced text processing
+nltk>=3.8.1
+textstat>=0.7.3
+
+# Optional: Database support for large-scale processing
+sqlite3  # Built-in with Python
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Security
+cryptography>=41.0.0
+
+# Advanced features and monitoring
+psutil>=5.9.0
+langdetect>=1.0.9
+textstat>=0.7.3
+striprtf>=0.0.26
+
+# PowerPoint processing
+python-pptx>=0.6.21
+
+# Database support
+sqlite3  # Built-in with Python
+
+# Advanced text processing (optional)
+# Uncomment if needed for sentiment analysis and topic extraction
+# transformers>=4.21.0
+# torch>=1.12.0
+# scikit-learn>=1.1.0
+# spacy>=3.4.0
+
+# Monitoring and alerting (optional)
+# Uncomment if needed for advanced monitoring
+# prometheus-client>=0.14.0
+# redis>=4.3.0
+
+# Web interface (optional)
+# Uncomment if needed for web-based administration
+# flask>=2.2.0
+# fastapi>=0.85.0
+# uvicorn>=0.18.0
+
+# Additional OCR languages (optional)
+# Install additional Tesseract language packs as needed
+
+# Performance optimization
+# Uncomment for better performance with large files
+# numba>=0.56.0
+# cython>=0.29.0

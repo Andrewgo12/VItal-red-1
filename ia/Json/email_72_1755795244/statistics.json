@@ -1,0 +1,35 @@
+{
+  "text_length": {
+    "body_text": 1883,
+    "body_html": 4883,
+    "total_extracted_text": 0
+  },
+  "attachments": {
+    "total_count": 1,
+    "by_category": {
+      "image": 1
+    },
+    "by_type": {
+      "image/jpeg": 1
+    },
+    "total_size_bytes": 179890,
+    "largest_file": {
+      "filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+      "size_bytes": 179890
+    },
+    "smallest_file": {
+      "filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+      "size_bytes": 179890
+    }
+  },
+  "recipients": {
+    "to_count": 1,
+    "cc_count": 0,
+    "bcc_count": 1,
+    "total_recipients": 2
+  },
+  "headers": {
+    "total_headers": 24,
+    "x_headers_count": 7
+  }
+}

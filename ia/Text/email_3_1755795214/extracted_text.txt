@@ -1,0 +1,23 @@
+Email ID: email_3_1755795214
+==================================================
+
+EMAIL BODY:
+--------------------
+Estimados estudiantes, cordial saludo
+
+Espero todo vaya bien.
+
+Con el fin de hacer más eficiente el proceso de presentación a empresas
+para realizar las prácticas, hemos decidido eliminar el requisito del test
+técnico pre-práctica, sin embargo, para premiar el esfuerzo y el
+cumplimiento de los estudiantes que lo entregaron oportunamente, est@s
+serán priorizados en las convocatorias a empresas.
+
+Los animamos a continuar atentos a las convocatorias y mensajes enviados
+por el líder del proyecto @Fabian Higuita <lider.proyecto@pio.edu.co>
+-- 
+Feliz día,
+
+Liliana Amaya Rodríguez
+Proyecto Mil Jóvenes Programadores Valle del Cauca
+

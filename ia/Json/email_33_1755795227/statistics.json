@@ -1,0 +1,35 @@
+{
+  "text_length": {
+    "body_text": 4521,
+    "body_html": 29190,
+    "total_extracted_text": 0
+  },
+  "attachments": {
+    "total_count": 1,
+    "by_category": {
+      "image": 1
+    },
+    "by_type": {
+      "image/png": 1
+    },
+    "total_size_bytes": 105581,
+    "largest_file": {
+      "filename": "image.png",
+      "size_bytes": 105581
+    },
+    "smallest_file": {
+      "filename": "image.png",
+      "size_bytes": 105581
+    }
+  },
+  "recipients": {
+    "to_count": 1,
+    "cc_count": 0,
+    "bcc_count": 0,
+    "total_recipients": 1
+  },
+  "headers": {
+    "total_headers": 24,
+    "x_headers_count": 6
+  }
+}

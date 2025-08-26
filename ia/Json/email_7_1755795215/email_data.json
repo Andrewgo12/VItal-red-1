@@ -1,0 +1,274 @@
+{
+  "email_info": {
+    "unique_id": "email_7_1755795215",
+    "processing_timestamp": "2025-08-21T11:53:35.966265",
+    "schema_version": "1.0"
+  },
+  "metadata": {
+    "unique_id": "email_7_1755795215",
+    "message_id": "<lqLREbO6ZYXe5lV-EgHRcQ@notifications.google.com>",
+    "subject": "Alerta de seguridad",
+    "from": [
+      {
+        "name": "Google",
+        "email": "no-reply@accounts.google.com"
+      }
+    ],
+    "to": [
+      {
+        "name": "",
+        "email": "kevinrlinze@gmail.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "reply_to": [],
+    "date": "2025-02-12T15:05:35",
+    "date_string": "Wed, 12 Feb 2025 20:05:35 GMT",
+    "received_date": null,
+    "thread_topic": "",
+    "thread_index": "",
+    "in_reply_to": "",
+    "references": "",
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "content_type": "multipart/alternative",
+    "charset": null,
+    "size": 12265,
+    "has_attachments": false,
+    "attachment_count": 0,
+    "attachment_names": [],
+    "is_multipart": true,
+    "headers": {
+      "Delivered-To": "kevinrlinze@gmail.com",
+      "Received": "from mail-sor-f73.google.com (mail-sor-f73.google.com. [209.85.220.73])\r\n        by mx.google.com with SMTPS id ca18e2360f4ac-8553d562f74sor456984239f.6.2025.02.12.12.05.36\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Wed, 12 Feb 2025 12:05:36 -0800 (PST)",
+      "X-Received": "by 2002:a05:6602:6081:b0:855:1c54:d0e1 with SMTP id\r\n ca18e2360f4ac-85555cbf2e8mr490239539f.6.1739390735886; Wed, 12 Feb 2025\r\n 12:05:35 -0800 (PST)",
+      "ARC-Seal": "i=1; a=rsa-sha256; t=1739390736; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=NXU0H6uelLxwFxOIFYbzcnA0NykL3rDmxJ0PTNvQHRu/PVvdDdhwpIJ7auchwyuep1\r\n         2Ec94SPIxUdgW6SNf+xrfEXwe/YtEMD3jVSK4PeB/NDYhUlZmkJ5Y0HQgbPCsojM++8l\r\n         aiuVE5yInZhJyIYohecxFbfsn/eacmhbA1g+Z0fU/Hm64ZVHIOCwhw3NNOPhRYy30VoC\r\n         cPtvSIF9Lv+JYFuJGhgYkWoZvUXfNkKt5kKw5COL3bt3MXv6M5HOxh4lc1yr8VZOQg9Q\r\n         u3bTrYpjsWtWnBeQv2VFC0ubtgb+Hmh2TSnUwBK9ovU5HtkNHUFBGwWekytgrk3PCwRW\r\n         KWwA==",
+      "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:from:subject:message-id:feedback-id:date:mime-version\r\n         :dkim-signature;\r\n        bh=qrjQifS2cehWlBrcJzJwLZZ90CMIyr5LVUJiuhA6AMU=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=XCZxZnzQsmElb+Cs5XljNTOJXqXIoTNjEPIA1EnyiFgiDLOZ8amD2YGCm0Zq/aGRi6\r\n         2NQcQMQ//FwlgqfbnZqG7KpCVkOF1j/5rsuqVhmTDretEiNV79M97vN+Lx/QijBOto6N\r\n         Gqv+UtZhd87ak6WHi9vLj2+q0QHszy6EsjcXdt1aC2MiP6nif+tIrPgHgVI2x3cQuzmQ\r\n         xOunV/Iw0IYxAkliXoNb2NJmmki1EorL9Txmm8+NBcQ4juW0cwOtwuidcfpXi7T0G017\r\n         tS8fd8NuPBLefb3qFIhclQQa6GrFUtR46rDua7Sbm2A60PWE0qg5ivefakjD8gGDW7g9\r\n         a+CQ==;\r\n        dara=google.com",
+      "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@accounts.google.com header.s=20230601 header.b=kFfoCmEO;\r\n       spf=pass (google.com: domain of 3d_-szwgtcwytu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3D_-sZwgTCwYtu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com;\r\n       dara=pass header.i=@gmail.com",
+      "Return-Path": "<3D_-sZwgTCwYtu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com>",
+      "Received-SPF": "pass (google.com: domain of 3d_-szwgtcwytu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) client-ip=209.85.220.73;",
+      "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@accounts.google.com header.s=20230601 header.b=kFfoCmEO;\r\n       spf=pass (google.com: domain of 3d_-szwgtcwytu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3D_-sZwgTCwYtu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com;\r\n       dara=pass header.i=@gmail.com",
+      "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=accounts.google.com; s=20230601; t=1739390736; x=1739995536; dara=google.com;\r\n        h=to:from:subject:message-id:feedback-id:date:mime-version:from:to:cc\r\n         :subject:date:message-id:reply-to;\r\n        bh=qrjQifS2cehWlBrcJzJwLZZ90CMIyr5LVUJiuhA6AMU=;\r\n        b=kFfoCmEOhg5u+t2SLLq/vcI/xfU2LvmSLPTdBmyeswKeu8cm0PF+z7w1QQ/FBW2cxP\r\n         +EQ7xU0wKuXtGkq/rEEZudgXrFDRyo8LxeHFGXZ5ekgHgKtv3oM8XTJtajqTPZUKT6C6\r\n         2hNBLtImIFCZ2Mm6f7+RcPNeIykaf7kb5dNCZnILWD4r4jyyrxdgvBuSzlbneN043mAW\r\n         xpcARAkkkXOBbtYE+yM7VINEleav+7BApbaYgdD+LpANpyyBnn7aH5/rBVvebmV2J80x\r\n         APsearh+mdI4vx8ZRDp1GU4sofzJugazH78t7cO/auycmpxgpmV0jpCjEP5nzyV8ffTG\r\n         AkYw==",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1739390736; x=1739995536;\r\n        h=to:from:subject:message-id:feedback-id:date:mime-version\r\n         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=qrjQifS2cehWlBrcJzJwLZZ90CMIyr5LVUJiuhA6AMU=;\r\n        b=iBVrAbjualGy4D7/0c7dp8eXBIVYh9JbwGkWxjDSh7kUzwN0jQhdSkZHml0K5ygvxL\r\n         BXfHyPBq9wUI+yXYm3WLRmpnVIyTi3zssuyQmQKYOMvrAWCoKRjt17T4aJh5rsw3pP71\r\n         PgtiCRFfF2C30DuCI5bLSVXzhIiiIfAaZZEGPKhQtFylAq3bdT7tzSBN6ChuJVhMnTfn\r\n         s5+2sr/v1lgHpYevUpqQgFa7u5Xyonbtq9PI5aCGkJLDNV7J9L/BeIuf76tJwZjpa/qh\r\n         43KlEx+MKLnnUj8mp1aYwVRHZkNPTnDC9S6eEQI3Zvm3Jh2KawK3jobhPgiA2MvgKpcW\r\n         v8ow==",
+      "X-Gm-Message-State": "AOJu0YxoAsA3aLorYR0NQ5/fGPb7rmPTrNSCn8dX1YHH7z2InQd/kLLa\r\n\tnsdffsh/Fq1L1JoKcK/KHuLir2ZXWL8ysSUstzElGPa8aa46jyNH8vKnceZSQEhE8iJ3gMHp0eZ\r\n\tjSkSt9hYCg8a7AgGiA2yn9adOVd59k3BLI3I=",
+      "X-Google-Smtp-Source": "AGHT+IEvkkBR1JkjeguiXiAHm/Ub74nN2dg0SLtIkLEUBMgnuciK6649vgUBskJuZefF576LZyibH8YY6V5EeRp8JhFjUA==",
+      "MIME-Version": "1.0",
+      "Date": "Wed, 12 Feb 2025 20:05:35 GMT",
+      "X-Account-Notification-Type": "325",
+      "Feedback-ID": "325:account-notifier",
+      "X-Notifications": "008e13b4cfd20000",
+      "X-Notifications-Bounce-Info": "AXul_mJ05_uZ4wt3FNjc5ExHHaHKv-_wKAUuRahJuTfqi0in3-IRYeTIfEYVQrtYk4xWcSllnhrlcxXsqqf9OAJiab6ghq_QS1IzGVsMf6Gwzu4Kw9_HRVrhhxWcIlY-qut64AMfM9R0_nBiJcQfHGnV7og6ZU24XwgbPgnmTV4_uhWC3VlN8C6wT5AAQLE0PuNEp6IGOlzPOcpWsZANjAwNjA0MDQxNTM1NTk2OTMzMg",
+      "Message-ID": "<lqLREbO6ZYXe5lV-EgHRcQ@notifications.google.com>",
+      "Subject": "Alerta de seguridad",
+      "From": "Google <no-reply@accounts.google.com>",
+      "To": "kevinrlinze@gmail.com",
+      "Content-Type": "multipart/alternative; boundary=\"000000000000f02b3a062df776f7\""
+    },
+    "extraction_timestamp": "2025-08-21T11:53:35.963786",
+    "received_headers": [
+      "by 2002:a05:6000:4022:b0:38d:c57e:3a1b with SMTP id cp34csp102426wrb;\r\n        Wed, 12 Feb 2025 12:05:36 -0800 (PST)",
+      "from mail-sor-f73.google.com (mail-sor-f73.google.com. [209.85.220.73])\r\n        by mx.google.com with SMTPS id ca18e2360f4ac-8553d562f74sor456984239f.6.2025.02.12.12.05.36\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Wed, 12 Feb 2025 12:05:36 -0800 (PST)"
+    ],
+    "x_headers": {
+      "X-Received": "by 2002:a05:6602:6081:b0:855:1c54:d0e1 with SMTP id\r\n ca18e2360f4ac-85555cbf2e8mr490239539f.6.1739390735886; Wed, 12 Feb 2025\r\n 12:05:35 -0800 (PST)",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1739390736; x=1739995536;\r\n        h=to:from:subject:message-id:feedback-id:date:mime-version\r\n         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=qrjQifS2cehWlBrcJzJwLZZ90CMIyr5LVUJiuhA6AMU=;\r\n        b=iBVrAbjualGy4D7/0c7dp8eXBIVYh9JbwGkWxjDSh7kUzwN0jQhdSkZHml0K5ygvxL\r\n         BXfHyPBq9wUI+yXYm3WLRmpnVIyTi3zssuyQmQKYOMvrAWCoKRjt17T4aJh5rsw3pP71\r\n         PgtiCRFfF2C30DuCI5bLSVXzhIiiIfAaZZEGPKhQtFylAq3bdT7tzSBN6ChuJVhMnTfn\r\n         s5+2sr/v1lgHpYevUpqQgFa7u5Xyonbtq9PI5aCGkJLDNV7J9L/BeIuf76tJwZjpa/qh\r\n         43KlEx+MKLnnUj8mp1aYwVRHZkNPTnDC9S6eEQI3Zvm3Jh2KawK3jobhPgiA2MvgKpcW\r\n         v8ow==",
+      "X-Gm-Message-State": "AOJu0YxoAsA3aLorYR0NQ5/fGPb7rmPTrNSCn8dX1YHH7z2InQd/kLLa\r\n\tnsdffsh/Fq1L1JoKcK/KHuLir2ZXWL8ysSUstzElGPa8aa46jyNH8vKnceZSQEhE8iJ3gMHp0eZ\r\n\tjSkSt9hYCg8a7AgGiA2yn9adOVd59k3BLI3I=",
+      "X-Google-Smtp-Source": "AGHT+IEvkkBR1JkjeguiXiAHm/Ub74nN2dg0SLtIkLEUBMgnuciK6649vgUBskJuZefF576LZyibH8YY6V5EeRp8JhFjUA==",
+      "X-Account-Notification-Type": "325",
+      "X-Notifications": "008e13b4cfd20000",
+      "X-Notifications-Bounce-Info": "AXul_mJ05_uZ4wt3FNjc5ExHHaHKv-_wKAUuRahJuTfqi0in3-IRYeTIfEYVQrtYk4xWcSllnhrlcxXsqqf9OAJiab6ghq_QS1IzGVsMf6Gwzu4Kw9_HRVrhhxWcIlY-qut64AMfM9R0_nBiJcQfHGnV7og6ZU24XwgbPgnmTV4_uhWC3VlN8C6wT5AAQLE0PuNEp6IGOlzPOcpWsZANjAwNjA0MDQxNTM1NTk2OTMzMg"
+    },
+    "delivery_receipt": "",
+    "read_receipt": "",
+    "thread_info": {
+      "message_id": "<lqLREbO6ZYXe5lV-EgHRcQ@notifications.google.com>",
+      "in_reply_to": "",
+      "references": [],
+      "thread_topic": "",
+      "thread_index": "",
+      "is_reply": false,
+      "is_forward": false
+    },
+    "security_info": {
+      "spf_result": "pass (google.com: domain of 3d_-szwgtcwytu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) client-ip=209.85.220.73;",
+      "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=accounts.google.com; s=20230601; t=1739390736; x=1739995536; dara=google.com;\r\n        h=to:from:subject:message-id:feedback-id:date:mime-version:from:to:cc\r\n         :subject:date:message-id:reply-to;\r\n        bh=qrjQifS2cehWlBrcJzJwLZZ90CMIyr5LVUJiuhA6AMU=;\r\n        b=kFfoCmEOhg5u+t2SLLq/vcI/xfU2LvmSLPTdBmyeswKeu8cm0PF+z7w1QQ/FBW2cxP\r\n         +EQ7xU0wKuXtGkq/rEEZudgXrFDRyo8LxeHFGXZ5ekgHgKtv3oM8XTJtajqTPZUKT6C6\r\n         2hNBLtImIFCZ2Mm6f7+RcPNeIykaf7kb5dNCZnILWD4r4jyyrxdgvBuSzlbneN043mAW\r\n         xpcARAkkkXOBbtYE+yM7VINEleav+7BApbaYgdD+LpANpyyBnn7aH5/rBVvebmV2J80x\r\n         APsearh+mdI4vx8ZRDp1GU4sofzJugazH78t7cO/auycmpxgpmV0jpCjEP5nzyV8ffTG\r\n         AkYw==",
+      "dmarc_result": "",
+      "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@accounts.google.com header.s=20230601 header.b=kFfoCmEO;\r\n       spf=pass (google.com: domain of 3d_-szwgtcwytu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3D_-sZwgTCwYtu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com;\r\n       dara=pass header.i=@gmail.com",
+      "received_spf": "",
+      "arc_authentication_results": [
+        "i=1; mx.google.com;\r\n       dkim=pass header.i=@accounts.google.com header.s=20230601 header.b=kFfoCmEO;\r\n       spf=pass (google.com: domain of 3d_-szwgtcwytu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3D_-sZwgTCwYtu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com;\r\n       dara=pass header.i=@gmail.com"
+      ],
+      "message_security": "high"
+    },
+    "routing_info": {
+      "received_headers": [
+        "by 2002:a05:6000:4022:b0:38d:c57e:3a1b with SMTP id cp34csp102426wrb;\r\n        Wed, 12 Feb 2025 12:05:36 -0800 (PST)",
+        "from mail-sor-f73.google.com (mail-sor-f73.google.com. [209.85.220.73])\r\n        by mx.google.com with SMTPS id ca18e2360f4ac-8553d562f74sor456984239f.6.2025.02.12.12.05.36\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Wed, 12 Feb 2025 12:05:36 -0800 (PST)"
+      ],
+      "delivery_path": [
+        "mail-sor-f73.google.com"
+      ],
+      "total_hops": 2,
+      "delivery_delay": null,
+      "original_sender_ip": "209.85.220.73",
+      "final_recipient": ""
+    },
+    "content_analysis": {
+      "is_multipart": true,
+      "main_content_type": "multipart/alternative",
+      "charset": null,
+      "content_parts": [
+        {
+          "content_type": "multipart/alternative",
+          "charset": null,
+          "disposition": null,
+          "filename": null,
+          "size": 2
+        },
+        {
+          "content_type": "text/plain",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 1086
+        },
+        {
+          "content_type": "text/html",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 5213
+        }
+      ],
+      "has_html": true,
+      "has_plain_text": true,
+      "has_attachments": false,
+      "has_inline_images": false,
+      "total_parts": 3
+    },
+    "priority_info": {
+      "priority": "",
+      "importance": "",
+      "sensitivity": "",
+      "precedence": "",
+      "urgency": "normal",
+      "delivery_receipt_requested": false,
+      "read_receipt_requested": false
+    },
+    "body_preview": "[image: Google] Nuevo inicio de sesión en Windows kevinrlinze@gmail.com Hemos detectado un nuevo inicio de sesión en tu cuenta de Google en un dispositivo Windows. Si has sido tú, no es necesario que hagas nada. De lo contrario, te ayudaremos a proteger la cuenta. Comprobar actividad <https://accoun...",
+    "content_stats": {
+      "total_recipients": 1,
+      "subject_length": 19,
+      "has_thread_info": false,
+      "estimated_read_time": 1
+    },
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@accounts.google.com header.s=20230601 header.b=kFfoCmEO;\r\n       spf=pass (google.com: domain of 3d_-szwgtcwytu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3D_-sZwgTCwYtu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com;\r\n       dara=pass header.i=@gmail.com",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=accounts.google.com; s=20230601; t=1739390736; x=1739995536; dara=google.com;\r\n        h=to:from:subject:message-id:feedback-id:date:mime-version:from:to:cc\r\n         :subject:date:message-id:reply-to;\r\n        bh=qrjQifS2cehWlBrcJzJwLZZ90CMIyr5LVUJiuhA6AMU=;\r\n        b=kFfoCmEOhg5u+t2SLLq/vcI/xfU2LvmSLPTdBmyeswKeu8cm0PF+z7w1QQ/FBW2cxP\r\n         +EQ7xU0wKuXtGkq/rEEZudgXrFDRyo8LxeHFGXZ5ekgHgKtv3oM8XTJtajqTPZUKT6C6\r\n         2hNBLtImIFCZ2Mm6f7+RcPNeIykaf7kb5dNCZnILWD4r4jyyrxdgvBuSzlbneN043mAW\r\n         xpcARAkkkXOBbtYE+yM7VINEleav+7BApbaYgdD+LpANpyyBnn7aH5/rBVvebmV2J80x\r\n         APsearh+mdI4vx8ZRDp1GU4sofzJugazH78t7cO/auycmpxgpmV0jpCjEP5nzyV8ffTG\r\n         AkYw==",
+    "spf_result": "pass (google.com: domain of 3d_-szwgtcwytu-xkvr4giiu0tzy.muumrk.iusqk1otxrot5kmsgor.ius@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) client-ip=209.85.220.73;"
+  },
+  "content": {
+    "body": {
+      "text": "[image: Google]\nNuevo inicio de sesión en Windows\n\nkevinrlinze@gmail.com\nHemos detectado un nuevo inicio de sesión en tu cuenta de Google en un\ndispositivo Windows. Si has sido tú, no es necesario que hagas nada. De lo\ncontrario, te ayudaremos a proteger la cuenta.\nComprobar actividad\n<https://accounts.google.com/AccountChooser?Email=kevinrlinze@gmail.com&continue=https://myaccount.google.com/alert/nt/1739390735375?rfn%3D325%26rfnc%3D1%26eid%3D-9074864507204558434%26et%3D0>\nTambién puedes ver toda la actividad de seguridad en\nhttps://myaccount.google.com/notifications\nTe hemos enviado este correo electrónico para informarte de cambios\nimportantes en tu cuenta y en los servicios de Google.\n© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+      "html": "<!DOCTYPE html><html lang=\"en\"><head><meta name=\"format-detection\" content=\"email=no\"/><meta name=\"format-detection\" content=\"date=no\"/><style nonce=\"ZBZ0H3e2vef-6IUj4xtspw\">.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} </style><link href=\"//fonts.googleapis.com/css?family=Google+Sans\" rel=\"stylesheet\" type=\"text/css\" nonce=\"ZBZ0H3e2vef-6IUj4xtspw\"/></head><body style=\"margin: 0; padding: 0;\" bgcolor=\"#FFFFFF\"><table width=\"100%\" height=\"100%\" style=\"min-width: 348px;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" lang=\"en\"><tr height=\"32\" style=\"height: 32px;\"><td></td></tr><tr align=\"center\"><td><div itemscope itemtype=\"//schema.org/EmailMessage\"><div itemprop=\"action\" itemscope itemtype=\"//schema.org/ViewAction\"><link itemprop=\"url\" href=\"https://accounts.google.com/AccountChooser?Email=kevinrlinze@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1739390735375?rfn%3D325%26rfnc%3D1%26eid%3D-9074864507204558434%26et%3D0\"/><meta itemprop=\"name\" content=\"¡Repasemos!\"/></div></div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"padding-bottom: 20px; max-width: 516px; min-width: 220px;\"><tr><td width=\"8\" style=\"width: 8px;\"></td><td><div style=\"border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px;\" align=\"center\" class=\"mdv2rw\"><img src=\"https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png\" width=\"74\" height=\"24\" aria-hidden=\"true\" style=\"margin-bottom: 16px;\" alt=\"Google\"><div style=\"font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;\"><div style=\"font-size: 24px;\">Nuevo inicio de sesión en Windows </div><table align=\"center\" style=\"margin-top:8px;\"><tr style=\"line-height: normal;\"><td align=\"right\" style=\"padding-right:8px;\"><img width=\"20\" height=\"20\" style=\"width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;;\" src=\"https://lh3.googleusercontent.com/a/ACg8ocI55Ds1eRQyaXFfpFOGWAcM7AmZrzjlMFqiKkqJ-5x1lWQFyjibiw=s96-c\" alt=\"\"></td><td><a style=\"font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;\">kevinrlinze@gmail.com</a></td></tr></table> </div><div style=\"font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: center;\">Hemos detectado un nuevo inicio de sesión en tu cuenta de Google en un dispositivo Windows. Si has sido tú, no es necesario que hagas nada. De lo contrario, te ayudaremos a proteger la cuenta.<div style=\"padding-top: 32px; text-align: center;\"><a href=\"https://accounts.google.com/AccountChooser?Email=kevinrlinze@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1739390735375?rfn%3D325%26rfnc%3D1%26eid%3D-9074864507204558434%26et%3D0\" target=\"_blank\" link-id=\"main-button-link\" style=\"font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px; color: #ffffff; font-weight: 400; text-decoration: none;font-size: 14px;display:inline-block;padding: 10px 24px;background-color: #4184F3; border-radius: 5px; min-width: 90px;\">Comprobar actividad</a></div></div><div style=\"padding-top: 20px; font-size: 12px; line-height: 16px; color: #5f6368; letter-spacing: 0.3px; text-align: center\">También puedes ver toda la actividad de seguridad en<br><a style=\"color: rgba(0, 0, 0, 0.87);text-decoration: inherit;\">https://myaccount.google.com/notifications</a></div></div><div style=\"text-align: left;\"><div style=\"font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;\"><div>Te hemos enviado este correo electrónico para informarte de cambios importantes en tu cuenta y en los servicios de Google.</div><div style=\"direction: ltr;\">&copy; 2025 Google LLC, <a class=\"afal\" style=\"font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;\">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</a></div></div></div></td><td width=\"8\" style=\"width: 8px;\"></td></tr></table></td></tr><tr height=\"32\" style=\"height: 32px;\"><td></td></tr></table></body></html>\n",
+      "raw": ""
+    },
+    "extracted_text": {
+      "email_body": {
+        "text": "[image: Google]\nNuevo inicio de sesión en Windows\n\nkevinrlinze@gmail.com\nHemos detectado un nuevo inicio de sesión en tu cuenta de Google en un\ndispositivo Windows. Si has sido tú, no es necesario que hagas nada. De lo\ncontrario, te ayudaremos a proteger la cuenta.\nComprobar actividad\n<https://accounts.google.com/AccountChooser?Email=kevinrlinze@gmail.com&continue=https://myaccount.google.com/alert/nt/1739390735375?rfn%3D325%26rfnc%3D1%26eid%3D-9074864507204558434%26et%3D0>\nTambién puedes ver toda la actividad de seguridad en\nhttps://myaccount.google.com/notifications\nTe hemos enviado este correo electrónico para informarte de cambios\nimportantes en tu cuenta y en los servicios de Google.\n© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+        "html": "<!DOCTYPE html><html lang=\"en\"><head><meta name=\"format-detection\" content=\"email=no\"/><meta name=\"format-detection\" content=\"date=no\"/><style nonce=\"ZBZ0H3e2vef-6IUj4xtspw\">.awl a {color: #FFFFFF; text-decoration: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; text-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: 6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 600px) {.mdv2rw {padding: 40px 40px;}} </style><link href=\"//fonts.googleapis.com/css?family=Google+Sans\" rel=\"stylesheet\" type=\"text/css\" nonce=\"ZBZ0H3e2vef-6IUj4xtspw\"/></head><body style=\"margin: 0; padding: 0;\" bgcolor=\"#FFFFFF\"><table width=\"100%\" height=\"100%\" style=\"min-width: 348px;\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" lang=\"en\"><tr height=\"32\" style=\"height: 32px;\"><td></td></tr><tr align=\"center\"><td><div itemscope itemtype=\"//schema.org/EmailMessage\"><div itemprop=\"action\" itemscope itemtype=\"//schema.org/ViewAction\"><link itemprop=\"url\" href=\"https://accounts.google.com/AccountChooser?Email=kevinrlinze@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1739390735375?rfn%3D325%26rfnc%3D1%26eid%3D-9074864507204558434%26et%3D0\"/><meta itemprop=\"name\" content=\"¡Repasemos!\"/></div></div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"padding-bottom: 20px; max-width: 516px; min-width: 220px;\"><tr><td width=\"8\" style=\"width: 8px;\"></td><td><div style=\"border-style: solid; border-width: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px;\" align=\"center\" class=\"mdv2rw\"><img src=\"https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png\" width=\"74\" height=\"24\" aria-hidden=\"true\" style=\"margin-bottom: 16px;\" alt=\"Google\"><div style=\"font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;text-align: center; word-break: break-word;\"><div style=\"font-size: 24px;\">Nuevo inicio de sesión en Windows </div><table align=\"center\" style=\"margin-top:8px;\"><tr style=\"line-height: normal;\"><td align=\"right\" style=\"padding-right:8px;\"><img width=\"20\" height=\"20\" style=\"width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;;\" src=\"https://lh3.googleusercontent.com/a/ACg8ocI55Ds1eRQyaXFfpFOGWAcM7AmZrzjlMFqiKkqJ-5x1lWQFyjibiw=s96-c\" alt=\"\"></td><td><a style=\"font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-height: 20px;\">kevinrlinze@gmail.com</a></td></tr></table> </div><div style=\"font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: center;\">Hemos detectado un nuevo inicio de sesión en tu cuenta de Google en un dispositivo Windows. Si has sido tú, no es necesario que hagas nada. De lo contrario, te ayudaremos a proteger la cuenta.<div style=\"padding-top: 32px; text-align: center;\"><a href=\"https://accounts.google.com/AccountChooser?Email=kevinrlinze@gmail.com&amp;continue=https://myaccount.google.com/alert/nt/1739390735375?rfn%3D325%26rfnc%3D1%26eid%3D-9074864507204558434%26et%3D0\" target=\"_blank\" link-id=\"main-button-link\" style=\"font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px; color: #ffffff; font-weight: 400; text-decoration: none;font-size: 14px;display:inline-block;padding: 10px 24px;background-color: #4184F3; border-radius: 5px; min-width: 90px;\">Comprobar actividad</a></div></div><div style=\"padding-top: 20px; font-size: 12px; line-height: 16px; color: #5f6368; letter-spacing: 0.3px; text-align: center\">También puedes ver toda la actividad de seguridad en<br><a style=\"color: rgba(0, 0, 0, 0.87);text-decoration: inherit;\">https://myaccount.google.com/notifications</a></div></div><div style=\"text-align: left;\"><div style=\"font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;\"><div>Te hemos enviado este correo electrónico para informarte de cambios importantes en tu cuenta y en los servicios de Google.</div><div style=\"direction: ltr;\">&copy; 2025 Google LLC, <a class=\"afal\" style=\"font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;\">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</a></div></div></div></td><td width=\"8\" style=\"width: 8px;\"></td></tr></table></td></tr><tr height=\"32\" style=\"height: 32px;\"><td></td></tr></table></body></html>\n",
+        "raw": ""
+      },
+      "attachments": []
+    }
+  },
+  "attachments": {
+    "count": 0,
+    "total_size_bytes": 0,
+    "files": []
+  },
+  "statistics": {
+    "text_length": {
+      "body_text": 772,
+      "body_html": 4822,
+      "total_extracted_text": 0
+    },
+    "attachments": {
+      "total_count": 0,
+      "by_category": {},
+      "by_type": {},
+      "total_size_bytes": 0,
+      "largest_file": null,
+      "smallest_file": null
+    },
+    "recipients": {
+      "to_count": 1,
+      "cc_count": 0,
+      "bcc_count": 0,
+      "total_recipients": 1
+    },
+    "headers": {
+      "total_headers": 24,
+      "x_headers_count": 7
+    }
+  },
+  "processing_info": {
+    "extraction_successful": true,
+    "errors": [],
+    "warnings": [],
+    "processing_time": 0.005108833312988281,
+    "extraction_method": "imap_direct",
+    "retry_count": 0
+  },
+  "analysis": {
+    "content_analysis": {
+      "content_type": "html",
+      "language_detected": "es",
+      "sentiment": "neutral",
+      "urgency_indicators": [],
+      "topics": [],
+      "contains_links": true,
+      "contains_images": true,
+      "text_quality": "good"
+    },
+    "attachment_analysis": {
+      "total_count": 0,
+      "total_size_mb": 0,
+      "risk_assessment": "low",
+      "file_types": {},
+      "suspicious_files": [],
+      "encrypted_files": [],
+      "large_files": []
+    },
+    "security_analysis": {
+      "authentication_status": "unknown",
+      "spf_status": "pass",
+      "dkim_status": "pass",
+      "dmarc_status": "pass",
+      "overall_trust_score": 0.9999999999999999,
+      "security_warnings": []
+    },
+    "communication_analysis": {
+      "communication_type": "personal",
+      "recipient_count": 1,
+      "is_broadcast": false,
+      "is_personal": true,
+      "is_automated": true,
+      "thread_participation": false
+    },
+    "technical_analysis": {
+      "routing_hops": 2,
+      "delivery_delay_estimated": false,
+      "client_info": {},
+      "server_info": {},
+      "encryption_used": false
+    }
+  },
+  "quality_metrics": {
+    "completeness_score": 0.75,
+    "extraction_success_rate": 1.0,
+    "data_integrity_score": 1.0,
+    "overall_quality_score": 0.9000000000000001
+  }
+}

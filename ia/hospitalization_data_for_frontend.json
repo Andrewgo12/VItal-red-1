@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "generated_at": "2025-08-21T12:42:56.707876",
+    "total_records": 0,
+    "source": "Gmail Hospitalization Data",
+    "version": "1.0"
+  },
+  "records": [],
+  "statistics": {
+    "by_ward": {},
+    "total_hospitalized": 0
+  }
+}

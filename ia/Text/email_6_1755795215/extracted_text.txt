@@ -1,0 +1,43 @@
+Email ID: email_6_1755795215
+==================================================
+
+EMAIL BODY:
+--------------------
+Thanks for joining us. Here are a couple of great ways to get started:
+
+|  |  |  |   
+---  
+|  |  |  Welcome!   
+---  
+      
+    
+    Thanks for joining us. Here are a couple of great ways to get started:  
+  
+|  |  |  |  Azure DevOps   
+---  
+Collaborate in the cloud with version control, agile, continuous delivery, app
+analytics - using any IDE or editor.  
+|  |  Start your project  |  |  Learn more   
+---|---|---  
+|  |  Visual Studio Dev Essentials   
+---  
+Get everything you need to build and deploy your app on any platform. With
+state-of-the-art tools, the power of the cloud, training, and support, it's
+our most comprehensive free developer program ever.  
+|  |  Access your benefits  |  |  Learn more   
+---|---|---  
+|  |  Profile details   
+---  
+|  |  Your sign-in address  |  kevinrlinze@gmail.com  
+---|---|---  
+|  Your preferred email  |  kevinrlinze@gmail.com  
+|  Review preferences  |  Your preferences  
+|  Review your details  |  See your personal page  
+|  Need help?  |  Check out our support options  
+|  これは、Azure DevOps からの必須のサービス通信です。  
+---  
+Microsoft はプライバシーを尊重しています。オンライン サービスのプライバシーに関する声明をご確認ください。  
+One Microsoft Way, Redmond, WA, USA 98052。
+
+
+

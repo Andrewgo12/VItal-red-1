@@ -1,0 +1,147 @@
+{
+  "unique_id": "email_96_1755795254",
+  "message_id": "<AC70000000012DE387113B6ED62mscom_mkt_prod126@infomails.microsoft.com>",
+  "subject": "Tu OneDrive corre riesgo de eliminación",
+  "from": [
+    {
+      "name": "Microsoft",
+      "email": "Microsoft@infomails.microsoft.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [
+    {
+      "name": "noreply",
+      "email": "replies@microsoft.com"
+    }
+  ],
+  "date": "2025-02-24T22:11:58",
+  "date_string": "Mon, 24 Feb 2025 19:11:58 -0800",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "text/html",
+  "charset": "utf-8",
+  "size": 61346,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": false,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from [10.182.124.226] ([10.182.124.226:14898] helo=r132.engage.microsoft.com)\r\n\tby momentum56.or1.cpt.adobe.net (envelope-from <bounce@infomails.microsoft.com>)\r\n\t(ecelerity 4.2.38.999 r(:)) with ESMTP\r\n\tid 29/6D-11838-3053DB76; Mon, 24 Feb 2025 19:12:03 -0800",
+    "X-Google-Smtp-Source": "AGHT+IGk/obdOK5zsh4vs7BNhCfJB4yLSdICFoZUfe6Ne1l7X+c7NzItUyhQ9FxnSEWvE299kOpJ",
+    "X-Received": "by 2002:a17:902:d50b:b0:220:fe24:7910 with SMTP id d9443c01a7336-2219ff4e74emr265128805ad.15.1740453124575;\r\n        Mon, 24 Feb 2025 19:12:04 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740453124; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=BeYgUN8tLrnGfh4mH6Du31MXsrTfHwKAnzX1AgorJA38tI+XVT2yzbwhT/GhF5mtRy\r\n         ZqY/pMTpZb/skYl9HS+WBeaDjqJsLU0hZT+/mYy5DY5Tn2gSMPN44A/I+A/83fdApCyz\r\n         hDOeUKFU3u2lsS17kGtNgwUJRgeRuT/rsTZbyNSeyyzI8j48UVpj12HIkiChAUExNPdY\r\n         2LWzyPP04ZTPv3M82aUZ3OpcCC044lr+mFgsMseMVuH7jvAtqosIiC9iyDRRdKn9ht5J\r\n         exuJ3PwtZdxDjKa4P+YQEQmzwVYs8/2o7SmmHfscuWTed9+HlgrmK4rRtoz5uhR2swV3\r\n         C1QA==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=content-transfer-encoding:list-unsubscribe-post:list-unsubscribe\r\n         :message-id:mime-version:reply-to:to:subject:date:from\r\n         :dkim-signature;\r\n        bh=YcTkHUuBFgCyStwexRodndnUtBsEsSbTS2Ft13UxXdE=;\r\n        fh=6J6Dc+QSWm0Tzcrx7O/OS+YB3bi5qxxDQzSDaEM+cXM=;\r\n        b=aAE0mVbtP56gdUSbLLHMavfuxv/nbcsVO9s47/5+4WC/MDWjo1NSfXA4ri/Rucg/F7\r\n         6jMIQL7wtwGT/QBlxwBEdK1PAjWbpE9l6JDv9M4zGWw9UUanCc98JxxI5WAJyVhD+P5n\r\n         EXN6lRNtnhjuhT0KX9Q8pAZsDHJ4OTsrJHHtqsL/rVu8oL29oxeU0ftUk5WY5r1OxxIN\r\n         RnC3pEcWr/Hgl5kbxQKWpODtu0vy/GUrHzyxv5b5fgMTz69Rzk9fUYvYjqub2i4DZZlz\r\n         3GNh9XZN5HIKYZtUu4Vw1WQpZ0KXnPaVbRR7YEhHnbehQlwUeWcHHjAUdM8W4G39OxQu\r\n         V4aQ==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@infomails.microsoft.com header.s=mscom header.b=CoesFjge;\r\n       spf=pass (google.com: domain of bounce@infomails.microsoft.com designates 172.82.209.156 as permitted sender) smtp.mailfrom=bounce@infomails.microsoft.com;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=infomails.microsoft.com",
+    "Return-Path": "<bounce@infomails.microsoft.com>",
+    "Received-SPF": "pass (google.com: domain of bounce@infomails.microsoft.com designates 172.82.209.156 as permitted sender) client-ip=172.82.209.156;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@infomails.microsoft.com header.s=mscom header.b=CoesFjge;\r\n       spf=pass (google.com: domain of bounce@infomails.microsoft.com designates 172.82.209.156 as permitted sender) smtp.mailfrom=bounce@infomails.microsoft.com;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=infomails.microsoft.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n\td=infomails.microsoft.com; s=mscom; t=1740453123;\r\n\tbh=YcTkHUuBFgCyStwexRodndnUtBsEsSbTS2Ft13UxXdE=;\r\n\th=From:Date:Subject:To:MIME-Version:Message-ID:List-Unsubscribe:\r\n\t List-Unsubscribe-Post:Content-Type;\r\n\tb=CoesFjgeLDdi5nEXIQHvpvjpcXv3Ih7hLhkQAGYZiEQG+P0edenvl9k2uJDk7ZDQR\r\n\t 4tL8pkjhaaDKwsU6s6+zgEwIIKRtSsSV45njRhSAsufpWz59LARhnzLrj4hiOo299B\r\n\t sI0Bgq7xKutSGip6Ihk2Wjk8O7choBR6J1g7K3vw5U7/5o6ZM1iqOpX7q9Csk8agFO\r\n\t preVpkF4Q+KS9HUkBD77xtECKtlGY6vpoB318y0MQpVRF9Q0op9LssbD6wmt/yiTJh\r\n\t 0yd0Iqk3B/A91J8dLcUr2zT9QXsvj1wR7ILGyFJq8XipfcSU3zUzro2TSTKttZQJ23\r\n\t ww5cWUOKg3mRA==",
+    "X-MSFBL": "42QPqC4JHUp91MWXMnoKsAOYoB4bZa4l4R6l4sVthqM=|eyJnIjoiZGVmYXVsdF9\r\n\tiNTlmMDVjOC04ODYwLTRlM2QtYjRmZS00YTAzMGNjMTUwNzUiLCJyY3B0X21ldGE\r\n\tiOnsgImluIjogIm1zY29tX21rdF9wcm9kMTI2IiwgInIiOiAia2V2aW5ybGluemV\r\n\tAZ21haWwuY29tIiwgIm0iOiAiMzE2NTUzMzI5IiwgImQiOiAiMzMwNzU1NDI2Iiw\r\n\tgImkiOiAiRUE3NkFERTk1Nzc2RDJFQzdGMDAwMTAxQEFkb2JlT3JnIiB9LCJiIjo\r\n\tiYXp1cmVfbXNjb21fcHJvZDEyNl9kZWZhdWx0X21vbWVudHVtNTZfbXRhMDAyXzE\r\n\t3Mi44Mi4yMDkuMTU2IiwiciI6ImtldmlucmxpbnplQGdtYWlsLmNvbSJ9",
+    "From": "\"Microsoft\" <Microsoft@infomails.microsoft.com>",
+    "Date": "Mon, 24 Feb 2025 19:11:58 -0800",
+    "Subject": "Tu OneDrive corre riesgo de eliminación",
+    "To": "<kevinrlinze@gmail.com>",
+    "Reply-To": "\"noreply\" <replies@microsoft.com>",
+    "MIME-Version": "1.0",
+    "X-mailer": "nlserver, Build 7.0.0.10695",
+    "Message-ID": "<AC70000000012DE387113B6ED62mscom_mkt_prod126@infomails.microsoft.com>",
+    "List-Unsubscribe": "",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    "Content-Type": "text/html;\r\n\tcharset=\"utf-8\"",
+    "Content-Transfer-Encoding": "quoted-printable"
+  },
+  "extraction_timestamp": "2025-08-21T11:54:14.615039",
+  "received_headers": [
+    "by 2002:a5d:64a6:0:b0:38d:c57e:3a1b with SMTP id m6csp1673wrp;\r\n        Mon, 24 Feb 2025 19:12:05 -0800 (PST)",
+    "from r156.engage.microsoft.com (r156.engage.microsoft.com. [172.82.209.156])\r\n        by mx.google.com with ESMTPS id d9443c01a7336-2230a08750esi11846205ad.219.2025.02.24.19.12.04\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Mon, 24 Feb 2025 19:12:04 -0800 (PST)",
+    "from [10.182.124.226] ([10.182.124.226:14898] helo=r132.engage.microsoft.com)\r\n\tby momentum56.or1.cpt.adobe.net (envelope-from <bounce@infomails.microsoft.com>)\r\n\t(ecelerity 4.2.38.999 r(:)) with ESMTP\r\n\tid 29/6D-11838-3053DB76; Mon, 24 Feb 2025 19:12:03 -0800"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IGk/obdOK5zsh4vs7BNhCfJB4yLSdICFoZUfe6Ne1l7X+c7NzItUyhQ9FxnSEWvE299kOpJ",
+    "X-Received": "by 2002:a17:902:d50b:b0:220:fe24:7910 with SMTP id d9443c01a7336-2219ff4e74emr265128805ad.15.1740453124575;\r\n        Mon, 24 Feb 2025 19:12:04 -0800 (PST)",
+    "X-MSFBL": "42QPqC4JHUp91MWXMnoKsAOYoB4bZa4l4R6l4sVthqM=|eyJnIjoiZGVmYXVsdF9\r\n\tiNTlmMDVjOC04ODYwLTRlM2QtYjRmZS00YTAzMGNjMTUwNzUiLCJyY3B0X21ldGE\r\n\tiOnsgImluIjogIm1zY29tX21rdF9wcm9kMTI2IiwgInIiOiAia2V2aW5ybGluemV\r\n\tAZ21haWwuY29tIiwgIm0iOiAiMzE2NTUzMzI5IiwgImQiOiAiMzMwNzU1NDI2Iiw\r\n\tgImkiOiAiRUE3NkFERTk1Nzc2RDJFQzdGMDAwMTAxQEFkb2JlT3JnIiB9LCJiIjo\r\n\tiYXp1cmVfbXNjb21fcHJvZDEyNl9kZWZhdWx0X21vbWVudHVtNTZfbXRhMDAyXzE\r\n\t3Mi44Mi4yMDkuMTU2IiwiciI6ImtldmlucmxpbnplQGdtYWlsLmNvbSJ9",
+    "X-mailer": "nlserver, Build 7.0.0.10695"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<AC70000000012DE387113B6ED62mscom_mkt_prod126@infomails.microsoft.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of bounce@infomails.microsoft.com designates 172.82.209.156 as permitted sender) client-ip=172.82.209.156;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n\td=infomails.microsoft.com; s=mscom; t=1740453123;\r\n\tbh=YcTkHUuBFgCyStwexRodndnUtBsEsSbTS2Ft13UxXdE=;\r\n\th=From:Date:Subject:To:MIME-Version:Message-ID:List-Unsubscribe:\r\n\t List-Unsubscribe-Post:Content-Type;\r\n\tb=CoesFjgeLDdi5nEXIQHvpvjpcXv3Ih7hLhkQAGYZiEQG+P0edenvl9k2uJDk7ZDQR\r\n\t 4tL8pkjhaaDKwsU6s6+zgEwIIKRtSsSV45njRhSAsufpWz59LARhnzLrj4hiOo299B\r\n\t sI0Bgq7xKutSGip6Ihk2Wjk8O7choBR6J1g7K3vw5U7/5o6ZM1iqOpX7q9Csk8agFO\r\n\t preVpkF4Q+KS9HUkBD77xtECKtlGY6vpoB318y0MQpVRF9Q0op9LssbD6wmt/yiTJh\r\n\t 0yd0Iqk3B/A91J8dLcUr2zT9QXsvj1wR7ILGyFJq8XipfcSU3zUzro2TSTKttZQJ23\r\n\t ww5cWUOKg3mRA==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@infomails.microsoft.com header.s=mscom header.b=CoesFjge;\r\n       spf=pass (google.com: domain of bounce@infomails.microsoft.com designates 172.82.209.156 as permitted sender) smtp.mailfrom=bounce@infomails.microsoft.com;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=infomails.microsoft.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@infomails.microsoft.com header.s=mscom header.b=CoesFjge;\r\n       spf=pass (google.com: domain of bounce@infomails.microsoft.com designates 172.82.209.156 as permitted sender) smtp.mailfrom=bounce@infomails.microsoft.com;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=infomails.microsoft.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a5d:64a6:0:b0:38d:c57e:3a1b with SMTP id m6csp1673wrp;\r\n        Mon, 24 Feb 2025 19:12:05 -0800 (PST)",
+      "from r156.engage.microsoft.com (r156.engage.microsoft.com. [172.82.209.156])\r\n        by mx.google.com with ESMTPS id d9443c01a7336-2230a08750esi11846205ad.219.2025.02.24.19.12.04\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Mon, 24 Feb 2025 19:12:04 -0800 (PST)",
+      "from [10.182.124.226] ([10.182.124.226:14898] helo=r132.engage.microsoft.com)\r\n\tby momentum56.or1.cpt.adobe.net (envelope-from <bounce@infomails.microsoft.com>)\r\n\t(ecelerity 4.2.38.999 r(:)) with ESMTP\r\n\tid 29/6D-11838-3053DB76; Mon, 24 Feb 2025 19:12:03 -0800"
+    ],
+    "delivery_path": [
+      "r156.engage.microsoft.com",
+      "[10.182.124.226]"
+    ],
+    "total_hops": 3,
+    "delivery_delay": null,
+    "original_sender_ip": "10.182.124.226",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": false,
+    "main_content_type": "text/html",
+    "charset": "utf-8",
+    "content_parts": [],
+    "has_html": true,
+    "has_plain_text": false,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 1
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 39,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@infomails.microsoft.com header.s=mscom header.b=CoesFjge;\r\n       spf=pass (google.com: domain of bounce@infomails.microsoft.com designates 172.82.209.156 as permitted sender) smtp.mailfrom=bounce@infomails.microsoft.com;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=infomails.microsoft.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n\td=infomails.microsoft.com; s=mscom; t=1740453123;\r\n\tbh=YcTkHUuBFgCyStwexRodndnUtBsEsSbTS2Ft13UxXdE=;\r\n\th=From:Date:Subject:To:MIME-Version:Message-ID:List-Unsubscribe:\r\n\t List-Unsubscribe-Post:Content-Type;\r\n\tb=CoesFjgeLDdi5nEXIQHvpvjpcXv3Ih7hLhkQAGYZiEQG+P0edenvl9k2uJDk7ZDQR\r\n\t 4tL8pkjhaaDKwsU6s6+zgEwIIKRtSsSV45njRhSAsufpWz59LARhnzLrj4hiOo299B\r\n\t sI0Bgq7xKutSGip6Ihk2Wjk8O7choBR6J1g7K3vw5U7/5o6ZM1iqOpX7q9Csk8agFO\r\n\t preVpkF4Q+KS9HUkBD77xtECKtlGY6vpoB318y0MQpVRF9Q0op9LssbD6wmt/yiTJh\r\n\t 0yd0Iqk3B/A91J8dLcUr2zT9QXsvj1wR7ILGyFJq8XipfcSU3zUzro2TSTKttZQJ23\r\n\t ww5cWUOKg3mRA==",
+  "spf_result": "pass (google.com: domain of bounce@infomails.microsoft.com designates 172.82.209.156 as permitted sender) client-ip=172.82.209.156;"
+}

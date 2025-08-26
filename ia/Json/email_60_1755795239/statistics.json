@@ -1,0 +1,35 @@
+{
+  "text_length": {
+    "body_text": 1244,
+    "body_html": 5243,
+    "total_extracted_text": 18329
+  },
+  "attachments": {
+    "total_count": 1,
+    "by_category": {
+      "document": 1
+    },
+    "by_type": {
+      "application/pdf": 1
+    },
+    "total_size_bytes": 134423,
+    "largest_file": {
+      "filename": "Nequi+Autorización+Tratamiento+de+Datos+Personales.pdf",
+      "size_bytes": 134423
+    },
+    "smallest_file": {
+      "filename": "Nequi+Autorización+Tratamiento+de+Datos+Personales.pdf",
+      "size_bytes": 134423
+    }
+  },
+  "recipients": {
+    "to_count": 1,
+    "cc_count": 0,
+    "bcc_count": 0,
+    "total_recipients": 1
+  },
+  "headers": {
+    "total_headers": 22,
+    "x_headers_count": 4
+  }
+}

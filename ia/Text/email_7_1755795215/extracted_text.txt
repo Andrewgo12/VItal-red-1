@@ -1,0 +1,20 @@
+Email ID: email_7_1755795215
+==================================================
+
+EMAIL BODY:
+--------------------
+[image: Google]
+Nuevo inicio de sesión en Windows
+
+kevinrlinze@gmail.com
+Hemos detectado un nuevo inicio de sesión en tu cuenta de Google en un
+dispositivo Windows. Si has sido tú, no es necesario que hagas nada. De lo
+contrario, te ayudaremos a proteger la cuenta.
+Comprobar actividad
+<https://accounts.google.com/AccountChooser?Email=kevinrlinze@gmail.com&continue=https://myaccount.google.com/alert/nt/1739390735375?rfn%3D325%26rfnc%3D1%26eid%3D-9074864507204558434%26et%3D0>
+También puedes ver toda la actividad de seguridad en
+https://myaccount.google.com/notifications
+Te hemos enviado este correo electrónico para informarte de cambios
+importantes en tu cuenta y en los servicios de Google.
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+

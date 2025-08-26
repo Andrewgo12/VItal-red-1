@@ -1,0 +1,491 @@
+2025-08-21 11:52:23,434 - gmail_processor - ERROR - main:316 - Critical error in main processing: GmailConnector.__init__() missing 1 required positional argument: 'password'
+2025-08-21 11:53:32,968 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 1, Unique ID: email_1_1755795212
+2025-08-21 11:53:32,969 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_1_1755795212
+2025-08-21 11:53:32,998 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_1_1755795212
+2025-08-21 11:53:33,057 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_1_1755795212
+2025-08-21 11:53:33,453 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_1_1755795212 in 0.21s
+2025-08-21 11:53:33,453 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_1_1755795212, Time: 0.21s, Attachments: 1
+2025-08-21 11:53:33,876 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 2, Unique ID: email_2_1755795213
+2025-08-21 11:53:33,877 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_2_1755795213
+2025-08-21 11:53:33,878 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_2_1755795213
+2025-08-21 11:53:33,879 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_2_1755795213
+2025-08-21 11:53:33,894 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_2_1755795213 in 0.00s
+2025-08-21 11:53:33,895 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_2_1755795213, Time: 0.00s, Attachments: 0
+2025-08-21 11:53:34,082 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 3, Unique ID: email_3_1755795214
+2025-08-21 11:53:34,082 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_3_1755795214
+2025-08-21 11:53:34,086 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_3_1755795214
+2025-08-21 11:53:34,086 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_3_1755795214
+2025-08-21 11:53:34,099 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_3_1755795214 in 0.01s
+2025-08-21 11:53:34,106 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_3_1755795214, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:34,406 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 4, Unique ID: email_4_1755795214
+2025-08-21 11:53:34,408 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_4_1755795214
+2025-08-21 11:53:34,412 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_4_1755795214
+2025-08-21 11:53:34,412 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_4_1755795214
+2025-08-21 11:53:34,425 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_4_1755795214 in 0.01s
+2025-08-21 11:53:34,426 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_4_1755795214, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:34,931 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 5, Unique ID: email_5_1755795214
+2025-08-21 11:53:34,932 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_5_1755795214
+2025-08-21 11:53:34,951 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_5_1755795214
+2025-08-21 11:53:35,078 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_5_1755795214
+2025-08-21 11:53:35,107 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_5_1755795214 in 0.16s
+2025-08-21 11:53:35,108 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_5_1755795214, Time: 0.16s, Attachments: 2
+2025-08-21 11:53:35,510 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 6, Unique ID: email_6_1755795215
+2025-08-21 11:53:35,511 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_6_1755795215
+2025-08-21 11:53:35,526 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_6_1755795215
+2025-08-21 11:53:35,531 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_6_1755795215
+2025-08-21 11:53:35,571 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_6_1755795215 in 0.05s
+2025-08-21 11:53:35,572 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_6_1755795215, Time: 0.05s, Attachments: 0
+2025-08-21 11:53:35,960 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 7, Unique ID: email_7_1755795215
+2025-08-21 11:53:35,961 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_7_1755795215
+2025-08-21 11:53:35,964 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_7_1755795215
+2025-08-21 11:53:35,964 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_7_1755795215
+2025-08-21 11:53:35,976 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_7_1755795215 in 0.01s
+2025-08-21 11:53:35,976 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_7_1755795215, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:36,397 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 8, Unique ID: email_8_1755795216
+2025-08-21 11:53:36,397 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_8_1755795216
+2025-08-21 11:53:36,400 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_8_1755795216
+2025-08-21 11:53:36,400 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_8_1755795216
+2025-08-21 11:53:36,412 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_8_1755795216 in 0.00s
+2025-08-21 11:53:36,412 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_8_1755795216, Time: 0.00s, Attachments: 0
+2025-08-21 11:53:36,821 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 9, Unique ID: email_9_1755795216
+2025-08-21 11:53:36,821 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_9_1755795216
+2025-08-21 11:53:36,825 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_9_1755795216
+2025-08-21 11:53:36,826 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_9_1755795216
+2025-08-21 11:53:36,837 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_9_1755795216 in 0.01s
+2025-08-21 11:53:36,838 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_9_1755795216, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:37,249 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 10, Unique ID: email_10_1755795217
+2025-08-21 11:53:37,249 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_10_1755795217
+2025-08-21 11:53:37,260 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_10_1755795217: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:37,657 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 11, Unique ID: email_11_1755795217
+2025-08-21 11:53:37,658 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_11_1755795217
+2025-08-21 11:53:37,671 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_11_1755795217
+2025-08-21 11:53:37,672 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_11_1755795217
+2025-08-21 11:53:37,726 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_11_1755795217 in 0.02s
+2025-08-21 11:53:37,726 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_11_1755795217, Time: 0.02s, Attachments: 0
+2025-08-21 11:53:39,120 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 12, Unique ID: email_12_1755795219
+2025-08-21 11:53:39,120 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_12_1755795219
+2025-08-21 11:53:39,142 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_12_1755795219
+2025-08-21 11:53:39,161 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_12_1755795219
+2025-08-21 11:53:39,229 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_12_1755795219 in 0.09s
+2025-08-21 11:53:39,229 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_12_1755795219, Time: 0.09s, Attachments: 1
+2025-08-21 11:53:39,428 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 13, Unique ID: email_13_1755795219
+2025-08-21 11:53:39,429 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_13_1755795219
+2025-08-21 11:53:39,432 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_13_1755795219
+2025-08-21 11:53:39,432 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_13_1755795219
+2025-08-21 11:53:39,447 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_13_1755795219 in 0.00s
+2025-08-21 11:53:39,448 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_13_1755795219, Time: 0.00s, Attachments: 0
+2025-08-21 11:53:39,869 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 14, Unique ID: email_14_1755795219
+2025-08-21 11:53:39,872 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_14_1755795219
+2025-08-21 11:53:39,894 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_14_1755795219
+2025-08-21 11:53:39,900 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_14_1755795219
+2025-08-21 11:53:39,955 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_14_1755795219 in 0.03s
+2025-08-21 11:53:39,956 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_14_1755795219, Time: 0.03s, Attachments: 0
+2025-08-21 11:53:40,368 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 15, Unique ID: email_15_1755795220
+2025-08-21 11:53:40,411 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_15_1755795220
+2025-08-21 11:53:40,414 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_15_1755795220
+2025-08-21 11:53:40,437 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_15_1755795220
+2025-08-21 11:53:40,464 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_15_1755795220 in 0.03s
+2025-08-21 11:53:40,464 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_15_1755795220, Time: 0.03s, Attachments: 0
+2025-08-21 11:53:40,656 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 16, Unique ID: email_16_1755795220
+2025-08-21 11:53:40,660 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_16_1755795220
+2025-08-21 11:53:40,669 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_16_1755795220: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:41,070 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 17, Unique ID: email_17_1755795221
+2025-08-21 11:53:41,071 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_17_1755795221
+2025-08-21 11:53:41,074 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_17_1755795221: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:41,458 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 18, Unique ID: email_18_1755795221
+2025-08-21 11:53:41,458 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_18_1755795221
+2025-08-21 11:53:41,461 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_18_1755795221: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:41,848 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 19, Unique ID: email_19_1755795221
+2025-08-21 11:53:41,848 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_19_1755795221
+2025-08-21 11:53:41,855 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_19_1755795221: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:42,244 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 20, Unique ID: email_20_1755795222
+2025-08-21 11:53:42,245 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_20_1755795222
+2025-08-21 11:53:42,247 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_20_1755795222: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:42,722 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 21, Unique ID: email_21_1755795222
+2025-08-21 11:53:42,722 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_21_1755795222
+2025-08-21 11:53:42,728 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_21_1755795222
+2025-08-21 11:53:42,728 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_21_1755795222
+2025-08-21 11:53:42,774 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_21_1755795222 in 0.01s
+2025-08-21 11:53:42,775 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_21_1755795222, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:43,183 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 22, Unique ID: email_22_1755795223
+2025-08-21 11:53:43,186 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_22_1755795223
+2025-08-21 11:53:43,195 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_22_1755795223
+2025-08-21 11:53:43,196 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_22_1755795223
+2025-08-21 11:53:43,256 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_22_1755795223 in 0.01s
+2025-08-21 11:53:43,257 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_22_1755795223, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:43,663 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 23, Unique ID: email_23_1755795223
+2025-08-21 11:53:43,663 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_23_1755795223
+2025-08-21 11:53:43,676 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_23_1755795223
+2025-08-21 11:53:43,678 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_23_1755795223
+2025-08-21 11:53:43,730 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_23_1755795223 in 0.02s
+2025-08-21 11:53:43,732 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_23_1755795223, Time: 0.02s, Attachments: 0
+2025-08-21 11:53:44,142 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 24, Unique ID: email_24_1755795224
+2025-08-21 11:53:44,142 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_24_1755795224
+2025-08-21 11:53:44,152 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_24_1755795224
+2025-08-21 11:53:44,153 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_24_1755795224
+2025-08-21 11:53:44,197 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_24_1755795224 in 0.01s
+2025-08-21 11:53:44,198 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_24_1755795224, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:44,603 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 25, Unique ID: email_25_1755795224
+2025-08-21 11:53:44,603 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_25_1755795224
+2025-08-21 11:53:44,607 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_25_1755795224: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:45,007 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 26, Unique ID: email_26_1755795225
+2025-08-21 11:53:45,008 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_26_1755795225
+2025-08-21 11:53:45,011 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_26_1755795225: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:45,413 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 27, Unique ID: email_27_1755795225
+2025-08-21 11:53:45,413 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_27_1755795225
+2025-08-21 11:53:45,416 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_27_1755795225: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:45,805 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 28, Unique ID: email_28_1755795225
+2025-08-21 11:53:45,805 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_28_1755795225
+2025-08-21 11:53:45,810 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_28_1755795225: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:46,218 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 29, Unique ID: email_29_1755795226
+2025-08-21 11:53:46,218 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_29_1755795226
+2025-08-21 11:53:46,221 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_29_1755795226: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:46,653 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 30, Unique ID: email_30_1755795226
+2025-08-21 11:53:46,654 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_30_1755795226
+2025-08-21 11:53:46,661 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_30_1755795226
+2025-08-21 11:53:46,662 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_30_1755795226
+2025-08-21 11:53:46,707 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_30_1755795226 in 0.01s
+2025-08-21 11:53:46,707 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_30_1755795226, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:47,104 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 31, Unique ID: email_31_1755795227
+2025-08-21 11:53:47,105 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_31_1755795227
+2025-08-21 11:53:47,108 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_31_1755795227: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:47,485 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 32, Unique ID: email_32_1755795227
+2025-08-21 11:53:47,486 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_32_1755795227
+2025-08-21 11:53:47,488 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_32_1755795227: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:47,963 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 33, Unique ID: email_33_1755795227
+2025-08-21 11:53:47,964 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_33_1755795227
+2025-08-21 11:53:47,969 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_33_1755795227
+2025-08-21 11:53:48,026 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_33_1755795227
+2025-08-21 11:53:48,088 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_33_1755795227 in 0.11s
+2025-08-21 11:53:48,088 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_33_1755795227, Time: 0.11s, Attachments: 1
+2025-08-21 11:53:48,471 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 34, Unique ID: email_34_1755795228
+2025-08-21 11:53:48,471 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_34_1755795228
+2025-08-21 11:53:48,474 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_34_1755795228: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:48,854 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 35, Unique ID: email_35_1755795228
+2025-08-21 11:53:48,854 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_35_1755795228
+2025-08-21 11:53:48,857 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_35_1755795228: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:49,270 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 36, Unique ID: email_36_1755795229
+2025-08-21 11:53:49,271 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_36_1755795229
+2025-08-21 11:53:49,276 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_36_1755795229
+2025-08-21 11:53:49,276 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_36_1755795229
+2025-08-21 11:53:49,345 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_36_1755795229 in 0.01s
+2025-08-21 11:53:49,346 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_36_1755795229, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:49,767 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 37, Unique ID: email_37_1755795229
+2025-08-21 11:53:49,767 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_37_1755795229
+2025-08-21 11:53:49,770 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_37_1755795229: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:50,174 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 38, Unique ID: email_38_1755795230
+2025-08-21 11:53:50,175 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_38_1755795230
+2025-08-21 11:53:50,177 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_38_1755795230
+2025-08-21 11:53:50,178 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_38_1755795230
+2025-08-21 11:53:50,187 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_38_1755795230 in 0.00s
+2025-08-21 11:53:50,200 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_38_1755795230, Time: 0.00s, Attachments: 0
+2025-08-21 11:53:50,468 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 39, Unique ID: email_39_1755795230
+2025-08-21 11:53:50,501 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_39_1755795230
+2025-08-21 11:53:50,530 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_39_1755795230
+2025-08-21 11:53:50,546 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_39_1755795230
+2025-08-21 11:53:50,578 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_39_1755795230 in 0.05s
+2025-08-21 11:53:50,581 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_39_1755795230, Time: 0.05s, Attachments: 0
+2025-08-21 11:53:50,779 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 40, Unique ID: email_40_1755795230
+2025-08-21 11:53:50,784 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_40_1755795230
+2025-08-21 11:53:50,790 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_40_1755795230
+2025-08-21 11:53:50,812 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_40_1755795230
+2025-08-21 11:53:50,830 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_40_1755795230 in 0.03s
+2025-08-21 11:53:50,836 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_40_1755795230, Time: 0.03s, Attachments: 0
+2025-08-21 11:53:51,026 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 41, Unique ID: email_41_1755795231
+2025-08-21 11:53:51,031 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_41_1755795231
+2025-08-21 11:53:51,034 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_41_1755795231
+2025-08-21 11:53:51,035 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_41_1755795231
+2025-08-21 11:53:51,053 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_41_1755795231 in 0.01s
+2025-08-21 11:53:51,053 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_41_1755795231, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:51,478 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 42, Unique ID: email_42_1755795231
+2025-08-21 11:53:51,483 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_42_1755795231
+2025-08-21 11:53:51,487 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_42_1755795231
+2025-08-21 11:53:51,488 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_42_1755795231
+2025-08-21 11:53:51,504 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_42_1755795231 in 0.01s
+2025-08-21 11:53:51,505 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_42_1755795231, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:51,944 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 43, Unique ID: email_43_1755795231
+2025-08-21 11:53:51,944 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_43_1755795231
+2025-08-21 11:53:51,947 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_43_1755795231
+2025-08-21 11:53:51,947 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_43_1755795231
+2025-08-21 11:53:51,960 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_43_1755795231 in 0.00s
+2025-08-21 11:53:51,960 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_43_1755795231, Time: 0.00s, Attachments: 0
+2025-08-21 11:53:52,164 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 44, Unique ID: email_44_1755795232
+2025-08-21 11:53:52,164 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_44_1755795232
+2025-08-21 11:53:52,167 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_44_1755795232
+2025-08-21 11:53:52,168 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_44_1755795232
+2025-08-21 11:53:52,182 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_44_1755795232 in 0.00s
+2025-08-21 11:53:52,183 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_44_1755795232, Time: 0.00s, Attachments: 0
+2025-08-21 11:53:52,564 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 45, Unique ID: email_45_1755795232
+2025-08-21 11:53:52,565 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_45_1755795232
+2025-08-21 11:53:52,576 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_45_1755795232
+2025-08-21 11:53:52,579 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_45_1755795232
+2025-08-21 11:53:52,605 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_45_1755795232 in 0.02s
+2025-08-21 11:53:52,605 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_45_1755795232, Time: 0.02s, Attachments: 0
+2025-08-21 11:53:52,805 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 46, Unique ID: email_46_1755795232
+2025-08-21 11:53:52,809 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_46_1755795232
+2025-08-21 11:53:52,816 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_46_1755795232
+2025-08-21 11:53:52,821 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_46_1755795232
+2025-08-21 11:53:52,847 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_46_1755795232 in 0.02s
+2025-08-21 11:53:52,854 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_46_1755795232, Time: 0.02s, Attachments: 0
+2025-08-21 11:53:53,290 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 47, Unique ID: email_47_1755795233
+2025-08-21 11:53:53,290 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_47_1755795233
+2025-08-21 11:53:53,293 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_47_1755795233: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:53,698 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 48, Unique ID: email_48_1755795233
+2025-08-21 11:53:53,699 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_48_1755795233
+2025-08-21 11:53:53,711 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_48_1755795233: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:54,115 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 49, Unique ID: email_49_1755795234
+2025-08-21 11:53:54,132 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_49_1755795234
+2025-08-21 11:53:54,135 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_49_1755795234
+2025-08-21 11:53:54,135 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_49_1755795234
+2025-08-21 11:53:54,151 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_49_1755795234 in 0.01s
+2025-08-21 11:53:54,152 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_49_1755795234, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:54,557 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 50, Unique ID: email_50_1755795234
+2025-08-21 11:53:54,564 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_50_1755795234
+2025-08-21 11:53:54,567 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_50_1755795234
+2025-08-21 11:53:54,598 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_50_1755795234
+2025-08-21 11:53:54,683 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_50_1755795234 in 0.04s
+2025-08-21 11:53:54,814 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_50_1755795234, Time: 0.04s, Attachments: 0
+2025-08-21 11:53:55,582 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 51, Unique ID: email_51_1755795235
+2025-08-21 11:53:55,583 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_51_1755795235
+2025-08-21 11:53:55,585 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_51_1755795235
+2025-08-21 11:53:55,586 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_51_1755795235
+2025-08-21 11:53:55,600 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_51_1755795235 in 0.01s
+2025-08-21 11:53:55,601 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_51_1755795235, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:56,021 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 52, Unique ID: email_52_1755795236
+2025-08-21 11:53:56,022 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_52_1755795236
+2025-08-21 11:53:56,050 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_52_1755795236
+2025-08-21 11:53:56,051 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_52_1755795236
+2025-08-21 11:53:56,113 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_52_1755795236 in 0.04s
+2025-08-21 11:53:56,113 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_52_1755795236, Time: 0.04s, Attachments: 0
+2025-08-21 11:53:56,507 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 53, Unique ID: email_53_1755795236
+2025-08-21 11:53:56,507 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_53_1755795236
+2025-08-21 11:53:56,510 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_53_1755795236: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:56,905 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 54, Unique ID: email_54_1755795236
+2025-08-21 11:53:56,907 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_54_1755795236
+2025-08-21 11:53:56,916 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_54_1755795236: 'Header' object has no attribute 'lower'
+2025-08-21 11:53:57,314 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 55, Unique ID: email_55_1755795237
+2025-08-21 11:53:57,315 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_55_1755795237
+2025-08-21 11:53:57,321 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_55_1755795237
+2025-08-21 11:53:57,321 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_55_1755795237
+2025-08-21 11:53:57,372 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_55_1755795237 in 0.03s
+2025-08-21 11:53:57,372 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_55_1755795237, Time: 0.03s, Attachments: 0
+2025-08-21 11:53:57,768 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 56, Unique ID: email_56_1755795237
+2025-08-21 11:53:57,770 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_56_1755795237
+2025-08-21 11:53:57,780 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_56_1755795237
+2025-08-21 11:53:57,781 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_56_1755795237
+2025-08-21 11:53:57,809 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_56_1755795237 in 0.02s
+2025-08-21 11:53:57,810 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_56_1755795237, Time: 0.02s, Attachments: 0
+2025-08-21 11:53:58,213 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 57, Unique ID: email_57_1755795238
+2025-08-21 11:53:58,214 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_57_1755795238
+2025-08-21 11:53:58,217 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_57_1755795238
+2025-08-21 11:53:58,218 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_57_1755795238
+2025-08-21 11:53:58,237 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_57_1755795238 in 0.01s
+2025-08-21 11:53:58,237 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_57_1755795238, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:58,663 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 58, Unique ID: email_58_1755795238
+2025-08-21 11:53:58,663 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_58_1755795238
+2025-08-21 11:53:58,666 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_58_1755795238
+2025-08-21 11:53:58,667 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_58_1755795238
+2025-08-21 11:53:58,687 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_58_1755795238 in 0.01s
+2025-08-21 11:53:58,687 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_58_1755795238, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:59,104 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 59, Unique ID: email_59_1755795239
+2025-08-21 11:53:59,105 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_59_1755795239
+2025-08-21 11:53:59,107 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_59_1755795239
+2025-08-21 11:53:59,107 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_59_1755795239
+2025-08-21 11:53:59,127 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_59_1755795239 in 0.01s
+2025-08-21 11:53:59,127 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_59_1755795239, Time: 0.01s, Attachments: 0
+2025-08-21 11:53:59,660 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 60, Unique ID: email_60_1755795239
+2025-08-21 11:53:59,660 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_60_1755795239
+2025-08-21 11:53:59,665 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_60_1755795239
+2025-08-21 11:53:59,680 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_60_1755795239
+2025-08-21 11:53:59,905 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_60_1755795239 in 0.23s
+2025-08-21 11:53:59,905 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_60_1755795239, Time: 0.23s, Attachments: 1
+2025-08-21 11:54:00,286 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 61, Unique ID: email_61_1755795240
+2025-08-21 11:54:00,287 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_61_1755795240
+2025-08-21 11:54:00,295 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_61_1755795240
+2025-08-21 11:54:00,305 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_61_1755795240
+2025-08-21 11:54:00,327 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_61_1755795240 in 0.03s
+2025-08-21 11:54:00,328 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_61_1755795240, Time: 0.03s, Attachments: 0
+2025-08-21 11:54:00,722 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 62, Unique ID: email_62_1755795240
+2025-08-21 11:54:00,728 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_62_1755795240
+2025-08-21 11:54:00,736 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_62_1755795240
+2025-08-21 11:54:00,738 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_62_1755795240
+2025-08-21 11:54:00,769 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_62_1755795240 in 0.01s
+2025-08-21 11:54:00,772 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_62_1755795240, Time: 0.01s, Attachments: 0
+2025-08-21 11:54:01,178 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 63, Unique ID: email_63_1755795241
+2025-08-21 11:54:01,179 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_63_1755795241
+2025-08-21 11:54:01,186 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_63_1755795241
+2025-08-21 11:54:01,191 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_63_1755795241
+2025-08-21 11:54:01,236 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_63_1755795241 in 0.02s
+2025-08-21 11:54:01,237 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_63_1755795241, Time: 0.02s, Attachments: 0
+2025-08-21 11:54:01,643 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 64, Unique ID: email_64_1755795241
+2025-08-21 11:54:01,643 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_64_1755795241
+2025-08-21 11:54:01,647 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_64_1755795241: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:02,057 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 65, Unique ID: email_65_1755795242
+2025-08-21 11:54:02,058 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_65_1755795242
+2025-08-21 11:54:02,073 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_65_1755795242
+2025-08-21 11:54:02,089 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_65_1755795242
+2025-08-21 11:54:02,120 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_65_1755795242 in 0.04s
+2025-08-21 11:54:02,121 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_65_1755795242, Time: 0.04s, Attachments: 0
+2025-08-21 11:54:02,502 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 66, Unique ID: email_66_1755795242
+2025-08-21 11:54:02,502 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_66_1755795242
+2025-08-21 11:54:02,505 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_66_1755795242: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:02,892 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 67, Unique ID: email_67_1755795242
+2025-08-21 11:54:02,893 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_67_1755795242
+2025-08-21 11:54:02,903 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_67_1755795242
+2025-08-21 11:54:02,904 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_67_1755795242
+2025-08-21 11:54:02,963 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_67_1755795242 in 0.04s
+2025-08-21 11:54:02,964 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_67_1755795242, Time: 0.04s, Attachments: 0
+2025-08-21 11:54:03,360 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 68, Unique ID: email_68_1755795243
+2025-08-21 11:54:03,361 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_68_1755795243
+2025-08-21 11:54:03,370 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_68_1755795243
+2025-08-21 11:54:03,372 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_68_1755795243
+2025-08-21 11:54:03,411 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_68_1755795243 in 0.03s
+2025-08-21 11:54:03,412 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_68_1755795243, Time: 0.03s, Attachments: 0
+2025-08-21 11:54:03,794 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 69, Unique ID: email_69_1755795243
+2025-08-21 11:54:03,794 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_69_1755795243
+2025-08-21 11:54:03,800 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_69_1755795243
+2025-08-21 11:54:03,801 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_69_1755795243
+2025-08-21 11:54:03,834 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_69_1755795243 in 0.02s
+2025-08-21 11:54:03,834 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_69_1755795243, Time: 0.02s, Attachments: 0
+2025-08-21 11:54:04,026 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 70, Unique ID: email_70_1755795244
+2025-08-21 11:54:04,026 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_70_1755795244
+2025-08-21 11:54:04,029 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_70_1755795244
+2025-08-21 11:54:04,030 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_70_1755795244
+2025-08-21 11:54:04,042 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_70_1755795244 in 0.01s
+2025-08-21 11:54:04,042 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_70_1755795244, Time: 0.01s, Attachments: 0
+2025-08-21 11:54:04,236 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 71, Unique ID: email_71_1755795244
+2025-08-21 11:54:04,236 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_71_1755795244
+2025-08-21 11:54:04,239 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_71_1755795244
+2025-08-21 11:54:04,239 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_71_1755795244
+2025-08-21 11:54:04,260 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_71_1755795244 in 0.01s
+2025-08-21 11:54:04,260 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_71_1755795244, Time: 0.01s, Attachments: 0
+2025-08-21 11:54:04,800 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 72, Unique ID: email_72_1755795244
+2025-08-21 11:54:04,802 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_72_1755795244
+2025-08-21 11:54:04,809 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_72_1755795244
+2025-08-21 11:54:04,822 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_72_1755795244
+2025-08-21 11:54:04,855 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_72_1755795244 in 0.04s
+2025-08-21 11:54:04,856 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_72_1755795244, Time: 0.04s, Attachments: 1
+2025-08-21 11:54:05,068 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 73, Unique ID: email_73_1755795245
+2025-08-21 11:54:05,129 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_73_1755795245
+2025-08-21 11:54:05,236 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_73_1755795245: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:05,642 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 74, Unique ID: email_74_1755795245
+2025-08-21 11:54:05,643 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_74_1755795245
+2025-08-21 11:54:05,652 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_74_1755795245: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:06,149 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 75, Unique ID: email_75_1755795246
+2025-08-21 11:54:06,151 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_75_1755795246
+2025-08-21 11:54:06,176 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_75_1755795246
+2025-08-21 11:54:06,217 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_75_1755795246
+2025-08-21 11:54:06,249 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_75_1755795246 in 0.08s
+2025-08-21 11:54:06,250 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_75_1755795246, Time: 0.08s, Attachments: 1
+2025-08-21 11:54:06,431 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 76, Unique ID: email_76_1755795246
+2025-08-21 11:54:06,431 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_76_1755795246
+2025-08-21 11:54:06,434 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_76_1755795246
+2025-08-21 11:54:06,435 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_76_1755795246
+2025-08-21 11:54:06,447 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_76_1755795246 in 0.01s
+2025-08-21 11:54:06,447 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_76_1755795246, Time: 0.01s, Attachments: 0
+2025-08-21 11:54:06,872 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 77, Unique ID: email_77_1755795246
+2025-08-21 11:54:06,872 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_77_1755795246
+2025-08-21 11:54:06,877 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_77_1755795246
+2025-08-21 11:54:06,878 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_77_1755795246
+2025-08-21 11:54:06,925 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_77_1755795246 in 0.01s
+2025-08-21 11:54:06,925 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_77_1755795246, Time: 0.01s, Attachments: 0
+2025-08-21 11:54:07,308 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 78, Unique ID: email_78_1755795247
+2025-08-21 11:54:07,308 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_78_1755795247
+2025-08-21 11:54:07,310 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_78_1755795247: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:07,701 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 79, Unique ID: email_79_1755795247
+2025-08-21 11:54:07,701 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_79_1755795247
+2025-08-21 11:54:07,703 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_79_1755795247: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:08,094 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 80, Unique ID: email_80_1755795248
+2025-08-21 11:54:08,095 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_80_1755795248
+2025-08-21 11:54:08,100 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_80_1755795248: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:08,486 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 81, Unique ID: email_81_1755795248
+2025-08-21 11:54:08,487 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_81_1755795248
+2025-08-21 11:54:08,491 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_81_1755795248: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:08,882 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 82, Unique ID: email_82_1755795248
+2025-08-21 11:54:08,883 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_82_1755795248
+2025-08-21 11:54:08,888 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_82_1755795248: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:09,092 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 83, Unique ID: email_83_1755795249
+2025-08-21 11:54:09,092 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_83_1755795249
+2025-08-21 11:54:09,094 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_83_1755795249
+2025-08-21 11:54:09,094 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_83_1755795249
+2025-08-21 11:54:09,104 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_83_1755795249 in 0.00s
+2025-08-21 11:54:09,105 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_83_1755795249, Time: 0.00s, Attachments: 0
+2025-08-21 11:54:09,292 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 84, Unique ID: email_84_1755795249
+2025-08-21 11:54:09,293 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_84_1755795249
+2025-08-21 11:54:09,295 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_84_1755795249
+2025-08-21 11:54:09,295 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_84_1755795249
+2025-08-21 11:54:09,304 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_84_1755795249 in 0.00s
+2025-08-21 11:54:09,305 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_84_1755795249, Time: 0.00s, Attachments: 0
+2025-08-21 11:54:09,518 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 85, Unique ID: email_85_1755795249
+2025-08-21 11:54:09,519 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_85_1755795249
+2025-08-21 11:54:09,524 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_85_1755795249
+2025-08-21 11:54:09,529 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_85_1755795249
+2025-08-21 11:54:09,549 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_85_1755795249 in 0.01s
+2025-08-21 11:54:09,549 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_85_1755795249, Time: 0.01s, Attachments: 0
+2025-08-21 11:54:09,964 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 86, Unique ID: email_86_1755795249
+2025-08-21 11:54:09,965 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_86_1755795249
+2025-08-21 11:54:09,986 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_86_1755795249: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:10,410 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 87, Unique ID: email_87_1755795250
+2025-08-21 11:54:10,411 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_87_1755795250
+2025-08-21 11:54:10,426 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_87_1755795250: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:10,917 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 88, Unique ID: email_88_1755795250
+2025-08-21 11:54:10,918 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_88_1755795250
+2025-08-21 11:54:10,920 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_88_1755795250: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:11,343 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 89, Unique ID: email_89_1755795251
+2025-08-21 11:54:11,344 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_89_1755795251
+2025-08-21 11:54:11,347 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_89_1755795251: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:11,803 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 90, Unique ID: email_90_1755795251
+2025-08-21 11:54:11,803 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_90_1755795251
+2025-08-21 11:54:11,808 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_90_1755795251
+2025-08-21 11:54:11,809 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_90_1755795251
+2025-08-21 11:54:11,849 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_90_1755795251 in 0.01s
+2025-08-21 11:54:11,850 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_90_1755795251, Time: 0.01s, Attachments: 0
+2025-08-21 11:54:12,242 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 91, Unique ID: email_91_1755795252
+2025-08-21 11:54:12,246 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_91_1755795252
+2025-08-21 11:54:12,254 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_91_1755795252: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:12,643 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 92, Unique ID: email_92_1755795252
+2025-08-21 11:54:12,644 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_92_1755795252
+2025-08-21 11:54:12,656 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_92_1755795252
+2025-08-21 11:54:12,658 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_92_1755795252
+2025-08-21 11:54:12,744 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_92_1755795252 in 0.06s
+2025-08-21 11:54:12,745 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_92_1755795252, Time: 0.06s, Attachments: 0
+2025-08-21 11:54:13,280 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 93, Unique ID: email_93_1755795253
+2025-08-21 11:54:13,325 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_93_1755795253
+2025-08-21 11:54:13,328 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_93_1755795253
+2025-08-21 11:54:13,342 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_93_1755795253
+2025-08-21 11:54:13,355 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_93_1755795253 in 0.02s
+2025-08-21 11:54:13,355 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_93_1755795253, Time: 0.02s, Attachments: 0
+2025-08-21 11:54:13,762 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 94, Unique ID: email_94_1755795253
+2025-08-21 11:54:13,763 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_94_1755795253
+2025-08-21 11:54:13,766 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_94_1755795253
+2025-08-21 11:54:13,767 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_94_1755795253
+2025-08-21 11:54:13,798 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_94_1755795253 in 0.02s
+2025-08-21 11:54:13,798 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_94_1755795253, Time: 0.02s, Attachments: 0
+2025-08-21 11:54:14,192 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 95, Unique ID: email_95_1755795254
+2025-08-21 11:54:14,194 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_95_1755795254
+2025-08-21 11:54:14,210 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_95_1755795254: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:14,604 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 96, Unique ID: email_96_1755795254
+2025-08-21 11:54:14,605 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_96_1755795254
+2025-08-21 11:54:14,615 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_96_1755795254
+2025-08-21 11:54:14,616 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_96_1755795254
+2025-08-21 11:54:14,697 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_96_1755795254 in 0.07s
+2025-08-21 11:54:14,697 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_96_1755795254, Time: 0.07s, Attachments: 0
+2025-08-21 11:54:15,089 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 97, Unique ID: email_97_1755795255
+2025-08-21 11:54:15,090 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_97_1755795255
+2025-08-21 11:54:15,105 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_97_1755795255
+2025-08-21 11:54:15,106 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_97_1755795255
+2025-08-21 11:54:15,133 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_97_1755795255 in 0.02s
+2025-08-21 11:54:15,133 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_97_1755795255, Time: 0.02s, Attachments: 0
+2025-08-21 11:54:15,321 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 98, Unique ID: email_98_1755795255
+2025-08-21 11:54:15,321 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_98_1755795255
+2025-08-21 11:54:15,329 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_98_1755795255: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:15,727 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 99, Unique ID: email_99_1755795255
+2025-08-21 11:54:15,728 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_99_1755795255
+2025-08-21 11:54:15,739 - gmail_processor - ERROR - process_single_email:130 - Failed to process email email_99_1755795255: 'Header' object has no attribute 'lower'
+2025-08-21 11:54:15,962 - gmail_processor - INFO - log_email_processing_start:301 - Starting processing - Email ID: 100, Unique ID: email_100_1755795255
+2025-08-21 11:54:15,963 - gmail_processor - INFO - process_single_email:54 - Extracting metadata for email email_100_1755795255
+2025-08-21 11:54:15,966 - gmail_processor - INFO - process_single_email:58 - Processing attachments for email email_100_1755795255
+2025-08-21 11:54:15,967 - gmail_processor - INFO - process_single_email:62 - Extracting text content for email email_100_1755795255
+2025-08-21 11:54:15,984 - gmail_processor - INFO - process_single_email:112 - Successfully processed email email_100_1755795255 in 0.01s
+2025-08-21 11:54:15,984 - gmail_processor - INFO - log_email_processing_complete:307 - Completed processing - Unique ID: email_100_1755795255, Time: 0.01s, Attachments: 0
+2025-08-21 11:54:19,793 - gmail_processor - ERROR - main:321 - Critical error in main processing: JSONConverter.create_summary_json() takes 2 positional arguments but 3 were given

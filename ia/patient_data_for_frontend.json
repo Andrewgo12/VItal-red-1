@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "generated_at": "2025-08-21T12:42:56.702027",
+    "total_records": 7,
+    "source": "Gmail Patient Data",
+    "version": "1.0"
+  },
+  "records": [
+    {
+      "id": "PAT-unknown",
+      "patientName": "Paciente 202508211242",
+      "patientId": "P20250821124256",
+      "type": "patient_communication",
+      "subject": "REPROGRAMACION CAPACITACION PROGRAMADORES SOFTWARE",
+      "sender": "practicas.proyecto@pio.edu.co",
+      "date": "2025-02-20T09:13:12",
+      "category": "Citas",
+      "status": "Activo",
+      "summary": "REPROGRAMACION CAPACITACION PROGRAMADORES SOFTWARE "
+    },
+    {
+      "id": "PAT-unknown",
+      "patientName": "Paciente 202508211242",
+      "patientId": "P20250821124256",
+      "type": "patient_communication",
+      "subject": "CAPACITACION PROGRAMADORES SOFTWARE",
+      "sender": "practicas.proyecto@pio.edu.co",
+      "date": "2025-02-19T16:49:46",
+      "category": "Citas",
+      "status": "Activo",
+      "summary": "CAPACITACION PROGRAMADORES SOFTWARE "
+    },
+    {
+      "id": "PAT-55283262",
+      "patientName": "María Elena Rodríguez",
+      "patientId": "P20250821124256",
+      "type": "patient_communication",
+      "subject": "Referencia urgente - Dolor torácico agudo",
+      "sender": "dr.mendoza@hospitalsanjose.com",
+      "date": "2025-08-15T13:41:02.704676",
+      "category": "Medicamentos",
+      "status": "Activo",
+      "summary": "Referencia urgente - Dolor torácico agudo \n            Estimado colega,\n            \n            Le refiero paciente María Elena Rodríguez, femenina de 45 años, quien presenta:\n            \n          ..."
+    },
+    {
+      "id": "PAT-55217202",
+      "patientName": "Carlos Alberto Pérez\n            Edad",
+      "patientId": "P20250821124256",
+      "type": "patient_communication",
+      "subject": "Consulta cardiológica - Insuficiencia cardíaca",
+      "sender": "dra.garcia@clinicacentral.com",
+      "date": "2025-08-14T19:20:02.704802",
+      "category": "General",
+      "status": "Activo",
+      "summary": "Consulta cardiológica - Insuficiencia cardíaca \n            Estimado especialista,\n            \n            Paciente: Carlos Alberto Pérez\n            Edad: 62 años\n            Género: Masculino\n     ..."
+    },
+    {
+      "id": "PAT-55143882",
+      "patientName": "Ana Sofía Martínez\n            Edad",
+      "patientId": "P20250821124256",
+      "type": "patient_communication",
+      "subject": "Embarazo de alto riesgo - Evaluación ginecológica",
+      "sender": "dr.lopez@centrosalud.com",
+      "date": "2025-08-13T22:58:02.704860",
+      "category": "General",
+      "status": "Activo",
+      "summary": "Embarazo de alto riesgo - Evaluación ginecológica \n            Estimada colega,\n            \n            Paciente: Ana Sofía Martínez\n            Edad: 28 años\n            Género: Femenino\n           ..."
+    },
+    {
+      "id": "PAT-55277742",
+      "patientName": "Roberto Jiménez\n            Edad",
+      "patientId": "P20250821124256",
+      "type": "patient_communication",
+      "subject": "Fractura de cadera - Evaluación ortopédica",
+      "sender": "dra.torres@hospitalgeneral.com",
+      "date": "2025-08-15T12:09:02.704906",
+      "category": "General",
+      "status": "Activo",
+      "summary": "Fractura de cadera - Evaluación ortopédica \n            Estimado ortopedista,\n            \n            Paciente: Roberto Jiménez\n            Edad: 55 años\n            Género: Masculino\n            \n  ..."
+    },
+    {
+      "id": "PAT-55290042",
+      "patientName": "José Miguel Torres\n            Edad",
+      "patientId": "P20250821124256",
+      "type": "patient_communication",
+      "subject": "Accidente cerebrovascular - Evaluación neurológica urgente",
+      "sender": "dr.ramirez@hospitalregional.com",
+      "date": "2025-08-15T15:34:02.704948",
+      "category": "Seguimiento",
+      "status": "Activo",
+      "summary": "Accidente cerebrovascular - Evaluación neurológica urgente \n            Estimado neurólogo,\n            \n            Paciente: José Miguel Torres\n            Edad: 55 años\n            Género: Masculin..."
+    }
+  ],
+  "statistics": {
+    "by_category": {
+      "Citas": 2,
+      "Medicamentos": 1,
+      "General": 3,
+      "Seguimiento": 1
+    },
+    "total_active": 7
+  }
+}

@@ -1,0 +1,23 @@
+Email ID: email_76_1755795246
+==================================================
+
+EMAIL BODY:
+--------------------
+Hello kevin andres gonzalez dinas,
+
+Your workspace request has been approved!
+
+Workspace:
+andres_gonzalez
+
+Username:
+kevinrlinze@gmail.com
+
+Environment:
+https://apex.oracle.com/pls/apex/
+
+Click the button below to complete the approval process and set your password.
+https://apex.oracle.com/pls/apex/r/apex/sign-up/workspace-creation?provision_id=12895257309349291473
+
+This is a system generated message. Do not reply to this message.
+

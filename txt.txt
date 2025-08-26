@@ -1,0 +1,738 @@
+NOMBRE DEL PROYECTO:
+VITAL RED
+
+
+
+
+
+
+
+
+DESARROLLADORES:
+KEVIN ANDRÉS GONZÁLEZ DINAS
+Y
+ KEVIN DAVID CHABARRO
+
+
+
+
+
+
+
+AGOSTO 2025
+HOSPITAL UNIVERSITARIA ESE
+DEPARTAMENTO DE INNOVACIÓN Y DESARROLLO
+DESARROLLO DE LA APLICACIÓN PRECIZA (VITAL RED)
+
+
+INTRODUCCIÓN
+
+
+El proceso de referencia y contra-referencia de pacientes es un componente fundamental para asegurar la continuidad y calidad en la prestación de servicios de salud a través de los distintos niveles asistenciales. En este marco, la aplicación Precisa ha sido concebida como una herramienta tecnológica destinada a facilitar la gestión digital de dichos procesos en el Hospital Universitaria ESE.
+
+Actualmente, el proyecto Vital Red se encuentra en la etapa de rediseño y desarrollo inicial de la mencionada aplicación. Aunque aún no ha sido implementada en el entorno hospitalario, se ha avanzado sustancialmente en la elaboración de prototipos y maquetas funcionales que permiten anticipar aspectos clave del diseño y la usabilidad del sistema.
+
+Se proyecta que, en un plazo aproximado de dos meses, se lleven a cabo pruebas rigurosas para validar la funcionalidad y eficiencia de la aplicación, este proceso es necesario antes desarrollar de forma interna en el hospital, para identificar falencias o necesidades en las funcionalidades de la aplicación. Esta fase es parte integral de la estrategia institucional orientada a la innovación tecnológica y la transformación digital, con el propósito de optimizar los procesos operativos y fortalecer la calidad en la atención a los pacientes mediante una gestión eficiente de la referencia y contra-referencia de pacientes hacia la institución.
+
+Este esfuerzo es desarrollado por Kevin Andrés González Dinas y Kevin David Chabarro, bajo la coordinación del Departamento de Innovación y Desarrollo del Hospital Universitaria ESE, con el compromiso de contribuir al avance tecnológico de la institución y la mejora continua de sus servicios.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contenido
+VITAL RED	1
+INTRODUCCIÓN	2
+1. INFORMACIÓN GENERAL DEL PROYECTO	3
+2. JUSTIFICACIÓN Y ALCANCE	4
+ALCANCE	6
+4. DISEÑO Y ARQUITECTURA	8
+4.1 Arquitectura del sistema	8
+4.2 Funcionalidades clave orientadas a la optimización del flujo operativo	9
+4.3 Componentes y flujo de datos	9
+4.4 Interfaces de usuario (Bosquejo preliminar)	10
+5. HERRAMIENTAS Y TECNOLOGÍAS	11
+5.1 Lenguajes de programación	11
+5.2 Frameworks y librerías	12
+5.3 Gestor de base de datos	12
+5.4 Entornos de desarrollo y pruebas	12
+5.5 Control de versiones	12
+6. PLAN DE DESARROLLO	12
+6.1 Cronograma y fases de desarrollo	12
+6.2 Hitos y entregables	13
+7. PRUEBAS Y CONTROL DE CALIDAD	13
+7.1 Estrategia de pruebas	14
+7.2 Casos de prueba y resultados esperados	15
+7.3 Correcciones aplicadas	15
+8. MANUAL DE USUARIO	15
+8.1 Instalación o acceso	16
+8.2 Configuración inicial	16
+8.3 Guía de uso de las funciones principales	16
+8.4 Preguntas frecuentes (FAQ)	17
+9.1 Estructura del código	17
+9.2 Configuración del entorno de desarrollo	18
+9.3 Scripts de instalación y migraciones	19
+9.4 Procedimientos de mantenimiento y actualización	19
+10. RESPALDO Y CONTINUIDAD OPERATIVA	20
+10.1 Control de acceso básico	20
+10.2 Respaldo de datos	21
+10.3 Consideraciones de confidencialidad	21
+
+1. INFORMACIÓN GENERAL DEL PROYECTO
+Esta sección proporciona una visión global y básica del proyecto para identificarlo de forma clara y resumida.
+•	TÍTULO DEL PROYECTO: Vital Red (Precisa).
+
+•	VERSIÓN DE LA APLICACIÓN: 1.0 – Etapa de rediseño y desarrollo inicial.
+•	FECHA DE INICIO Y FINALIZACIÓN:
+- Inicio: 28 de septiembre de 2025
+– Finalización estimada: diciembre de 2025.
+•	Equipo de trabajo (roles y responsables):
+o	Desarrollador: Kevin Andrés González Dinas
+o	Desarrollador: Kevin David Chabarro.
+o	Coordinación y supervisión: Departamento de Innovación y Desarrollo – Hospital Universitaria ESE
+•	DESCRIPCIÓN BREVE DE LA APLICACIÓN Y SU OBJETIVO PRINCIPAL:
+
+Vital Red es un proyecto institucional enfocado en el rediseño y desarrollo de la aplicación Precisa, una herramienta tecnológica creada para automatizar y agilizar el proceso de referencia y contra-referencia de pacientes en el Hospital Universitaria ESE. Su objetivo es optimizar la gestión de estos procedimientos mediante una plataforma digital eficiente, reduciendo tiempos de respuesta, eliminando procesos manuales innecesarios y mejorando la coordinación entre los diferentes niveles asistenciales. Actualmente, el proyecto se encuentra en fase de diseño de prototipos y maquetas funcionales, con pruebas planificadas para evaluar su rendimiento antes de su implementación definitiva en el entorno hospitalario.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. JUSTIFICACIÓN Y ALCANCE
+
+•	Problema o necesidad:
+En el Hospital Universitaria ESE, el proceso de referencia y contra-referencia de pacientes presenta demoras significativas debido a la falta de procesos digitales ágiles y centralizados. Esta situación provoca que pacientes, incluso con síntomas leves, lleguen a la institución en taxis o ambulancias en busca de atención prioritaria, saturando el área de urgencias.
+Como consecuencia, se supera la capacidad instalada, quedando personas sin camas o espacios adecuados. Además, la espera prolongada para la atención inicial genera que algunos pacientes vean agravado su estado de salud, pasando de casos leves a situaciones de mayor complejidad clínica. La ausencia de un sistema eficiente para gestionar estas referencias de manera inmediata repercute directamente en la calidad y oportunidad de la atención médica, y aumenta la carga operativa del personal.
+OBJETIVOS:
+•	OBJETIVO GENERAL: Analizar el funcionamiento de Precisa durante su periodo de prueba y, con base en los hallazgos, diseñar y desarrollar Vital Red como una solución integral para la gestión digital del proceso de referencia y contra-referencia de pacientes.
+•	Objetivos específicos:
+1. Etapa de análisis (Precisa):
+•	Ejecutar pruebas funcionales de Precisa durante un periodo de dos meses en condiciones reales de operación dentro de la institución.
+•	Identificar fortalezas, limitaciones y oportunidades de mejora en el flujo de referencia y contra-referencia.
+•	Medir el impacto en la reducción de tiempos de atención y coordinación entre las áreas internas del hospital.
+•	Registrar incidencias, problemas recurrentes y restricciones técnicas observadas.
+2. Etapa de levantamiento de información:
+•	Realizar entrevistas estructuradas exclusivamente con el personal que haya operado Precisa durante su fase de pruebas.
+•	Recopilar sugerencias, requerimientos y necesidades operativas identificadas durante su uso.
+•	Analizar métricas de desempeño y patrones de uso para orientar el rediseño.
+
+
+
+3. Etapa de diseño y construcción (Vital Red):
+•	Definir una arquitectura de software escalable e interoperable que responda a las necesidades detectadas.
+•	Integrar funcionalidades de comunicación interna en tiempo real, sistemas de notificación para uso intrahospitalario y módulos de priorización clínica de casos dentro de la institución.
+•	Desarrollar un prototipo funcional de Vital Red basado en los requisitos validados y aprobados.
+4. Etapa de pruebas y validación (Vital Red):
+•	Implementar un plan de pruebas internas con protocolos de validación técnica y funcional.
+•	Verificar la usabilidad, estabilidad y rendimiento de la plataforma en entornos controlados del hospital.
+•	Ajustar las funcionalidades en función de la retroalimentación del personal evaluador.
+
+-PÚBLICO OBJETIVO O USUARIOS FINALES:
+
+•	Médicos especialistas y personal encargado de los procesos de referencia y contra-referencia en el Hospital Universitaria ESE. Su labor consiste en evaluar la condición médica de cada paciente y determinar si requiere un servicio especializado que solo puede ser ofrecido por el hospital, priorizando aquellos casos cuya situación de salud sea delicada o requiera atención inmediata.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALCANCE
+Lo que cubre el proyecto:
+•	Gestión digital de solicitudes de referencia y contra-referencia provenientes de EPS, hospitales de otros niveles y entidades externas.
+•	Recepción centralizada de solicitudes en la aplicación para revisión por el equipo especializado.
+•	Evaluación interna de cada caso para determinar si cumple con los criterios médicos y de prioridad establecidos por el hospital.
+•	Envío de notificaciones internas a los usuarios responsables cuando una solicitud es aceptada, para que se inicie el proceso de traslado o atención prioritaria.
+•	Módulos de priorización clínica basados en criterios médicos definidos por la institución.
+•	Registro y trazabilidad de cada solicitud para fines de auditoría y seguimiento.
+•	Generación de reportes y métricas sobre tiempos de respuesta y volumen de solicitudes.
+•	Acceso controlado para personal autorizado.
+Lo que queda fuera del proyecto:
+•	Comunicación directa con pacientes o familiares.
+•	Gestión administrativa o clínica fuera del proceso de referencia y contra-referencia.
+•	Integración con sistemas externos no autorizados por el hospital.
+•	Funcionalidades de telemedicina o consultas médicas en línea.
+3. Requerimientos
+3.1 Requerimientos funcionales
+El sistema deberá:
+1.	Recibir y registrar de forma centralizada todas las solicitudes de referencia y contra-referencia enviadas por EPS, hospitales y otras instituciones autorizadas.
+2.	Permitir al personal especializado revisar y evaluar cada solicitud según criterios médicos y de prioridad definidos por el hospital.
+3.	Facilitar la aceptación o rechazo de solicitudes con registro automático de la decisión y sus motivos.
+4.	Notificar internamente a los usuarios responsables cuando una solicitud es aceptada, para que se inicie el proceso de evaluación presencial del paciente.
+5.	Incluir un módulo de priorización clínica que clasifique automáticamente los casos según necesidad del servicio y urgencia.
+6.	Mantener un historial de cada solicitud para seguimiento y control interno.
+7.	Generar reportes y métricas sobre tiempos de respuesta, volumen de solicitudes y distribución por tipo de caso.
+3.2 Requerimientos no funcionales
+El sistema deberá:
+1.	Operar exclusivamente en la red interna del hospital.
+2.	Garantizar un tiempo de respuesta rápido para las operaciones principales (menos de 3 segundos).
+3.	Ser compatible con los equipos y sistemas operativos usados por el hospital (PCs con Windows).
+4.	Tener una interfaz clara y adaptada al flujo de trabajo del personal que evalúa solicitudes.
+5.	Mantener disponibilidad continua durante el horario de operación del área de referencia y contra-referencia.
+3.3 Restricciones
+1.	No se integrará con plataformas externas sin autorización del departamento de Innovación y Desarrollo.
+2.	El acceso estará limitado a los usuarios asignados por el hospital.
+3.	El desarrollo se ajustará a la infraestructura técnica disponible.
+4.	El proyecto deberá cumplir los plazos definidos según el plan de trabajo.
+5.	El alcance se limitará al proceso interno de gestión de solicitudes y no incluirá atención directa a pacientes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. DISEÑO Y ARQUITECTURA
+4.1 Arquitectura del sistema
+El sistema se implementará bajo un modelo cliente-servidor monolítico operando exclusivamente en la red interna del hospital para garantizar baja latencia y alta disponibilidad.
+•	Capa de presentación (Frontend): HTML5, CSS3, JavaScript con Vue.js y Bootstrap para una interfaz responsiva y dinámica.
+•	Capa de negocio (Backend): Laravel sobre XAMPP (Apache, PHP, MySQL) con control de flujo y lógica de validación centralizada.
+•	Persistencia de datos (Base de datos): MySQL optimizado para consultas de alto rendimiento en volúmenes medios de datos.
+•	Seguridad y control de acceso: Gestión de credenciales por roles (médico evaluador, administrador del sistema) y bitácora de auditoría para trazabilidad de acciones.
+•	Módulo de IA local: Motor de Procesamiento de Lenguaje Natural (NLP) para análisis semántico de correos y documentos adjuntos, con clasificación automática de solicitudes según criterios médicos predefinidos.
+
+4.2 Funcionalidades clave orientadas a la optimización del flujo operativo
+1.	Clasificación asistida por IA
+o	Procesamiento automático de mensajes entrantes desde el buzón institucional.
+o	Análisis de contenido textual y documentos adjuntos (PDF, imágenes) para extracción estructurada de datos clínicos relevantes (identificación del paciente, diagnóstico presuntivo, entidad remitente, nivel de urgencia, servicios requeridos).
+o	Aplicación de un algoritmo de priorización preliminar para ordenar las solicitudes según criticidad médica.
+2.	Gestión dinámica de solicitudes
+o	Actualización en tiempo real mediante WebSockets para la bandeja de entrada del evaluador.
+o	Filtros avanzados por nivel de prioridad, estado, especialidad solicitada, fecha de recepción o remitente.
+3.	Notificación interna automatizada
+o	Envío de alertas inmediatas al equipo receptor cuando una solicitud es aceptada para traslado.
+
+4.	Historial transaccional
+o	Registro cronológico de eventos por solicitud: recepción, clasificación automática, revisión médica, decisión final y comunicación interna.
+5.	Respuestas estandarizadas
+o	Plantillas parametrizables para rechazos, requerimientos adicionales o aceptación, reduciendo tiempos de comunicación.
+
+4.3 Componentes y flujo de datos
+Componentes principales:
+•	Módulo de recepción: Captura automática de correos entrantes y documentos asociados.
+•	Módulo de NLP: Procesamiento semántico y extracción de entidades médicas relevantes.
+•	Clasificador de prioridad: Algoritmo de categorización en base a criterios definidos por el hospital.
+•	Gestor de solicitudes: Interfaz de administración, validación y decisión médica.
+•	Módulo de notificaciones internas: Distribución automática de la decisión al equipo correspondiente.
+Flujo resumido:
+1.	Captura de correo → Análisis semántico (NLP) → Extracción de datos clínicos → Clasificación preliminar.
+2.	Registro en sistema → Visualización por médico evaluador → Validación o ajuste de prioridad.
+3.	Generación de decisión → Notificación interna → Registro en historial.
+•	Modelos de base de datos (MER, MR): Diagramas conceptuales y relacionales que describen las tablas, relaciones y llaves.
+•	Interfaces de usuario (mockups, wireframes, prototipos): Diseños visuales de las pantallas y estructura de navegación.
+•	API y endpoints: Listado de interfaces de programación y rutas disponibles para la integración con otros sistemas.
+
+4.4 Interfaces de usuario (Bosquejo preliminar)
+Se dispone de un conjunto inicial de vistas, derivadas de prototipos en baja fidelidad, que representan el flujo central del sistema desde la recepción de la solicitud hasta la decisión final de traslado. Estas vistas contemplan:
+
+
+1.	Panel de importación de solicitudes
+o	Visualiza solicitudes extraídas automáticamente desde el servicio de correo (Gmail) mediante un módulo de integración y análisis de IA.
+o	Presenta campos clave preprocesados (identificación del paciente, remitente, resumen clínico, documentos adjuntos).
+2.	Bandeja de casos médicos
+o	Lista todas las solicitudes procesadas, con filtros por nivel de prioridad, fecha, estado de evaluación y tipo de servicio solicitado.
+o	Permite acceso directo al detalle de cada caso.
+3.	Formulario de priorización y decisión
+o	Muestra la información clínica relevante extraída del correo y de documentos PDF adjuntos (EPICRISIS, remisión, etc.).
+o	Incluye controles para asignar prioridad clínica (alta, media, baja) y decidir si se autoriza el traslado al Hospital Universitario ESE.
+o	Posibilidad de añadir observaciones y solicitudes de información adicional.
+4.	Historial y trazabilidad
+o	Registro cronológico de todas las solicitudes recibidas, con detalle de evaluaciones previas, cambios de prioridad y decisiones finales.
+o	Funcionalidad de auditoría interna para seguimiento y control del proceso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. HERRAMIENTAS Y TECNOLOGÍAS
+El desarrollo de Vital Red se sustentará en un conjunto de herramientas y tecnologías que garantizan la correcta implementación, pruebas y mantenimiento del sistema dentro del entorno del Hospital Universitario ESE.
+5.1 Lenguajes de programación
+•	PHP 8.x: Lenguaje principal para el backend, compatible con el framework Laravel y adecuado para despliegues en entornos internos del hospital.
+•	JavaScript (ES6+): Implementación de la lógica del lado del cliente, validaciones y componentes interactivos en la interfaz.
+•	Python 3.x: Utilizado para el módulo de IA encargado de analizar correos electrónicos (Gmail) y extraer datos de documentos PDF (PGD, epicrisis, remisiones).
+5.2 Frameworks y librerías
+•	Laravel 10.x: Framework PHP para el backend, gestión de rutas, controladores y comunicación con la base de datos.
+•	React.js: Biblioteca de JavaScript para la creación de interfaces dinámicas y modulares.
+•	Tailwind CSS: Framework de CSS utilitario para diseño responsivo y consistente.
+•	Pandas / PyPDF2 / Google API Client (Python): Librerías para procesamiento de datos, análisis de PDFs y conexión con Gmail API.
+•	Axios: Cliente HTTP para comunicación entre frontend y backend.
+5.3 Gestor de base de datos
+•	MySQL 8.x: Base de datos relacional instalada en el entorno local del hospital, optimizada para consultas de alto rendimiento y consistencia en procesos críticos.
+5.4 Entornos de desarrollo y pruebas
+•	XAMPP: Servidor local para pruebas internas de PHP y MySQL.
+•	Postman: Pruebas y validación de endpoints API.
+•	Entorno de pruebas internas en red local del hospital, aislado de la red pública para mayor control y estabilidad.
+5.5 Control de versiones
+•	Git: Sistema de control de versiones para seguimiento de cambios y trabajo colaborativo.
+•	GitHub (repositorio privado): Almacenamiento seguro del código fuente y documentación técnica.
+
+6. PLAN DE DESARROLLO
+El desarrollo de Vital Red seguirá una estrategia híbrida, combinando elementos de la metodología ágil para iteraciones rápidas y revisiones constantes con aspectos de la metodología cascada en las fases iniciales de levantamiento de información y diseño, donde la secuencia es más lineal.
+Este enfoque permitirá:
+•	Analizar de manera estructurada los resultados de Precisa antes de iniciar la construcción de Vital Red.
+•	Implementar mejoras de forma progresiva y controlada.
+•	Mantener entregables claros y verificables en cada fase.
+6.1 Cronograma y fases de desarrollo
+Fase	Duración estimada	Descripción
+Fase 1 – Análisis y pruebas de Precisa	2 meses (Agosto - Septiembre 2025)	Uso de Precisa en escenarios reales para identificar fortalezas, debilidades y oportunidades de mejora. Recopilación de métricas de tiempo de respuesta y calidad en el proceso de referencia y contra-referencia.
+Fase 2 – Levantamiento de información	2 semanas (Octubre 2025)	Entrevistas con el personal que utilizó Precisa, recolección de sugerencias y revisión de datos de desempeño.
+Fase 3 – Diseño y arquitectura de Vital Red	3 semanas (Octubre - Noviembre 2025)	Definición de la arquitectura técnica, diagramas de flujo, modelo de base de datos y diseño preliminar de interfaces.
+Fase 4 – Desarrollo del prototipo	6 semanas (Noviembre - Diciembre 2025)	Construcción del prototipo funcional con las funcionalidades principales, incluyendo módulo de IA para análisis de correos y PDFs médicos.
+Fase 5 – Pruebas internas y ajustes	4 semanas (Enero 2026)	Pruebas de rendimiento, validación con usuarios internos y ajustes basados en retroalimentación.
+Fase 6 – Implementación en producción interna	2 semanas (Febrero 2026)	Instalación en servidores del hospital y capacitación al personal encargado.
+
+
+
+
+
+
+
+
+
+
+6.2 Hitos y entregables
+•	Hito 1 (septiembre 2025): Informe de análisis de Precisa con métricas y hallazgos.
+•	Hito 2 (octubre 2025): Documento de requerimientos y alcance de Vital Red.
+•	Hito 3 (noviembre 2025): Diagramas de arquitectura, base de datos y mockups de interfaces.
+•	Hito 4 (diciembre 2025): Prototipo funcional listo para pruebas.
+•	Hito 5 (enero 2026): Informe de validación y lista de ajustes finales.
+•	Hito 6 (febrero 2026): Sistema en funcionamiento dentro del hospital.
+
+7. PRUEBAS Y CONTROL DE CALIDAD
+El proceso de validación de Vital Red estará orientado a asegurar que todas las funcionalidades respondan a las necesidades detectadas en la etapa de análisis de Precisa, manteniendo un desempeño estable y una experiencia de uso clara para el personal médico.
+7.1 Estrategia de pruebas
+Se aplicarán distintos tipos de pruebas en fases específicas del desarrollo:
+1.	Pruebas unitarias
+o	Validación individual de cada módulo (lectura de correos, extracción de datos de PDFs, priorización clínica, registro de casos).
+o	Objetivo: Garantizar que cada componente funcione de manera aislada según su especificación.
+2.	Pruebas de integración
+o	Evaluación del funcionamiento conjunto de módulos interconectados (por ejemplo, módulo de análisis de correos + base de datos + interfaz de priorización).
+o	Objetivo: Verificar la correcta comunicación entre componentes y evitar pérdida de datos.
+3.	Pruebas funcionales
+o	Simulación del flujo completo de trabajo: desde la recepción de una solicitud externa, su clasificación por IA y la decisión final del médico evaluador.
+o	Objetivo: Confirmar que el sistema cumple con todos los requerimientos funcionales definidos.
+
+
+4.	Pruebas de estrés y carga
+o	Ejecución de escenarios con alto volumen de solicitudes simultáneas para evaluar la estabilidad y tiempos de respuesta del sistema bajo presión.
+o	Objetivo: Determinar la capacidad máxima operativa y prevenir fallos en picos de uso.
+5.	Pruebas de aceptación por el usuario (UAT)
+o	Pruebas realizadas por el personal médico y administrativo del hospital en un entorno de preproducción.
+o	Objetivo: Validar la usabilidad y efectividad del sistema en condiciones reales de trabajo.
+
+7.2 Casos de prueba y resultados esperados
+•	Caso 1: Recepción y lectura automática de correos con solicitudes médicas.
+o	Resultado esperado: Datos extraídos correctamente y cargados en la base de datos.
+•	Caso 2: Clasificación de casos por nivel de prioridad clínica.
+o	Resultado esperado: Asignación correcta según criterios médicos definidos.
+•	Caso 3: Envío de notificación interna al médico evaluador.
+o	Resultado esperado: Notificación generada sin retrasos y vinculada al caso correspondiente.
+•	Caso 4: Registro de decisión final (aceptado/rechazado) y generación de reporte.
+o	Resultado esperado: Almacenamiento correcto en la base de datos y accesible para auditoría.
+•	Caso 5: Flujo de trabajo con más de 100 solicitudes simultáneas.
+o	Resultado esperado: Respuesta estable, sin pérdida de datos ni caídas del sistema.
+
+
+
+
+
+
+
+
+
+
+
+
+7.3 Correcciones aplicadas
+Durante la fase de pruebas se documentarán todos los incidentes y se gestionarán mediante un sistema de seguimiento de errores (bug tracking).
+Cada corrección incluirá:
+•	Descripción del fallo detectado.
+•	Causa raíz identificada.
+•	Solución implementada.
+•	Evidencia de validación posterior.
+
+8. MANUAL DE USUARIO
+Guía práctica para el personal médico y administrativo encargado de la evaluación y gestión de solicitudes de referencia y contra-referencia de pacientes dentro del hospital.
+
+8.1 Instalación o acceso
+•	Acceso web:
+1.	Abrir un navegador actualizado (Google Chrome, Mozilla Firefox o Microsoft Edge).
+2.	Ingresar la dirección interna del sistema (URL provista por el área de TI).
+3.	Introducir las credenciales asignadas (usuario y contraseña).
+•	Acceso desde intranet:
+o	El sistema estará disponible directamente desde la red interna del hospital, sin necesidad de instalación en equipos locales.
+
+8.2 Configuración inicial
+1.	Ingreso de credenciales: Al primer acceso, el sistema solicitará el cambio de la contraseña temporal por una personalizada.
+2.	Asignación de rol: El administrador del sistema configurará previamente el rol del usuario (médico evaluador, coordinador, administrativo).
+3.	Preferencias de notificación: Activar o desactivar alertas internas según las necesidades del usuario (ej. notificación en pantalla o por correo interno).
+
+
+
+8.3 Guía de uso de las funciones principales
+1. Recepción de solicitudes
+•	El sistema procesa automáticamente los correos entrantes desde las EPS y otros hospitales.
+•	La IA extrae la información de los documentos adjuntos (PDF, imágenes) y la presenta en un formulario digital.
+2. Evaluación clínica
+•	El médico evaluador revisa la información del caso.
+•	Se asigna un nivel de prioridad (alta, media o baja) según criterios establecidos.
+•	Decidir si se aprueba o rechaza el traslado al hospital de nivel 4.
+3. Notificación interna
+•	En caso de aprobación, se envía automáticamente la información al equipo encargado de la recepción de pacientes.
+4. Registro y consulta de historial
+•	Todos los casos quedan almacenados en la base de datos.
+•	El usuario puede filtrar por fecha, prioridad, estado o servicio médico requerido.
+
+8.4 Preguntas frecuentes (FAQ)
+P1: ¿Qué hago si no puedo iniciar sesión?
+•	Verificar que está usando el navegador recomendado y la URL correcta.
+•	Contactar al área de soporte para restablecer la contraseña.
+P2: ¿Qué pasa si un archivo adjunto no se carga correctamente?
+•	Revisar que el formato sea PDF o imagen compatible.
+•	En caso de persistir el problema, registrar el incidente en la mesa de ayuda.
+P3: ¿Puedo modificar una decisión una vez tomada?
+•	Solo el rol de coordinador puede revertir una decisión, dejando constancia en el historial del caso.
+P4: ¿El sistema funciona fuera del hospital?
+•	No, Vital Red está diseñado para uso exclusivo dentro de la red interna del hospital.
+
+
+9. MANUAL TÉCNICO
+Guía técnica para desarrolladores y administradores encargados de la instalación, mantenimiento y evolución del sistema Vital Red.
+
+9.1 Estructura del código
+Organización estándar en base a Laravel para el backend y un framework JavaScript moderno para el frontend.
+/vital-red
+│
+├── /app                  # Lógica de negocio y controladores
+│   ├── /Http
+│   ├── /Models
+│   └── /Services
+│
+├── /bootstrap            # Archivos de arranque del framework
+├── /config               # Archivos de configuración global
+├── /database
+│   ├── /migrations       # Migraciones de estructura de BD
+│   ├── /seeders          # Datos iniciales
+│   └── /factories        # Generadores de datos de prueba
+│
+├── /public               # Archivos accesibles desde el navegador
+├── /resources
+│   ├── /views            # Plantillas Blade o componentes Vue/React
+│   └── /js               # Lógica de frontend
+│
+├── /routes               # Definición de rutas API y web
+├── /storage              # Archivos temporales y logs
+└── /tests                # Pruebas unitarias y funcionales
+
+
+9.2 Configuración del entorno de desarrollo
+Requisitos mínimos:
+•	Servidor local: XAMPP con PHP 8.1+, MySQL 8+
+•	Framework backend: Laravel 10+
+•	Framework frontend: Vue.js 3 o React 18 (dependiendo de la implementación final)
+•	Control de versiones: Git
+•	Node.js: v18+ (para dependencias del frontend)
+•	Composer: 2.x (para dependencias de Laravel)
+Pasos de instalación en entorno local:
+1.	Clonar el repositorio:
+git clone https://repositorio.git
+cd vital-red
+2.	Instalar dependencias backend:
+composer install
+3.	Instalar dependencias frontend:
+npm install
+4.	Configurar archivo .env con credenciales de base de datos y correo interno.
+5.	Ejecutar migraciones:
+php artisan migrate --seed
+6.	Iniciar el servidor local:
+php artisan serve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9.3 Scripts de instalación y migraciones
+•	Migraciones de base de datos: Se encuentran en /database/migrations/ y se ejecutan con php artisan migrate.
+•	Seeders: Cargan datos iniciales (roles, usuarios de prueba, configuración básica) con php artisan db:seed.
+•	Scripts automáticos:
+o	deploy.sh (opcional) para despliegues en entornos de prueba o producción.
+o	backup-db.sh para generar respaldos automáticos de la base de datos.
+
+
+9.4 Procedimientos de mantenimiento y actualización
+•	Respaldo previo: Antes de cada actualización, ejecutar backup de la base de datos y del directorio /storage.
+•	Actualización del sistema:
+git pull origin main
+composer install --no-dev
+php artisan migrate
+npm run build
+•	Monitoreo de logs: Revisar /storage/logs/laravel.log ante errores inesperados.
+•	Optimización periódica:
+o	php artisan cache:clear para limpiar caché.
+o	php artisan config:cache para mejorar el rendimiento.
+•	Actualización de dependencias: Verificar mensualmente las versiones de Laravel, librerías de frontend y dependencias de IA.
+
+
+
+
+
+
+
+
+10. RESPALDO Y CONTINUIDAD OPERATIVA
+Medidas orientadas a garantizar que la información y el sistema estén disponibles para el personal del hospital en todo momento, priorizando la estabilidad sobre mecanismos de seguridad complejos.
+
+10.1 Control de acceso básico
+•	Uso de credenciales internas para identificar al personal que ingresa al sistema.
+•	Roles mínimos:
+o	Administrador: Configuración y gestión general.
+o	Médico evaluador: Revisión y aprobación de traslados.
+
+10.2 Respaldo de datos
+•	Respaldo automático diario de la base de datos MySQL en el servidor local del hospital.
+•	Retención de copias durante 30 días para garantizar recuperación en caso de fallos.
+•	Procedimiento documentado para restaurar el sistema desde la última copia disponible.
+
+
+
+10.3 Consideraciones de confidencialidad
+•	La información que llega al sistema ya ha sido transmitida por canales externos como correo electrónico o mensajería, por lo que no se aplican medidas de cifrado adicionales.
+•	El tratamiento de datos se limita a su uso interno para la toma de decisiones sobre traslados.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11. Anexos
+Incluye material de apoyo y documentación complementaria.
+•	Glosario de términos: Definiciones para facilitar la comprensión de términos técnicos.
+•	Referencias a documentación externa: Enlaces o citas de manuales, normas o guías relacionadas.
+•	Capturas de pantalla y diagramas adicionales: Imágenes o gráficos que facilitan la comprensión del funcionamiento del sistema.}
+
+Fecha	Actividad principal	Descripción resumida	Evidencia
+14/07/2025	Reunión inicial de equipo	Presentación del sistema Precisa, planteamiento del problema general
+21/07/2025	Revisión técnica preliminar del sistema Precisa	Se detectan problemas de lentitud, interfaz obsoleta, con procesos extremadamente largos de completar; se realiza documentación de fallos encontrados y vulnerabilidades.
+
+Documento:
+
+
+
+22/07/2025	Reunión con usuarios médicos	Recopilación de observaciones  y análisis de encargados del uso de la app
+
+24/07/2025	análisis de funcionamiento actual de la IA en precisa 	Necesidad de una mejor implementación para la captura de información más precisa y concisa de corros y documentos de maneja más autónoma
+25/07/2025	Elaboración de documento de requerimientos preliminares	Se establecen funciones deseadas y no funcionales; Se plantea un documento con los estándares de funcionamiento preliminares para su diálogo y refinamiento por los usuarios finales
+
+Documentación:
+
+
+27/07/2025	Identificación de fallas técnicas	Presentacion detallada con errores y limitaciones del sistema:
+
+
+
+29/07/2025	Clasificación de requerimientos críticos(Base de datos y comienzo de prototipo de vistas#1)	Priorización de problemas por impacto, obtención de algunas tablas de la  base de datos .
+
+
+
+
+30/07/2025	Propuesta de posibles soluciones iniciales	Medidas potenciales: rediseño visual, visor nuevo, IA para revisión rápida}
+
+Documentos:
+
+
+01/08/2025	Prototipo visual simple 1: Interfaz de bandeja de entrada	Diseño en Figma – no funcional
+
+
+04/08/2025	Reunión de feedback sobre prototipo visual 1	Se reciben observaciones: claridad, iconografía, filtros
+05/08/2025	Prototipo visual simple 2: Visor de documentos	Diseño estático de visor PDF con botones de acción
+
+07/08/2025	Pruebas básicas en APIs de Gmail	Captura de correos desde Gmail en Python – pruebas muy iniciales
+
+08/08/2025	Revisión técnica de prototipos visuales	Revisión interna entre equipo – sin lógica implementada
+
+
+10/08/2025	Consolidación de hallazgos y propuesta de arquitectura preliminar	Se proponen módulos base: bandeja, visor, analizador
+
+
+
+12/08/2025	Redacción de documento de análisis de requerimientos	Documento en proceso, incluye necesidades de cada actor	✅ VISTAS NECESARIAS DEL SISTEMA "VITAL RED"
+🔹 1. VISTAS COMUNES (AMBOS ROLES)
+1.1. Login
+•	Campos: Usuario, contraseña.
+•	Validaciones: credenciales internas.
+•	Redirección según rol.
+1.2. Dashboard general
+•	Panel resumido con:
+o	Número de solicitudes nuevas, en revisión, aceptadas, rechazadas.
+o	Alertas internas.
+o	Gráficos rápidos de rendimiento.
+
+🔹 2. VISTAS PARA PERFIL MÉDICO EVALUADOR
+2.1. Bandeja de casos médicos
+•	Lista de todas las solicitudes.
+•	Filtros: estado, prioridad, fecha, especialidad, remitente.
+•	Acciones: Ver detalles, decidir, cambiar estado.
+2.2. Detalle de caso clínico
+•	Información del paciente, diagnóstico presuntivo, remitente.
+•	Archivos adjuntos (PDF, imágenes).
+•	Datos extraídos automáticamente por IA.
+•	Controles:
+o	Asignar prioridad (alta, media, baja).
+o	Aceptar / rechazar traslado.
+o	Añadir observaciones.
+o	Solicitar más información.
+o	Ver historial del caso.
+2.3. Historial de solicitudes
+•	Cronología completa de decisiones tomadas por el médico.
+•	Búsqueda por fecha, paciente, estado.
+________________________________________
+🔹 3. VISTAS PARA PERFIL ADMINISTRADOR
+________________________________________
+3.1. Gestión de usuarios
+•	Crear, editar, eliminar médicos evaluadores.
+•	Asignar roles, restablecer contraseñas.
+3.2. Panel de supervisión
+•	Monitoreo de decisiones tomadas por los médicos.
+•	Estadísticas por médico, tiempo de respuesta, prioridades asignadas.
+•	Exportación de reportes (CSV, PDF).
+
+3.3. Configuración de sistema
+•	Plantillas de respuestas.
+•	Criterios de clasificación de IA.
+•	Horarios de operación, configuraciones generales.
+3.4. Gestión de respaldo
+•	Opción para crear respaldo manual.
+•	Ver logs del sistema, restaurar respaldos anteriores.
+________________________________________
+🔹 4. VISTAS PARA EL MÓDULO DE IA (BACKOFFICE AUTOMATIZADO)
+________________________________________
+Estas vistas están pensadas como un panel administrativo invisible al usuario común, pero accesible por el administrador o personal de innovación.
+4.1. Monitor de correos entrantes
+•	Visualización en tiempo real de correos detectados en la cuenta Gmail (si se usa API).
+•	Campos extraídos: nombre del paciente, diagnóstico, remitente, adjuntos.
+•	Estado del procesamiento: pendiente, procesado, error.
+•	Botón de reintento de extracción manual.
+4.2. Configuración del capturador de correos
+•	Activar/desactivar capturador automático.
+•	Intervalo de lectura (cada 1, 5, 10 minutos).
+•	Cuenta configurada para escucha (correo de referencia).
+•	Configurar acceso OAuth2 si se usa API oficial.
+13/08/2025	Reunión técnica sobre integración futura de IA	Discusión sobre factibilidad técnica (sin desarrollo aún)
+
+
+14/08/2025	Revisión general de fallos encontrados y cómo abordarlos	Se genera plan de acción técnico para resolverlos en fases siguientes
+16/08/2025	Avances en documentación entregable	Estructura de entregables: resumen, prototipos, documentación y actas
+
+19/08/2025	Reunión de consolidación – resumen de avances iniciales	Cierre de la fase 1: análisis, documentación y prototipos visuales no funcionales	Pendiente entrega reporte de usuarios de precisa para el comienzo de prototipo de diseño final.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

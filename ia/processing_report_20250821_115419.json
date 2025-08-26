@@ -1,0 +1,15 @@
+{
+  "report_generated": "2025-08-21T11:54:19.792844",
+  "processing_statistics": {
+    "emails_processed": 63,
+    "emails_failed": 37,
+    "attachments_processed": 8,
+    "total_processing_time": 2.2572922706604004,
+    "errors": [],
+    "warnings": [],
+    "average_processing_time": 0.03583003604222858,
+    "success_rate": 0.63
+  },
+  "recent_errors": [],
+  "recent_warnings": []
+}

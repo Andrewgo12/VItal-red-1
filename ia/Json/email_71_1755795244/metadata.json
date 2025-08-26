@@ -1,0 +1,152 @@
+{
+  "unique_id": "email_71_1755795244",
+  "message_id": "<InOBR7A-Rl2SNtMwRw3aPA@geopod-ismtpd-36>",
+  "subject": "Rueda de Candidatos Talentsoft- 1000 ProgramadoresConfirmación",
+  "from": [
+    {
+      "name": "Zoom",
+      "email": "no-reply@zoom.us"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [
+    {
+      "name": "",
+      "email": "admin@fedesoft.org"
+    }
+  ],
+  "date": "2025-02-20T10:31:06",
+  "date_string": "Thu, 20 Feb 2025 15:31:06 +0000 (UTC)",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "text/html",
+  "charset": "iso-8859-1",
+  "size": 28015,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": false,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from MjU5OTk1MjY (unknown)\r\n\tby geopod-ismtpd-36 (SG) with HTTP\r\n\tid InOBR7A-Rl2SNtMwRw3aPA\r\n\tThu, 20 Feb 2025 15:31:06.067 +0000 (UTC)",
+    "X-Google-Smtp-Source": "AGHT+IEfN2vOVm7SaMZ4J6WTYSN8KfkmBYbgI0DLprxgUnr1C6/pxoompw8gkFrxnDPEICLLd4F+",
+    "X-Received": "by 2002:a05:6602:3fd2:b0:855:c21d:67fb with SMTP id ca18e2360f4ac-855c21d688dmr607692239f.3.1740065468028;\r\n        Thu, 20 Feb 2025 07:31:08 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740065468; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=UyfWUkSKrKgkpJfyDsZM9K0BuURbCJOArH3/qjqlM1cgzt89XqkjuZwjyM413jCL9W\r\n         4wNZ9HrpZfzcmzmPVGYX8zfhL31oq5wXI7qPO8np2wCQHTj7WqhMQ9emBX0U3bZNyjjT\r\n         3k9HqZ4lFCwmNWu0ZtoMcFozzNvn3zGG/WybJiQwuhHtO+Pftxf0641DphzBd48FRmb8\r\n         fc7th58wa4XpfkfDU3muqmn8WEt/HX4bnh3NxzoRn4XLwi6cgCVnGJZv0C7NnCiqrud0\r\n         zDZZ0uwkZCcRh/0A2PHZZF+XJXtWdHuiZW50RssHlW49RS4sN+rANFAF064zzLhvfA/u\r\n         SjXA==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:feedback-id:reply-to:subject:message-id:mime-version:from:date\r\n         :content-transfer-encoding:dkim-signature:dkim-signature;\r\n        bh=MlSq3h4j7+/f1K3Xca/uOSznMpQxIAzYh0wqbYuFRHs=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=hhZd5VPr5LVIIqadQXA7E3AsphjAGJYG4kpTul246M1QHRCeOLlCJfuhqeX9lgaB+N\r\n         LKhYghc4GfTSBMGqWw3Bma/K/dZu8Dc/D+EYDYDkbrZut4IljwGXOMVOpWPqyKUg1YIo\r\n         DS9SC2odwy5c4KjgGkSi55cSjVxEKDKlcY2T32P8AWuUL+Jr4TSqZ4QjXmjEBT53jKjL\r\n         /Tv0sO1T+oy4colmQ9hONdiF1hb+UjRfEGPR58CCAngy3XyPDYwwnM87xE71xYAJfY5r\r\n         2gsOJZMVhvaV6ROPOa1JuEfkSskGIOh9B2x8yHgHN/T1rCKxMGzRyHYvdzLJdcCBI9nu\r\n         L+/g==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@zoom.us header.s=sg header.b=BJAaPfbV;\r\n       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=G6MK4P90;\r\n       spf=pass (google.com: domain of bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us designates 159.183.150.18 as permitted sender) smtp.mailfrom=\"bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zoom.us",
+    "Return-Path": "<bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us>",
+    "Received-SPF": "pass (google.com: domain of bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us designates 159.183.150.18 as permitted sender) client-ip=159.183.150.18;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@zoom.us header.s=sg header.b=BJAaPfbV;\r\n       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=G6MK4P90;\r\n       spf=pass (google.com: domain of bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us designates 159.183.150.18 as permitted sender) smtp.mailfrom=\"bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zoom.us",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;\r\n\th=content-transfer-encoding:content-type:from:mime-version:subject:\r\n\treply-to:x-feedback-id:to:cc:content-type:from:subject:to;\r\n\ts=smtpapi; bh=MlSq3h4j7+/f1K3Xca/uOSznMpQxIAzYh0wqbYuFRHs=;\r\n\tb=G6MK4P90t4fUMTvPwnpAVDOp45GbjimJzf9vqdI6tinAMc4Xda0mUuMmrf4yVu/7+5Q/\r\n\tx2LyEIKL+/BN2sQLPSWAGnEOEcfcd0LIOAF3/WRdf9MkUF/pGOfE5n5DxQVWPpCJCF0Gp/\r\n\tD9bpYXOvc9xZhWjKcQXEutbKt4RZrt08g=",
+    "Content-Transfer-Encoding": "quoted-printable",
+    "Content-Type": "text/html; charset=iso-8859-1",
+    "Date": "Thu, 20 Feb 2025 15:31:06 +0000 (UTC)",
+    "From": "Zoom <no-reply@zoom.us>",
+    "Mime-Version": "1.0",
+    "Message-ID": "<InOBR7A-Rl2SNtMwRw3aPA@geopod-ismtpd-36>",
+    "Subject": "Rueda de Candidatos Talentsoft- 1000 ProgramadoresConfirmación",
+    "Reply-To": "admin@fedesoft.org",
+    "Feedback-ID": "CHLYEdMtR3KCo4MhEDYZ8g:::zoom.us",
+    "X-Feedback-ID": "25999526:SG",
+    "X-SG-EID": "u001.V/CrMu5/7JiV4gIYr+InI6MELJgR7AD1buWM99/R73ZFoqqpDBbZ3TVvT+Lil2N/8XBeaZyzM3DvQZkrHNnPgbebEaRZ3D7hLqNWHMGXtoLavzfotKU4IJEH+BZfeGTJ5gUhrCmpGhWN6eusyXuAOUbEPMLN2zJicmBJm3JGZjvHDDeZJyf8CU/0B1gMlzaEvcZ/6Pwikf6ZX4wm9MO8MiI4EIahSahmMoZlRgiKiRI=",
+    "X-SG-ID": "u001.SdBcvi+Evd/bQef8eZF3BmZWMbL7JLPu6BFG1DsIO435yrTmflbIfSX05W9jOURzB26TNn0mFOGLT2D78i0Hms1VLUSlNsfqy7azxj9uISNXdn/ImhFwj7p94XtNHDWdbLvKGbOKW6FuB4QNjv486gKw516YjD+KUSF5SI/ApV17sg4+HM6W/h161aPNimHBptvmd7/oGUxiQNbzmMt9SsBtheRE7A/BBfGlaNITIansrwJNS0eauCWHnbo4OKGg52oojYdatzA1m5hp8RP/9NJvjLXvdb43Iowrq5kRhTfk0TxghGffF4yNiePiPdUlStHZ8g1hKdSJPNndXmt6pjND4ykJ5q0AYS09oLFs40mLBxazs5dd5KYy2VwTGw37vq569vrEQ7m5yXBCxtf8d5tkxal+S/hciBDFL0DAraGNFX2wC/qknV2VE/rpOJ/mTCTE903Bfu5uKASc10JkCcu4JezQsHo+z0OiqNrp3WDXG1/uEch4yPk2a83y/BYjctffJbcovM8bqLXDgFQoeLI+XYjzK21WW3TZpBMQE7Q+ArcvZFXBGhX6XrCNRTc3RzLbmIpSKJvZD3zw6XQh3Dy406MP2JjHeHckvahfWSrWvo6Azb6SwjNICD22AXPQFwnLepOryBAADwXx9+s61BHMG4StC8CrgzwsQhZ+U2qCnndrUVE6KBLYz27qsuSpVk2S5crH8zZ1pAHYgqFJS+cIy2tA2WejZNQ2fLCvU/z41PKvkrYzXrF1xTMeEAqt7DBr7pjzq3vvMC0hqu5WPAJ5OYREjSBWUVydAllL9IBygZOIoctNfxK+8bFSQkL5pXzkUa8UOZEXg4JHfV8Yz33JD4jctv2m7yFZSaA2ymkp9Wx1GuhYgJ4EZJyPIhbyVJByJWEZH0Zss5ZLvcFJDuXYpDAke6YRsSz3T00ZqnfJhOkCF2L9sd1emenR8rW+u+CC4f9WENW8T+lB7enJVNHz5A7wt3odylAjiExnMETIGYhULAzAhDQsr6Jm6DXqRiJMNq5HkvHcygqBxlpZLBR5Waqso5iNrFDFN+iRa6pGSWiyjcx3CtfC81g1I2EEDhAEdt3fdTgWFvq8hlgq5Chl3h8C1471A39+4SXGdZegLNthnPureD98I4toqNF7FlXv+PbU8VcREt7EJEA6zBZe67wLkh7ORa8eSmVR5AT+m7AuK9K3EqSZIAbX/iAp",
+    "To": "kevinrlinze@gmail.com",
+    "X-Entity-ID": "u001.2o4x06M7TQXGOcDa9LFkMA=="
+  },
+  "extraction_timestamp": "2025-08-21T11:54:04.238553",
+  "received_headers": [
+    "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp113541wru;\r\n        Thu, 20 Feb 2025 07:31:08 -0800 (PST)",
+    "from o23.sg.zoom.us (o23.sg.zoom.us. [159.183.150.18])\r\n        by mx.google.com with ESMTPS id ca18e2360f4ac-855a253e1afsi602735439f.7.2025.02.20.07.31.07\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 07:31:08 -0800 (PST)",
+    "by recvd-54db45996-6smpk with SMTP id recvd-54db45996-6smpk-1-67B74ABA-15\r\n\t2025-02-20 15:31:06.124313393 +0000 UTC m=+8446100.350924635",
+    "from MjU5OTk1MjY (unknown)\r\n\tby geopod-ismtpd-36 (SG) with HTTP\r\n\tid InOBR7A-Rl2SNtMwRw3aPA\r\n\tThu, 20 Feb 2025 15:31:06.067 +0000 (UTC)"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IEfN2vOVm7SaMZ4J6WTYSN8KfkmBYbgI0DLprxgUnr1C6/pxoompw8gkFrxnDPEICLLd4F+",
+    "X-Received": "by 2002:a05:6602:3fd2:b0:855:c21d:67fb with SMTP id ca18e2360f4ac-855c21d688dmr607692239f.3.1740065468028;\r\n        Thu, 20 Feb 2025 07:31:08 -0800 (PST)",
+    "X-Feedback-ID": "25999526:SG",
+    "X-SG-EID": "u001.V/CrMu5/7JiV4gIYr+InI6MELJgR7AD1buWM99/R73ZFoqqpDBbZ3TVvT+Lil2N/8XBeaZyzM3DvQZkrHNnPgbebEaRZ3D7hLqNWHMGXtoLavzfotKU4IJEH+BZfeGTJ5gUhrCmpGhWN6eusyXuAOUbEPMLN2zJicmBJm3JGZjvHDDeZJyf8CU/0B1gMlzaEvcZ/6Pwikf6ZX4wm9MO8MiI4EIahSahmMoZlRgiKiRI=",
+    "X-SG-ID": "u001.SdBcvi+Evd/bQef8eZF3BmZWMbL7JLPu6BFG1DsIO435yrTmflbIfSX05W9jOURzB26TNn0mFOGLT2D78i0Hms1VLUSlNsfqy7azxj9uISNXdn/ImhFwj7p94XtNHDWdbLvKGbOKW6FuB4QNjv486gKw516YjD+KUSF5SI/ApV17sg4+HM6W/h161aPNimHBptvmd7/oGUxiQNbzmMt9SsBtheRE7A/BBfGlaNITIansrwJNS0eauCWHnbo4OKGg52oojYdatzA1m5hp8RP/9NJvjLXvdb43Iowrq5kRhTfk0TxghGffF4yNiePiPdUlStHZ8g1hKdSJPNndXmt6pjND4ykJ5q0AYS09oLFs40mLBxazs5dd5KYy2VwTGw37vq569vrEQ7m5yXBCxtf8d5tkxal+S/hciBDFL0DAraGNFX2wC/qknV2VE/rpOJ/mTCTE903Bfu5uKASc10JkCcu4JezQsHo+z0OiqNrp3WDXG1/uEch4yPk2a83y/BYjctffJbcovM8bqLXDgFQoeLI+XYjzK21WW3TZpBMQE7Q+ArcvZFXBGhX6XrCNRTc3RzLbmIpSKJvZD3zw6XQh3Dy406MP2JjHeHckvahfWSrWvo6Azb6SwjNICD22AXPQFwnLepOryBAADwXx9+s61BHMG4StC8CrgzwsQhZ+U2qCnndrUVE6KBLYz27qsuSpVk2S5crH8zZ1pAHYgqFJS+cIy2tA2WejZNQ2fLCvU/z41PKvkrYzXrF1xTMeEAqt7DBr7pjzq3vvMC0hqu5WPAJ5OYREjSBWUVydAllL9IBygZOIoctNfxK+8bFSQkL5pXzkUa8UOZEXg4JHfV8Yz33JD4jctv2m7yFZSaA2ymkp9Wx1GuhYgJ4EZJyPIhbyVJByJWEZH0Zss5ZLvcFJDuXYpDAke6YRsSz3T00ZqnfJhOkCF2L9sd1emenR8rW+u+CC4f9WENW8T+lB7enJVNHz5A7wt3odylAjiExnMETIGYhULAzAhDQsr6Jm6DXqRiJMNq5HkvHcygqBxlpZLBR5Waqso5iNrFDFN+iRa6pGSWiyjcx3CtfC81g1I2EEDhAEdt3fdTgWFvq8hlgq5Chl3h8C1471A39+4SXGdZegLNthnPureD98I4toqNF7FlXv+PbU8VcREt7EJEA6zBZe67wLkh7ORa8eSmVR5AT+m7AuK9K3EqSZIAbX/iAp",
+    "X-Entity-ID": "u001.2o4x06M7TQXGOcDa9LFkMA=="
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<InOBR7A-Rl2SNtMwRw3aPA@geopod-ismtpd-36>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us designates 159.183.150.18 as permitted sender) client-ip=159.183.150.18;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=zoom.us;\r\n\th=content-transfer-encoding:content-type:from:mime-version:subject:\r\n\treply-to:x-feedback-id:to:cc:content-type:from:subject:to;\r\n\ts=sg; bh=MlSq3h4j7+/f1K3Xca/uOSznMpQxIAzYh0wqbYuFRHs=;\r\n\tb=BJAaPfbVJOO+YgAPcxGIqACpAXwOEmEzcQslYrhc1TlELzYYUJZLqmK8vnot6cl9ZMM2\r\n\t8EGbcadJ+G+HGa7hsVwh5OtFbCyVPlXASIiUmym9NtIJbAEJTuqiVPzbcL+Rcp2Qfed6JP\r\n\tk1IyR5sNNv5x1nlsT/U9sPPx5BLEq4vBimVbQZZuxdx2WI/WdkbfCE5qmCDHGdx3jsgKvQ\r\n\tad3mFGsl1Crl+Y5A37NDGo37jYM5r5Oegd+bx2qPQXrg7lwAVbeRYLO+HsSXYGjOgMTWEp\r\n\tSX6u24IL/vBjEKeQ5jF1YWVFiXoylR7GbtxilXuhE+x3pmzD7//AVX1nOsnq46NQ==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@zoom.us header.s=sg header.b=BJAaPfbV;\r\n       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=G6MK4P90;\r\n       spf=pass (google.com: domain of bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us designates 159.183.150.18 as permitted sender) smtp.mailfrom=\"bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zoom.us",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@zoom.us header.s=sg header.b=BJAaPfbV;\r\n       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=G6MK4P90;\r\n       spf=pass (google.com: domain of bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us designates 159.183.150.18 as permitted sender) smtp.mailfrom=\"bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zoom.us"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp113541wru;\r\n        Thu, 20 Feb 2025 07:31:08 -0800 (PST)",
+      "from o23.sg.zoom.us (o23.sg.zoom.us. [159.183.150.18])\r\n        by mx.google.com with ESMTPS id ca18e2360f4ac-855a253e1afsi602735439f.7.2025.02.20.07.31.07\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 07:31:08 -0800 (PST)",
+      "by recvd-54db45996-6smpk with SMTP id recvd-54db45996-6smpk-1-67B74ABA-15\r\n\t2025-02-20 15:31:06.124313393 +0000 UTC m=+8446100.350924635",
+      "from MjU5OTk1MjY (unknown)\r\n\tby geopod-ismtpd-36 (SG) with HTTP\r\n\tid InOBR7A-Rl2SNtMwRw3aPA\r\n\tThu, 20 Feb 2025 15:31:06.067 +0000 (UTC)"
+    ],
+    "delivery_path": [
+      "o23.sg.zoom.us",
+      "MjU5OTk1MjY"
+    ],
+    "total_hops": 4,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": false,
+    "main_content_type": "text/html",
+    "charset": "iso-8859-1",
+    "content_parts": [],
+    "has_html": true,
+    "has_plain_text": false,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 1
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 62,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@zoom.us header.s=sg header.b=BJAaPfbV;\r\n       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=G6MK4P90;\r\n       spf=pass (google.com: domain of bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us designates 159.183.150.18 as permitted sender) smtp.mailfrom=\"bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zoom.us",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=zoom.us;\r\n\th=content-transfer-encoding:content-type:from:mime-version:subject:\r\n\treply-to:x-feedback-id:to:cc:content-type:from:subject:to;\r\n\ts=sg; bh=MlSq3h4j7+/f1K3Xca/uOSznMpQxIAzYh0wqbYuFRHs=;\r\n\tb=BJAaPfbVJOO+YgAPcxGIqACpAXwOEmEzcQslYrhc1TlELzYYUJZLqmK8vnot6cl9ZMM2\r\n\t8EGbcadJ+G+HGa7hsVwh5OtFbCyVPlXASIiUmym9NtIJbAEJTuqiVPzbcL+Rcp2Qfed6JP\r\n\tk1IyR5sNNv5x1nlsT/U9sPPx5BLEq4vBimVbQZZuxdx2WI/WdkbfCE5qmCDHGdx3jsgKvQ\r\n\tad3mFGsl1Crl+Y5A37NDGo37jYM5r5Oegd+bx2qPQXrg7lwAVbeRYLO+HsSXYGjOgMTWEp\r\n\tSX6u24IL/vBjEKeQ5jF1YWVFiXoylR7GbtxilXuhE+x3pmzD7//AVX1nOsnq46NQ==",
+  "spf_result": "pass (google.com: domain of bounces+25999526-0c10-kevinrlinze=gmail.com@bounce-sg.zoom.us designates 159.183.150.18 as permitted sender) client-ip=159.183.150.18;"
+}

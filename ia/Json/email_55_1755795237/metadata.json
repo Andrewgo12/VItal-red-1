@@ -1,0 +1,152 @@
+{
+  "unique_id": "email_55_1755795237",
+  "message_id": "<EC2-CT-SMTP18RqHWf6000ffb3b@ec2-ct-smtp18.computrabajo.com>",
+  "subject": "Aprendiz en Valle del Cauca",
+  "from": [
+    {
+      "name": "Tu lista de empleos de Computrabajo",
+      "email": "empleos_co@computrabajo.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [
+    {
+      "name": "",
+      "email": "sin-respuesta@computrabajo.com"
+    }
+  ],
+  "date": "2025-02-20T20:45:38",
+  "date_string": "21 Feb 2025 01:45:38 +0000",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "text/html",
+  "charset": "utf-8",
+  "size": 104362,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": false,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from mail pickup service by ec2-ct-smtp18.computrabajo.com with Microsoft SMTPSVC;\r\n\t Fri, 21 Feb 2025 01:45:39 +0000",
+    "X-Google-Smtp-Source": "AGHT+IHwfOVANp5R7SAgJ9PHs2Zzkq7ttHrvjH0cKn70QlHUhUqxmki4RvuxrrS/JaPIXY3Gn8YF",
+    "X-Received": "by 2002:a05:6214:300e:b0:6d8:ada3:26c9 with SMTP id 6a1803df08f44-6e6ae7f596dmr21760406d6.10.1740102340872;\r\n        Thu, 20 Feb 2025 17:45:40 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740102340; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=W5nzG+WjtSW5BfvEbG7kH+q6lfd1zhFWUrRPPvgxsTd4vtwPRSYnsz6KD5gXYLWVVf\r\n         4gBynn14fJ5zGmEWXnAC4LODzLf0+pisOEXwVXce4p2KC5xGp0daSvPY/8SgQ+DXBme0\r\n         cN/M7FwzRlw0BDrzDFwwDGhnfkBjFNbFtJrzcJhtXcL4stt+NDRTmFdO+0kQpIljjL/I\r\n         OBFLE1aIzufzA9jdpYKxRNrC3g68MYLp+rYE1DdhJ0m720GiCylgJchqJXJrvolI0lVm\r\n         KxgnwnwUPA1PEvTBMcnYvtRw7GvHBPfJYKTn3+Ejs9co9QsOLNVxq5dPdfYif4trNmhR\r\n         AY8A==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=message-id:content-transfer-encoding:subject:date:reply-to:to:from\r\n         :mime-version:bimi-selector:feedback-id:list-unsubscribe-post\r\n         :list-unsubscribe:idtipomail:idportal:domainkey-signature\r\n         :dkim-signature;\r\n        bh=rQdhl2S2BQIw56tJEowW++Ga8QGoOz7WN+SgYWAzEio=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=iMbizYb+SqCAGHMEc/LGgQaKeyQvT3wXGEd4H5oHceBMKXI4Q/MoIvx4eLAqi/Qxfp\r\n         qyeM6ptujOVfoQcTOKaca+yIIabFsJWbsi6lW7Lk1jv3PW5wHki4yWH6Ge2BbibdiYHi\r\n         daAqNFya+yJ4eCOgXBaaaCAGHtj+D8hqIneIA/6hytRiN5LKvCVYO/PkPFbcCIRkLiMT\r\n         Xdx12+2nCNDiudNGcC4GOVX+uQigsdySdnQewobZvfoeFMDW9Xv5G7SAg1IEX9LeYARQ\r\n         M44dMcFQxtjY+xXFVVpB+kdNb6MjuXKMyhxZGjndPGZsfOUfCGLcLl813dlKskAqxwKv\r\n         U8Ow==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=\"d1cHNig/\";\r\n       spf=pass (google.com: domain of alertas_ct@computrabajo.com designates 52.72.209.36 as permitted sender) smtp.mailfrom=alertas_ct@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+    "Return-Path": "<alertas_ct@computrabajo.com>",
+    "Received-SPF": "pass (google.com: domain of alertas_ct@computrabajo.com designates 52.72.209.36 as permitted sender) client-ip=52.72.209.36;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=\"d1cHNig/\";\r\n       spf=pass (google.com: domain of alertas_ct@computrabajo.com designates 52.72.209.36 as permitted sender) smtp.mailfrom=alertas_ct@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe:list-unsubscribe-post\r\n    :feedback-id:bimi-selector:mime-version:from:to:date:subject\r\n    :content-type:message-id;\r\n  bh=rQdhl2S2BQIw56tJEowW++Ga8QGoOz7WN+SgYWAzEio=;\r\n  b=d1cHNig/2UvZqP7cMJbfjoGXFW2hc91Hg/6VCrlaJ4GP4zeK4Rw3WIY31uoqL7HnQNqZ8DGi\r\n    uDF3qFKqqESHNJ2gc2ye5U+z4gTh85NWBqCw23A9v9tUjOLm7F/pQNpY7xDmCz8mTjOaQzY/\r\n    MuCJY0iedIDXlBXSitN3zKCpB1M=",
+    "DomainKey-Signature": "a=rsa-sha1; q=dns; c=nofws;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe:list-unsubscribe-post\r\n    :feedback-id:bimi-selector:mime-version:from:to:date:subject\r\n    :content-type:message-id;\r\n  b=ZlKbad392oWuS4vTx7bnNzCMhXF37+e390OJpi1ndITIfVKMglz7iBWoMlmV9eBeFOUuMMqQ\r\n    zBF+JLbO7pF+YNqKAPoBu0ICzPVymCJeENuanBdEd2zvfJ/RXRPZNFOu8XYl9I3xyibySqUd\r\n    qHtAWXJhK/frGw/0tg7Q/6GGK/o=",
+    "IdPortal": "1",
+    "IdTipoMail": "100",
+    "X-Sender": "<alertas_ct@computrabajo.com>",
+    "List-Unsubscribe": "<mailto:unsubscribe+{0}@computrabajo.com?subject=unsubscribe_{1}_{2}>,<https://go.computrabajo.com/go/u?ipo=469814F59E4D6F04&idp=EF0EE8EB822988BFBD96D32A0AC99587&idu=59AD1982846783FF61373E686DCF3405&ai=59F9B8BC04510B63469814F59E4D6F04&inl=100&isd=7bfed59e-32b0-412a-853c-545c79228e3b&rcvi=26D5D16099F708FC61373E686DCF3405>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    "Feedback-ID": "nwsl_100_portal_1:nwsl_100_tmpl_182:nwsl_100_subj_119:CO-EmailSender-1",
+    "BIMI-Selector": "v=BIMI1; s=mailing;",
+    "MIME-Version": "1.0",
+    "From": "\"Tu lista de empleos de Computrabajo\" <empleos_co@computrabajo.com>",
+    "To": "kevinrlinze@gmail.com",
+    "Reply-To": "sin-respuesta@computrabajo.com",
+    "Date": "21 Feb 2025 01:45:38 +0000",
+    "Subject": "Aprendiz en Valle del Cauca",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Transfer-Encoding": "base64",
+    "Message-ID": "<EC2-CT-SMTP18RqHWf6000ffb3b@ec2-ct-smtp18.computrabajo.com>",
+    "X-OriginalArrivalTime": "21 Feb 2025 01:45:39.0431 (UTC) FILETIME=[4F63E770:01DB8402]"
+  },
+  "extraction_timestamp": "2025-08-21T11:53:57.320745",
+  "received_headers": [
+    "by 2002:a5d:5c84:0:b0:38d:c57e:3a1b with SMTP id cf4csp1788wrb;\r\n        Thu, 20 Feb 2025 17:45:41 -0800 (PST)",
+    "from ec2-ct-smtp18.computrabajo.com (ec2-ct-smtp18.computrabajo.com. [52.72.209.36])\r\n        by mx.google.com with ESMTPS id af79cd13be357-7c0a03754cdsi844311385a.650.2025.02.20.17.45.40\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 17:45:40 -0800 (PST)",
+    "from mail pickup service by ec2-ct-smtp18.computrabajo.com with Microsoft SMTPSVC;\r\n\t Fri, 21 Feb 2025 01:45:39 +0000"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IHwfOVANp5R7SAgJ9PHs2Zzkq7ttHrvjH0cKn70QlHUhUqxmki4RvuxrrS/JaPIXY3Gn8YF",
+    "X-Received": "by 2002:a05:6214:300e:b0:6d8:ada3:26c9 with SMTP id 6a1803df08f44-6e6ae7f596dmr21760406d6.10.1740102340872;\r\n        Thu, 20 Feb 2025 17:45:40 -0800 (PST)",
+    "X-Sender": "<alertas_ct@computrabajo.com>",
+    "X-OriginalArrivalTime": "21 Feb 2025 01:45:39.0431 (UTC) FILETIME=[4F63E770:01DB8402]"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<EC2-CT-SMTP18RqHWf6000ffb3b@ec2-ct-smtp18.computrabajo.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of alertas_ct@computrabajo.com designates 52.72.209.36 as permitted sender) client-ip=52.72.209.36;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe:list-unsubscribe-post\r\n    :feedback-id:bimi-selector:mime-version:from:to:date:subject\r\n    :content-type:message-id;\r\n  bh=rQdhl2S2BQIw56tJEowW++Ga8QGoOz7WN+SgYWAzEio=;\r\n  b=d1cHNig/2UvZqP7cMJbfjoGXFW2hc91Hg/6VCrlaJ4GP4zeK4Rw3WIY31uoqL7HnQNqZ8DGi\r\n    uDF3qFKqqESHNJ2gc2ye5U+z4gTh85NWBqCw23A9v9tUjOLm7F/pQNpY7xDmCz8mTjOaQzY/\r\n    MuCJY0iedIDXlBXSitN3zKCpB1M=",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=\"d1cHNig/\";\r\n       spf=pass (google.com: domain of alertas_ct@computrabajo.com designates 52.72.209.36 as permitted sender) smtp.mailfrom=alertas_ct@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=\"d1cHNig/\";\r\n       spf=pass (google.com: domain of alertas_ct@computrabajo.com designates 52.72.209.36 as permitted sender) smtp.mailfrom=alertas_ct@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a5d:5c84:0:b0:38d:c57e:3a1b with SMTP id cf4csp1788wrb;\r\n        Thu, 20 Feb 2025 17:45:41 -0800 (PST)",
+      "from ec2-ct-smtp18.computrabajo.com (ec2-ct-smtp18.computrabajo.com. [52.72.209.36])\r\n        by mx.google.com with ESMTPS id af79cd13be357-7c0a03754cdsi844311385a.650.2025.02.20.17.45.40\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 17:45:40 -0800 (PST)",
+      "from mail pickup service by ec2-ct-smtp18.computrabajo.com with Microsoft SMTPSVC;\r\n\t Fri, 21 Feb 2025 01:45:39 +0000"
+    ],
+    "delivery_path": [
+      "ec2-ct-smtp18.computrabajo.com",
+      "mail"
+    ],
+    "total_hops": 3,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": false,
+    "main_content_type": "text/html",
+    "charset": "utf-8",
+    "content_parts": [],
+    "has_html": true,
+    "has_plain_text": false,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 1
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 27,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=\"d1cHNig/\";\r\n       spf=pass (google.com: domain of alertas_ct@computrabajo.com designates 52.72.209.36 as permitted sender) smtp.mailfrom=alertas_ct@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe:list-unsubscribe-post\r\n    :feedback-id:bimi-selector:mime-version:from:to:date:subject\r\n    :content-type:message-id;\r\n  bh=rQdhl2S2BQIw56tJEowW++Ga8QGoOz7WN+SgYWAzEio=;\r\n  b=d1cHNig/2UvZqP7cMJbfjoGXFW2hc91Hg/6VCrlaJ4GP4zeK4Rw3WIY31uoqL7HnQNqZ8DGi\r\n    uDF3qFKqqESHNJ2gc2ye5U+z4gTh85NWBqCw23A9v9tUjOLm7F/pQNpY7xDmCz8mTjOaQzY/\r\n    MuCJY0iedIDXlBXSitN3zKCpB1M=",
+  "spf_result": "pass (google.com: domain of alertas_ct@computrabajo.com designates 52.72.209.36 as permitted sender) client-ip=52.72.209.36;"
+}

@@ -1,0 +1,111 @@
+{
+  "document_identification": {
+    "unique_identifier": "test_email_003_1755143882",
+    "document_type": "email_communication",
+    "schema_version": "2.0.0",
+    "processing_timestamp": "2025-08-21T12:28:02.704865",
+    "processing_system": "Gmail Data Extraction System v2.0 - Test Mode",
+    "data_integrity_status": "verified"
+  },
+  "communication_metadata": {
+    "message_identification": {
+      "message_id": "<test_3@example.com>",
+      "thread_id": "thread_3",
+      "conversation_topic": "Embarazo de alto riesgo - Evaluación ginecológica",
+      "in_reply_to_message": "",
+      "reference_messages": []
+    },
+    "temporal_information": {
+      "sent_datetime": "2025-08-13T22:58:02.704860",
+      "sent_datetime_string": "Wed, 13 Aug 2025 22:58:02 ",
+      "received_datetime": "2025-08-13T22:58:02.704860",
+      "timezone_information": "+0000",
+      "processing_datetime": "2025-08-21T12:28:02.704877"
+    },
+    "participant_information": {
+      "sender_details": [
+        {
+          "display_name": "Dr. Roberto López",
+          "email_address": "dr.lopez@centrosalud.com",
+          "address_type": "primary",
+          "validation_status": "valid"
+        }
+      ],
+      "primary_recipients": [
+        {
+          "display_name": "Sistema de Referencia",
+          "email_address": "referencia@hospital.com",
+          "address_type": "primary",
+          "validation_status": "valid"
+        }
+      ],
+      "carbon_copy_recipients": [],
+      "blind_carbon_copy_recipients": [],
+      "reply_to_addresses": [],
+      "total_recipient_count": 1
+    },
+    "priority_and_sensitivity": {
+      "priority_level": "urgente",
+      "importance_level": "high",
+      "sensitivity_classification": "normal",
+      "delivery_receipt_requested": false,
+      "read_receipt_requested": false
+    }
+  },
+  "content_analysis": {
+    "subject_information": {
+      "subject_line": "Embarazo de alto riesgo - Evaluación ginecológica",
+      "subject_length": 49,
+      "subject_language": "spanish",
+      "contains_special_characters": true
+    },
+    "content_structure": {
+      "is_multipart_message": false,
+      "content_type": "text/plain",
+      "character_encoding": "utf-8",
+      "message_size_bytes": 907,
+      "message_size_human_readable": "0.9 KB"
+    },
+    "body_content": {
+      "plain_text_content": "\n            Estimada colega,\n            \n            Paciente: Ana Sofía Martínez\n            Edad: 28 años\n            Género: Femenino\n            \n            DIAGNÓSTICO:\n            Embarazo de alto riesgo - 32 semanas de gestación\n            \n            MOTIVO DE REFERENCIA:\n            Hipertensión gestacional con proteinuria\n            \n            ANTECEDENTES OBSTÉTRICOS:\n            - Primigesta\n            - Embarazo actual sin complicaciones hasta semana 30\n            \n            SIGNOS VITALES:\n            - Presión arterial: 160/100 mmHg\n            - Frecuencia cardíaca: 88 bpm\n            - Temperatura: 36.6°C\n            \n            LABORATORIOS:\n            - Proteinuria: 2+ en orina\n            - Plaquetas: 120,000\n            \n            Requiere evaluación urgente por ginecología.\n            \n            Dr. Roberto López\n            Medicina General\n            ",
+      "html_content": "",
+      "raw_content": "\n            Estimada colega,\n            \n            Paciente: Ana Sofía Martínez\n            Edad: 28 años\n            Género: Femenino\n            \n            DIAGNÓSTICO:\n            Embarazo de alto riesgo - 32 semanas de gestación\n            \n            MOTIVO DE REFERENCIA:\n            Hipertensión gestacional con proteinuria\n            \n            ANTECEDENTES OBSTÉTRICOS:\n            - Primigesta\n            - Embarazo actual sin complicaciones hasta semana 30\n            \n            SIGNOS VITALES:\n            - Presión arterial: 160/100 mmHg\n            - Frecuencia cardíaca: 88 bpm\n            - Temperatura: 36.6°C\n            \n            LABORATORIOS:\n            - Proteinuria: 2+ en orina\n            - Plaquetas: 120,000\n            \n            Requiere evaluación urgente por ginecología.\n            \n            Dr. Roberto López\n            Medicina General\n            ",
+      "content_preview": "\n            Estimada colega,\n            \n            Paciente: Ana Sofía Martínez\n            Edad: 28 años\n            Género: Femenino\n            \n            DIAGNÓSTICO:\n            Embarazo de...",
+      "estimated_reading_time_minutes": 1,
+      "word_count": 74,
+      "character_count": 907,
+      "contains_html_formatting": false,
+      "detected_language": "spanish"
+    }
+  },
+  "attachment_information": {
+    "attachment_summary": {
+      "has_attachments": false,
+      "total_attachment_count": 0,
+      "total_attachment_size_bytes": 0,
+      "total_attachment_size_human_readable": "0 B"
+    },
+    "attachment_details": [],
+    "attachment_categories": {
+      "document_files": [],
+      "image_files": [],
+      "archive_files": [],
+      "executable_files": [],
+      "other_files": [],
+      "category_counts": {
+        "documents": 0,
+        "images": 0,
+        "archives": 0,
+        "executables": 0,
+        "other": 0
+      }
+    },
+    "security_assessment": {
+      "potentially_dangerous_files": [],
+      "overall_risk_level": "none",
+      "scan_timestamp": "2025-08-21T12:28:02.704901"
+    }
+  },
+  "source_type": "professional",
+  "source_path": "/test/email_3"
+}

@@ -1,0 +1,25 @@
+Email ID: email_62_1755795240
+==================================================
+
+EMAIL BODY:
+--------------------
+Hello,
+
+Thank you for contacting Google Cloud Support.
+
+This message is to confirm that we've received your quota request for 
+project 'double-goal-440313-r5'. Quota increase requests typically take two 
+business days to process. If this quota request is very urgent, please 
+respond to this message so that our support agents can have full context 
+when processing your quota increase request.
+
+While we make every effort to provide you with a resolution to your case 
+within two business days, please understand that some of the quota increase 
+requests may require further evaluation which takes additional time.
+
+If you have any further information and clarification you would like to 
+include in your request, please feel free to reply to this message.
+
+Best regards,
+Google Cloud Support
+

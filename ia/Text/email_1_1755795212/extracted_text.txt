@@ -1,0 +1,18 @@
+Email ID: email_1_1755795212
+==================================================
+
+EMAIL BODY:
+--------------------
+** No se ha encontrado la dirección **
+
+Tu mensaje no se ha entregado a educacion.epccali@inpec.goov.co porque no se ha encontrado el dominio inpec.goov.co. Comprueba que no haya erratas ni espacios innecesarios y vuelve a intentarlo.
+
+Encontrarás más información en el siguiente enlace: https://support.google.com/mail/?p=BadRcptDomain
+
+La respuesta fue:
+
+DNS Error: DNS type 'mx' lookup of inpec.goov.co responded with code NXDOMAIN
+Domain name not found: inpec.goov.co For more information, go to https://support.google.com/mail/?p=BadRcptDomain
+
+ATTACHMENT CONTENT:
+--------------------

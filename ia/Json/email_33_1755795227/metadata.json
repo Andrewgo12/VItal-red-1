@@ -1,0 +1,180 @@
+{
+  "unique_id": "email_33_1755795227",
+  "message_id": "<CACMSPhJQ311acECDixBb6ui6t8-5i1iw7psnSdgDS+mXkfYxdA@mail.gmail.com>",
+  "subject": "Re: validacion de curso para reduccion de multa",
+  "from": [
+    {
+      "name": "Contactenos",
+      "email": "contactenos@cali.gov.co"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date": "2025-02-18T12:11:36",
+  "date_string": "Tue, 18 Feb 2025 12:11:36 -0500",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "<CACMSPh+qRP=f738-Zc=YSZyZB1sLMH28xTwCcW9hU4OzQ9isHA@mail.gmail.com>",
+  "references": "<CAO_YAisF7LYuiaYWgo5w7z3S0LSh35h=C5Jn25mh7s6qQppFcA@mail.gmail.com>\r\n <CACMSPh+qRP=f738-Zc=YSZyZB1sLMH28xTwCcW9hU4OzQ9isHA@mail.gmail.com>",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/related",
+  "charset": null,
+  "size": 186915,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5b1f17b1804b1-43961848ce8sor52767325e9.3.2025.02.18.09.13.08\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Tue, 18 Feb 2025 09:13:08 -0800 (PST)",
+    "X-Received": "by 2002:a05:600c:3110:b0:439:9985:6984 with SMTP id\r\n 5b1f17b1804b1-43999de0cc2mr4734625e9.30.1739898786035; Tue, 18 Feb 2025\r\n 09:13:06 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1739898788; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=iMjNMNoMZDvDCDL7N2F8oUFhcbP8sYpTIFnC6z8xOiAcIh7mstTqRk2A4sIGEBk/na\r\n         b61A7ziXH9IrhivD/shJ3pVpW/TpO75lGRJJlHtPaTZ0g3B+xB3weWqlBKN+JoXGVioN\r\n         E9O4bEU9CoemLHMhd8G6NKOcliQ7NPPEkA7YHFr5DHVv3Vjy8+1O4HKLLRvh4/jYr5Wb\r\n         FR//3twnlVR9a1VXb6GjxOdx2Zj++NdYvGQ8zCrPD1KN8NRAArPwvgW93PHRarOhAVnz\r\n         O/4O71Mg31fflBMCgxxHcSudUWKONEvvfou5HIwFmCO0Za16q1gKVHojVoLZGCOTXBDP\r\n         mk8g==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:subject:message-id:date:from:in-reply-to:references:mime-version\r\n         :dkim-signature;\r\n        bh=ogmCuMKRTveLhAVc8Jh7OgxYA/W35nywvfNKS1egXco=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=NhliPtGIA+tramqZXF5EV9GsStWE+/1b7p28Hgwb067wC+n3muNU51VDySdZwmzqg9\r\n         2YjH6Pa5/yoM9A4e72Tm38skRtlUA88ba0KIXnjsGHY2dZnfZe49QDgrGR7ZQWSFEJhm\r\n         yjJSjX6VE+6dJJqDy4IK5zQaNVseF1JXiBCb+uZUziTuVhwGESvHbdbKt8H6dZbOAOkB\r\n         Tiiay0WSgXypXTdpza8/UcKdQG0goQ2qWvDJYzX6aOAitpgqGokR2cNyLbRdFWsNXNDv\r\n         WvtZ7jbX6G56iBQPDSiS2jZoqWnsBm2GNYcqnkc8on4qNekLgqfR126x1trUwwTK//ZV\r\n         K0rQ==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@cali.gov.co header.s=google header.b=TNoKdnQn;\r\n       spf=pass (google.com: domain of contactenos@cali.gov.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=contactenos@cali.gov.co;\r\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=cali.gov.co;\r\n       dara=pass header.i=@gmail.com",
+    "Return-Path": "<contactenos@cali.gov.co>",
+    "Received-SPF": "pass (google.com: domain of contactenos@cali.gov.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@cali.gov.co header.s=google header.b=TNoKdnQn;\r\n       spf=pass (google.com: domain of contactenos@cali.gov.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=contactenos@cali.gov.co;\r\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=cali.gov.co;\r\n       dara=pass header.i=@gmail.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=cali.gov.co; s=google; t=1739898788; x=1740503588; dara=google.com;\r\n        h=to:subject:message-id:date:from:in-reply-to:references:mime-version\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=ogmCuMKRTveLhAVc8Jh7OgxYA/W35nywvfNKS1egXco=;\r\n        b=TNoKdnQnOlalOapnIRRQXMJ3y8Aavvssgs+KICsgB+05yURSIG2GriEwcrHfgeKgFo\r\n         xC6eKhlC/WcDcc57iYmj4k6ojhS2LsZ7vGXAujzGpmr9GpUWrkJfXVcwuZV4RHEKRMtF\r\n         //19ITjI4abffY4sq9m2ESs/aUqVu/bZRBa9E=",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1739898788; x=1740503588;\r\n        h=to:subject:message-id:date:from:in-reply-to:references:mime-version\r\n         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=ogmCuMKRTveLhAVc8Jh7OgxYA/W35nywvfNKS1egXco=;\r\n        b=htBRsBhpqg0BH2VbDhFrmno+GTcgXXWHOkn3tvNACEpORklQ4RVHw31r7hqKrbiMLX\r\n         rQ6S9YMu1ceqSBSDD2Mw35WsO7JI+Q3ra3Z6j+JgB8vcUP/I+Yqggztkfgal0AMwoe66\r\n         N69irNWqXaM2B4ah0FNLnkEOxGMLqHNNJdbGWfeiQ3oyUwZ8JYTeniUSrNyvkSobgkx4\r\n         jUPu1yts/tBcSErEv3F5L+04rary0hcAbVgDxpkvkzODbRTkZVCEDLp/lOTqa2ipk81B\r\n         M4HlH9t0NmPDCyGutbyskaY/6y0sbHIVBN2IlBHr5BONSpmWZwKb5fvyXlws+Cf6Ba4E\r\n         NR9A==",
+    "X-Gm-Message-State": "AOJu0YywD97d3AHBLQBv08lhjephhm8UqDUBtZK8htJcWNoNzxUPcg71\r\n\tYKW1pBlP5HXyG7ZcfQB8SVDD5YQXVwD8IB6Pf4M3vQGt2Jw2Iafa/yvH3qYIx2T6N6yiKl1S2ZE\r\n\tghwOPucohe2ROGmyYkO3MrjsSAdCBKq5g4MHruchmQKRhs2zDPolP+KO0q2JVsX42KEWaTLp31b\r\n\teSTc/fA8dbvo9d18i11CPeHFU+lh5W3tpBGIxp",
+    "X-Gm-Gg": "ASbGncsw1WEiWUtI81+uRSRhhFGXu+KjERrMf/E/K+eJOS39j5DDwlP/Pthp6Y3Kgs9\r\n\t1JE4q5gYb04hvnuD/ZnTHOq3ldjz0brlRTAi3vB/aYYqVZfPv/HGHgY4VvfC3VeLeTE7/mDQFPo\r\n\tE=",
+    "X-Google-Smtp-Source": "AGHT+IHF34QJCsiUlYaFMRTfqdWr3dgfyCFgAv8zQ2uKm7ifWQbAid9locytTRXTcTiP/3bqYaTZk+DKpN7uf/79VCI=",
+    "MIME-Version": "1.0",
+    "References": "<CAO_YAisF7LYuiaYWgo5w7z3S0LSh35h=C5Jn25mh7s6qQppFcA@mail.gmail.com>\r\n <CACMSPh+qRP=f738-Zc=YSZyZB1sLMH28xTwCcW9hU4OzQ9isHA@mail.gmail.com>",
+    "In-Reply-To": "<CACMSPh+qRP=f738-Zc=YSZyZB1sLMH28xTwCcW9hU4OzQ9isHA@mail.gmail.com>",
+    "From": "Contactenos <contactenos@cali.gov.co>",
+    "Date": "Tue, 18 Feb 2025 12:11:36 -0500",
+    "X-Gm-Features": "AWEUYZkcmryT8gr2NEEbU6mEr5QtNHNO1B3rnwXdPTB1xEXo_mtQP7fvM0t8O8s",
+    "Message-ID": "<CACMSPhJQ311acECDixBb6ui6t8-5i1iw7psnSdgDS+mXkfYxdA@mail.gmail.com>",
+    "Subject": "Re: validacion de curso para reduccion de multa",
+    "To": "kevinrlinze@gmail.com",
+    "Content-Type": "multipart/related; boundary=\"00000000000017f626062e6dc1a1\""
+  },
+  "extraction_timestamp": "2025-08-21T11:53:47.969145",
+  "received_headers": [
+    "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp1852232wri;\r\n        Tue, 18 Feb 2025 09:13:09 -0800 (PST)",
+    "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5b1f17b1804b1-43961848ce8sor52767325e9.3.2025.02.18.09.13.08\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Tue, 18 Feb 2025 09:13:08 -0800 (PST)"
+  ],
+  "x_headers": {
+    "X-Received": "by 2002:a05:600c:3110:b0:439:9985:6984 with SMTP id\r\n 5b1f17b1804b1-43999de0cc2mr4734625e9.30.1739898786035; Tue, 18 Feb 2025\r\n 09:13:06 -0800 (PST)",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1739898788; x=1740503588;\r\n        h=to:subject:message-id:date:from:in-reply-to:references:mime-version\r\n         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=ogmCuMKRTveLhAVc8Jh7OgxYA/W35nywvfNKS1egXco=;\r\n        b=htBRsBhpqg0BH2VbDhFrmno+GTcgXXWHOkn3tvNACEpORklQ4RVHw31r7hqKrbiMLX\r\n         rQ6S9YMu1ceqSBSDD2Mw35WsO7JI+Q3ra3Z6j+JgB8vcUP/I+Yqggztkfgal0AMwoe66\r\n         N69irNWqXaM2B4ah0FNLnkEOxGMLqHNNJdbGWfeiQ3oyUwZ8JYTeniUSrNyvkSobgkx4\r\n         jUPu1yts/tBcSErEv3F5L+04rary0hcAbVgDxpkvkzODbRTkZVCEDLp/lOTqa2ipk81B\r\n         M4HlH9t0NmPDCyGutbyskaY/6y0sbHIVBN2IlBHr5BONSpmWZwKb5fvyXlws+Cf6Ba4E\r\n         NR9A==",
+    "X-Gm-Message-State": "AOJu0YywD97d3AHBLQBv08lhjephhm8UqDUBtZK8htJcWNoNzxUPcg71\r\n\tYKW1pBlP5HXyG7ZcfQB8SVDD5YQXVwD8IB6Pf4M3vQGt2Jw2Iafa/yvH3qYIx2T6N6yiKl1S2ZE\r\n\tghwOPucohe2ROGmyYkO3MrjsSAdCBKq5g4MHruchmQKRhs2zDPolP+KO0q2JVsX42KEWaTLp31b\r\n\teSTc/fA8dbvo9d18i11CPeHFU+lh5W3tpBGIxp",
+    "X-Gm-Gg": "ASbGncsw1WEiWUtI81+uRSRhhFGXu+KjERrMf/E/K+eJOS39j5DDwlP/Pthp6Y3Kgs9\r\n\t1JE4q5gYb04hvnuD/ZnTHOq3ldjz0brlRTAi3vB/aYYqVZfPv/HGHgY4VvfC3VeLeTE7/mDQFPo\r\n\tE=",
+    "X-Google-Smtp-Source": "AGHT+IHF34QJCsiUlYaFMRTfqdWr3dgfyCFgAv8zQ2uKm7ifWQbAid9locytTRXTcTiP/3bqYaTZk+DKpN7uf/79VCI=",
+    "X-Gm-Features": "AWEUYZkcmryT8gr2NEEbU6mEr5QtNHNO1B3rnwXdPTB1xEXo_mtQP7fvM0t8O8s"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<CACMSPhJQ311acECDixBb6ui6t8-5i1iw7psnSdgDS+mXkfYxdA@mail.gmail.com>",
+    "in_reply_to": "<CACMSPh+qRP=f738-Zc=YSZyZB1sLMH28xTwCcW9hU4OzQ9isHA@mail.gmail.com>",
+    "references": [
+      "CAO_YAisF7LYuiaYWgo5w7z3S0LSh35h=C5Jn25mh7s6qQppFcA@mail.gmail.com",
+      "CACMSPh+qRP=f738-Zc=YSZyZB1sLMH28xTwCcW9hU4OzQ9isHA@mail.gmail.com"
+    ],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": true,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of contactenos@cali.gov.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=cali.gov.co; s=google; t=1739898788; x=1740503588; dara=google.com;\r\n        h=to:subject:message-id:date:from:in-reply-to:references:mime-version\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=ogmCuMKRTveLhAVc8Jh7OgxYA/W35nywvfNKS1egXco=;\r\n        b=TNoKdnQnOlalOapnIRRQXMJ3y8Aavvssgs+KICsgB+05yURSIG2GriEwcrHfgeKgFo\r\n         xC6eKhlC/WcDcc57iYmj4k6ojhS2LsZ7vGXAujzGpmr9GpUWrkJfXVcwuZV4RHEKRMtF\r\n         //19ITjI4abffY4sq9m2ESs/aUqVu/bZRBa9E=",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@cali.gov.co header.s=google header.b=TNoKdnQn;\r\n       spf=pass (google.com: domain of contactenos@cali.gov.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=contactenos@cali.gov.co;\r\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=cali.gov.co;\r\n       dara=pass header.i=@gmail.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@cali.gov.co header.s=google header.b=TNoKdnQn;\r\n       spf=pass (google.com: domain of contactenos@cali.gov.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=contactenos@cali.gov.co;\r\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=cali.gov.co;\r\n       dara=pass header.i=@gmail.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp1852232wri;\r\n        Tue, 18 Feb 2025 09:13:09 -0800 (PST)",
+      "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5b1f17b1804b1-43961848ce8sor52767325e9.3.2025.02.18.09.13.08\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Tue, 18 Feb 2025 09:13:08 -0800 (PST)"
+    ],
+    "delivery_path": [
+      "mail-sor-f41.google.com"
+    ],
+    "total_hops": 2,
+    "delivery_delay": null,
+    "original_sender_ip": "209.85.220.41",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/related",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/related",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 6864
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 31999
+      },
+      {
+        "content_type": "image/png",
+        "charset": null,
+        "disposition": "inline",
+        "filename": "image.png",
+        "size": 144480
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": true,
+    "total_parts": 5
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Notificación de radicado al usuario Apreciado usuario. Para la Alcaldía de Cali, liderada por Alejandro Eder Garcés, es grato atender su solicitud. Agradecemos de antemano su comunicación a través del correo electrónico contactenos@cali.gov.co y apoyaremos la gestión que usted requiere. Fecha: 04/02...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 47,
+    "has_thread_info": true,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@cali.gov.co header.s=google header.b=TNoKdnQn;\r\n       spf=pass (google.com: domain of contactenos@cali.gov.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=contactenos@cali.gov.co;\r\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=cali.gov.co;\r\n       dara=pass header.i=@gmail.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=cali.gov.co; s=google; t=1739898788; x=1740503588; dara=google.com;\r\n        h=to:subject:message-id:date:from:in-reply-to:references:mime-version\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=ogmCuMKRTveLhAVc8Jh7OgxYA/W35nywvfNKS1egXco=;\r\n        b=TNoKdnQnOlalOapnIRRQXMJ3y8Aavvssgs+KICsgB+05yURSIG2GriEwcrHfgeKgFo\r\n         xC6eKhlC/WcDcc57iYmj4k6ojhS2LsZ7vGXAujzGpmr9GpUWrkJfXVcwuZV4RHEKRMtF\r\n         //19ITjI4abffY4sq9m2ESs/aUqVu/bZRBa9E=",
+  "spf_result": "pass (google.com: domain of contactenos@cali.gov.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+}

@@ -1,0 +1,111 @@
+{
+  "document_identification": {
+    "unique_identifier": "test_email_004_1755277742",
+    "document_type": "email_communication",
+    "schema_version": "2.0.0",
+    "processing_timestamp": "2025-08-21T12:28:02.704910",
+    "processing_system": "Gmail Data Extraction System v2.0 - Test Mode",
+    "data_integrity_status": "verified"
+  },
+  "communication_metadata": {
+    "message_identification": {
+      "message_id": "<test_4@example.com>",
+      "thread_id": "thread_4",
+      "conversation_topic": "Fractura de cadera - Evaluación ortopédica",
+      "in_reply_to_message": "",
+      "reference_messages": []
+    },
+    "temporal_information": {
+      "sent_datetime": "2025-08-15T12:09:02.704906",
+      "sent_datetime_string": "Fri, 15 Aug 2025 12:09:02 ",
+      "received_datetime": "2025-08-15T12:09:02.704906",
+      "timezone_information": "+0000",
+      "processing_datetime": "2025-08-21T12:28:02.704921"
+    },
+    "participant_information": {
+      "sender_details": [
+        {
+          "display_name": "Dra. Carmen Torres",
+          "email_address": "dra.torres@hospitalgeneral.com",
+          "address_type": "primary",
+          "validation_status": "valid"
+        }
+      ],
+      "primary_recipients": [
+        {
+          "display_name": "Sistema de Referencia",
+          "email_address": "referencia@hospital.com",
+          "address_type": "primary",
+          "validation_status": "valid"
+        }
+      ],
+      "carbon_copy_recipients": [],
+      "blind_carbon_copy_recipients": [],
+      "reply_to_addresses": [],
+      "total_recipient_count": 1
+    },
+    "priority_and_sensitivity": {
+      "priority_level": "media",
+      "importance_level": "normal",
+      "sensitivity_classification": "normal",
+      "delivery_receipt_requested": false,
+      "read_receipt_requested": false
+    }
+  },
+  "content_analysis": {
+    "subject_information": {
+      "subject_line": "Fractura de cadera - Evaluación ortopédica",
+      "subject_length": 42,
+      "subject_language": "spanish",
+      "contains_special_characters": true
+    },
+    "content_structure": {
+      "is_multipart_message": false,
+      "content_type": "text/plain",
+      "character_encoding": "utf-8",
+      "message_size_bytes": 756,
+      "message_size_human_readable": "0.7 KB"
+    },
+    "body_content": {
+      "plain_text_content": "\n            Estimado ortopedista,\n            \n            Paciente: Roberto Jiménez\n            Edad: 55 años\n            Género: Masculino\n            \n            DIAGNÓSTICO:\n            Fractura de cadera derecha\n            \n            MECANISMO DE TRAUMA:\n            Caída desde altura de aproximadamente 2 metros\n            \n            EXAMEN FÍSICO:\n            - Dolor intenso en cadera derecha\n            - Limitación funcional completa\n            - Deformidad evidente\n            \n            ESTUDIOS REALIZADOS:\n            - Radiografía de cadera: Fractura de cuello femoral\n            \n            Requiere evaluación ortopédica para manejo quirúrgico.\n            \n            Dra. Carmen Torres\n            Urgencias\n            ",
+      "html_content": "",
+      "raw_content": "\n            Estimado ortopedista,\n            \n            Paciente: Roberto Jiménez\n            Edad: 55 años\n            Género: Masculino\n            \n            DIAGNÓSTICO:\n            Fractura de cadera derecha\n            \n            MECANISMO DE TRAUMA:\n            Caída desde altura de aproximadamente 2 metros\n            \n            EXAMEN FÍSICO:\n            - Dolor intenso en cadera derecha\n            - Limitación funcional completa\n            - Deformidad evidente\n            \n            ESTUDIOS REALIZADOS:\n            - Radiografía de cadera: Fractura de cuello femoral\n            \n            Requiere evaluación ortopédica para manejo quirúrgico.\n            \n            Dra. Carmen Torres\n            Urgencias\n            ",
+      "content_preview": "\n            Estimado ortopedista,\n            \n            Paciente: Roberto Jiménez\n            Edad: 55 años\n            Género: Masculino\n            \n            DIAGNÓSTICO:\n            Fractura...",
+      "estimated_reading_time_minutes": 1,
+      "word_count": 60,
+      "character_count": 756,
+      "contains_html_formatting": false,
+      "detected_language": "spanish"
+    }
+  },
+  "attachment_information": {
+    "attachment_summary": {
+      "has_attachments": false,
+      "total_attachment_count": 0,
+      "total_attachment_size_bytes": 0,
+      "total_attachment_size_human_readable": "0 B"
+    },
+    "attachment_details": [],
+    "attachment_categories": {
+      "document_files": [],
+      "image_files": [],
+      "archive_files": [],
+      "executable_files": [],
+      "other_files": [],
+      "category_counts": {
+        "documents": 0,
+        "images": 0,
+        "archives": 0,
+        "executables": 0,
+        "other": 0
+      }
+    },
+    "security_assessment": {
+      "potentially_dangerous_files": [],
+      "overall_risk_level": "none",
+      "scan_timestamp": "2025-08-21T12:28:02.704944"
+    }
+  },
+  "source_type": "professional",
+  "source_path": "/test/email_4"
+}

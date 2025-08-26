@@ -1,0 +1,175 @@
+{
+  "unique_id": "email_8_1755795216",
+  "message_id": "<mid-1739393934382f35ff6d675cd@acct.epicgames.com>",
+  "subject": "Tu recibo de Epic Games F2502122056519918",
+  "from": [
+    {
+      "name": "Epic Games",
+      "email": "help@acct.epicgames.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [
+    {
+      "name": "Epic Games",
+      "email": "help@acct.epicgames.com"
+    }
+  ],
+  "date": "2025-02-12T15:59:09",
+  "date_string": "12 Feb 2025 20:59:09 -0000",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 26360,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from epicgames-252-2.bm16.maas.zetaglobal.net (epicgames-252-2.bm16.maas.zetaglobal.net. [96.47.23.5])\r\n        by mx.google.com with ESMTPS id d75a77b69052e-471bf1d44fesi4549551cf.424.2025.02.12.12.59.11\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Wed, 12 Feb 2025 12:59:12 -0800 (PST)",
+    "X-Google-Smtp-Source": "AGHT+IHE7B87joQ0rLV+qjlYCHs8UZ6qUPQzYeSZ/VsHmDI2UkJrxK8y88OMTrUdj9Tk2pt7IRvO",
+    "X-Received": "by 2002:a05:622a:1808:b0:471:a993:3607 with SMTP id d75a77b69052e-471beda7202mr15133311cf.33.1739393952424;\r\n        Wed, 12 Feb 2025 12:59:12 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1739393952; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=b5EiWsTNDDYNjHIkS/c9Izftb6dJHoseEjzSJ1h0auM/5WhNg79wW9zJ4IxBdNmpcL\r\n         ++XOR83sXJ35sv69xdf42ehehhS02B4wtpPrd3Qq8cBboTwa3HOvrpizSS08uLV5phrW\r\n         uicJvm4WquFaUSB0fCsIXuYuGmAeL7osQSn6syjWM+9aBQQ6Z8WXHMsi6JvZS9lRmSpB\r\n         1ZciQm6NBnw0zwl/rLn0HOchqzUA4rlvyvtEJC5sml0m7AOCX/jy8iDe3yEsLb34Uste\r\n         jZ0v41fLqJY+jkuroPMwG1GR6cY8/OCa3gVRHZon5Dw64FW872NI3TI7qPWK4Ek7hwVO\r\n         6eWg==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=mime-version:rcpt_domain:campaign_id:campaign_token\r\n         :list-unsubscribe-post:feedback-id:list-unsubscribe:reply-to\r\n         :message-id:date:to:from:subject:dkim-signature:dkim-signature;\r\n        bh=UBZ83kW+mRZK8fxU+gjvxmtbH4qpoLucu0y1eR1kapE=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=L0Cursiq8oB2KLMuJJRk+UTbBIpPDGTKKQ0D4Ne28Q1qr1uVt1BdpH1E8RI3WNocSC\r\n         XQvHO0hCAzRfIb/nxX+SHbMOMfLV81AYso5nbEjIDQzlRat72lzPVEpk4eEjK3SCxzOx\r\n         jkzU9pY+nWMN7GCnoCisECOx+k7dbbEI1lTqYykVzV2Q3aMSWUfOWgSqRIeiqpbLiv98\r\n         AJ+ufPuN8g5ljiTxn6myKY3otCz3HsMB5cgrvDtflb7Vd5nQeuccyyKrfRawoF2OlK9H\r\n         6mESCO/7nX1BDz0kJSXU4pCFubc8SvBtwGpcn0euElWM/X0aMXK2KIMXeXeQ2KjMPJfH\r\n         nzLg==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@fbl.zetaglobal.net header.s=v2 header.b=\"yxy+KbR/\";\r\n       dkim=pass header.i=@acct.epicgames.com header.s=v2 header.b=p4q8R+cI;\r\n       spf=pass (google.com: domain of bounce-ae1-zh_acct_nntan02122025c1391877b0-h-331b48982a=2@acct.epicgames.com designates 96.47.23.5 as permitted sender) smtp.mailfrom=\"bounce-ae1-ZH_acct_NNTAN02122025c1391877b0-h-331b48982a=2@acct.epicgames.com\";\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=acct.epicgames.com",
+    "Return-Path": "<bounce-ae1-ZH_acct_NNTAN02122025c1391877b0-h-331b48982a=2@acct.epicgames.com>",
+    "Received-SPF": "pass (google.com: domain of bounce-ae1-zh_acct_nntan02122025c1391877b0-h-331b48982a=2@acct.epicgames.com designates 96.47.23.5 as permitted sender) client-ip=96.47.23.5;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@fbl.zetaglobal.net header.s=v2 header.b=\"yxy+KbR/\";\r\n       dkim=pass header.i=@acct.epicgames.com header.s=v2 header.b=p4q8R+cI;\r\n       spf=pass (google.com: domain of bounce-ae1-zh_acct_nntan02122025c1391877b0-h-331b48982a=2@acct.epicgames.com designates 96.47.23.5 as permitted sender) smtp.mailfrom=\"bounce-ae1-ZH_acct_NNTAN02122025c1391877b0-h-331b48982a=2@acct.epicgames.com\";\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=acct.epicgames.com",
+    "DKIM-Signature": "a=rsa-sha256; bh=UBZ83kW+mRZK8fxU+gjvxmtbH4qpoLucu0y1eR1kapE=;\r\n c=relaxed/relaxed; d=acct.epicgames.com;\r\n h=X-Mailer-Info:X-Mailer-Info-Extra:Subject:From:To:Date:Message-ID:Reply-to:List-Unsubscribe:Feedback-ID:X-rpcampaign:X-cid:X-messageuid:List-Unsubscribe-Post:campaign_token:campaign_id:rcpt_domain:MIME-Version:Content-Type;\r\n s=v2; t=1739393949; v=1;\r\n b=p4q8R+cIogoxYexyOdk3Hmc3idPP8K5ys5tBwk57nqmPqIytiaTwzVcx7SgSYoMwfAQFBEmp\r\n dgTfpPoYp5G4ohxODVM1uw4GqzpoTRNFbtcHNjLe3euWpHDuzHGUDaQFvxKwawRNcRh+2ttobTk\r\n ewlCCAeMsQ+v2qIFrrN7qrW0AvhRP0ilrWql/JXtfMlu8ZeKrqIFbw14hC+yG9cvsheySuesF7c\r\n cNFoHu2qn/oCO6VTbgZRJ5obNUN+vzdiRLRTWMB4cRDnIVYyHxr0MYaVswI04G91GcaEEwg1GnY\r\n TOnh/tJrnCEN3VuNcFcW+NOJgcndL9Nbolwp3ivmBL77g==",
+    "X-Mailer-Info": "10.hVWM.geo9VYjNGdf5mb0FmbwITMyIDMyUzYxMTOxgzN3IGM.rVmdp5mcslm\r\n b6VGQn1WYpxmLj9Wb.snItlGZiojIxczM5MTOzkzM0MDOyY2M1YmZ2QmN3UzYkJCLiMGdiojIlBX\r\n aj1Cd41Ccy9GZtIDOzkTYygjN2IjYiBzNwczYwYmZyEGNiVmMxYWOhZTNtAjIsIickJiOicWbhlG\r\n buM2btJSf....",
+    "X-Mailer-Info-Extra": "331b48982a:00nIt92YuwWah12ZiojIkJnIsICMtUjNhljZxI\r\n TZiRTYyYmZwM2NwcDMiJmM2YDOyEWOzgjMtQ2byBXL4RXLjlGclJiOiQ3YiwiIkNWN3YD\r\n Z2YmZ1MjZygzM0MTOzkzM5MzNxIiOiQWatJyeAMGAt92YuwWah12ZAVmeulGby5Wa2V2a++",
+    "Subject": "Tu recibo de Epic Games F2502122056519918",
+    "From": "Epic Games <help@acct.epicgames.com>",
+    "To": "kevinrlinze@gmail.com",
+    "Date": "12 Feb 2025 20:59:09 -0000",
+    "Message-ID": "<mid-1739393934382f35ff6d675cd@acct.epicgames.com>",
+    "Reply-to": "\"Epic Games\"<help@acct.epicgames.com>",
+    "List-Unsubscribe": "<https://view.acct.epicgames.com/messages/1739393934382f35ff6d675cd/unsubscribe>, <mailto:unsubscribe-1739393934382f35ff6d675cd@acct.epicgames.com?subject=Unsubscribe>",
+    "Feedback-ID": "2839a28662bb0707c0ff2a4be21f9a65:epic-tx-prod:trigger:bme",
+    "X-rpcampaign": "epictxprod1391877_0",
+    "X-cid": "epictxprod1391877_0",
+    "X-messageuid": "1739393934382f35ff6d675cd",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    "campaign_token": "epic-tx-prod-2839a28662bb0707c0ff2a4be21f9a65-0",
+    "campaign_id": "1391877",
+    "rcpt_domain": "gmail.com",
+    "MIME-Version": "1.0",
+    "Content-Type": "multipart/alternative;\r\n boundary=\"==8819cc349e1396a6cc860a6666f2c307\""
+  },
+  "extraction_timestamp": "2025-08-21T11:53:36.399906",
+  "received_headers": [
+    "by 2002:a05:6000:4022:b0:38d:c57e:3a1b with SMTP id cp34csp119792wrb;\r\n        Wed, 12 Feb 2025 12:59:12 -0800 (PST)",
+    "from epicgames-252-2.bm16.maas.zetaglobal.net (epicgames-252-2.bm16.maas.zetaglobal.net. [96.47.23.5])\r\n        by mx.google.com with ESMTPS id d75a77b69052e-471bf1d44fesi4549551cf.424.2025.02.12.12.59.11\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Wed, 12 Feb 2025 12:59:12 -0800 (PST)"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IHE7B87joQ0rLV+qjlYCHs8UZ6qUPQzYeSZ/VsHmDI2UkJrxK8y88OMTrUdj9Tk2pt7IRvO",
+    "X-Received": "by 2002:a05:622a:1808:b0:471:a993:3607 with SMTP id d75a77b69052e-471beda7202mr15133311cf.33.1739393952424;\r\n        Wed, 12 Feb 2025 12:59:12 -0800 (PST)",
+    "X-Mailer-Info": "10.hVWM.geo9VYjNGdf5mb0FmbwITMyIDMyUzYxMTOxgzN3IGM.rVmdp5mcslm\r\n b6VGQn1WYpxmLj9Wb.snItlGZiojIxczM5MTOzkzM0MDOyY2M1YmZ2QmN3UzYkJCLiMGdiojIlBX\r\n aj1Cd41Ccy9GZtIDOzkTYygjN2IjYiBzNwczYwYmZyEGNiVmMxYWOhZTNtAjIsIickJiOicWbhlG\r\n buM2btJSf....",
+    "X-Mailer-Info-Extra": "331b48982a:00nIt92YuwWah12ZiojIkJnIsICMtUjNhljZxI\r\n TZiRTYyYmZwM2NwcDMiJmM2YDOyEWOzgjMtQ2byBXL4RXLjlGclJiOiQ3YiwiIkNWN3YD\r\n Z2YmZ1MjZygzM0MTOzkzM5MzNxIiOiQWatJyeAMGAt92YuwWah12ZAVmeulGby5Wa2V2a++",
+    "X-rpcampaign": "epictxprod1391877_0",
+    "X-cid": "epictxprod1391877_0",
+    "X-messageuid": "1739393934382f35ff6d675cd"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<mid-1739393934382f35ff6d675cd@acct.epicgames.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of bounce-ae1-zh_acct_nntan02122025c1391877b0-h-331b48982a=2@acct.epicgames.com designates 96.47.23.5 as permitted sender) client-ip=96.47.23.5;",
+    "dkim_signature": "a=rsa-sha256; bh=UBZ83kW+mRZK8fxU+gjvxmtbH4qpoLucu0y1eR1kapE=;\r\n c=relaxed/relaxed; d=fbl.zetaglobal.net;\r\n h=DKIM-Signature:X-Mailer-Info:X-Mailer-Info-Extra:Subject:From:To:Date:Message-ID:Reply-to:List-Unsubscribe:Feedback-ID:X-rpcampaign:X-cid:X-messageuid:List-Unsubscribe-Post:campaign_token:campaign_id:rcpt_domain:MIME-Version:Content-Type;\r\n s=v2; t=1739393949; v=1;\r\n b=yxy+KbR/4SwbxnSNjeaRdspSCnxp4NndJMmz9RUiFuf1ltuqMtCkPdsjs7vCFztSuBJprOaw\r\n hBG4XlE62vFumSHcPN0R16PPGjOcRdETlCQh3l81rbTf5FLimv3RGGBWdeME8yT/c2Xl5rezw5+\r\n pWl6EYfUdvG2HAnkMBctbACOpkw5EZM99BCh+xqnyDePbmM3LlST5o6Pp4EEt4OePTT5GseSb8B\r\n ruCklcVERz9ZnOeN9HWdPjT2pp06wwFlvuJB5v/9PlNWKaO2FugKdSH1wV30mXP4uXsE8ju/tuT\r\n x/me1yMrZT8NbbCLAPL6KxMXWTmyumOwef+mZVGihk1OA==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@fbl.zetaglobal.net header.s=v2 header.b=\"yxy+KbR/\";\r\n       dkim=pass header.i=@acct.epicgames.com header.s=v2 header.b=p4q8R+cI;\r\n       spf=pass (google.com: domain of bounce-ae1-zh_acct_nntan02122025c1391877b0-h-331b48982a=2@acct.epicgames.com designates 96.47.23.5 as permitted sender) smtp.mailfrom=\"bounce-ae1-ZH_acct_NNTAN02122025c1391877b0-h-331b48982a=2@acct.epicgames.com\";\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=acct.epicgames.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@fbl.zetaglobal.net header.s=v2 header.b=\"yxy+KbR/\";\r\n       dkim=pass header.i=@acct.epicgames.com header.s=v2 header.b=p4q8R+cI;\r\n       spf=pass (google.com: domain of bounce-ae1-zh_acct_nntan02122025c1391877b0-h-331b48982a=2@acct.epicgames.com designates 96.47.23.5 as permitted sender) smtp.mailfrom=\"bounce-ae1-ZH_acct_NNTAN02122025c1391877b0-h-331b48982a=2@acct.epicgames.com\";\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=acct.epicgames.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a05:6000:4022:b0:38d:c57e:3a1b with SMTP id cp34csp119792wrb;\r\n        Wed, 12 Feb 2025 12:59:12 -0800 (PST)",
+      "from epicgames-252-2.bm16.maas.zetaglobal.net (epicgames-252-2.bm16.maas.zetaglobal.net. [96.47.23.5])\r\n        by mx.google.com with ESMTPS id d75a77b69052e-471bf1d44fesi4549551cf.424.2025.02.12.12.59.11\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Wed, 12 Feb 2025 12:59:12 -0800 (PST)"
+    ],
+    "delivery_path": [
+      "epicgames-252-2.bm16.maas.zetaglobal.net"
+    ],
+    "total_hops": 2,
+    "delivery_delay": null,
+    "original_sender_ip": "96.47.23.5",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 1918
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 18473
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "It looks like your email client might not support HTML formatted email. Try opening this email in another email client. Or, open the following link to view this email in a browser: https://e.acct.epicgames.com/click?Ea2V2aW5ybGluemVAZ21haWwuY29t/CeyJtaWQiOiIxNzM5MzkzOTM0MzgyZjM1ZmY2ZDY3NWNkIiwiY3QiO...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 41,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@fbl.zetaglobal.net header.s=v2 header.b=\"yxy+KbR/\";\r\n       dkim=pass header.i=@acct.epicgames.com header.s=v2 header.b=p4q8R+cI;\r\n       spf=pass (google.com: domain of bounce-ae1-zh_acct_nntan02122025c1391877b0-h-331b48982a=2@acct.epicgames.com designates 96.47.23.5 as permitted sender) smtp.mailfrom=\"bounce-ae1-ZH_acct_NNTAN02122025c1391877b0-h-331b48982a=2@acct.epicgames.com\";\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=acct.epicgames.com",
+  "dkim_signature": "a=rsa-sha256; bh=UBZ83kW+mRZK8fxU+gjvxmtbH4qpoLucu0y1eR1kapE=;\r\n c=relaxed/relaxed; d=fbl.zetaglobal.net;\r\n h=DKIM-Signature:X-Mailer-Info:X-Mailer-Info-Extra:Subject:From:To:Date:Message-ID:Reply-to:List-Unsubscribe:Feedback-ID:X-rpcampaign:X-cid:X-messageuid:List-Unsubscribe-Post:campaign_token:campaign_id:rcpt_domain:MIME-Version:Content-Type;\r\n s=v2; t=1739393949; v=1;\r\n b=yxy+KbR/4SwbxnSNjeaRdspSCnxp4NndJMmz9RUiFuf1ltuqMtCkPdsjs7vCFztSuBJprOaw\r\n hBG4XlE62vFumSHcPN0R16PPGjOcRdETlCQh3l81rbTf5FLimv3RGGBWdeME8yT/c2Xl5rezw5+\r\n pWl6EYfUdvG2HAnkMBctbACOpkw5EZM99BCh+xqnyDePbmM3LlST5o6Pp4EEt4OePTT5GseSb8B\r\n ruCklcVERz9ZnOeN9HWdPjT2pp06wwFlvuJB5v/9PlNWKaO2FugKdSH1wV30mXP4uXsE8ju/tuT\r\n x/me1yMrZT8NbbCLAPL6KxMXWTmyumOwef+mZVGihk1OA==",
+  "spf_result": "pass (google.com: domain of bounce-ae1-zh_acct_nntan02122025c1391877b0-h-331b48982a=2@acct.epicgames.com designates 96.47.23.5 as permitted sender) client-ip=96.47.23.5;"
+}

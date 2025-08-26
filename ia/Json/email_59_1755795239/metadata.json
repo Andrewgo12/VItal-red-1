@@ -1,0 +1,142 @@
+{
+  "unique_id": "email_59_1755795239",
+  "message_id": "<EC2-CT-SMTP04ZHF8JM0007f1a9@ec2-ct-smtp04.computrabajo.com>",
+  "subject": "Tienes postulaciones pendientes de enviar, Kevin",
+  "from": [
+    {
+      "name": "Recomendaciones Computrabajo",
+      "email": "recomendaciones@computrabajo.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date": "2025-02-20T12:10:51",
+  "date_string": "20 Feb 2025 17:10:51 +0000",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "text/html",
+  "charset": "utf-8",
+  "size": 47134,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": false,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from mail pickup service by ec2-ct-smtp04.computrabajo.com with Microsoft SMTPSVC;\r\n\t Thu, 20 Feb 2025 17:10:59 +0000",
+    "X-Google-Smtp-Source": "AGHT+IETGfB4ny5BpFp3jcJerdwHhNJx4j6kVdDroQI6PgQCoi9k/lE2mHXVcOpez1Lei+9huAxP",
+    "X-Received": "by 2002:a05:6214:19ce:b0:6e6:606b:a7bb with SMTP id 6a1803df08f44-6e66ce32e5bmr282127886d6.43.1740071509623;\r\n        Thu, 20 Feb 2025 09:11:49 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740071509; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=cOQzxCm5/vpi1yWJ6WyGxU1QJRIn9bC7IzbbV78W2nbfQULml+5N86BodvRLcj9nDA\r\n         xzCQaxaJfneiCFGqOxQeNrtQkgZJIlS7bDkjK9Qj1TWNRhx6H/OqW81Uo9F/SRJFWdIC\r\n         tVt6/1aaCiB0PCk3CRIPXRgBRAXp4VSdoaNSwgII3k3HwQIgDvnDZ3MkcQ3Z3pWmxr5f\r\n         nlO23Cok7YOpKjlzz50O+PV+7uOgP0zxJv5RvPkgNjqCyasuoDD8lLFW7RB+M5Yc/PD9\r\n         Jw0QUzvlNDRFnBNIZxCj8VcRgWN/Ir874tKMs8FaRRngEheDRfOkB6uK2pTQnZtY5YIh\r\n         BK2w==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=message-id:content-transfer-encoding:subject:date:to:from\r\n         :mime-version:list-unsubscribe:list-unsubscribe-post:idtipomail\r\n         :idportal:domainkey-signature:dkim-signature;\r\n        bh=dTqYFrgPOtr8NZgMtG/MCvEo1AQxYvyU1F8vA+m+Kzs=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=WfyzPjwlYLgg8Jam/daU2M/awbxNxSdwlBKs8NeZRS6+9NZEP2uHKW+ovJV5PD2H6l\r\n         R3V4WYvZAqWxNP0GK/QS5FnVivy6coVn3LfQjVFwu4c8rjl7drx2/7Mo9E/zQdJco5+w\r\n         D8Fy+IeskLd20LsssbLGppdYHNglVu3Zc4e1Rb0VfA2x1enUu9wfwCWb3JQBfOsOr7JH\r\n         0nZ1T99G2Bj1BveKC4djco8IX/RuWkxRTu7GGHUO1J7Y7qNobSq1ksKgSCTMEfnQ2SPp\r\n         WXp/7eGUQIG4WGJ2sJXEu+YyoaFzTxlG/lVhTYvx33HlYQFORr1seQi+f1iRj+ezXdRX\r\n         6BTA==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=Uh8zFNFS;\r\n       spf=pass (google.com: domain of recomendaciones@computrabajo.com designates 52.7.85.31 as permitted sender) smtp.mailfrom=recomendaciones@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+    "Return-Path": "<recomendaciones@computrabajo.com>",
+    "Received-SPF": "pass (google.com: domain of recomendaciones@computrabajo.com designates 52.7.85.31 as permitted sender) client-ip=52.7.85.31;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=Uh8zFNFS;\r\n       spf=pass (google.com: domain of recomendaciones@computrabajo.com designates 52.7.85.31 as permitted sender) smtp.mailfrom=recomendaciones@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe-post:list-unsubscribe\r\n    :mime-version:from:to:date:subject:content-type:message-id;\r\n  bh=dTqYFrgPOtr8NZgMtG/MCvEo1AQxYvyU1F8vA+m+Kzs=;\r\n  b=Uh8zFNFSw51JuvR/RISIzXDGBhQg1UWa/8KtBGc3/jYglVF4NSOFzl/RJIxr9IejQO76Ms6L\r\n    rLtj6ieCYTzzdZInnJCgwum3q+r2j04/JBUYB+eksO20aBoXVM0jeyje2ZuK9CgEZtoKFXUq\r\n    kKj45ntTQ1nJm9GInQ4v79T1uqc=",
+    "DomainKey-Signature": "a=rsa-sha1; q=dns; c=nofws;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe-post:list-unsubscribe\r\n    :mime-version:from:to:date:subject:content-type:message-id;\r\n  b=YFpxq9Z+x9wGGkeUSfuE61mLCmRhS1/bPMbUF5eF+hfXCWIZ3UMHi3iaixq5l4beQxcDxgMt\r\n    b7OGwoRy2WtF3KZCdgoDY+dXPQYWoliRmyh3fkuU+KnBmO2E5Za9JUcRJQ731tZgk2Q9toKK\r\n    ijbQzldnLU2ALMYhFefXNZGG5sA=",
+    "IdPortal": "1",
+    "IdTipoMail": "56",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    "List-Unsubscribe": "<https://go.computrabajo.com/go/u?ipo=469814F59E4D6F04&idu=59AD1982846783FF61373E686DCF3405&inl=56&isd=9a3392d1-cd54-4d54-9910-e87a1db0c89e&lc=MailUserRetargeting-Footer-NoPosition-Unsubscribe>",
+    "MIME-Version": "1.0",
+    "From": "\"Recomendaciones Computrabajo\" <recomendaciones@computrabajo.com>",
+    "To": "kevinrlinze@gmail.com",
+    "Date": "20 Feb 2025 17:10:51 +0000",
+    "Subject": "Tienes postulaciones pendientes de enviar, Kevin",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Transfer-Encoding": "base64",
+    "Message-ID": "<EC2-CT-SMTP04ZHF8JM0007f1a9@ec2-ct-smtp04.computrabajo.com>",
+    "X-OriginalArrivalTime": "20 Feb 2025 17:10:59.0392 (UTC) FILETIME=[6973E400:01DB83BA]"
+  },
+  "extraction_timestamp": "2025-08-21T11:53:59.107050",
+  "received_headers": [
+    "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp161972wru;\r\n        Thu, 20 Feb 2025 09:11:49 -0800 (PST)",
+    "from ec2-ct-smtp04.computrabajo.com (ec2-ct-smtp04.computrabajo.com. [52.7.85.31])\r\n        by mx.google.com with ESMTPS id 6a1803df08f44-6e65d733da2si151501326d6.21.2025.02.20.09.11.49\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 09:11:49 -0800 (PST)",
+    "from mail pickup service by ec2-ct-smtp04.computrabajo.com with Microsoft SMTPSVC;\r\n\t Thu, 20 Feb 2025 17:10:59 +0000"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IETGfB4ny5BpFp3jcJerdwHhNJx4j6kVdDroQI6PgQCoi9k/lE2mHXVcOpez1Lei+9huAxP",
+    "X-Received": "by 2002:a05:6214:19ce:b0:6e6:606b:a7bb with SMTP id 6a1803df08f44-6e66ce32e5bmr282127886d6.43.1740071509623;\r\n        Thu, 20 Feb 2025 09:11:49 -0800 (PST)",
+    "X-OriginalArrivalTime": "20 Feb 2025 17:10:59.0392 (UTC) FILETIME=[6973E400:01DB83BA]"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<EC2-CT-SMTP04ZHF8JM0007f1a9@ec2-ct-smtp04.computrabajo.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of recomendaciones@computrabajo.com designates 52.7.85.31 as permitted sender) client-ip=52.7.85.31;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe-post:list-unsubscribe\r\n    :mime-version:from:to:date:subject:content-type:message-id;\r\n  bh=dTqYFrgPOtr8NZgMtG/MCvEo1AQxYvyU1F8vA+m+Kzs=;\r\n  b=Uh8zFNFSw51JuvR/RISIzXDGBhQg1UWa/8KtBGc3/jYglVF4NSOFzl/RJIxr9IejQO76Ms6L\r\n    rLtj6ieCYTzzdZInnJCgwum3q+r2j04/JBUYB+eksO20aBoXVM0jeyje2ZuK9CgEZtoKFXUq\r\n    kKj45ntTQ1nJm9GInQ4v79T1uqc=",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=Uh8zFNFS;\r\n       spf=pass (google.com: domain of recomendaciones@computrabajo.com designates 52.7.85.31 as permitted sender) smtp.mailfrom=recomendaciones@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=Uh8zFNFS;\r\n       spf=pass (google.com: domain of recomendaciones@computrabajo.com designates 52.7.85.31 as permitted sender) smtp.mailfrom=recomendaciones@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp161972wru;\r\n        Thu, 20 Feb 2025 09:11:49 -0800 (PST)",
+      "from ec2-ct-smtp04.computrabajo.com (ec2-ct-smtp04.computrabajo.com. [52.7.85.31])\r\n        by mx.google.com with ESMTPS id 6a1803df08f44-6e65d733da2si151501326d6.21.2025.02.20.09.11.49\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 09:11:49 -0800 (PST)",
+      "from mail pickup service by ec2-ct-smtp04.computrabajo.com with Microsoft SMTPSVC;\r\n\t Thu, 20 Feb 2025 17:10:59 +0000"
+    ],
+    "delivery_path": [
+      "ec2-ct-smtp04.computrabajo.com",
+      "mail"
+    ],
+    "total_hops": 3,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": false,
+    "main_content_type": "text/html",
+    "charset": "utf-8",
+    "content_parts": [],
+    "has_html": true,
+    "has_plain_text": false,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 1
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 48,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=Uh8zFNFS;\r\n       spf=pass (google.com: domain of recomendaciones@computrabajo.com designates 52.7.85.31 as permitted sender) smtp.mailfrom=recomendaciones@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe-post:list-unsubscribe\r\n    :mime-version:from:to:date:subject:content-type:message-id;\r\n  bh=dTqYFrgPOtr8NZgMtG/MCvEo1AQxYvyU1F8vA+m+Kzs=;\r\n  b=Uh8zFNFSw51JuvR/RISIzXDGBhQg1UWa/8KtBGc3/jYglVF4NSOFzl/RJIxr9IejQO76Ms6L\r\n    rLtj6ieCYTzzdZInnJCgwum3q+r2j04/JBUYB+eksO20aBoXVM0jeyje2ZuK9CgEZtoKFXUq\r\n    kKj45ntTQ1nJm9GInQ4v79T1uqc=",
+  "spf_result": "pass (google.com: domain of recomendaciones@computrabajo.com designates 52.7.85.31 as permitted sender) client-ip=52.7.85.31;"
+}

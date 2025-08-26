@@ -1,0 +1,133 @@
+{
+  "unique_id": "email_83_1755795249",
+  "message_id": "<CAO_YAisiK+m53cKetuj6zfrfCAK0+UbQ6FqS9t4gG_4DSX86NQ@mail.gmail.com>",
+  "subject": "Re: Pruebas psicológicas",
+  "from": [
+    {
+      "name": "Andres Gonzales",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "Santiago Soler Moreno",
+      "email": "santiago.soler@phidias.com.co"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date": "2025-02-24T11:15:44",
+  "date_string": "Mon, 24 Feb 2025 11:15:44 -0500",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "<CAEeyV92vfagc-Eo+37dgn36y6SRnkNK-bYNfBSv7zjUrnVtZ0Q@mail.gmail.com>",
+  "references": "<CAEeyV92vfagc-Eo+37dgn36y6SRnkNK-bYNfBSv7zjUrnVtZ0Q@mail.gmail.com>",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 7239,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "MIME-Version": "1.0",
+    "Date": "Mon, 24 Feb 2025 11:15:44 -0500",
+    "References": "<CAEeyV92vfagc-Eo+37dgn36y6SRnkNK-bYNfBSv7zjUrnVtZ0Q@mail.gmail.com>",
+    "In-Reply-To": "<CAEeyV92vfagc-Eo+37dgn36y6SRnkNK-bYNfBSv7zjUrnVtZ0Q@mail.gmail.com>",
+    "Message-ID": "<CAO_YAisiK+m53cKetuj6zfrfCAK0+UbQ6FqS9t4gG_4DSX86NQ@mail.gmail.com>",
+    "Subject": "Re: Pruebas psicológicas",
+    "From": "Andres Gonzales <kevinrlinze@gmail.com>",
+    "To": "Santiago Soler Moreno <santiago.soler@phidias.com.co>",
+    "Content-Type": "multipart/alternative; boundary=\"000000000000fdabfb062ee5a6fb\""
+  },
+  "extraction_timestamp": "2025-08-21T11:54:09.093797",
+  "received_headers": [],
+  "x_headers": {},
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<CAO_YAisiK+m53cKetuj6zfrfCAK0+UbQ6FqS9t4gG_4DSX86NQ@mail.gmail.com>",
+    "in_reply_to": "<CAEeyV92vfagc-Eo+37dgn36y6SRnkNK-bYNfBSv7zjUrnVtZ0Q@mail.gmail.com>",
+    "references": [
+      "CAEeyV92vfagc-Eo+37dgn36y6SRnkNK-bYNfBSv7zjUrnVtZ0Q@mail.gmail.com"
+    ],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": true,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "",
+    "dkim_signature": "",
+    "dmarc_result": "",
+    "authentication_results": "",
+    "received_spf": "",
+    "arc_authentication_results": [],
+    "message_security": "unknown"
+  },
+  "routing_info": {
+    "received_headers": [],
+    "delivery_path": [],
+    "total_hops": 0,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 1284
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 5263
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "*Muy buenos días,* Espero que este mensaje le encuentre bien. Quiero informarles que he completado correctamente los dos formularios asignados: la prueba de personalidad y la prueba de valores. Me aseguré de responder con precisión y de reflexionar sobre cada una de las preguntas planteadas. Estoy a...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 24,
+    "has_thread_info": true,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "",
+  "dkim_signature": "",
+  "spf_result": ""
+}

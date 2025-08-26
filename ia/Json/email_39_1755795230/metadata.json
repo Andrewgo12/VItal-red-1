@@ -1,0 +1,172 @@
+{
+  "unique_id": "email_39_1755795230",
+  "message_id": "<E1tkbct-00Ggfh-4F@smtp-01-tuk1.steampowered.com>",
+  "subject": "Verificación de email de nueva cuenta de Steam",
+  "from": [
+    {
+      "name": "Steam",
+      "email": "noreply@steampowered.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [
+    {
+      "name": "",
+      "email": "noreply@steampowered.com"
+    }
+  ],
+  "date": "2025-02-18T23:23:59",
+  "date_string": "Tue, 18 Feb 2025 20:23:59 -0800",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/mixed",
+  "charset": null,
+  "size": 39309,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from [208.78.164.196] (helo=valvesoftware.com)\r\n\tby smtp-01-tuk1.steampowered.com with smtp (Exim 4.93)\r\n\t(envelope-from <noreply@steampowered.com>)\r\n\tid 1tkbct-00Ggfh-4F\r\n\tfor kevinrlinze@gmail.com; Tue, 18 Feb 2025 20:23:59 -0800",
+    "X-Google-Smtp-Source": "AGHT+IHYTVP6dIHW51Sr/glW80K/9AX95TvjO8qtDegtfIwcz79x4ASf+9HbSjCFW4PC1iVbDdwj",
+    "X-Received": "by 2002:a05:6a21:6f8b:b0:1ee:d341:1330 with SMTP id adf61e73a8af0-1eed4fb2294mr3680370637.29.1739939039421;\r\n        Tue, 18 Feb 2025 20:23:59 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1739939039; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=leimtXSEdUTOkI3umwEZNyT3UQPSqp4Mpc9zKCjLL4H34vJbj02eLqKU1h+7jvlDpB\r\n         BXUe8ZeHx9vXXFHE9DV5HUzfcjkgfpu+WhzDdpzrOcTMHxyqyfLGJj92Cmy0GAH+zJ3j\r\n         O+G12mz1v3kjF5Hg/BUFGU+3Pwxml6TS0s+UeqrIK7aHEBNzN76pZ7AwrP56AlMraXH7\r\n         BnTT3pxieJbtPeJyDPnHe8Rr6n1ojGboV7xLgi1rsvMu+aFnqOAiuBGr9+aRierionI5\r\n         RwfqgHS8o39eus+Z0jVrEP5Y+tvsoSyK1bZh82d0Fwq7LQi+/GdAH6RjU2kZ6ntLG7Tj\r\n         XjEw==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=date:message-id:subject:mime-version:errors-to:reply-to:from:to\r\n         :dkim-signature;\r\n        bh=8stfxdomtAVq/ixpoStUDYapS8fXQvd9Oog2BchMvhg=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=hJWUXXWmwHd2oZJn3tdTn5E/JIgUfPQb3fP7AEO8Acc6QGNNaket7tDrQ/oqa0WysC\r\n         dQbdyTpHH1mAevw1P7JVY/iyRQmmpvAgxT4MneymoIahTN77J9B38fqkCM3trHEO+EEe\r\n         hrZy20dPjPC58S/XhmhhIWk0X7OsVe8flkU14uNhbdvxA2VhwPLD9db7EnJUCVa/V5fO\r\n         tRUIQvvyba96rAgixDFVBLq/o9YLF176cBX4P7/C9/VgkJKLv6W+kFjOD66JbXf22RFL\r\n         jnH3PQYFkQxibbClO5JJI/PJaA7OkFpwGYIqIK5zu45WcjAlqJuM8zFJ5a8P1zKPzGNY\r\n         yNyw==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@steampowered.com header.s=smtp header.b=Dmhbu27z;\r\n       spf=pass (google.com: domain of noreply@steampowered.com designates 208.64.202.37 as permitted sender) smtp.mailfrom=noreply@steampowered.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=steampowered.com",
+    "Return-Path": "<noreply@steampowered.com>",
+    "Received-SPF": "pass (google.com: domain of noreply@steampowered.com designates 208.64.202.37 as permitted sender) client-ip=208.64.202.37;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@steampowered.com header.s=smtp header.b=Dmhbu27z;\r\n       spf=pass (google.com: domain of noreply@steampowered.com designates 208.64.202.37 as permitted sender) smtp.mailfrom=noreply@steampowered.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=steampowered.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;\r\n\td=steampowered.com; s=smtp; h=Date:Message-Id:Content-Type:Subject:\r\n\tMIME-Version:Reply-To:From:To:Sender:Cc:Content-Transfer-Encoding:Content-ID:\r\n\tContent-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc\r\n\t:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:\r\n\tList-Subscribe:List-Post:List-Owner:List-Archive;\r\n\tbh=8stfxdomtAVq/ixpoStUDYapS8fXQvd9Oog2BchMvhg=; b=Dmhbu27zwscvWcVYfqkny9b6Xf\r\n\tQvYymHqM2pgitqlaMYz9JeeEKra44Qt+0BmNi8qSwPIuodVanqlvv4HOM2ZJw1SwO4njDKmgikqUJ\r\n\toQxwnL8ydGe5Kps5i2Ji7xGrslvMLOK8azhFP8QVYUNO1aCEqHUlvnwEW5ZVeA/CSJiU=;",
+    "To": "kevinrlinze@gmail.com",
+    "From": "Steam <noreply@steampowered.com>",
+    "Reply-To": "<noreply@steampowered.com>",
+    "Errors-To": "<noreply@steampowered.com>",
+    "X-Steam-Message-Type": "CAccountCreationEmailVerification",
+    "MIME-Version": "1.0",
+    "Subject": "Verificación de email de nueva cuenta de Steam",
+    "Content-Type": "multipart/mixed;\r\n boundary=\"m67b55cdf1c7a0\"",
+    "Message-Id": "<E1tkbct-00Ggfh-4F@smtp-01-tuk1.steampowered.com>",
+    "Date": "Tue, 18 Feb 2025 20:23:59 -0800"
+  },
+  "extraction_timestamp": "2025-08-21T11:53:50.529850",
+  "received_headers": [
+    "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp2058469wri;\r\n        Tue, 18 Feb 2025 20:23:59 -0800 (PST)",
+    "from smtp-01-tuk1.steampowered.com (smtp-01-tuk1.steampowered.com. [208.64.202.37])\r\n        by mx.google.com with ESMTPS id 41be03b00d2f7-add2167b031si13805892a12.540.2025.02.18.20.23.59\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);\r\n        Tue, 18 Feb 2025 20:23:59 -0800 (PST)",
+    "from [208.78.164.196] (helo=valvesoftware.com)\r\n\tby smtp-01-tuk1.steampowered.com with smtp (Exim 4.93)\r\n\t(envelope-from <noreply@steampowered.com>)\r\n\tid 1tkbct-00Ggfh-4F\r\n\tfor kevinrlinze@gmail.com; Tue, 18 Feb 2025 20:23:59 -0800"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IHYTVP6dIHW51Sr/glW80K/9AX95TvjO8qtDegtfIwcz79x4ASf+9HbSjCFW4PC1iVbDdwj",
+    "X-Received": "by 2002:a05:6a21:6f8b:b0:1ee:d341:1330 with SMTP id adf61e73a8af0-1eed4fb2294mr3680370637.29.1739939039421;\r\n        Tue, 18 Feb 2025 20:23:59 -0800 (PST)",
+    "X-Steam-Message-Type": "CAccountCreationEmailVerification"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<E1tkbct-00Ggfh-4F@smtp-01-tuk1.steampowered.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of noreply@steampowered.com designates 208.64.202.37 as permitted sender) client-ip=208.64.202.37;",
+    "dkim_signature": "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;\r\n\td=steampowered.com; s=smtp; h=Date:Message-Id:Content-Type:Subject:\r\n\tMIME-Version:Reply-To:From:To:Sender:Cc:Content-Transfer-Encoding:Content-ID:\r\n\tContent-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc\r\n\t:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:\r\n\tList-Subscribe:List-Post:List-Owner:List-Archive;\r\n\tbh=8stfxdomtAVq/ixpoStUDYapS8fXQvd9Oog2BchMvhg=; b=Dmhbu27zwscvWcVYfqkny9b6Xf\r\n\tQvYymHqM2pgitqlaMYz9JeeEKra44Qt+0BmNi8qSwPIuodVanqlvv4HOM2ZJw1SwO4njDKmgikqUJ\r\n\toQxwnL8ydGe5Kps5i2Ji7xGrslvMLOK8azhFP8QVYUNO1aCEqHUlvnwEW5ZVeA/CSJiU=;",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@steampowered.com header.s=smtp header.b=Dmhbu27z;\r\n       spf=pass (google.com: domain of noreply@steampowered.com designates 208.64.202.37 as permitted sender) smtp.mailfrom=noreply@steampowered.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=steampowered.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@steampowered.com header.s=smtp header.b=Dmhbu27z;\r\n       spf=pass (google.com: domain of noreply@steampowered.com designates 208.64.202.37 as permitted sender) smtp.mailfrom=noreply@steampowered.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=steampowered.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp2058469wri;\r\n        Tue, 18 Feb 2025 20:23:59 -0800 (PST)",
+      "from smtp-01-tuk1.steampowered.com (smtp-01-tuk1.steampowered.com. [208.64.202.37])\r\n        by mx.google.com with ESMTPS id 41be03b00d2f7-add2167b031si13805892a12.540.2025.02.18.20.23.59\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);\r\n        Tue, 18 Feb 2025 20:23:59 -0800 (PST)",
+      "from [208.78.164.196] (helo=valvesoftware.com)\r\n\tby smtp-01-tuk1.steampowered.com with smtp (Exim 4.93)\r\n\t(envelope-from <noreply@steampowered.com>)\r\n\tid 1tkbct-00Ggfh-4F\r\n\tfor kevinrlinze@gmail.com; Tue, 18 Feb 2025 20:23:59 -0800"
+    ],
+    "delivery_path": [
+      "smtp-01-tuk1.steampowered.com",
+      "[208.78.164.196]"
+    ],
+    "total_hops": 3,
+    "delivery_delay": null,
+    "original_sender_ip": "208.78.164.196",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/mixed",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/mixed",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 1
+      },
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 2366
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 32774
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 4
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Hola: Verificar mi dirección de correo electrónico: https://store.steampowered.com/account/newaccountverification?stoken=9b855dbcc9f475beb9c2799bf3b753328adcc2c6f4fdf270abffcffce5abecd2a471a3b5f7946e3e6a301327afbad89c&creationid=7260451639209057644 Steam necesita una dirección de correo electrónico ...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 46,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@steampowered.com header.s=smtp header.b=Dmhbu27z;\r\n       spf=pass (google.com: domain of noreply@steampowered.com designates 208.64.202.37 as permitted sender) smtp.mailfrom=noreply@steampowered.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=steampowered.com",
+  "dkim_signature": "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;\r\n\td=steampowered.com; s=smtp; h=Date:Message-Id:Content-Type:Subject:\r\n\tMIME-Version:Reply-To:From:To:Sender:Cc:Content-Transfer-Encoding:Content-ID:\r\n\tContent-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc\r\n\t:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:\r\n\tList-Subscribe:List-Post:List-Owner:List-Archive;\r\n\tbh=8stfxdomtAVq/ixpoStUDYapS8fXQvd9Oog2BchMvhg=; b=Dmhbu27zwscvWcVYfqkny9b6Xf\r\n\tQvYymHqM2pgitqlaMYz9JeeEKra44Qt+0BmNi8qSwPIuodVanqlvv4HOM2ZJw1SwO4njDKmgikqUJ\r\n\toQxwnL8ydGe5Kps5i2Ji7xGrslvMLOK8azhFP8QVYUNO1aCEqHUlvnwEW5ZVeA/CSJiU=;",
+  "spf_result": "pass (google.com: domain of noreply@steampowered.com designates 208.64.202.37 as permitted sender) client-ip=208.64.202.37;"
+}

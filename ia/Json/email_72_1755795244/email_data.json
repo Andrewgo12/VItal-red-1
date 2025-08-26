@@ -1,0 +1,360 @@
+{
+  "email_info": {
+    "unique_id": "email_72_1755795244",
+    "processing_timestamp": "2025-08-21T11:54:04.840089",
+    "schema_version": "1.0"
+  },
+  "metadata": {
+    "unique_id": "email_72_1755795244",
+    "message_id": "<CAHUGy2xW2VCHE_JsMswBRQvK6Tj4Wvd4ooQ8B2ruQkS-3CUFLg@mail.gmail.com>",
+    "subject": "REPROGRAMACION CAPACITACION PROGRAMADORES SOFTWARE",
+    "from": [
+      {
+        "name": "Mayra Dorado",
+        "email": "practicas.proyecto@pio.edu.co"
+      }
+    ],
+    "to": [
+      {
+        "name": "Jefferson Sandoval",
+        "email": "asistente.proyectos@pio.edu.co"
+      }
+    ],
+    "cc": [],
+    "bcc": [
+      {
+        "name": "",
+        "email": "kevinrlinze@gmail.com"
+      }
+    ],
+    "reply_to": [],
+    "date": "2025-02-20T09:13:12",
+    "date_string": "Thu, 20 Feb 2025 09:13:12 -0500",
+    "received_date": null,
+    "thread_topic": "",
+    "thread_index": "",
+    "in_reply_to": "",
+    "references": "",
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "content_type": "multipart/related",
+    "charset": null,
+    "size": 256696,
+    "has_attachments": false,
+    "attachment_count": 0,
+    "attachment_names": [],
+    "is_multipart": true,
+    "headers": {
+      "Delivered-To": "kevinrlinze@gmail.com",
+      "Received": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5614622812f47-3f4107e38b7sor1373874b6e.10.2025.02.20.06.12.24\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 06:12:24 -0800 (PST)",
+      "X-Forwarded-Encrypted": "i=1; AJvYcCU9zt42WanSHgl/Ewj10oPy7AO9WxY6qhhdd5SLJtHscAodYYhY8Cz99Gnf86f1Nq27b+JSRZSnLWAr9A==@gmail.com",
+      "X-Received": "by 2002:a05:6808:250e:b0:3f4:d61:3709 with SMTP id\r\n 5614622812f47-3f40d613936mr7515936b6e.0.1740060737936; Thu, 20 Feb 2025\r\n 06:12:17 -0800 (PST)",
+      "ARC-Seal": "i=1; a=rsa-sha256; t=1740060744; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=ddzyXW9X+xJU0Rh5GyW4xGv8+aEGaOMIF7dFdCv69Pr4N3MhagFQURn50Qhl3R2qk+\r\n         guA6ewgaizgMr8aA4aygu1P3m8QeWtB7rtt9xvhX7pF+3vQN4NUcVBlkjFfdEK0DmKAL\r\n         8v+5KelraSKCAZh5i/khXKPCUR1SViZrFERA1TPoF2JPunpBDe8suI3zUWhTRZEMWO2Y\r\n         EEIpM0wr9ILwEqj39dcLdkj97IDRGchErmOR8gxX8keRfkXbkiGhFqxnWMaAyRxQmbMm\r\n         ulT7650o3w2cWWNmjEgPsyclbpDVL/sKN8RMx2mcCokSCLCbwC1zt+u/JWJBx7r4tg0P\r\n         0fEg==",
+      "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:subject:message-id:date:from:mime-version:dkim-signature;\r\n        bh=WRKwZCK7/aTRsdu10mLBs8ZBOuK6lHN6Hrz/QDg424E=;\r\n        fh=nx2psYi6ghifS8Ow1IwELAcc3xiVziQCDh1GeslHTBw=;\r\n        b=aNkeaV5fz5Ib8UMZ+rhuIJT/urGMuMIpwT6EcvQep4NVafxX38qery0S87N0YXx7Tx\r\n         5NzPLcpAcwFQk9KIsE/sfgeBIYZ4RrUw9xTXIjf2ZyrAd+j97tP5S8o6xnKCG4QEHKqD\r\n         6o02vKBWiO6fn4s5tZkDyYQ0PqZodwwMXJeZGBoe2jqC/c5hBZFEw9JVKYk9914/FY7A\r\n         dCUNIzqrq10xz0jTkg42hoBxtl9Kv0hMqvkbOINn3EYqWaXk5Hllxa4K87wQGD7t+HUB\r\n         CoKjg2gDjEJHSxp2T3T/KmHTZu1FdA76v4OenP+fv1ZJ+wnYd8VBA9kM+ncd3d8GAITV\r\n         FbYw==;\r\n        dara=google.com",
+      "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@pio-edu-co.20230601.gappssmtp.com header.s=20230601 header.b=iaQ1BwEt;\r\n       spf=pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=practicas.proyecto@pio.edu.co;\r\n       dara=pass header.i=@gmail.com",
+      "Return-Path": "<practicas.proyecto@pio.edu.co>",
+      "Received-SPF": "pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+      "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@pio-edu-co.20230601.gappssmtp.com header.s=20230601 header.b=iaQ1BwEt;\r\n       spf=pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=practicas.proyecto@pio.edu.co;\r\n       dara=pass header.i=@gmail.com",
+      "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=pio-edu-co.20230601.gappssmtp.com; s=20230601; t=1740060744; x=1740665544; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=WRKwZCK7/aTRsdu10mLBs8ZBOuK6lHN6Hrz/QDg424E=;\r\n        b=iaQ1BwEtYyAtefKyCyxrsZiltwgOor6MDZdWVlROIylAqIUvb1y0e5+f3x+n7Qm561\r\n         br9mVWJzXU475eGeS1X1ENw68b8DOT9RBR5UnP8p60hirULqcvigyq6DipuIrkO7drkZ\r\n         XHYiRLcGNjAr67Xiub56DIFCWt6U85rlw86LHZPQYUSfkTjxVbJxW/0sMWQHf9ctSvBe\r\n         rgM8UGfDrWaqy6mAzHShMpEyEd/3AhYLIFWLmkOBKrKbo0+lALCfHVn/F+O3uo0y6NX+\r\n         +f7+7E/7RQTKmi/g2zyaqJWVQt3PlyL3NnOPYlKzEi/ACSIVahAHVK8r6eCuJrPThtIq\r\n         nAtA==",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740060744; x=1740665544;\r\n        h=to:subject:message-id:date:from:mime-version:x-gm-message-state\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=WRKwZCK7/aTRsdu10mLBs8ZBOuK6lHN6Hrz/QDg424E=;\r\n        b=egocSVe4jto1EMuVrIc+oBLTnNrHjNGZQCHZGnXW7fW79A3e3OS0UdnEfXEtSljE66\r\n         EdJ31a3XFoQXj4HxLBCrYQz8SIMu22ZPBOxnfeTLH21K4cAa2NTS5RKT0hrrqXoovR7d\r\n         ZI1RBa3cI3W0qPxUEqhPLcFuc2reRbHdNcIU7OBdMSIetlnFSOMqeHHoysbfAY2MyzRg\r\n         pqwgQ0RyZ4ZYyMXpmClNmu2q0cRWzOUjeQbj2UswQBVwqeGC0ad5KK9REp4ZABXCWL8s\r\n         x93K324B7rkUSLMK03EK1x5kVarb35DYiLI5efKfYvB/qATlIHUumku5e7cBYv5Z6Tq+\r\n         L5wg==",
+      "X-Gm-Message-State": "AOJu0Yx/JQHmpOBL9+NO5yO/eYpGqIg4ZuZ6zdUfFezzPIz+0CwW6s7n\r\n\ttRdh/92tXC8OLkNIZMVu8UI7aI/rdLj109E51bXKE3ywfXwjqDzsbBRUM8ug8TJm0Env5C5iGYp\r\n\t0stnAD1d9fiuIFSgu+8y0KlaZ8Jj8v26hMkBXlw==",
+      "X-Gm-Gg": "ASbGnctizXmmMvPjdbQpzpkaFQfE14pSBw+IQffpOtF141se6QzTbm13tFLJ1VPoIzp\r\n\t+RCGZkicyO+jNFbfLcx2n8x4q0Wt7BbjKKHS+WD2ppFgBQSvjO4q9cJqPf5kFkrjKLh/VZ78Asw\r\n\t==",
+      "X-Google-Smtp-Source": "AGHT+IEeaSjKzc21VyqgH4B6pzxinxCH9NZKHuNNOm5GsXJQP2glIwp7n7OsVyVAM3hPUbTDu8/X/NUHBRpRcVYrNK4=",
+      "MIME-Version": "1.0",
+      "From": "Mayra Dorado <practicas.proyecto@pio.edu.co>",
+      "Date": "Thu, 20 Feb 2025 09:13:12 -0500",
+      "X-Gm-Features": "AWEUYZlr-nrNyrks1qDGD5RHBGGtKssrx1LUyAUIRijqkTe32ylA-OPu69L1sQI",
+      "Message-ID": "<CAHUGy2xW2VCHE_JsMswBRQvK6Tj4Wvd4ooQ8B2ruQkS-3CUFLg@mail.gmail.com>",
+      "Subject": "REPROGRAMACION CAPACITACION PROGRAMADORES SOFTWARE",
+      "To": "Jefferson Sandoval <asistente.proyectos@pio.edu.co>",
+      "Content-Type": "multipart/related; boundary=\"0000000000002c6b12062e937678\"",
+      "Bcc": "kevinrlinze@gmail.com"
+    },
+    "extraction_timestamp": "2025-08-21T11:54:04.808524",
+    "received_headers": [
+      "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp74031wru;\r\n        Thu, 20 Feb 2025 06:12:24 -0800 (PST)",
+      "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5614622812f47-3f4107e38b7sor1373874b6e.10.2025.02.20.06.12.24\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 06:12:24 -0800 (PST)"
+    ],
+    "x_headers": {
+      "X-Forwarded-Encrypted": "i=1; AJvYcCU9zt42WanSHgl/Ewj10oPy7AO9WxY6qhhdd5SLJtHscAodYYhY8Cz99Gnf86f1Nq27b+JSRZSnLWAr9A==@gmail.com",
+      "X-Received": "by 2002:a05:6808:250e:b0:3f4:d61:3709 with SMTP id\r\n 5614622812f47-3f40d613936mr7515936b6e.0.1740060737936; Thu, 20 Feb 2025\r\n 06:12:17 -0800 (PST)",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740060744; x=1740665544;\r\n        h=to:subject:message-id:date:from:mime-version:x-gm-message-state\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=WRKwZCK7/aTRsdu10mLBs8ZBOuK6lHN6Hrz/QDg424E=;\r\n        b=egocSVe4jto1EMuVrIc+oBLTnNrHjNGZQCHZGnXW7fW79A3e3OS0UdnEfXEtSljE66\r\n         EdJ31a3XFoQXj4HxLBCrYQz8SIMu22ZPBOxnfeTLH21K4cAa2NTS5RKT0hrrqXoovR7d\r\n         ZI1RBa3cI3W0qPxUEqhPLcFuc2reRbHdNcIU7OBdMSIetlnFSOMqeHHoysbfAY2MyzRg\r\n         pqwgQ0RyZ4ZYyMXpmClNmu2q0cRWzOUjeQbj2UswQBVwqeGC0ad5KK9REp4ZABXCWL8s\r\n         x93K324B7rkUSLMK03EK1x5kVarb35DYiLI5efKfYvB/qATlIHUumku5e7cBYv5Z6Tq+\r\n         L5wg==",
+      "X-Gm-Message-State": "AOJu0Yx/JQHmpOBL9+NO5yO/eYpGqIg4ZuZ6zdUfFezzPIz+0CwW6s7n\r\n\ttRdh/92tXC8OLkNIZMVu8UI7aI/rdLj109E51bXKE3ywfXwjqDzsbBRUM8ug8TJm0Env5C5iGYp\r\n\t0stnAD1d9fiuIFSgu+8y0KlaZ8Jj8v26hMkBXlw==",
+      "X-Gm-Gg": "ASbGnctizXmmMvPjdbQpzpkaFQfE14pSBw+IQffpOtF141se6QzTbm13tFLJ1VPoIzp\r\n\t+RCGZkicyO+jNFbfLcx2n8x4q0Wt7BbjKKHS+WD2ppFgBQSvjO4q9cJqPf5kFkrjKLh/VZ78Asw\r\n\t==",
+      "X-Google-Smtp-Source": "AGHT+IEeaSjKzc21VyqgH4B6pzxinxCH9NZKHuNNOm5GsXJQP2glIwp7n7OsVyVAM3hPUbTDu8/X/NUHBRpRcVYrNK4=",
+      "X-Gm-Features": "AWEUYZlr-nrNyrks1qDGD5RHBGGtKssrx1LUyAUIRijqkTe32ylA-OPu69L1sQI"
+    },
+    "delivery_receipt": "",
+    "read_receipt": "",
+    "thread_info": {
+      "message_id": "<CAHUGy2xW2VCHE_JsMswBRQvK6Tj4Wvd4ooQ8B2ruQkS-3CUFLg@mail.gmail.com>",
+      "in_reply_to": "",
+      "references": [],
+      "thread_topic": "",
+      "thread_index": "",
+      "is_reply": false,
+      "is_forward": false
+    },
+    "security_info": {
+      "spf_result": "pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+      "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=pio-edu-co.20230601.gappssmtp.com; s=20230601; t=1740060744; x=1740665544; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=WRKwZCK7/aTRsdu10mLBs8ZBOuK6lHN6Hrz/QDg424E=;\r\n        b=iaQ1BwEtYyAtefKyCyxrsZiltwgOor6MDZdWVlROIylAqIUvb1y0e5+f3x+n7Qm561\r\n         br9mVWJzXU475eGeS1X1ENw68b8DOT9RBR5UnP8p60hirULqcvigyq6DipuIrkO7drkZ\r\n         XHYiRLcGNjAr67Xiub56DIFCWt6U85rlw86LHZPQYUSfkTjxVbJxW/0sMWQHf9ctSvBe\r\n         rgM8UGfDrWaqy6mAzHShMpEyEd/3AhYLIFWLmkOBKrKbo0+lALCfHVn/F+O3uo0y6NX+\r\n         +f7+7E/7RQTKmi/g2zyaqJWVQt3PlyL3NnOPYlKzEi/ACSIVahAHVK8r6eCuJrPThtIq\r\n         nAtA==",
+      "dmarc_result": "",
+      "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@pio-edu-co.20230601.gappssmtp.com header.s=20230601 header.b=iaQ1BwEt;\r\n       spf=pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=practicas.proyecto@pio.edu.co;\r\n       dara=pass header.i=@gmail.com",
+      "received_spf": "",
+      "arc_authentication_results": [
+        "i=1; mx.google.com;\r\n       dkim=pass header.i=@pio-edu-co.20230601.gappssmtp.com header.s=20230601 header.b=iaQ1BwEt;\r\n       spf=pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=practicas.proyecto@pio.edu.co;\r\n       dara=pass header.i=@gmail.com"
+      ],
+      "message_security": "high"
+    },
+    "routing_info": {
+      "received_headers": [
+        "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp74031wru;\r\n        Thu, 20 Feb 2025 06:12:24 -0800 (PST)",
+        "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5614622812f47-3f4107e38b7sor1373874b6e.10.2025.02.20.06.12.24\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 06:12:24 -0800 (PST)"
+      ],
+      "delivery_path": [
+        "mail-sor-f41.google.com"
+      ],
+      "total_hops": 2,
+      "delivery_delay": null,
+      "original_sender_ip": "209.85.220.41",
+      "final_recipient": ""
+    },
+    "content_analysis": {
+      "is_multipart": true,
+      "main_content_type": "multipart/related",
+      "charset": null,
+      "content_parts": [
+        {
+          "content_type": "multipart/related",
+          "charset": null,
+          "disposition": null,
+          "filename": null,
+          "size": 2
+        },
+        {
+          "content_type": "multipart/alternative",
+          "charset": null,
+          "disposition": null,
+          "filename": null,
+          "size": 2
+        },
+        {
+          "content_type": "text/plain",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 2074
+        },
+        {
+          "content_type": "text/html",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 5510
+        },
+        {
+          "content_type": "image/jpeg",
+          "charset": null,
+          "disposition": "inline",
+          "filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+          "size": 246166
+        }
+      ],
+      "has_html": true,
+      "has_plain_text": true,
+      "has_attachments": false,
+      "has_inline_images": true,
+      "total_parts": 5
+    },
+    "priority_info": {
+      "priority": "",
+      "importance": "",
+      "sensitivity": "",
+      "precedence": "",
+      "urgency": "normal",
+      "delivery_receipt_requested": false,
+      "read_receipt_requested": false
+    },
+    "body_preview": "Buenas tardes. Estimados Pioneros, Tecnicos en Programacion de Software, es para mi un placer invitarlos a una capacitación el día *Viernes 21 de Febrero del 2025 *desde las *04:30 PM *a* 06:30 PM, transmisión en vivo por ZOOM*. Es de suma importancia su asistencia para tratar temas relevantes sobre...",
+    "content_stats": {
+      "total_recipients": 2,
+      "subject_length": 50,
+      "has_thread_info": false,
+      "estimated_read_time": 1
+    },
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@pio-edu-co.20230601.gappssmtp.com header.s=20230601 header.b=iaQ1BwEt;\r\n       spf=pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=practicas.proyecto@pio.edu.co;\r\n       dara=pass header.i=@gmail.com",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=pio-edu-co.20230601.gappssmtp.com; s=20230601; t=1740060744; x=1740665544; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=WRKwZCK7/aTRsdu10mLBs8ZBOuK6lHN6Hrz/QDg424E=;\r\n        b=iaQ1BwEtYyAtefKyCyxrsZiltwgOor6MDZdWVlROIylAqIUvb1y0e5+f3x+n7Qm561\r\n         br9mVWJzXU475eGeS1X1ENw68b8DOT9RBR5UnP8p60hirULqcvigyq6DipuIrkO7drkZ\r\n         XHYiRLcGNjAr67Xiub56DIFCWt6U85rlw86LHZPQYUSfkTjxVbJxW/0sMWQHf9ctSvBe\r\n         rgM8UGfDrWaqy6mAzHShMpEyEd/3AhYLIFWLmkOBKrKbo0+lALCfHVn/F+O3uo0y6NX+\r\n         +f7+7E/7RQTKmi/g2zyaqJWVQt3PlyL3NnOPYlKzEi/ACSIVahAHVK8r6eCuJrPThtIq\r\n         nAtA==",
+    "spf_result": "pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+  },
+  "content": {
+    "body": {
+      "text": "Buenas tardes.\n\nEstimados Pioneros,\n\nTecnicos en Programacion de Software, es para mi un placer invitarlos a una\ncapacitación el día *Viernes 21 de Febrero del 2025 *desde las *04:30\nPM *a* 06:30\nPM, transmisión en vivo por ZOOM*.\n\nEs de suma importancia su asistencia para tratar temas relevantes sobre *Marca\nPersonal y Entrevista. ¡No faltes!*\n\n*Enlace de la transmisión:\n**https://site3.q10.com/Clase/2cb0b254-4665-4a43-933a-704c4f8aba03/Enlace?aplentId=85727502-4d34-468f-b0b7-9f18dd8995f9\n<https://site3.q10.com/Clase/2cb0b254-4665-4a43-933a-704c4f8aba03/Enlace?aplentId=85727502-4d34-468f-b0b7-9f18dd8995f9>*\n\nAgradecemos de antemano su puntualidad.\n[image: Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg]\n*Cordialmente.*\n*Mayra Alejandra Dorado *\n*Asistente de proyecto*\n*Whatsapp +57 315 394 2583*\nDirección: Av 2 Nte. #24N 91\n\n*Declinación de Responsabilidades:* Las opiniones que contenga este\nmensaje son exclusivas de su autor y no representan la opinión\ndel POLITÉCNICO PIO INTERNACIONAL DE OCCIDENTE o de sus autoridades. El\nreceptor deberá verificar posibles virus informáticos que tenga el correo o\ncualquier anexo, razón por la cual el POLITÉCNICO PIO INTERNACIONAL DE\nOCCIDENTE\nno es responsable de los daños causados por cualquier virus transmitido en\neste correo electrónico.\n\nLos contenidos, textos, imágenes, archivos enviados en este mensaje son\nresponsabilidad exclusiva del remitente y no reflejan ni comprometen de\nninguna manera al POLITÉCNICO PIO INTERNACIONAL DE OCCIDENTE No se\nautoriza el uso de esta herramienta para el intercambio de correos masivos,\ncadenas o spam, ni de mensajes ofensivos, de carácter político,\nsexual o religioso, con fines de lucro, con propósitos\ndelictivos o cualquier otro mensaje que se considere indebido o que vaya en\ncontra de la Ley.\n\n*Apoya el medio ambiente, evite imprimir mensajes de correo electrónico.*",
+      "html": "<div dir=\"ltr\"><div><p>Buenas tardes.</p><p>Estimados Pioneros,</p><p>Tecnicos en Programacion de Software, es para mi un placer invitarlos a una capacitación el día <b>Viernes 21 de Febrero del 2025 </b>desde las <b>04:30 PM </b>a<b> 06:30 PM, transmisión en vivo por ZOOM</b>.</p><p>Es de suma importancia su asistencia para tratar temas relevantes sobre <b>Marca Personal y Entrevista. ¡No faltes!</b></p><p><b>Enlace de la transmisión: </b><i><b><font color=\"#0000ff\"><a href=\"https://site3.q10.com/Clase/2cb0b254-4665-4a43-933a-704c4f8aba03/Enlace?aplentId=85727502-4d34-468f-b0b7-9f18dd8995f9\" target=\"_blank\">https://site3.q10.com/Clase/2cb0b254-4665-4a43-933a-704c4f8aba03/Enlace?aplentId=85727502-4d34-468f-b0b7-9f18dd8995f9</a></font></b></i></p><p>Agradecemos de antemano su puntualidad.</p></div><div><div dir=\"ltr\" class=\"gmail_signature\" data-smartmail=\"gmail_signature\"><div dir=\"ltr\"><img src=\"cid:ii_m7df8ftv0\" alt=\"Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg\" width=\"452\" height=\"325\"><br><div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><span style=\"font-family:Arial,Helvetica,sans-serif;font-size:small\"></span><span style=\"font-size:12.8px\"><i><font color=\"#0000ff\">Cordialmente.</font></i></span></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><span style=\"font-size:12.8px\"><i><font color=\"#0000ff\">Mayra Alejandra Dorado </font></i></span></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><span style=\"font-size:12.8px\"><i><font color=\"#0000ff\">Asistente de proyecto</font></i></span></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><span style=\"font-size:12.8px\"><i><font color=\"#0000ff\">Whatsapp +57 315 394 2583</font></i></span></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><div style=\"font-family:Arial,Helvetica,sans-serif;font-size:small\"><font color=\"#0000ff\">Dirección: Av 2 Nte. #24N 91</font></div></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><img width=\"420\" height=\"223\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zVXeRQMRXBtU_ehV79V-J7yj4Ju9Co0MZ-cQWht2V03YiXP8B-p96g98ieO5L2Qg6hGhTytIg\"><br></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><font color=\"#0b5394\"></font></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\">  </div><div style=\"color:rgb(34,34,34)\"><p><b style=\"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\">Declinación de Responsabilidades:</b><font size=\"2\"><font color=\"#222222\" face=\"Roboto, RobotoDraft, Helvetica, Arial, sans-serif\" size=\"3\">  Las opiniones que contenga este mensaje son exclusivas de su autor y no representan la opinión del POLITÉCNICO PIO INTERNACIONAL DE </font><font color=\"#222222\" face=\"Roboto, RobotoDraft, Helvetica, Arial, sans-serif\">OCCIDENTE o</font><font color=\"#222222\" face=\"Roboto, RobotoDraft, Helvetica, Arial, sans-serif\" size=\"3\"> de sus autoridades. El receptor deberá verificar posibles virus informáticos que tenga el correo o cualquier anexo, razón por la cual el </font></font><span style=\"font-family:Arial;font-size:medium\">POLITÉCNICO PIO</span><span style=\"font-family:Arial;font-size:medium\"> INTERNACIONAL DE </span><font color=\"#222222\" face=\"Arial\" size=\"3\">OCCIDENTE no es responsable de los daños causados por cualquier virus transmitido en este correo electrónico.</font></p><p style=\"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:12.8px\"><span style=\"font-size:small\"><font face=\"Arial\">Los contenidos, textos, imágenes, archivos enviados en este mensaje son responsabilidad exclusiva del remitente y no reflejan ni comprometen de ninguna manera al </font></span><span style=\"font-family:Arial;font-size:small\">POLITÉCNICO PIO</span><span style=\"font-family:Arial;font-size:small\"> INTERNACIONAL DE OCCIDENTE   </span><span style=\"font-size:small\"><font face=\"Arial\"> No se autoriza el uso de esta herramienta para el intercambio de correos masivos, cadenas o spam, ni de mensajes ofensivos, de carácter político, sexual o religioso, con fines de lucro, con propósitos delictivos o cualquier otro mensaje que se considere indebido o que vaya en contra de la Ley.</font></span></p><p style=\"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium;text-align:center\"><font face=\"Arial\" size=\"4\"><b><font color=\"#0000ff\">Apoya el medio ambiente, evite imprimir mensajes de correo electrónico.</font></b></font></p></div></div></div></div></div></div>\r\n\n",
+      "raw": ""
+    },
+    "extracted_text": {
+      "email_body": {
+        "text": "Buenas tardes.\n\nEstimados Pioneros,\n\nTecnicos en Programacion de Software, es para mi un placer invitarlos a una\ncapacitación el día *Viernes 21 de Febrero del 2025 *desde las *04:30\nPM *a* 06:30\nPM, transmisión en vivo por ZOOM*.\n\nEs de suma importancia su asistencia para tratar temas relevantes sobre *Marca\nPersonal y Entrevista. ¡No faltes!*\n\n*Enlace de la transmisión:\n**https://site3.q10.com/Clase/2cb0b254-4665-4a43-933a-704c4f8aba03/Enlace?aplentId=85727502-4d34-468f-b0b7-9f18dd8995f9\n<https://site3.q10.com/Clase/2cb0b254-4665-4a43-933a-704c4f8aba03/Enlace?aplentId=85727502-4d34-468f-b0b7-9f18dd8995f9>*\n\nAgradecemos de antemano su puntualidad.\n[image: Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg]\n*Cordialmente.*\n*Mayra Alejandra Dorado *\n*Asistente de proyecto*\n*Whatsapp +57 315 394 2583*\nDirección: Av 2 Nte. #24N 91\n\n*Declinación de Responsabilidades:* Las opiniones que contenga este\nmensaje son exclusivas de su autor y no representan la opinión\ndel POLITÉCNICO PIO INTERNACIONAL DE OCCIDENTE o de sus autoridades. El\nreceptor deberá verificar posibles virus informáticos que tenga el correo o\ncualquier anexo, razón por la cual el POLITÉCNICO PIO INTERNACIONAL DE\nOCCIDENTE\nno es responsable de los daños causados por cualquier virus transmitido en\neste correo electrónico.\n\nLos contenidos, textos, imágenes, archivos enviados en este mensaje son\nresponsabilidad exclusiva del remitente y no reflejan ni comprometen de\nninguna manera al POLITÉCNICO PIO INTERNACIONAL DE OCCIDENTE No se\nautoriza el uso de esta herramienta para el intercambio de correos masivos,\ncadenas o spam, ni de mensajes ofensivos, de carácter político,\nsexual o religioso, con fines de lucro, con propósitos\ndelictivos o cualquier otro mensaje que se considere indebido o que vaya en\ncontra de la Ley.\n\n*Apoya el medio ambiente, evite imprimir mensajes de correo electrónico.*",
+        "html": "<div dir=\"ltr\"><div><p>Buenas tardes.</p><p>Estimados Pioneros,</p><p>Tecnicos en Programacion de Software, es para mi un placer invitarlos a una capacitación el día <b>Viernes 21 de Febrero del 2025 </b>desde las <b>04:30 PM </b>a<b> 06:30 PM, transmisión en vivo por ZOOM</b>.</p><p>Es de suma importancia su asistencia para tratar temas relevantes sobre <b>Marca Personal y Entrevista. ¡No faltes!</b></p><p><b>Enlace de la transmisión: </b><i><b><font color=\"#0000ff\"><a href=\"https://site3.q10.com/Clase/2cb0b254-4665-4a43-933a-704c4f8aba03/Enlace?aplentId=85727502-4d34-468f-b0b7-9f18dd8995f9\" target=\"_blank\">https://site3.q10.com/Clase/2cb0b254-4665-4a43-933a-704c4f8aba03/Enlace?aplentId=85727502-4d34-468f-b0b7-9f18dd8995f9</a></font></b></i></p><p>Agradecemos de antemano su puntualidad.</p></div><div><div dir=\"ltr\" class=\"gmail_signature\" data-smartmail=\"gmail_signature\"><div dir=\"ltr\"><img src=\"cid:ii_m7df8ftv0\" alt=\"Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg\" width=\"452\" height=\"325\"><br><div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><span style=\"font-family:Arial,Helvetica,sans-serif;font-size:small\"></span><span style=\"font-size:12.8px\"><i><font color=\"#0000ff\">Cordialmente.</font></i></span></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><span style=\"font-size:12.8px\"><i><font color=\"#0000ff\">Mayra Alejandra Dorado </font></i></span></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><span style=\"font-size:12.8px\"><i><font color=\"#0000ff\">Asistente de proyecto</font></i></span></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><span style=\"font-size:12.8px\"><i><font color=\"#0000ff\">Whatsapp +57 315 394 2583</font></i></span></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><div style=\"font-family:Arial,Helvetica,sans-serif;font-size:small\"><font color=\"#0000ff\">Dirección: Av 2 Nte. #24N 91</font></div></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><img width=\"420\" height=\"223\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4zVXeRQMRXBtU_ehV79V-J7yj4Ju9Co0MZ-cQWht2V03YiXP8B-p96g98ieO5L2Qg6hGhTytIg\"><br></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\"><font color=\"#0b5394\"></font></div><div style=\"color:rgb(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\">  </div><div style=\"color:rgb(34,34,34)\"><p><b style=\"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium\">Declinación de Responsabilidades:</b><font size=\"2\"><font color=\"#222222\" face=\"Roboto, RobotoDraft, Helvetica, Arial, sans-serif\" size=\"3\">  Las opiniones que contenga este mensaje son exclusivas de su autor y no representan la opinión del POLITÉCNICO PIO INTERNACIONAL DE </font><font color=\"#222222\" face=\"Roboto, RobotoDraft, Helvetica, Arial, sans-serif\">OCCIDENTE o</font><font color=\"#222222\" face=\"Roboto, RobotoDraft, Helvetica, Arial, sans-serif\" size=\"3\"> de sus autoridades. El receptor deberá verificar posibles virus informáticos que tenga el correo o cualquier anexo, razón por la cual el </font></font><span style=\"font-family:Arial;font-size:medium\">POLITÉCNICO PIO</span><span style=\"font-family:Arial;font-size:medium\"> INTERNACIONAL DE </span><font color=\"#222222\" face=\"Arial\" size=\"3\">OCCIDENTE no es responsable de los daños causados por cualquier virus transmitido en este correo electrónico.</font></p><p style=\"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:12.8px\"><span style=\"font-size:small\"><font face=\"Arial\">Los contenidos, textos, imágenes, archivos enviados en este mensaje son responsabilidad exclusiva del remitente y no reflejan ni comprometen de ninguna manera al </font></span><span style=\"font-family:Arial;font-size:small\">POLITÉCNICO PIO</span><span style=\"font-family:Arial;font-size:small\"> INTERNACIONAL DE OCCIDENTE   </span><span style=\"font-size:small\"><font face=\"Arial\"> No se autoriza el uso de esta herramienta para el intercambio de correos masivos, cadenas o spam, ni de mensajes ofensivos, de carácter político, sexual o religioso, con fines de lucro, con propósitos delictivos o cualquier otro mensaje que se considere indebido o que vaya en contra de la Ley.</font></span></p><p style=\"font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium;text-align:center\"><font face=\"Arial\" size=\"4\"><b><font color=\"#0000ff\">Apoya el medio ambiente, evite imprimir mensajes de correo electrónico.</font></b></font></p></div></div></div></div></div></div>\r\n\n",
+        "raw": ""
+      },
+      "attachments": [
+        {
+          "filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+          "text": ""
+        }
+      ]
+    }
+  },
+  "attachments": {
+    "count": 1,
+    "total_size_bytes": 179890,
+    "files": [
+      {
+        "original_filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+        "saved_filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+        "file_path": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Imagenes\\email_72_1755795244\\Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+        "relative_path": "Imagenes\\email_72_1755795244\\Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+        "content_type": "image/jpeg",
+        "category": "image",
+        "size_bytes": 179890,
+        "size_human": "175.7 KB",
+        "md5_hash": "23fd34ea6de8ba9a891d279add9d5e38",
+        "attachment_index": 0,
+        "saved_successfully": true,
+        "security_analysis": {
+          "risk_level": "low",
+          "potential_threats": [],
+          "file_signature_valid": true,
+          "suspicious_extensions": false,
+          "encrypted": false,
+          "macro_enabled": false
+        },
+        "file_metadata": {
+          "file_stats": {
+            "size_bytes": 179890,
+            "creation_time": "2025-08-21T11:54:04.812671",
+            "modification_time": "2025-08-21T11:54:04.812671",
+            "access_time": "2025-08-21T11:54:04.821189",
+            "permissions": "666",
+            "inode": 844424930631670
+          },
+          "creation_time": null,
+          "modification_time": null,
+          "access_time": null,
+          "permissions": "",
+          "owner": "",
+          "file_type_details": {},
+          "embedded_metadata": {
+            "format": "JPEG",
+            "mode": "RGB",
+            "size": [
+              1280,
+              919
+            ],
+            "exif": {}
+          }
+        },
+        "processing_timestamp": "2025-08-21T11:54:04.821862",
+        "disposition": "inline",
+        "extracted_text": ""
+      }
+    ]
+  },
+  "statistics": {
+    "text_length": {
+      "body_text": 1883,
+      "body_html": 4883,
+      "total_extracted_text": 0
+    },
+    "attachments": {
+      "total_count": 1,
+      "by_category": {
+        "image": 1
+      },
+      "by_type": {
+        "image/jpeg": 1
+      },
+      "total_size_bytes": 179890,
+      "largest_file": {
+        "filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+        "size_bytes": 179890
+      },
+      "smallest_file": {
+        "filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+        "size_bytes": 179890
+      }
+    },
+    "recipients": {
+      "to_count": 1,
+      "cc_count": 0,
+      "bcc_count": 1,
+      "total_recipients": 2
+    },
+    "headers": {
+      "total_headers": 24,
+      "x_headers_count": 7
+    }
+  },
+  "processing_info": {
+    "extraction_successful": true,
+    "errors": [],
+    "warnings": [],
+    "processing_time": 0.03779792785644531,
+    "extraction_method": "imap_direct",
+    "retry_count": 0
+  },
+  "analysis": {
+    "content_analysis": {
+      "content_type": "html",
+      "language_detected": "es",
+      "sentiment": "neutral",
+      "urgency_indicators": [],
+      "topics": [],
+      "contains_links": true,
+      "contains_images": true,
+      "text_quality": "good"
+    },
+    "attachment_analysis": {
+      "total_count": 1,
+      "total_size_mb": 0.17,
+      "risk_assessment": "low",
+      "file_types": {
+        "image/jpeg": 1
+      },
+      "suspicious_files": [],
+      "encrypted_files": [],
+      "large_files": []
+    },
+    "security_analysis": {
+      "authentication_status": "unknown",
+      "spf_status": "pass",
+      "dkim_status": "pass",
+      "dmarc_status": "unknown",
+      "overall_trust_score": 0.8999999999999999,
+      "security_warnings": []
+    },
+    "communication_analysis": {
+      "communication_type": "group",
+      "recipient_count": 2,
+      "is_broadcast": false,
+      "is_personal": false,
+      "is_automated": false,
+      "thread_participation": false
+    },
+    "technical_analysis": {
+      "routing_hops": 2,
+      "delivery_delay_estimated": false,
+      "client_info": {},
+      "server_info": {},
+      "encryption_used": false
+    }
+  },
+  "quality_metrics": {
+    "completeness_score": 0.75,
+    "extraction_success_rate": 1.0,
+    "data_integrity_score": 1.0,
+    "overall_quality_score": 0.9000000000000001
+  }
+}

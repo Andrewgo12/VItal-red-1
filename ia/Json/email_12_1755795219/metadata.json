@@ -1,0 +1,183 @@
+{
+  "unique_id": "email_12_1755795219",
+  "message_id": "<CADiWjKL=W5bJjvmSUoLZs380jj2PasfRWuJQX40dJMgzwVc=3Q@mail.gmail.com>",
+  "subject": "Conoce las Vacantes Disponibles en la Rueda de Candidatos Talentsoft\r\n 1000 Programadores",
+  "from": [
+    {
+      "name": "Líder Proyectos Cenisoft",
+      "email": "liderproyectoscenisoft@cenisoft.org"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "cc": [],
+  "bcc": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "reply_to": [],
+  "date": "2025-02-13T11:57:36",
+  "date_string": "Thu, 13 Feb 2025 11:57:36 -0500",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/related",
+  "charset": null,
+  "size": 1117181,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5b1f17b1804b1-439618d4d8asor10381065e9.6.2025.02.13.09.03.16\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 13 Feb 2025 09:03:16 -0800 (PST)",
+    "X-Forwarded-Encrypted": "i=1; AJvYcCVUzyQORMTxDe2l3vAGQABV5vpendiIpPTHpGE4M3y9LG/xTtOnULOtcXoE/MIbKNhi2GPzkE+hAt6x1Q==@gmail.com",
+    "X-Received": "by 2002:a05:6402:538b:b0:5dc:6e27:e6e8 with SMTP id\r\n 4fb4d7f45d1cf-5dec9e99952mr9396195a12.24.1739465869772; Thu, 13 Feb 2025\r\n 08:57:49 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1739466196; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=iGMZiljHthO0c74IZJjS6hIDXsDrhg4OUCC9DkFBSInFnB6QJWxpbZ7WGCVgVKujpF\r\n         TjOvPSKa7pfKXAnysZ05bl54WWAkuBASU4rcrbskB9xEDBxP6GL2xldBo0BX+E+aPNTB\r\n         iOp4p0ITstJt1VgnawGQfJ4lG2mpor7MaNrVWXbhixRrZBHqz/G+mLP6jOM1GPaaNDBF\r\n         doWMRwrvhN1JKt2i7Sx3H8s3d5Dwmbm07y63nwU+tVdANJlbQVO32ltLpnmwfGbCjBza\r\n         +OUvFeLokF9X0pkxD2CyAJgRP1lNmP4nZQZSFbLjcHm12aw/FRyjlzW36mBdBBn1VtbM\r\n         w0Zw==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:subject:message-id:date:from:mime-version:dkim-signature;\r\n        bh=qnibyCS9UWvUKUp4mNLwYWYkTIjUwW1KUMzfm/FbnEY=;\r\n        fh=8UDoos1gkg+Nekc6nGHEj+q6EEoiGC3l1DSHCxKgMo8=;\r\n        b=ESrVK4dzDCke9ZoRNjZEz0+NjKRKMngDVBFn6bJLSPpzEgSU0Vi5/RwOLqpK73/I8N\r\n         kPuVdcfd59wWm0xa+qrCmYSy1hqFPE42b5NYQpJ1ggzQuH8Njlvm/bo5v8kk8Nddhh7M\r\n         PFxuh5eKiyGmf23dwsEaGncEFZPLGm7MDuuwFU0PUAUMsepdvipumAqJBrThcBf16Cx4\r\n         36T5NLquUcvtv4jXMKCpdPp5VdADxFNqqRgzBRaDiIQZHPpYelqJb21MKys4WkCPiBOi\r\n         JgQq1qlEJ+pjGjlnXGSVqUO35GxG2xAR35NBbZO8k+Nx955+sbbPHmMN9pQZSEkpq26A\r\n         v7Ow==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@cenisoft-org.20230601.gappssmtp.com header.s=20230601 header.b=ccwsSZXd;\r\n       spf=pass (google.com: domain of liderproyectoscenisoft@cenisoft.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=liderproyectoscenisoft@cenisoft.org;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cenisoft.org;\r\n       dara=pass header.i=@gmail.com",
+    "Return-Path": "<liderproyectoscenisoft@cenisoft.org>",
+    "Received-SPF": "pass (google.com: domain of liderproyectoscenisoft@cenisoft.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@cenisoft-org.20230601.gappssmtp.com header.s=20230601 header.b=ccwsSZXd;\r\n       spf=pass (google.com: domain of liderproyectoscenisoft@cenisoft.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=liderproyectoscenisoft@cenisoft.org;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cenisoft.org;\r\n       dara=pass header.i=@gmail.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=cenisoft-org.20230601.gappssmtp.com; s=20230601; t=1739466196; x=1740070996; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=qnibyCS9UWvUKUp4mNLwYWYkTIjUwW1KUMzfm/FbnEY=;\r\n        b=ccwsSZXdOp1ja38tFU8advCRUBDtKlklEMKEKL/uwVj0qzoQcGC2Q3y8Ioo8QFFi3i\r\n         l5t8iWi8Rrq9NLz9/R/PCFdp/7y710KYE6PU/f0ND+Moho7FOdM91fr351Nx4MW8g4ks\r\n         jfNak49k0/DoglNCH2SlKXHh4fcGivt59NgeYBe7Uz0KsBlkhJ6sxfdN0qaOsSWOLoJn\r\n         JPE/mNmXLPzF6rnUuvziGNE80CdSARprmGRI9zR83woHx0kIMsGwkMMrlLrIFx0meTfG\r\n         6+jImKbkqEX3aStxn9Ekh1tRUXf+CSoXhi9SqozQ3C8NRoc+483YASQY4qtXkJP+F8n+\r\n         D/4w==",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1739466196; x=1740070996;\r\n        h=to:subject:message-id:date:from:mime-version:x-gm-message-state\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=qnibyCS9UWvUKUp4mNLwYWYkTIjUwW1KUMzfm/FbnEY=;\r\n        b=JC15AQ+69OBUrEmZ1r2EiMI9+2Hui7ebDGiyVTY4zYTqwpuMiwrVC4loJOHGaYyoyJ\r\n         EA5Ng2D/q1bMKH2hRMf8YP5QQ8dWnuuFy+Zgfmr5Ebwd1tDmhRHb6YHEbKW9pMP8bBND\r\n         6mjvbtT28GRhH89E1srAlcmkv/XJyJC3ZHuFbXXJzdqTSR52vuy7a2M8XzrWWLA128Ei\r\n         jrXJVT/0rVU7Fc1tzt9C7aKvYr9JHnEpKrcfHYll6a7meZnvl/T0zsUy3w6XDKfGSC8A\r\n         Xt5E/EAIKfXj4kEFsSH8aFxnLBFPWgCwk8vRFuyETfXv71k4ZC/swZEwp/Zq8zRbJktr\r\n         VRUA==",
+    "X-Gm-Message-State": "AOJu0Yw7vZ4DJ1KPE9ALiZlmTs0aNEcWU1g0ZtrAhdiOKblHhTRQFoCv\r\n\tcATiM6mM9xY0e2JzRiiPYmb83+QtAJjwjuR/eTRj/rzlE3G8dLtYdaSKklRwArMFgIyptGdCunx\r\n\t5cUgvWA78NykzkqYQBJDA/bWCKM7AMUY6VrGJAg/ida47Jp6HHnnNuOs=",
+    "X-Gm-Gg": "ASbGncvzDAAnNYngZvvu+F//onyZZhi0tVMKGrU2ybRTi2oBkEhDYfa7HCzN5REqLsD\r\n\t+mlWK3c4JJYtnXSSDBi2g/MctrwpYfJj2RnfoAU2ux9T3J5/wizgx4u6DpbyN4qWjZEBCMkyXmE\r\n\tLiyCj8OG/5ydkfEy9SemRp+30oUFqxtqQ=",
+    "X-Google-Smtp-Source": "AGHT+IElJyzBrk7ArmA6yA8muYOnSEKxmMgC0L6yo6ean3QkyudYCtr+nZ5MfZqM7abZdm16L5Uo+osS2sp8gPFzABg=",
+    "MIME-Version": "1.0",
+    "From": "Líder Proyectos Cenisoft <liderproyectoscenisoft@cenisoft.org>",
+    "Date": "Thu, 13 Feb 2025 11:57:36 -0500",
+    "X-Gm-Features": "AWEUYZkVtpoW2MYKeW652ryI1mV4E5xsyQR4C07oTjg-1WCRBZJqo0mHozzImhE",
+    "Message-ID": "<CADiWjKL=W5bJjvmSUoLZs380jj2PasfRWuJQX40dJMgzwVc=3Q@mail.gmail.com>",
+    "Subject": "Conoce las Vacantes Disponibles en la Rueda de Candidatos Talentsoft\r\n 1000 Programadores",
+    "To": "undisclosed-recipients:;",
+    "Content-Type": "multipart/related; boundary=\"00000000000044df31062e08f5cb\"",
+    "Bcc": "kevinrlinze@gmail.com"
+  },
+  "extraction_timestamp": "2025-08-21T11:53:39.139581",
+  "received_headers": [
+    "by 2002:a05:6000:4022:b0:38d:c57e:3a1b with SMTP id cp34csp488343wrb;\r\n        Thu, 13 Feb 2025 09:03:18 -0800 (PST)",
+    "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5b1f17b1804b1-439618d4d8asor10381065e9.6.2025.02.13.09.03.16\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 13 Feb 2025 09:03:16 -0800 (PST)"
+  ],
+  "x_headers": {
+    "X-Forwarded-Encrypted": "i=1; AJvYcCVUzyQORMTxDe2l3vAGQABV5vpendiIpPTHpGE4M3y9LG/xTtOnULOtcXoE/MIbKNhi2GPzkE+hAt6x1Q==@gmail.com",
+    "X-Received": "by 2002:a05:6402:538b:b0:5dc:6e27:e6e8 with SMTP id\r\n 4fb4d7f45d1cf-5dec9e99952mr9396195a12.24.1739465869772; Thu, 13 Feb 2025\r\n 08:57:49 -0800 (PST)",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1739466196; x=1740070996;\r\n        h=to:subject:message-id:date:from:mime-version:x-gm-message-state\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=qnibyCS9UWvUKUp4mNLwYWYkTIjUwW1KUMzfm/FbnEY=;\r\n        b=JC15AQ+69OBUrEmZ1r2EiMI9+2Hui7ebDGiyVTY4zYTqwpuMiwrVC4loJOHGaYyoyJ\r\n         EA5Ng2D/q1bMKH2hRMf8YP5QQ8dWnuuFy+Zgfmr5Ebwd1tDmhRHb6YHEbKW9pMP8bBND\r\n         6mjvbtT28GRhH89E1srAlcmkv/XJyJC3ZHuFbXXJzdqTSR52vuy7a2M8XzrWWLA128Ei\r\n         jrXJVT/0rVU7Fc1tzt9C7aKvYr9JHnEpKrcfHYll6a7meZnvl/T0zsUy3w6XDKfGSC8A\r\n         Xt5E/EAIKfXj4kEFsSH8aFxnLBFPWgCwk8vRFuyETfXv71k4ZC/swZEwp/Zq8zRbJktr\r\n         VRUA==",
+    "X-Gm-Message-State": "AOJu0Yw7vZ4DJ1KPE9ALiZlmTs0aNEcWU1g0ZtrAhdiOKblHhTRQFoCv\r\n\tcATiM6mM9xY0e2JzRiiPYmb83+QtAJjwjuR/eTRj/rzlE3G8dLtYdaSKklRwArMFgIyptGdCunx\r\n\t5cUgvWA78NykzkqYQBJDA/bWCKM7AMUY6VrGJAg/ida47Jp6HHnnNuOs=",
+    "X-Gm-Gg": "ASbGncvzDAAnNYngZvvu+F//onyZZhi0tVMKGrU2ybRTi2oBkEhDYfa7HCzN5REqLsD\r\n\t+mlWK3c4JJYtnXSSDBi2g/MctrwpYfJj2RnfoAU2ux9T3J5/wizgx4u6DpbyN4qWjZEBCMkyXmE\r\n\tLiyCj8OG/5ydkfEy9SemRp+30oUFqxtqQ=",
+    "X-Google-Smtp-Source": "AGHT+IElJyzBrk7ArmA6yA8muYOnSEKxmMgC0L6yo6ean3QkyudYCtr+nZ5MfZqM7abZdm16L5Uo+osS2sp8gPFzABg=",
+    "X-Gm-Features": "AWEUYZkVtpoW2MYKeW652ryI1mV4E5xsyQR4C07oTjg-1WCRBZJqo0mHozzImhE"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<CADiWjKL=W5bJjvmSUoLZs380jj2PasfRWuJQX40dJMgzwVc=3Q@mail.gmail.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of liderproyectoscenisoft@cenisoft.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=cenisoft-org.20230601.gappssmtp.com; s=20230601; t=1739466196; x=1740070996; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=qnibyCS9UWvUKUp4mNLwYWYkTIjUwW1KUMzfm/FbnEY=;\r\n        b=ccwsSZXdOp1ja38tFU8advCRUBDtKlklEMKEKL/uwVj0qzoQcGC2Q3y8Ioo8QFFi3i\r\n         l5t8iWi8Rrq9NLz9/R/PCFdp/7y710KYE6PU/f0ND+Moho7FOdM91fr351Nx4MW8g4ks\r\n         jfNak49k0/DoglNCH2SlKXHh4fcGivt59NgeYBe7Uz0KsBlkhJ6sxfdN0qaOsSWOLoJn\r\n         JPE/mNmXLPzF6rnUuvziGNE80CdSARprmGRI9zR83woHx0kIMsGwkMMrlLrIFx0meTfG\r\n         6+jImKbkqEX3aStxn9Ekh1tRUXf+CSoXhi9SqozQ3C8NRoc+483YASQY4qtXkJP+F8n+\r\n         D/4w==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@cenisoft-org.20230601.gappssmtp.com header.s=20230601 header.b=ccwsSZXd;\r\n       spf=pass (google.com: domain of liderproyectoscenisoft@cenisoft.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=liderproyectoscenisoft@cenisoft.org;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cenisoft.org;\r\n       dara=pass header.i=@gmail.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@cenisoft-org.20230601.gappssmtp.com header.s=20230601 header.b=ccwsSZXd;\r\n       spf=pass (google.com: domain of liderproyectoscenisoft@cenisoft.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=liderproyectoscenisoft@cenisoft.org;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cenisoft.org;\r\n       dara=pass header.i=@gmail.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a05:6000:4022:b0:38d:c57e:3a1b with SMTP id cp34csp488343wrb;\r\n        Thu, 13 Feb 2025 09:03:18 -0800 (PST)",
+      "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5b1f17b1804b1-439618d4d8asor10381065e9.6.2025.02.13.09.03.16\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 13 Feb 2025 09:03:16 -0800 (PST)"
+    ],
+    "delivery_path": [
+      "mail-sor-f41.google.com"
+    ],
+    "total_hops": 2,
+    "delivery_delay": null,
+    "original_sender_ip": "209.85.220.41",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/related",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/related",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 2320
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 13446
+      },
+      {
+        "content_type": "image/jpeg",
+        "charset": null,
+        "disposition": "inline",
+        "filename": "Estudiantes febrero.jpg",
+        "size": 1109446
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": true,
+    "total_parts": 5
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Estimados estudiantes del programa Técnico Laboral en Asistente de Desarrollo de Software, Reciban un cordial saludo. Nos complace invitarlos a nuestras Ruedas de Candidatos Talentsoft 2025, un espacio diseñado para conectarlos con empresas que cuentan con vacantes activas en áreas de TI. Este event...",
+  "content_stats": {
+    "total_recipients": 2,
+    "subject_length": 89,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@cenisoft-org.20230601.gappssmtp.com header.s=20230601 header.b=ccwsSZXd;\r\n       spf=pass (google.com: domain of liderproyectoscenisoft@cenisoft.org designates 209.85.220.41 as permitted sender) smtp.mailfrom=liderproyectoscenisoft@cenisoft.org;\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cenisoft.org;\r\n       dara=pass header.i=@gmail.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=cenisoft-org.20230601.gappssmtp.com; s=20230601; t=1739466196; x=1740070996; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=qnibyCS9UWvUKUp4mNLwYWYkTIjUwW1KUMzfm/FbnEY=;\r\n        b=ccwsSZXdOp1ja38tFU8advCRUBDtKlklEMKEKL/uwVj0qzoQcGC2Q3y8Ioo8QFFi3i\r\n         l5t8iWi8Rrq9NLz9/R/PCFdp/7y710KYE6PU/f0ND+Moho7FOdM91fr351Nx4MW8g4ks\r\n         jfNak49k0/DoglNCH2SlKXHh4fcGivt59NgeYBe7Uz0KsBlkhJ6sxfdN0qaOsSWOLoJn\r\n         JPE/mNmXLPzF6rnUuvziGNE80CdSARprmGRI9zR83woHx0kIMsGwkMMrlLrIFx0meTfG\r\n         6+jImKbkqEX3aStxn9Ekh1tRUXf+CSoXhi9SqozQ3C8NRoc+483YASQY4qtXkJP+F8n+\r\n         D/4w==",
+  "spf_result": "pass (google.com: domain of liderproyectoscenisoft@cenisoft.org designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+}

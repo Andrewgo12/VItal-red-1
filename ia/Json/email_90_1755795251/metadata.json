@@ -1,0 +1,165 @@
+{
+  "unique_id": "email_90_1755795251",
+  "message_id": "<911894491.17093133.1740433269246@lor1-app55107.prod.linkedin.com>",
+  "subject": "«Auxiliar»: Auxiliar Operativo - Cali - Quick y más",
+  "from": [
+    {
+      "name": "Alertas de empleo de LinkedIn",
+      "email": "jobalerts-noreply@linkedin.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "Andres Gonzales",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date": "2025-02-24T16:41:09",
+  "date_string": "Mon, 24 Feb 2025 21:41:09 +0000 (UTC)",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 141939,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from maild-ca.linkedin.com (maild-ca.linkedin.com. [2620:109:c003:104::177])\r\n        by mx.google.com with ESMTPS id d9443c01a7336-2230a001208si2269835ad.5.2025.02.24.13.41.21\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Mon, 24 Feb 2025 13:41:22 -0800 (PST)",
+    "X-Google-Smtp-Source": "AGHT+IHx9LoefF9j6vmGlKxCjPWTfZZHYwRBmd8UA8OwMJS/9QqExVhQBBX+8cwRTPNncqjvo+kM",
+    "X-Received": "by 2002:a17:902:d4cf:b0:21d:cd54:c7ef with SMTP id d9443c01a7336-2219ff31902mr218727835ad.9.1740433282836;\r\n        Mon, 24 Feb 2025 13:41:22 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740433282; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=G0EpSicJLmhz4cQqF9ijrfiMMmPPSw9Wugp9yFsEXnPu6NxCvxjb1f4b2x6TgCuCJp\r\n         lJdjD2UjTAr2cAEI/lM9km2li0hLuy9tGNQNb/oYVlRZJoKE7Ev+bJ0ml4dnDqPnxgcw\r\n         lgMLwCKn+AvFsuYpxtQ7v13Nbsvpf/62GjLr2jY1RBTwpK5cNt50fXL8bZ85zl3HecBB\r\n         zMWeHIrsiupG6z4sXznZzBMb6G4MMNyRJfYu7OXQ7dAHaNRl9n1p81IsPQthpdgHBhyU\r\n         iUMjIan6xOI6jO9pJY44xxC2vWY3aOzEr8EYczE29yRx9mF6xTOq0fgctJSNF/cX7yg9\r\n         RWTQ==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=require-recipient-valid-since:feedback-id:list-unsubscribe-post\r\n         :list-unsubscribe:date:to:mime-version:subject:message-id:from\r\n         :dkim-signature:dkim-signature;\r\n        bh=h1gbViDH5CaIX4x32LfZ62UUroIfvEOG9mAvL2CVCIw=;\r\n        fh=vbko3fO5LYk+eQj9A2lXCgqo8AIyA8VM1KiVQZdh8+k=;\r\n        b=E3BwyOZQdrgfKCbo0suFXno+50oJ24rwkEUb9x5uOkR7fZSgSG5+IKXNlnlAJQub4W\r\n         azrxvBbzFClsPAPb+Doa+FVdH9URXWZhqAUZjTgUtILz38H4RhtFM3bEnlFXhZ+UUJLR\r\n         HBUVZPY9D1yA89NR89Jf/fQxo38PH2m5Qe13R3YHZouBnc79Ex0oVTtTSHVhpiXrhoNc\r\n         nRY5bAKW+ChRi4FemsQu6p/N7XW1U9+3o3Wl2AIPmwdY3ofxVyM1k6dAyMA9fGFjS5DD\r\n         UFbHLkWmiWvmMfw1You8F5Q2TNMXfFResTWBuSkDM4wy6U1a8O2vZqCPRynJUO3IsOcJ\r\n         Bm8A==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@maild.linkedin.com header.s=d2048-202308-0d header.b=cks++966;\r\n       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=AGw2ODyu;\r\n       spf=pass (google.com: domain of m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com designates 2620:109:c003:104::177 as permitted sender) smtp.mailfrom=m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com",
+    "Return-Path": "<m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com>",
+    "Received-SPF": "pass (google.com: domain of m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com designates 2620:109:c003:104::177 as permitted sender) client-ip=2620:109:c003:104::177;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@maild.linkedin.com header.s=d2048-202308-0d header.b=cks++966;\r\n       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=AGw2ODyu;\r\n       spf=pass (google.com: domain of m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com designates 2620:109:c003:104::177 as permitted sender) smtp.mailfrom=m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;\r\n\ts=d2048-202308-00; t=1740433269;\r\n\tbh=h1gbViDH5CaIX4x32LfZ62UUroIfvEOG9mAvL2CVCIw=;\r\n\th=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:\r\n\t X-LinkedIn-Template:X-LinkedIn-fbl;\r\n\tb=AGw2ODyunFjMM3JbyfXuJL7CpUBtYaqywEMaVtRa8dJ5mHP45UJTDgqCZqf6LelN4\r\n\t qNFwE9CZhK9qSSKZ398IbEEO/DS68weKMuuKu6uA7Ov2wifdruQAvG/bCNQG7nvzJa\r\n\t GddUgTa8w1gqvC+Hvr1eP3EK/HSQ+jsDbp8L+o6ZIlt7AhouzIoYaQSP8QKSvDL2v7\r\n\t dtcVn1mC2fAlmRzsb7XSI+yLiydASZzXST3XXu5VIXKexvLOiHf7GfWiv7PBP0B9WV\r\n\t +Kxdc/gBTMXgItja/gsXjt3TGk1JHenDTRIAr6Qod1M4ZzaKMkV2ikCJf8AAsrSmif\r\n\t EAFP8g8hwXr9w==",
+    "From": "Alertas de empleo de LinkedIn <jobalerts-noreply@linkedin.com>",
+    "Message-ID": "<911894491.17093133.1740433269246@lor1-app55107.prod.linkedin.com>",
+    "Subject": "«Auxiliar»: Auxiliar Operativo - Cali - Quick y más",
+    "MIME-Version": "1.0",
+    "Content-Type": "multipart/alternative; \r\n\tboundary=\"----=_Part_17093131_1164075476.1740433269240\"",
+    "To": "Andres Gonzales <kevinrlinze@gmail.com>",
+    "Date": "Mon, 24 Feb 2025 21:41:09 +0000 (UTC)",
+    "X-LinkedIn-Class": "SAVEDSEARCH",
+    "X-LinkedIn-Template": "email_job_alert_digest_01",
+    "X-LinkedIn-fbl": "m2-asztpqwbkwmxzsmtt1slk1h5ml3u7q06q0ivobl6wwxaor7iznm8wijttqby164dmph0o39u0iqu93ssbjbib9p2a418eizffduvzq",
+    "X-LinkedIn-Id": "gtu9le-m7jl14a7-21",
+    "List-Unsubscribe": "<https://www.linkedin.com/job-alert-email-unsubscribe?savedSearchId=7303959042&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BSA1furGjSJK5lszx9WuzMA%3D%3D&midToken=AQEUcU9WhCuN8g&midSig=3yTc_iD8RRDrE1&ek=email_job_alert_digest_01&e=gtu9le-m7jl14a7-21&eid=gtu9le-m7jl14a7-21&m=unsub&ts=unsub&li=0&t=plh>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    "Feedback-ID": "email_job_alert_digest_01:linkedin",
+    "Require-Recipient-Valid-Since": "kevinrlinze@gmail.com; Thu, 7 Jul 2022 22:59:51 +0000"
+  },
+  "extraction_timestamp": "2025-08-21T11:54:11.808108",
+  "received_headers": [
+    "by 2002:a5d:5c84:0:b0:38d:c57e:3a1b with SMTP id cf4csp1546041wrb;\r\n        Mon, 24 Feb 2025 13:41:23 -0800 (PST)",
+    "from maild-ca.linkedin.com (maild-ca.linkedin.com. [2620:109:c003:104::177])\r\n        by mx.google.com with ESMTPS id d9443c01a7336-2230a001208si2269835ad.5.2025.02.24.13.41.21\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Mon, 24 Feb 2025 13:41:22 -0800 (PST)"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IHx9LoefF9j6vmGlKxCjPWTfZZHYwRBmd8UA8OwMJS/9QqExVhQBBX+8cwRTPNncqjvo+kM",
+    "X-Received": "by 2002:a17:902:d4cf:b0:21d:cd54:c7ef with SMTP id d9443c01a7336-2219ff31902mr218727835ad.9.1740433282836;\r\n        Mon, 24 Feb 2025 13:41:22 -0800 (PST)",
+    "X-LinkedIn-Class": "SAVEDSEARCH",
+    "X-LinkedIn-Template": "email_job_alert_digest_01",
+    "X-LinkedIn-fbl": "m2-asztpqwbkwmxzsmtt1slk1h5ml3u7q06q0ivobl6wwxaor7iznm8wijttqby164dmph0o39u0iqu93ssbjbib9p2a418eizffduvzq",
+    "X-LinkedIn-Id": "gtu9le-m7jl14a7-21"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<911894491.17093133.1740433269246@lor1-app55107.prod.linkedin.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com designates 2620:109:c003:104::177 as permitted sender) client-ip=2620:109:c003:104::177;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=maild.linkedin.com;\r\n\ts=d2048-202308-0d; t=1740433269;\r\n\tbh=h1gbViDH5CaIX4x32LfZ62UUroIfvEOG9mAvL2CVCIw=;\r\n\th=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:\r\n\t X-LinkedIn-Template:X-LinkedIn-fbl;\r\n\tb=cks++966FI4tb38UqLILRIj17HrfGcBSfOI9i9nuKMiCESOS9j1pkF4qxKu77bjxl\r\n\t KygFd5+zn490+SZK7aQdt/WZ1FBHBqw3piW+gyWYhcKaq3zn8qOPGHkBWgNUap/w4E\r\n\t 18gaYU1J6eFG3HR8qB6qaKSwDHyLUEUVe4SGE6p/NvvSVTOdr1BiU3Z48H9khvwH1E\r\n\t DsgpzSB9SpafP3X/LtU+Yiq7Ty61k5+Nt3SF1YB6Q8aYOArWrKNiC0/Zx0DAyZzuEh\r\n\t ZwIAaxwO1NG7+TqXyYZe+V3BStM+DvOw71oq+1oaR8YnCnKljZivQFnwGA1l7c0ZA+\r\n\t +YFK25BbvYgmw==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@maild.linkedin.com header.s=d2048-202308-0d header.b=cks++966;\r\n       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=AGw2ODyu;\r\n       spf=pass (google.com: domain of m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com designates 2620:109:c003:104::177 as permitted sender) smtp.mailfrom=m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@maild.linkedin.com header.s=d2048-202308-0d header.b=cks++966;\r\n       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=AGw2ODyu;\r\n       spf=pass (google.com: domain of m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com designates 2620:109:c003:104::177 as permitted sender) smtp.mailfrom=m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a5d:5c84:0:b0:38d:c57e:3a1b with SMTP id cf4csp1546041wrb;\r\n        Mon, 24 Feb 2025 13:41:23 -0800 (PST)",
+      "from maild-ca.linkedin.com (maild-ca.linkedin.com. [2620:109:c003:104::177])\r\n        by mx.google.com with ESMTPS id d9443c01a7336-2230a001208si2269835ad.5.2025.02.24.13.41.21\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Mon, 24 Feb 2025 13:41:22 -0800 (PST)"
+    ],
+    "delivery_path": [
+      "maild-ca.linkedin.com"
+    ],
+    "total_hops": 2,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 7588
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 131218
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Tu alerta de empleo para Auxiliar en Cali 4 nuevos empleos coinciden con tus preferencias. Auxiliar Operativo - Cali Quick Cali Esta empresa busca personal activamente Ver anuncio de empleo: https://www.linkedin.com/comm/jobs/view/4164339638/?trackingId=Ymg15ubw3Q74RTb9uw%2FZhg%3D%3D&refId=ByteStrin...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 51,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@maild.linkedin.com header.s=d2048-202308-0d header.b=cks++966;\r\n       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=AGw2ODyu;\r\n       spf=pass (google.com: domain of m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com designates 2620:109:c003:104::177 as permitted sender) smtp.mailfrom=m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=maild.linkedin.com;\r\n\ts=d2048-202308-0d; t=1740433269;\r\n\tbh=h1gbViDH5CaIX4x32LfZ62UUroIfvEOG9mAvL2CVCIw=;\r\n\th=From:Subject:MIME-Version:Content-Type:To:Date:X-LinkedIn-Class:\r\n\t X-LinkedIn-Template:X-LinkedIn-fbl;\r\n\tb=cks++966FI4tb38UqLILRIj17HrfGcBSfOI9i9nuKMiCESOS9j1pkF4qxKu77bjxl\r\n\t KygFd5+zn490+SZK7aQdt/WZ1FBHBqw3piW+gyWYhcKaq3zn8qOPGHkBWgNUap/w4E\r\n\t 18gaYU1J6eFG3HR8qB6qaKSwDHyLUEUVe4SGE6p/NvvSVTOdr1BiU3Z48H9khvwH1E\r\n\t DsgpzSB9SpafP3X/LtU+Yiq7Ty61k5+Nt3SF1YB6Q8aYOArWrKNiC0/Zx0DAyZzuEh\r\n\t ZwIAaxwO1NG7+TqXyYZe+V3BStM+DvOw71oq+1oaR8YnCnKljZivQFnwGA1l7c0ZA+\r\n\t +YFK25BbvYgmw==",
+  "spf_result": "pass (google.com: domain of m-af56p9rqpideelgvkucr9mr5xso2se1nvp8bjbmk9apgz030wbs7gsyehbfgvl@bounce.linkedin.com designates 2620:109:c003:104::177 as permitted sender) client-ip=2620:109:c003:104::177;"
+}

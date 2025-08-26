@@ -1,0 +1,170 @@
+{
+  "unique_id": "email_100_1755795255",
+  "message_id": "<1740492136849.120ffd41-f9f7-43a8-9236-fb96b268510a@21532664m.render.com>",
+  "subject": "New Key Value instances, SSO early access, our $80M Series C",
+  "from": [
+    {
+      "name": "Render",
+      "email": "hello@render.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [
+    {
+      "name": "",
+      "email": "feedback@render.com"
+    }
+  ],
+  "date": "2025-02-25T09:49:49",
+  "date_string": "Tue, 25 Feb 2025 09:49:49 -0500",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 57723,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "by 172.16.124.24 with SMTP id a0bpkadtvxnse2ce1b3sukkjlo8xnokl7iylhx9anj7;\r\n        Tue, 25 Feb 2025 14:49:49 GMT",
+    "X-Google-Smtp-Source": "AGHT+IGBOOhOCD0wmYTtFZ7YXIc5EfK7632aTOyFOxIBYbCsIAfIOQuN7TDV82OhW+RTQPri0Kiy",
+    "X-Received": "by 2002:a05:6214:528e:b0:6e2:481b:7cd9 with SMTP id 6a1803df08f44-6e6ae82e424mr217650276d6.25.1740495008656;\r\n        Tue, 25 Feb 2025 06:50:08 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740495008; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=SL3W0dUcGD0RoVROTV4DvZGZoJmQTBPHd5bAYLnk1cHIknHt6T6QmeIM9r0C4iwXCp\r\n         1ke11Ni3hsxl5OpKG6ZRQuSG2TNNWuOCQ51Pb02D1EXy1xu/xql0eNwd85+4EbH9DA0L\r\n         zJRmNbcoYoSxg6aRkrEtFkUtmm3Ag56QkRsvobj9M3DnPqAnx1NfKgZknefEmU3sclRL\r\n         rMp8r0tuo1tDGxbsbuAd0pblpjWTnHt7dasp4ydm0QOP0OTFMO7u/yMBY1So1EHT6wRr\r\n         4J+jbxP/69mm0jNL9XUWemN4Ezo4zduAZjCr+mYZZ1W+G4cwCDKutE9XsTlIsiOiS9xO\r\n         Wdcw==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=feedback-id:list-unsubscribe-post:precedence:form-sub:mime-version\r\n         :subject:message-id:to:reply-to:from:date:list-unsubscribe\r\n         :dkim-signature:dkim-signature;\r\n        bh=hGY3/+SoUTjWAOdS9xNjjyPuDncJX8Zk10xiefGETXg=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=A3vG9qgxen51rEDnZSS26CWGSKsf6zN8GbVRaLkNcqocTBaeVbArKOTrhd7ANFFK/Y\r\n         +maZqMCRORElDfDN+QamhC5H2R8nBB+t2sib2RPK70XQhC72yJR5pD5w84Ri2BfmfoGZ\r\n         Vp0GsymRbJfi7tJSEjdLNPSF87K4xgn5Z/D/BvV/7o1JO9kNIfT2hGx5QukfhbRGN0NL\r\n         W+8LqLKTJJCJRFVlVuYw6rJN1K0G42yUHJAe8VkGWxn+/imBLEwSF+UUx1fWXhJSe0id\r\n         dAQiRtz2a+CHF7Lcg/S2obS//KRVi5topeZ6LL7vOE2M9tBaCOA55nm/6OFVTcyqLsWs\r\n         UBiA==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@21532664m.render.com header.s=hs2 header.b=\"s/q5snsU\";\r\n       dkim=pass header.i=@render.com header.s=hs2-21532664 header.b=UWa+8Ypk;\r\n       spf=pass (google.com: domain of 1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com designates 158.247.21.94 as permitted sender) smtp.mailfrom=\"1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=render.com",
+    "Return-Path": "<1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com>",
+    "Received-SPF": "pass (google.com: domain of 1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com designates 158.247.21.94 as permitted sender) client-ip=158.247.21.94;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@21532664m.render.com header.s=hs2 header.b=\"s/q5snsU\";\r\n       dkim=pass header.i=@render.com header.s=hs2-21532664 header.b=UWa+8Ypk;\r\n       spf=pass (google.com: domain of 1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com designates 158.247.21.94 as permitted sender) smtp.mailfrom=\"1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=render.com",
+    "DKIM-Signature": "v=1; s=hs2-21532664; d=render.com; i=@render.com; \r\n        h=sender:from:from:reply-to:to:to:cc:cc:subject:subject:list-unsubscribe:form-sub:feedback-id:list-unsubscribe-post; \r\n        a=rsa-sha256; c=relaxed/relaxed; \r\n        bh=hGY3/+SoUTjWAOdS9xNjjyPuDncJX8Zk10xiefGETXg=; \r\n        b=UWa+8YpkxwQFwhQtwvOC1LcuDLnrblKiJ3O1InS0SpJ1p75Q3RfHWpkiEfd/5v\r\n         03XPy6U0hKu+S0NI5j9IeTEOFIZaMVj5+0QLDQ72vJp2sxOhEp+S+j7+iSlWNqn\r\n         t8lVaRUZMduxmbf4w7DStPm2Y8AAUTpwgNOE1YSGCPgQcfke26m/wUhuTagMGTf\r\n         GIrj9u0sPvTIVZt4yBGvSVdAG+uz/3ALsKfENr50ezAqbFLki3RmltmRuNX1lT8\r\n         XOnfTXQN7DuPB8DsR6MpdhjEPGY9udguHm+2A+sGp9uLGbaVkN3WyIlDceGmF+h\r\n         vGbwnwiigw33G8BhDg9K/VI/Y+SQ==; q=dns/txt; t=1740492137; \r\n        x=1740754937;",
+    "X-HS-Cid": "1axfyvcok4bbogo729pi53598irnkh9bzcr4n7",
+    "List-Unsubscribe": "<mailto:1axddqyigd4r77xw18dd489lwyiby6mpi1gyav-kevinrlinze=gmail.com@21532664m.render.com?subject=unsubscribe>, <https://hs-21532664.s.hubspotemail.net/subscription-preferences/v2/unsubscribe-all?data=W2nXS-N30h-F_W2CVPP12t7wHtW1X9hxL2149B-W2RBFvb3dvNKgW2YmLnw36jF4PW1Zw3-f4rCs5cW3W11dd3VKv7hW3ZXjLl41Cd4TW3b9yXV3M0cctW3LFKHM3zhQ52W2MMKzq2C-pMMW45mGZT4msXy1W1SwJyB24_wP6W2CX4vp2nVpHJW2PW3yL3XvCRgW3yMMwV2Ww18lW3bg-Km43NDrdW2KwCKt4mByzmW1VsC142-HF7pW1NdDhr3NWHgpW2xzjC91Y_9RgW30l3zH2szfQhW3JVk923VRh_zW2-qrhT2p9_3cW2WLs823_MgpXW1Bdp8F3dwfHZW30CD6y43nhVpW3Vx4KP41CDl6W2WMKDP4pHR94W4clL1234qgn-W4cxjnL2KBP01W1N60w030dK6mW1BfGQh22WSsSW2qG5413ZvljyW41Q0H23bt0n0W4tdbXc2Kz8scW3_C1pW1-_myHW4hCqG32-fHDjW36Dh413LQ0dPW4thcXq32qWWxW3_SN872CL1XCW2Rtp0N3SZZCmW2-JszN1NdH1DW4pmMQD4kty4VW36y7L12MCTxSW1S3V7q2FDsfL0>",
+    "Date": "Tue, 25 Feb 2025 09:49:49 -0500",
+    "From": "Render <hello@render.com>",
+    "Reply-To": "feedback@render.com",
+    "To": "kevinrlinze@gmail.com",
+    "Message-ID": "<1740492136849.120ffd41-f9f7-43a8-9236-fb96b268510a@21532664m.render.com>",
+    "Subject": "New Key Value instances, SSO early access, our $80M Series C",
+    "MIME-Version": "1.0",
+    "Content-Type": "multipart/alternative; \r\n\tboundary=\"----=_Part_31421_1874324322.1740492136980\"",
+    "Form-Sub": "v=1; ip=none",
+    "Precedence": "bulk",
+    "X-Report-Abuse-To": "abuse@hubspot.com (see\r\n https://policy.hubspot.com/abuse-complaints)",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    "Feedback-ID": "aem3szu:aif1ymxm:aidf:HubSpot"
+  },
+  "extraction_timestamp": "2025-08-21T11:54:15.965981",
+  "received_headers": [
+    "by 2002:a5d:64a6:0:b0:38d:c57e:3a1b with SMTP id m6csp226218wrp;\r\n        Tue, 25 Feb 2025 06:50:08 -0800 (PST)",
+    "from bid468w.21532664m.render.com (bid468w.21532664m.render.com. [158.247.21.94])\r\n        by mx.google.com with ESMTPS id 6a1803df08f44-6e87b140572si19292306d6.473.2025.02.25.06.50.08\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Tue, 25 Feb 2025 06:50:08 -0800 (PST)",
+    "by 172.16.124.24 with SMTP id a0bpkadtvxnse2ce1b3sukkjlo8xnokl7iylhx9anj7;\r\n        Tue, 25 Feb 2025 14:49:49 GMT"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IGBOOhOCD0wmYTtFZ7YXIc5EfK7632aTOyFOxIBYbCsIAfIOQuN7TDV82OhW+RTQPri0Kiy",
+    "X-Received": "by 2002:a05:6214:528e:b0:6e2:481b:7cd9 with SMTP id 6a1803df08f44-6e6ae82e424mr217650276d6.25.1740495008656;\r\n        Tue, 25 Feb 2025 06:50:08 -0800 (PST)",
+    "X-HS-Cid": "1axfyvcok4bbogo729pi53598irnkh9bzcr4n7",
+    "X-Report-Abuse-To": "abuse@hubspot.com (see\r\n https://policy.hubspot.com/abuse-complaints)"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<1740492136849.120ffd41-f9f7-43a8-9236-fb96b268510a@21532664m.render.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of 1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com designates 158.247.21.94 as permitted sender) client-ip=158.247.21.94;",
+    "dkim_signature": "v=1; s=hs2; d=21532664m.render.com; \r\n        i=@21532664m.render.com; \r\n        h=sender:from:from:reply-to:to:to:cc:cc:subject:subject:list-unsubscribe:form-sub:feedback-id:list-unsubscribe-post; \r\n        a=rsa-sha256; c=relaxed/relaxed; \r\n        bh=hGY3/+SoUTjWAOdS9xNjjyPuDncJX8Zk10xiefGETXg=; \r\n        b=s/q5snsUXav3Cf+27Lnl7jx5hwG05jHC8ktn6QuM5/p8l27st2AhH+WB+JsYjl\r\n         XyybdsjIcPc0YuTh3GUkmI0aeWT/sYJQz/HBnC0nhJj5lNQ1vvQgsTEEAxpmy6l\r\n         Mwh09hGx8W+eoaBwy+ACoqNQRR+wNvdW/H0OdrQlOx2Pr0AoNRspKoyF0MhMRXT\r\n         zZ02OeBbc+WdJzy72lKnZQujDqiTNvBg3s47VNwh7vvca4LKcAGk1qEJMw0dqO7\r\n         VO5axbVpa6MFUMlkDhK34LpVBt9iPS3PEDxRpia4MnLFbUnPQ7LJ2Iz1W9HVoZb\r\n         qDNTd8N9yNHyUNgaGbwYWb7nr2QA==; q=dns/txt; t=1740492137; \r\n        x=1740754937;",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@21532664m.render.com header.s=hs2 header.b=\"s/q5snsU\";\r\n       dkim=pass header.i=@render.com header.s=hs2-21532664 header.b=UWa+8Ypk;\r\n       spf=pass (google.com: domain of 1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com designates 158.247.21.94 as permitted sender) smtp.mailfrom=\"1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=render.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@21532664m.render.com header.s=hs2 header.b=\"s/q5snsU\";\r\n       dkim=pass header.i=@render.com header.s=hs2-21532664 header.b=UWa+8Ypk;\r\n       spf=pass (google.com: domain of 1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com designates 158.247.21.94 as permitted sender) smtp.mailfrom=\"1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=render.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a5d:64a6:0:b0:38d:c57e:3a1b with SMTP id m6csp226218wrp;\r\n        Tue, 25 Feb 2025 06:50:08 -0800 (PST)",
+      "from bid468w.21532664m.render.com (bid468w.21532664m.render.com. [158.247.21.94])\r\n        by mx.google.com with ESMTPS id 6a1803df08f44-6e87b140572si19292306d6.473.2025.02.25.06.50.08\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Tue, 25 Feb 2025 06:50:08 -0800 (PST)",
+      "by 172.16.124.24 with SMTP id a0bpkadtvxnse2ce1b3sukkjlo8xnokl7iylhx9anj7;\r\n        Tue, 25 Feb 2025 14:49:49 GMT"
+    ],
+    "delivery_path": [
+      "bid468w.21532664m.render.com"
+    ],
+    "total_hops": 3,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 11832
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 39849
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "bulk",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "We're rolling out foundational upgrades across the platform. View in browser (https://d2xMk204.na1.hubspotlinks.com/Ctc/GG+113/d2xMk204/VVvF1B2q9yD1W68CFJJ5wlc8pVmLt1V5ss-jkN5j5FPY5jMY8W69t95C6lZ3lwW35FW8W2m2HW2W2cRjgZ31FNl8N81c1F54rFrLW1jfFsT4HKM6TN36Y4bHklDh5W43j6w27YqjxDW8rJpSS8NZtJZW5ZNkM44g8QrF...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 60,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@21532664m.render.com header.s=hs2 header.b=\"s/q5snsU\";\r\n       dkim=pass header.i=@render.com header.s=hs2-21532664 header.b=UWa+8Ypk;\r\n       spf=pass (google.com: domain of 1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com designates 158.247.21.94 as permitted sender) smtp.mailfrom=\"1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=render.com",
+  "dkim_signature": "v=1; s=hs2; d=21532664m.render.com; \r\n        i=@21532664m.render.com; \r\n        h=sender:from:from:reply-to:to:to:cc:cc:subject:subject:list-unsubscribe:form-sub:feedback-id:list-unsubscribe-post; \r\n        a=rsa-sha256; c=relaxed/relaxed; \r\n        bh=hGY3/+SoUTjWAOdS9xNjjyPuDncJX8Zk10xiefGETXg=; \r\n        b=s/q5snsUXav3Cf+27Lnl7jx5hwG05jHC8ktn6QuM5/p8l27st2AhH+WB+JsYjl\r\n         XyybdsjIcPc0YuTh3GUkmI0aeWT/sYJQz/HBnC0nhJj5lNQ1vvQgsTEEAxpmy6l\r\n         Mwh09hGx8W+eoaBwy+ACoqNQRR+wNvdW/H0OdrQlOx2Pr0AoNRspKoyF0MhMRXT\r\n         zZ02OeBbc+WdJzy72lKnZQujDqiTNvBg3s47VNwh7vvca4LKcAGk1qEJMw0dqO7\r\n         VO5axbVpa6MFUMlkDhK34LpVBt9iPS3PEDxRpia4MnLFbUnPQ7LJ2Iz1W9HVoZb\r\n         qDNTd8N9yNHyUNgaGbwYWb7nr2QA==; q=dns/txt; t=1740492137; \r\n        x=1740754937;",
+  "spf_result": "pass (google.com: domain of 1axb5tgfzqbph9jbzawjp3z33m6ptgm85a13r7-kevinrlinze=gmail.com@21532664m.render.com designates 158.247.21.94 as permitted sender) client-ip=158.247.21.94;"
+}

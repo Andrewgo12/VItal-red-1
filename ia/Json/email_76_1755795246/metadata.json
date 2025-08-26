@@ -1,0 +1,160 @@
+{
+  "unique_id": "email_76_1755795246",
+  "message_id": "<2E881D4CEF8B94F3E0630311A8C0DDE4@apex.oracle.com>",
+  "subject": "Action required: account request for Kevin Andres Gonzalez Dinas",
+  "from": [
+    {
+      "name": "",
+      "email": "dbtools-apexext-noreply@ociapp-notifications.oracle.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date": "2025-02-19T18:28:27",
+  "date_string": "Wed, 19 Feb 2025 23:28:27 +0000 (GMT)",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 15965,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "by omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com\r\n (Oracle Communications Messaging Server 8.1.0.1.20250214 64bit (built Feb 14\r\n 2025))\r\n with ESMTPS id <0SRY00ZU8EJFOF50@omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com> for\r\n kevinrlinze@gmail.com; Wed, 19 Feb 2025 23:28:27 +0000 (GMT)",
+    "X-Google-Smtp-Source": "AGHT+IGVXAssJX/q2MnDysw8mSZE1qSgZdw0wzCbf+x8M8yFYMdJp1fO0AmNpSTGNUepep9jMyut",
+    "X-Received": "by 2002:a05:6a20:258f:b0:1ee:c093:e23d with SMTP id adf61e73a8af0-1eed4fd44f4mr8659006637.40.1740007707889;\r\n        Wed, 19 Feb 2025 15:28:27 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740007707; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=SA8w1tN14qK8FyeR6S7Tza2YChmRVDbW+phr+ZNW/uU7ixo8dBUp0wR5hEyUlwRkPg\r\n         +utcUnew5/d+ml0hY+qSeFoXP9AWPRlzFLszoVXfRQaGK0XkGnF0hoG0fKn0c0ZKhzIW\r\n         7AJWQOj/aPs+oijHm2BAmNn0/MrbSh5whukxF7icIGfSGjGwGxSuKRctCmFXmEnduUoD\r\n         Kqi/NM9L6JMXaOFQWw7piuTofRgjjejQqjm/f0SLqVW5SFrAqczydQsZ0YAnI/+C/2QG\r\n         61XQo2bKOV+KSPC6/VIQXlbvwvq9kbbiDyh32nitD6qdud1UdB9yjHuU+gfvFDbKwmLr\r\n         Zcvw==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=reporting-meta:reply-to:message-id:subject:from:to:mime-version\r\n         :date:date-warning:list-unsubscribe-post:list-unsubscribe\r\n         :dkim-signature:dkim-signature;\r\n        bh=qyuakygHxUtefcnW30jiAssgvVzXILlHNKfok4Fae5w=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=APfy1hIhl4/ESR8M6syT0scCv2mUeOxhcJY1scNuMordsibwbTZ8CZaGTooaAbOqjg\r\n         XWGapH3Il7fI8jYdiy4Btotdymxdm7TD1dBHdS2fdqJJ1ifg8hMiMvTQ3/TZUBpf2KBj\r\n         bBpsfDluotQGXxTgVQkIFEM42qS15Vg3LsCyK5j4IH/XAzJ93cfSoEoWPwi2BVz3C4AC\r\n         SpqdAc5ox0cOPOezebhoQvKMhO3Fb1oM7LUIU8hyZuiXMd/31nhHBk1KVxu1jY0BrJbT\r\n         3MGU6viwpdtM1z9BSDfFhmXU4s6b0+XEgoHRJfDRrjenf/s2cmvyiDWUi/cXhv94vKBl\r\n         xr+Q==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@ociapp-notifications.oracle.com header.s=dbtools-phx-202206 header.b=\"j1lnB/K+\";\r\n       dkim=pass header.i=@phx1.rp.oracleemaildelivery.com header.s=prod-phx-20191217 header.b=LeXpv7UX;\r\n       spf=pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) smtp.mailfrom=\"bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=oracle.com",
+    "Return-Path": "<bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com>",
+    "Received-SPF": "pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) client-ip=192.29.103.159;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@ociapp-notifications.oracle.com header.s=dbtools-phx-202206 header.b=\"j1lnB/K+\";\r\n       dkim=pass header.i=@phx1.rp.oracleemaildelivery.com header.s=prod-phx-20191217 header.b=LeXpv7UX;\r\n       spf=pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) smtp.mailfrom=\"bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=oracle.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; s=prod-phx-20191217;\r\n d=phx1.rp.oracleemaildelivery.com;\r\n h=Date:To:From:Subject:Message-Id:MIME-Version:Sender:List-Unsubscribe:List-Unsubscribe-Post;\r\n bh=qyuakygHxUtefcnW30jiAssgvVzXILlHNKfok4Fae5w=;\r\n b=LeXpv7UXR7dut5P4MjPA8AFlvCGPG24AogfZZQ5xqVrPcAPzjPhh/BvokkZhlKT1VXrvi1DRgY9V\r\n   nOAJA86ZnFhY7wAkc00LQt3edmhZqp+bJlckUzRvNw914G4QWrRzmSUeXVGSjsGaA87kW9JuLbSY\r\n   9zTjooBXzJ6xnXDSK048kKI4kg2aSDzKJz/cGjM4wuaaDs1Dwlt6RCAzRP9ZdU/Ky6cX4qsA5TBj\r\n   o5SB1gGtGlOfpIwTF2ilTkZnqdCRA5fOp4dNVTOFSIzyo75To5j8EpCnyG/glQbDBq97iiINvBON\r\n   nsrN3iFXxojQj1STFKj7yVeiQNyAG+N7oEwc9A==",
+    "List-Unsubscribe": "<https://cell0.track.email.us-phoenix-1.oci.oraclecloud.com/20221014/track/unsubscribe?V=6&H=AAE9OM3Mt_YSRrYrxJZOhGDpedNqSh2Dr9SstKpL3mvd3qfBL6HpiJuxP7IYMldwRtf7TBtCWbYGX6dSbitUTR2G8Mpwme_WikZ8XX8b4ZyZDNXl1tyRLAEOu79RKP8nBoqNfwjOcKMv9V-e6otQ8RcsAYKhDTN6FcLvNe9_TtQ8mOknnEbxKvMJ4Vxc6vKyuD2gazAjC1F9Z-k4HHkIrF8T8hHeCFpq_DbROI0QYmqelaCNSi2dN7WWPZQpE1x8-jVZHG3iTPiGyeuviokTbHsDDfD9EuehBuYwEOCCW4D8slzmK6oLa8_9LFaLMQ3AWBEblHHOMKiPwhauyaFIi1ATLgDIvBZ8Hcn-fLbeW3C4wPJujYEzqIcLtQOzLpqVBnBEnsw3NDbHhdx2BRA>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    "Date-warning": "Date header was inserted by\r\n submit-ad1-fd2-301-us-phoenix-1.rmtaad1.vcndpphx.oraclevcn.com",
+    "Date": "Wed, 19 Feb 2025 23:28:27 +0000 (GMT)",
+    "MIME-version": "1.0",
+    "To": "kevinrlinze@gmail.com",
+    "From": "dbtools-apexext-noreply@ociapp-notifications.oracle.com",
+    "Subject": "Action required: account request for Kevin Andres Gonzalez Dinas",
+    "Message-id": "<2E881D4CEF8B94F3E0630311A8C0DDE4@apex.oracle.com>",
+    "Reply-to": "",
+    "Content-type": "multipart/alternative;\r\n boundary=\"--=:CE2EA270929BD2926CDEBC4C2A4AAB7C8AF1A000D9C9D9B37C4F47DCEDF58F37:\"",
+    "Reporting-Meta": "AAE+Bff2VaYx1bIUnSayVnpDbBZmct3kLFuKKx/ofnBzcFvINh+XouIM3hgDD6hu\r\n v5V8n69vbgxvpvtPYBVSTl1sremneHyvoOVgTvVZKSCKh4DJnWTPfEKxLhHDM8XY\r\n 1bLOG4j5aEdzoG0d6XNEc5VPjVv/HXl4aAi4GMFnfGua+zXCTOIw60DmsUNak7XQ\r\n +RrRVpYhBj8hJjoBP+ksU0tV4IePqhUd+NTxJ76xnJl6gDW9QXtFAv5S5pOYb3Cq\r\n Ir+oE67e/8Y4TVpQCGCb190lylPXmdEFNyzyGLQPdhYChPbk7U0BNm2m0BxA/qCL\r\n 8IumEYbkKZ5+k827S/ozCCKWGXVfoPKftOF6u/Iy4j3BtMa/fOmoamtsAQGcFj84\r\n wKahwRtzdjp6OJrlzNlLMO8SmlxMH6+SZll2fqOCMRMidIJHP92+ro1TAJxTPVwz\r\n coDmDwW+iMsXm5838VmTgzkhxE5A6sycfY5eTcDmg8AAsWKtSslgxoaVExue3cgj\r\n Hu83pz8whfOTo4NoIzHqbifj4q8+QCdK+QS4Tw=="
+  },
+  "extraction_timestamp": "2025-08-21T11:54:06.434429",
+  "received_headers": [
+    "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp2461149wri;\r\n        Wed, 19 Feb 2025 15:28:28 -0800 (PST)",
+    "from aib29ajc159.phx1.oracleemaildelivery.com (aib29ajc159.phx1.oracleemaildelivery.com. [192.29.103.159])\r\n        by mx.google.com with ESMTPS id 41be03b00d2f7-adb571abd25si19332904a12.75.2025.02.19.15.28.27\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Wed, 19 Feb 2025 15:28:27 -0800 (PST)",
+    "by omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com\r\n (Oracle Communications Messaging Server 8.1.0.1.20250214 64bit (built Feb 14\r\n 2025))\r\n with ESMTPS id <0SRY00ZU8EJFOF50@omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com> for\r\n kevinrlinze@gmail.com; Wed, 19 Feb 2025 23:28:27 +0000 (GMT)"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IGVXAssJX/q2MnDysw8mSZE1qSgZdw0wzCbf+x8M8yFYMdJp1fO0AmNpSTGNUepep9jMyut",
+    "X-Received": "by 2002:a05:6a20:258f:b0:1ee:c093:e23d with SMTP id adf61e73a8af0-1eed4fd44f4mr8659006637.40.1740007707889;\r\n        Wed, 19 Feb 2025 15:28:27 -0800 (PST)"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<2E881D4CEF8B94F3E0630311A8C0DDE4@apex.oracle.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) client-ip=192.29.103.159;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; s=dbtools-phx-202206;\r\n d=ociapp-notifications.oracle.com;\r\n h=Date:To:From:Subject:Message-Id:MIME-Version:Sender:List-Unsubscribe:List-Unsubscribe-Post;\r\n bh=qyuakygHxUtefcnW30jiAssgvVzXILlHNKfok4Fae5w=;\r\n b=j1lnB/K+C8XzMDi3FPjDgTOZdpAMOMtRbpe74VwR6vQM8RsyJkUQm91G9YJzxDPQRi6Rdh/IZDFy\r\n   4bMdwO57PtKHgwlhY+a3b/RpNjgKj+SRjxx2FyHCh/b3JaHeNKAjHSRj/FCrTVR4oRysYDrUxIqE\r\n   q2uiY0xFrLPZnj//f+G6Prqp3L0ViORReVARH5ED8XVPr+ucIMl+vGlgTBnDn4XjSVFjN9CjfhDv\r\n   67ZXlmwla6rV/XYdME+BqLbg5KwxOj+okg7xMZi6hWtkV74tJmfygpY6Pe9g/JkTuElL8IPyBND6\r\n   r/nhFY/MSN0fFq5o/XgYMARC+bwSC+fzkR7m9A==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@ociapp-notifications.oracle.com header.s=dbtools-phx-202206 header.b=\"j1lnB/K+\";\r\n       dkim=pass header.i=@phx1.rp.oracleemaildelivery.com header.s=prod-phx-20191217 header.b=LeXpv7UX;\r\n       spf=pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) smtp.mailfrom=\"bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=oracle.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@ociapp-notifications.oracle.com header.s=dbtools-phx-202206 header.b=\"j1lnB/K+\";\r\n       dkim=pass header.i=@phx1.rp.oracleemaildelivery.com header.s=prod-phx-20191217 header.b=LeXpv7UX;\r\n       spf=pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) smtp.mailfrom=\"bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=oracle.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp2461149wri;\r\n        Wed, 19 Feb 2025 15:28:28 -0800 (PST)",
+      "from aib29ajc159.phx1.oracleemaildelivery.com (aib29ajc159.phx1.oracleemaildelivery.com. [192.29.103.159])\r\n        by mx.google.com with ESMTPS id 41be03b00d2f7-adb571abd25si19332904a12.75.2025.02.19.15.28.27\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Wed, 19 Feb 2025 15:28:27 -0800 (PST)",
+      "by omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com\r\n (Oracle Communications Messaging Server 8.1.0.1.20250214 64bit (built Feb 14\r\n 2025))\r\n with ESMTPS id <0SRY00ZU8EJFOF50@omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com> for\r\n kevinrlinze@gmail.com; Wed, 19 Feb 2025 23:28:27 +0000 (GMT)"
+    ],
+    "delivery_path": [
+      "aib29ajc159.phx1.oracleemaildelivery.com"
+    ],
+    "total_hops": 3,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 450
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 8619
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Hello kevin andres gonzalez dinas, Your workspace request has been approved! Workspace: andres_gonzalez Username: kevinrlinze@gmail.com Environment: https://apex.oracle.com/pls/apex/ Click the button below to complete the approval process and set your password. https://apex.oracle.com/pls/apex/r/ape...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 64,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@ociapp-notifications.oracle.com header.s=dbtools-phx-202206 header.b=\"j1lnB/K+\";\r\n       dkim=pass header.i=@phx1.rp.oracleemaildelivery.com header.s=prod-phx-20191217 header.b=LeXpv7UX;\r\n       spf=pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) smtp.mailfrom=\"bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=oracle.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; s=dbtools-phx-202206;\r\n d=ociapp-notifications.oracle.com;\r\n h=Date:To:From:Subject:Message-Id:MIME-Version:Sender:List-Unsubscribe:List-Unsubscribe-Post;\r\n bh=qyuakygHxUtefcnW30jiAssgvVzXILlHNKfok4Fae5w=;\r\n b=j1lnB/K+C8XzMDi3FPjDgTOZdpAMOMtRbpe74VwR6vQM8RsyJkUQm91G9YJzxDPQRi6Rdh/IZDFy\r\n   4bMdwO57PtKHgwlhY+a3b/RpNjgKj+SRjxx2FyHCh/b3JaHeNKAjHSRj/FCrTVR4oRysYDrUxIqE\r\n   q2uiY0xFrLPZnj//f+G6Prqp3L0ViORReVARH5ED8XVPr+ucIMl+vGlgTBnDn4XjSVFjN9CjfhDv\r\n   67ZXlmwla6rV/XYdME+BqLbg5KwxOj+okg7xMZi6hWtkV74tJmfygpY6Pe9g/JkTuElL8IPyBND6\r\n   r/nhFY/MSN0fFq5o/XgYMARC+bwSC+fzkR7m9A==",
+  "spf_result": "pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) client-ip=192.29.103.159;"
+}

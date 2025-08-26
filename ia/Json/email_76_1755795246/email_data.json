@@ -1,0 +1,270 @@
+{
+  "email_info": {
+    "unique_id": "email_76_1755795246",
+    "processing_timestamp": "2025-08-21T11:54:06.437173",
+    "schema_version": "1.0"
+  },
+  "metadata": {
+    "unique_id": "email_76_1755795246",
+    "message_id": "<2E881D4CEF8B94F3E0630311A8C0DDE4@apex.oracle.com>",
+    "subject": "Action required: account request for Kevin Andres Gonzalez Dinas",
+    "from": [
+      {
+        "name": "",
+        "email": "dbtools-apexext-noreply@ociapp-notifications.oracle.com"
+      }
+    ],
+    "to": [
+      {
+        "name": "",
+        "email": "kevinrlinze@gmail.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "reply_to": [],
+    "date": "2025-02-19T18:28:27",
+    "date_string": "Wed, 19 Feb 2025 23:28:27 +0000 (GMT)",
+    "received_date": null,
+    "thread_topic": "",
+    "thread_index": "",
+    "in_reply_to": "",
+    "references": "",
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "content_type": "multipart/alternative",
+    "charset": null,
+    "size": 15965,
+    "has_attachments": false,
+    "attachment_count": 0,
+    "attachment_names": [],
+    "is_multipart": true,
+    "headers": {
+      "Delivered-To": "kevinrlinze@gmail.com",
+      "Received": "by omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com\r\n (Oracle Communications Messaging Server 8.1.0.1.20250214 64bit (built Feb 14\r\n 2025))\r\n with ESMTPS id <0SRY00ZU8EJFOF50@omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com> for\r\n kevinrlinze@gmail.com; Wed, 19 Feb 2025 23:28:27 +0000 (GMT)",
+      "X-Google-Smtp-Source": "AGHT+IGVXAssJX/q2MnDysw8mSZE1qSgZdw0wzCbf+x8M8yFYMdJp1fO0AmNpSTGNUepep9jMyut",
+      "X-Received": "by 2002:a05:6a20:258f:b0:1ee:c093:e23d with SMTP id adf61e73a8af0-1eed4fd44f4mr8659006637.40.1740007707889;\r\n        Wed, 19 Feb 2025 15:28:27 -0800 (PST)",
+      "ARC-Seal": "i=1; a=rsa-sha256; t=1740007707; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=SA8w1tN14qK8FyeR6S7Tza2YChmRVDbW+phr+ZNW/uU7ixo8dBUp0wR5hEyUlwRkPg\r\n         +utcUnew5/d+ml0hY+qSeFoXP9AWPRlzFLszoVXfRQaGK0XkGnF0hoG0fKn0c0ZKhzIW\r\n         7AJWQOj/aPs+oijHm2BAmNn0/MrbSh5whukxF7icIGfSGjGwGxSuKRctCmFXmEnduUoD\r\n         Kqi/NM9L6JMXaOFQWw7piuTofRgjjejQqjm/f0SLqVW5SFrAqczydQsZ0YAnI/+C/2QG\r\n         61XQo2bKOV+KSPC6/VIQXlbvwvq9kbbiDyh32nitD6qdud1UdB9yjHuU+gfvFDbKwmLr\r\n         Zcvw==",
+      "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=reporting-meta:reply-to:message-id:subject:from:to:mime-version\r\n         :date:date-warning:list-unsubscribe-post:list-unsubscribe\r\n         :dkim-signature:dkim-signature;\r\n        bh=qyuakygHxUtefcnW30jiAssgvVzXILlHNKfok4Fae5w=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=APfy1hIhl4/ESR8M6syT0scCv2mUeOxhcJY1scNuMordsibwbTZ8CZaGTooaAbOqjg\r\n         XWGapH3Il7fI8jYdiy4Btotdymxdm7TD1dBHdS2fdqJJ1ifg8hMiMvTQ3/TZUBpf2KBj\r\n         bBpsfDluotQGXxTgVQkIFEM42qS15Vg3LsCyK5j4IH/XAzJ93cfSoEoWPwi2BVz3C4AC\r\n         SpqdAc5ox0cOPOezebhoQvKMhO3Fb1oM7LUIU8hyZuiXMd/31nhHBk1KVxu1jY0BrJbT\r\n         3MGU6viwpdtM1z9BSDfFhmXU4s6b0+XEgoHRJfDRrjenf/s2cmvyiDWUi/cXhv94vKBl\r\n         xr+Q==;\r\n        dara=google.com",
+      "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@ociapp-notifications.oracle.com header.s=dbtools-phx-202206 header.b=\"j1lnB/K+\";\r\n       dkim=pass header.i=@phx1.rp.oracleemaildelivery.com header.s=prod-phx-20191217 header.b=LeXpv7UX;\r\n       spf=pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) smtp.mailfrom=\"bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=oracle.com",
+      "Return-Path": "<bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com>",
+      "Received-SPF": "pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) client-ip=192.29.103.159;",
+      "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@ociapp-notifications.oracle.com header.s=dbtools-phx-202206 header.b=\"j1lnB/K+\";\r\n       dkim=pass header.i=@phx1.rp.oracleemaildelivery.com header.s=prod-phx-20191217 header.b=LeXpv7UX;\r\n       spf=pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) smtp.mailfrom=\"bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=oracle.com",
+      "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; s=prod-phx-20191217;\r\n d=phx1.rp.oracleemaildelivery.com;\r\n h=Date:To:From:Subject:Message-Id:MIME-Version:Sender:List-Unsubscribe:List-Unsubscribe-Post;\r\n bh=qyuakygHxUtefcnW30jiAssgvVzXILlHNKfok4Fae5w=;\r\n b=LeXpv7UXR7dut5P4MjPA8AFlvCGPG24AogfZZQ5xqVrPcAPzjPhh/BvokkZhlKT1VXrvi1DRgY9V\r\n   nOAJA86ZnFhY7wAkc00LQt3edmhZqp+bJlckUzRvNw914G4QWrRzmSUeXVGSjsGaA87kW9JuLbSY\r\n   9zTjooBXzJ6xnXDSK048kKI4kg2aSDzKJz/cGjM4wuaaDs1Dwlt6RCAzRP9ZdU/Ky6cX4qsA5TBj\r\n   o5SB1gGtGlOfpIwTF2ilTkZnqdCRA5fOp4dNVTOFSIzyo75To5j8EpCnyG/glQbDBq97iiINvBON\r\n   nsrN3iFXxojQj1STFKj7yVeiQNyAG+N7oEwc9A==",
+      "List-Unsubscribe": "<https://cell0.track.email.us-phoenix-1.oci.oraclecloud.com/20221014/track/unsubscribe?V=6&H=AAE9OM3Mt_YSRrYrxJZOhGDpedNqSh2Dr9SstKpL3mvd3qfBL6HpiJuxP7IYMldwRtf7TBtCWbYGX6dSbitUTR2G8Mpwme_WikZ8XX8b4ZyZDNXl1tyRLAEOu79RKP8nBoqNfwjOcKMv9V-e6otQ8RcsAYKhDTN6FcLvNe9_TtQ8mOknnEbxKvMJ4Vxc6vKyuD2gazAjC1F9Z-k4HHkIrF8T8hHeCFpq_DbROI0QYmqelaCNSi2dN7WWPZQpE1x8-jVZHG3iTPiGyeuviokTbHsDDfD9EuehBuYwEOCCW4D8slzmK6oLa8_9LFaLMQ3AWBEblHHOMKiPwhauyaFIi1ATLgDIvBZ8Hcn-fLbeW3C4wPJujYEzqIcLtQOzLpqVBnBEnsw3NDbHhdx2BRA>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Date-warning": "Date header was inserted by\r\n submit-ad1-fd2-301-us-phoenix-1.rmtaad1.vcndpphx.oraclevcn.com",
+      "Date": "Wed, 19 Feb 2025 23:28:27 +0000 (GMT)",
+      "MIME-version": "1.0",
+      "To": "kevinrlinze@gmail.com",
+      "From": "dbtools-apexext-noreply@ociapp-notifications.oracle.com",
+      "Subject": "Action required: account request for Kevin Andres Gonzalez Dinas",
+      "Message-id": "<2E881D4CEF8B94F3E0630311A8C0DDE4@apex.oracle.com>",
+      "Reply-to": "",
+      "Content-type": "multipart/alternative;\r\n boundary=\"--=:CE2EA270929BD2926CDEBC4C2A4AAB7C8AF1A000D9C9D9B37C4F47DCEDF58F37:\"",
+      "Reporting-Meta": "AAE+Bff2VaYx1bIUnSayVnpDbBZmct3kLFuKKx/ofnBzcFvINh+XouIM3hgDD6hu\r\n v5V8n69vbgxvpvtPYBVSTl1sremneHyvoOVgTvVZKSCKh4DJnWTPfEKxLhHDM8XY\r\n 1bLOG4j5aEdzoG0d6XNEc5VPjVv/HXl4aAi4GMFnfGua+zXCTOIw60DmsUNak7XQ\r\n +RrRVpYhBj8hJjoBP+ksU0tV4IePqhUd+NTxJ76xnJl6gDW9QXtFAv5S5pOYb3Cq\r\n Ir+oE67e/8Y4TVpQCGCb190lylPXmdEFNyzyGLQPdhYChPbk7U0BNm2m0BxA/qCL\r\n 8IumEYbkKZ5+k827S/ozCCKWGXVfoPKftOF6u/Iy4j3BtMa/fOmoamtsAQGcFj84\r\n wKahwRtzdjp6OJrlzNlLMO8SmlxMH6+SZll2fqOCMRMidIJHP92+ro1TAJxTPVwz\r\n coDmDwW+iMsXm5838VmTgzkhxE5A6sycfY5eTcDmg8AAsWKtSslgxoaVExue3cgj\r\n Hu83pz8whfOTo4NoIzHqbifj4q8+QCdK+QS4Tw=="
+    },
+    "extraction_timestamp": "2025-08-21T11:54:06.434429",
+    "received_headers": [
+      "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp2461149wri;\r\n        Wed, 19 Feb 2025 15:28:28 -0800 (PST)",
+      "from aib29ajc159.phx1.oracleemaildelivery.com (aib29ajc159.phx1.oracleemaildelivery.com. [192.29.103.159])\r\n        by mx.google.com with ESMTPS id 41be03b00d2f7-adb571abd25si19332904a12.75.2025.02.19.15.28.27\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Wed, 19 Feb 2025 15:28:27 -0800 (PST)",
+      "by omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com\r\n (Oracle Communications Messaging Server 8.1.0.1.20250214 64bit (built Feb 14\r\n 2025))\r\n with ESMTPS id <0SRY00ZU8EJFOF50@omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com> for\r\n kevinrlinze@gmail.com; Wed, 19 Feb 2025 23:28:27 +0000 (GMT)"
+    ],
+    "x_headers": {
+      "X-Google-Smtp-Source": "AGHT+IGVXAssJX/q2MnDysw8mSZE1qSgZdw0wzCbf+x8M8yFYMdJp1fO0AmNpSTGNUepep9jMyut",
+      "X-Received": "by 2002:a05:6a20:258f:b0:1ee:c093:e23d with SMTP id adf61e73a8af0-1eed4fd44f4mr8659006637.40.1740007707889;\r\n        Wed, 19 Feb 2025 15:28:27 -0800 (PST)"
+    },
+    "delivery_receipt": "",
+    "read_receipt": "",
+    "thread_info": {
+      "message_id": "<2E881D4CEF8B94F3E0630311A8C0DDE4@apex.oracle.com>",
+      "in_reply_to": "",
+      "references": [],
+      "thread_topic": "",
+      "thread_index": "",
+      "is_reply": false,
+      "is_forward": false
+    },
+    "security_info": {
+      "spf_result": "pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) client-ip=192.29.103.159;",
+      "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; s=dbtools-phx-202206;\r\n d=ociapp-notifications.oracle.com;\r\n h=Date:To:From:Subject:Message-Id:MIME-Version:Sender:List-Unsubscribe:List-Unsubscribe-Post;\r\n bh=qyuakygHxUtefcnW30jiAssgvVzXILlHNKfok4Fae5w=;\r\n b=j1lnB/K+C8XzMDi3FPjDgTOZdpAMOMtRbpe74VwR6vQM8RsyJkUQm91G9YJzxDPQRi6Rdh/IZDFy\r\n   4bMdwO57PtKHgwlhY+a3b/RpNjgKj+SRjxx2FyHCh/b3JaHeNKAjHSRj/FCrTVR4oRysYDrUxIqE\r\n   q2uiY0xFrLPZnj//f+G6Prqp3L0ViORReVARH5ED8XVPr+ucIMl+vGlgTBnDn4XjSVFjN9CjfhDv\r\n   67ZXlmwla6rV/XYdME+BqLbg5KwxOj+okg7xMZi6hWtkV74tJmfygpY6Pe9g/JkTuElL8IPyBND6\r\n   r/nhFY/MSN0fFq5o/XgYMARC+bwSC+fzkR7m9A==",
+      "dmarc_result": "",
+      "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@ociapp-notifications.oracle.com header.s=dbtools-phx-202206 header.b=\"j1lnB/K+\";\r\n       dkim=pass header.i=@phx1.rp.oracleemaildelivery.com header.s=prod-phx-20191217 header.b=LeXpv7UX;\r\n       spf=pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) smtp.mailfrom=\"bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=oracle.com",
+      "received_spf": "",
+      "arc_authentication_results": [
+        "i=1; mx.google.com;\r\n       dkim=pass header.i=@ociapp-notifications.oracle.com header.s=dbtools-phx-202206 header.b=\"j1lnB/K+\";\r\n       dkim=pass header.i=@phx1.rp.oracleemaildelivery.com header.s=prod-phx-20191217 header.b=LeXpv7UX;\r\n       spf=pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) smtp.mailfrom=\"bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=oracle.com"
+      ],
+      "message_security": "high"
+    },
+    "routing_info": {
+      "received_headers": [
+        "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp2461149wri;\r\n        Wed, 19 Feb 2025 15:28:28 -0800 (PST)",
+        "from aib29ajc159.phx1.oracleemaildelivery.com (aib29ajc159.phx1.oracleemaildelivery.com. [192.29.103.159])\r\n        by mx.google.com with ESMTPS id 41be03b00d2f7-adb571abd25si19332904a12.75.2025.02.19.15.28.27\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Wed, 19 Feb 2025 15:28:27 -0800 (PST)",
+        "by omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com\r\n (Oracle Communications Messaging Server 8.1.0.1.20250214 64bit (built Feb 14\r\n 2025))\r\n with ESMTPS id <0SRY00ZU8EJFOF50@omta-ad2-fd3-202-us-phoenix-1.omtaad2.vcndpphx.oraclevcn.com> for\r\n kevinrlinze@gmail.com; Wed, 19 Feb 2025 23:28:27 +0000 (GMT)"
+      ],
+      "delivery_path": [
+        "aib29ajc159.phx1.oracleemaildelivery.com"
+      ],
+      "total_hops": 3,
+      "delivery_delay": null,
+      "original_sender_ip": "",
+      "final_recipient": ""
+    },
+    "content_analysis": {
+      "is_multipart": true,
+      "main_content_type": "multipart/alternative",
+      "charset": null,
+      "content_parts": [
+        {
+          "content_type": "multipart/alternative",
+          "charset": null,
+          "disposition": null,
+          "filename": null,
+          "size": 2
+        },
+        {
+          "content_type": "text/plain",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 450
+        },
+        {
+          "content_type": "text/html",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 8619
+        }
+      ],
+      "has_html": true,
+      "has_plain_text": true,
+      "has_attachments": false,
+      "has_inline_images": false,
+      "total_parts": 3
+    },
+    "priority_info": {
+      "priority": "",
+      "importance": "",
+      "sensitivity": "",
+      "precedence": "",
+      "urgency": "normal",
+      "delivery_receipt_requested": false,
+      "read_receipt_requested": false
+    },
+    "body_preview": "Hello kevin andres gonzalez dinas, Your workspace request has been approved! Workspace: andres_gonzalez Username: kevinrlinze@gmail.com Environment: https://apex.oracle.com/pls/apex/ Click the button below to complete the approval process and set your password. https://apex.oracle.com/pls/apex/r/ape...",
+    "content_stats": {
+      "total_recipients": 1,
+      "subject_length": 64,
+      "has_thread_info": false,
+      "estimated_read_time": 1
+    },
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@ociapp-notifications.oracle.com header.s=dbtools-phx-202206 header.b=\"j1lnB/K+\";\r\n       dkim=pass header.i=@phx1.rp.oracleemaildelivery.com header.s=prod-phx-20191217 header.b=LeXpv7UX;\r\n       spf=pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) smtp.mailfrom=\"bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com\";\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=oracle.com",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; s=dbtools-phx-202206;\r\n d=ociapp-notifications.oracle.com;\r\n h=Date:To:From:Subject:Message-Id:MIME-Version:Sender:List-Unsubscribe:List-Unsubscribe-Post;\r\n bh=qyuakygHxUtefcnW30jiAssgvVzXILlHNKfok4Fae5w=;\r\n b=j1lnB/K+C8XzMDi3FPjDgTOZdpAMOMtRbpe74VwR6vQM8RsyJkUQm91G9YJzxDPQRi6Rdh/IZDFy\r\n   4bMdwO57PtKHgwlhY+a3b/RpNjgKj+SRjxx2FyHCh/b3JaHeNKAjHSRj/FCrTVR4oRysYDrUxIqE\r\n   q2uiY0xFrLPZnj//f+G6Prqp3L0ViORReVARH5ED8XVPr+ucIMl+vGlgTBnDn4XjSVFjN9CjfhDv\r\n   67ZXlmwla6rV/XYdME+BqLbg5KwxOj+okg7xMZi6hWtkV74tJmfygpY6Pe9g/JkTuElL8IPyBND6\r\n   r/nhFY/MSN0fFq5o/XgYMARC+bwSC+fzkR7m9A==",
+    "spf_result": "pass (google.com: domain of bounces+kevinrlinze=gmail.com@phx1.rp.oracleemaildelivery.com designates 192.29.103.159 as permitted sender) client-ip=192.29.103.159;"
+  },
+  "content": {
+    "body": {
+      "text": "Hello kevin andres gonzalez dinas,\n\nYour workspace request has been approved!\n\nWorkspace:\nandres_gonzalez\n\nUsername:\nkevinrlinze@gmail.com\n\nEnvironment:\nhttps://apex.oracle.com/pls/apex/\n\nClick the button below to complete the approval process and set your password.\nhttps://apex.oracle.com/pls/apex/r/apex/sign-up/workspace-creation?provision_id=12895257309349291473\n\nThis is a system generated message. Do not reply to this message.",
+      "html": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\r\n<html lang=\"en\">\r\n<head>\r\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width\">\r\n  <title>Workspace Request Approved</title>\r\n  <style type=\"text/css\">\r\n    body { background-color: #ECE9E6; color: #100F0E; margin: 0; padding: 0; min-width: 100%; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none; font-family: 'Oracle Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; mso-line-height-rule: exactly; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }\r\n    a { color: #AE562C; }\r\n    table { color: #100F0E; border: 0; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }\r\n    table td,\r\n    table th { line-height: 1.4; padding: 0; vertical-align: top; border-collapse: collapse; }     @media only screen and (max-width: 599px) {\r\n      .mobile-hide { display: none !important; }\r\n      .fluid-img { max-width: 100% !important; height: auto !important; }\r\n      .stack,\r\n      .stack-left { display: block !important; width: 100% !important; min-width: 100%; }\r\n      .stack-left { text-align: left !important; }\r\n      .hero-text { font-size: 24px !important; }\r\n      table.stack, table.stack tbody, table.stack tr { display: block !important; }\r\n    }\r\n  </style>\r\n</head>\r\n<body bgcolor=\"#ECE9E6\" style=\"font-family: 'Oracle Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; line-height: 1.4; background-color: #ECE9E6; color: #100F0E; margin: 0; padding: 0;\">\r\n\r\n<table class=\"body\" border=\"0\" width=\"100%\" style=\"font-family: 'Oracle Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;\">\r\n  <tr>\r\n    <td>&nbsp;</td>\r\n    <td align=\"center\" valign=\"top\" width=\"800\" style=\"padding: 20px 5px;\">\r\n      <center>\r\n\r\n        <!-- Container -->\r\n        <table width=\"100%\" border=\"0\" style=\"box-shadow: 0 2px 4px 0 rgba(0,0,0,.1); background-color: #FCFBFA; border-radius: 6px;\">\r\n          <tr>\r\n            <td>\r\n\r\n              <!-- Header Wrapper - Oracle -->\r\n              <table width=\"100%\" border=\"0\" style=\"background-color: #403C38; color: #FCFBFA; line-height: 0; border-radius: 6px 6px 0 0;\">\r\n                <tr>\r\n                  <td>&nbsp;</td>\r\n                  <td width=\"640\" style=\"padding: 16px 20px;\">\r\n\r\n                    <!-- Header - Oracle -->\r\n                    <table width=\"100%\" border=\"0\">\r\n                      <tr>\r\n                        <td class=\"stack\" nowrap=\"nowrap\" style=\"padding: 4px 0; vertical-align: middle; white-space: nowrap;\">\r\n                          <a rel=\"noopener noreferrer\" href=\"https://apex.oracle.com/\" style=\"color: #FCFBFA; font-size: 18px; line-height: 16px; text-decoration: none; display: inline-block; vertical-align: top;\">\r\n                            <table>\r\n                              <tr>\r\n                                <td style=\"vertical-align: middle; padding-right: 12px;\"><img src=\"https://apex.oracle.com/i/email/img/oracle-o-2x.png\" alt=\"Oracle\" style=\"color: #FCFBFA; border: 0; font-size: 16px; line-height: 16px; display: block; width: 36px; height: 24px;\" width=\"36\" height=\"24\" /></td>\r\n                                <td style=\"vertical-align: middle; font-size: 16px; line-height: 20px; font-weight: 700; letter-spacing: 1px; color: #FCFBFA\">APEX</td>\r\n                              </tr>\r\n                            </table>\r\n                          </a>\r\n                        </td>\r\n                        <td class=\"stack-left\" align=\"right\" style=\"padding: 4px 0; vertical-align: middle; font-size: 14px; line-height: 16px; color: #F1EFED;\">\r\n                          <a href=\"https://apex.oracle.com/pls/apex/\" style=\"color: #F1EFED; text-decoration: none;\">apex.oracle.com</a>\r\n                        </td>\r\n                      </tr>\r\n                    </table>\r\n                    <!-- // Header - Oracle -->\r\n\r\n                  </td>\r\n                  <td>&nbsp;</td>\r\n                </tr>\r\n              </table>\r\n              <!-- // Header Wrapper - Oracle -->\r\n\r\n              <!-- Hero Wrapper -->\r\n              <table width=\"100%\" border=\"0\" style=\"color: #1A1816; background-color: #F6F5F3;\">\r\n                <tr>\r\n                  <td>&nbsp;</td>\r\n                  <td width=\"640\" style=\"padding: 36px 20px;\">\r\n                    <table width=\"100%\" border=\"0\">\r\n                      <tr>\r\n                        <td style=\"text-align: center; padding-bottom: 20px;\">\r\n                          <img class=\"fluid-img\" src=\"https://apex.oracle.com/i/email/img/apex-logo-2x.png\" alt=\"Oracle APEX logo\" width=\"112\" height=\"112\" border=\"0\">\r\n                        </td>\r\n                      </tr>\r\n                      <tr>\r\n                        <td class=\"hero-text\" style=\"text-align: center; line-height: 1.2; font-size: 28px; font-weight: 700;\">Workspace Request Approved</td>\r\n                      </tr>\r\n                    </table>\r\n                  </td>\r\n                  <td>&nbsp;</td>\r\n                </tr>\r\n              </table>\r\n              <!-- // Hero Wrapper -->\r\n\r\n              <!-- Content Wrapper -->\r\n              <table width=\"100%\" border=\"0\">\r\n                <tr>\r\n                  <td>&nbsp;</td>\r\n                  <td width=\"640\" style=\"padding: 36px 20px; font-size: 15px; line-height: 21px;\">Hello kevin andres gonzalez dinas,<br><br>Your workspace request has been approved!<br><br><table class=\"stack\" width=\"100%\" border=\"0\" role=\"presentation\">\r\n                      <tr>\r\n                        <td class=\"stack\" width=\"200\" style=\"padding-right: 12px\">Workspace: </td>\r\n                        <td class=\"stack\" style=\"padding-bottom: 8px;\"><strong>andres_gonzalez</strong></td>\r\n                      </tr><tr>\r\n                        <td class=\"stack\" width=\"200\" style=\"padding-right: 12px\">Username:</td>\r\n                        <td class=\"stack\" style=\"padding-bottom: 8px;\"><strong>kevinrlinze@gmail.com</strong></td>\r\n                      </tr><tr>\r\n                        <td class=\"stack\" width=\"200\" style=\"padding-right: 12px\">Environment:</td>\r\n                        <td class=\"stack\" style=\"padding-bottom: 8px; overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; word-break: break-all; word-break: break-word; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto;\"><strong>https://apex.oracle.com/pls/apex/</strong></td>\r\n                      </tr>\r\n                      </table><br>Click the button below to complete the approval process and set your password.<br><br><table border=\"0\" align=\"center\">\r\n                      <tr>\r\n                        <td bgcolor=\"#377E55\" style=\"padding: 16px 24px; -webkit-border-radius: 4px; border-radius: 4px; min-width: 200px;\" align=\"center\">\r\n                          <a href=\"https://apex.oracle.com/pls/apex/r/apex/sign-up/workspace-creation?provision_id=12895257309349291473\" style=\"font-size: 16px; line-height: 16px; font-weight: 700; color: #FCFBFA; text-decoration: none; display: inline-block; padding: 16px 24px; margin: -16px -24px;\">Create Workspace</a>\r\n                        </td>\r\n                      </tr>\r\n                    </table><br>\r\n                          </td>\r\n                          <td>&nbsp;</td>\r\n                        </tr>\r\n                      </table>\r\n                      <!-- // Content Wrapper -->\r\n\r\n                      <!-- Footer -->\r\n                      <table width=\"100%\">\r\n                        <tr>\r\n                          <td class=\"footer-reduced\" style=\"background-color: #FCFBFA; color: #6E6D6C; border-radius: 0 0 6px 6px; font-size: 12px; padding: 12px 36px; text-align: center; border-top: 1px solid #e6e6e6;\">This is a system generated message. Do not reply to this message.</td>\r\n                        </tr>\r\n                      </table>\r\n                      <!-- // Footer -->\r\n\r\n                    </td>\r\n                  </tr>\r\n                </table>\r\n                <!-- Container -->\r\n\r\n              </center>\r\n            </td>\r\n            <td>&nbsp;</td>\r\n          </tr>\r\n        </table>\r\n\r\n        </body>\r\n        </html>\n",
+      "raw": ""
+    },
+    "extracted_text": {
+      "email_body": {
+        "text": "Hello kevin andres gonzalez dinas,\n\nYour workspace request has been approved!\n\nWorkspace:\nandres_gonzalez\n\nUsername:\nkevinrlinze@gmail.com\n\nEnvironment:\nhttps://apex.oracle.com/pls/apex/\n\nClick the button below to complete the approval process and set your password.\nhttps://apex.oracle.com/pls/apex/r/apex/sign-up/workspace-creation?provision_id=12895257309349291473\n\nThis is a system generated message. Do not reply to this message.",
+        "html": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\r\n<html lang=\"en\">\r\n<head>\r\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width\">\r\n  <title>Workspace Request Approved</title>\r\n  <style type=\"text/css\">\r\n    body { background-color: #ECE9E6; color: #100F0E; margin: 0; padding: 0; min-width: 100%; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none; font-family: 'Oracle Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; mso-line-height-rule: exactly; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }\r\n    a { color: #AE562C; }\r\n    table { color: #100F0E; border: 0; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }\r\n    table td,\r\n    table th { line-height: 1.4; padding: 0; vertical-align: top; border-collapse: collapse; }     @media only screen and (max-width: 599px) {\r\n      .mobile-hide { display: none !important; }\r\n      .fluid-img { max-width: 100% !important; height: auto !important; }\r\n      .stack,\r\n      .stack-left { display: block !important; width: 100% !important; min-width: 100%; }\r\n      .stack-left { text-align: left !important; }\r\n      .hero-text { font-size: 24px !important; }\r\n      table.stack, table.stack tbody, table.stack tr { display: block !important; }\r\n    }\r\n  </style>\r\n</head>\r\n<body bgcolor=\"#ECE9E6\" style=\"font-family: 'Oracle Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; line-height: 1.4; background-color: #ECE9E6; color: #100F0E; margin: 0; padding: 0;\">\r\n\r\n<table class=\"body\" border=\"0\" width=\"100%\" style=\"font-family: 'Oracle Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;\">\r\n  <tr>\r\n    <td>&nbsp;</td>\r\n    <td align=\"center\" valign=\"top\" width=\"800\" style=\"padding: 20px 5px;\">\r\n      <center>\r\n\r\n        <!-- Container -->\r\n        <table width=\"100%\" border=\"0\" style=\"box-shadow: 0 2px 4px 0 rgba(0,0,0,.1); background-color: #FCFBFA; border-radius: 6px;\">\r\n          <tr>\r\n            <td>\r\n\r\n              <!-- Header Wrapper - Oracle -->\r\n              <table width=\"100%\" border=\"0\" style=\"background-color: #403C38; color: #FCFBFA; line-height: 0; border-radius: 6px 6px 0 0;\">\r\n                <tr>\r\n                  <td>&nbsp;</td>\r\n                  <td width=\"640\" style=\"padding: 16px 20px;\">\r\n\r\n                    <!-- Header - Oracle -->\r\n                    <table width=\"100%\" border=\"0\">\r\n                      <tr>\r\n                        <td class=\"stack\" nowrap=\"nowrap\" style=\"padding: 4px 0; vertical-align: middle; white-space: nowrap;\">\r\n                          <a rel=\"noopener noreferrer\" href=\"https://apex.oracle.com/\" style=\"color: #FCFBFA; font-size: 18px; line-height: 16px; text-decoration: none; display: inline-block; vertical-align: top;\">\r\n                            <table>\r\n                              <tr>\r\n                                <td style=\"vertical-align: middle; padding-right: 12px;\"><img src=\"https://apex.oracle.com/i/email/img/oracle-o-2x.png\" alt=\"Oracle\" style=\"color: #FCFBFA; border: 0; font-size: 16px; line-height: 16px; display: block; width: 36px; height: 24px;\" width=\"36\" height=\"24\" /></td>\r\n                                <td style=\"vertical-align: middle; font-size: 16px; line-height: 20px; font-weight: 700; letter-spacing: 1px; color: #FCFBFA\">APEX</td>\r\n                              </tr>\r\n                            </table>\r\n                          </a>\r\n                        </td>\r\n                        <td class=\"stack-left\" align=\"right\" style=\"padding: 4px 0; vertical-align: middle; font-size: 14px; line-height: 16px; color: #F1EFED;\">\r\n                          <a href=\"https://apex.oracle.com/pls/apex/\" style=\"color: #F1EFED; text-decoration: none;\">apex.oracle.com</a>\r\n                        </td>\r\n                      </tr>\r\n                    </table>\r\n                    <!-- // Header - Oracle -->\r\n\r\n                  </td>\r\n                  <td>&nbsp;</td>\r\n                </tr>\r\n              </table>\r\n              <!-- // Header Wrapper - Oracle -->\r\n\r\n              <!-- Hero Wrapper -->\r\n              <table width=\"100%\" border=\"0\" style=\"color: #1A1816; background-color: #F6F5F3;\">\r\n                <tr>\r\n                  <td>&nbsp;</td>\r\n                  <td width=\"640\" style=\"padding: 36px 20px;\">\r\n                    <table width=\"100%\" border=\"0\">\r\n                      <tr>\r\n                        <td style=\"text-align: center; padding-bottom: 20px;\">\r\n                          <img class=\"fluid-img\" src=\"https://apex.oracle.com/i/email/img/apex-logo-2x.png\" alt=\"Oracle APEX logo\" width=\"112\" height=\"112\" border=\"0\">\r\n                        </td>\r\n                      </tr>\r\n                      <tr>\r\n                        <td class=\"hero-text\" style=\"text-align: center; line-height: 1.2; font-size: 28px; font-weight: 700;\">Workspace Request Approved</td>\r\n                      </tr>\r\n                    </table>\r\n                  </td>\r\n                  <td>&nbsp;</td>\r\n                </tr>\r\n              </table>\r\n              <!-- // Hero Wrapper -->\r\n\r\n              <!-- Content Wrapper -->\r\n              <table width=\"100%\" border=\"0\">\r\n                <tr>\r\n                  <td>&nbsp;</td>\r\n                  <td width=\"640\" style=\"padding: 36px 20px; font-size: 15px; line-height: 21px;\">Hello kevin andres gonzalez dinas,<br><br>Your workspace request has been approved!<br><br><table class=\"stack\" width=\"100%\" border=\"0\" role=\"presentation\">\r\n                      <tr>\r\n                        <td class=\"stack\" width=\"200\" style=\"padding-right: 12px\">Workspace: </td>\r\n                        <td class=\"stack\" style=\"padding-bottom: 8px;\"><strong>andres_gonzalez</strong></td>\r\n                      </tr><tr>\r\n                        <td class=\"stack\" width=\"200\" style=\"padding-right: 12px\">Username:</td>\r\n                        <td class=\"stack\" style=\"padding-bottom: 8px;\"><strong>kevinrlinze@gmail.com</strong></td>\r\n                      </tr><tr>\r\n                        <td class=\"stack\" width=\"200\" style=\"padding-right: 12px\">Environment:</td>\r\n                        <td class=\"stack\" style=\"padding-bottom: 8px; overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; word-break: break-all; word-break: break-word; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto;\"><strong>https://apex.oracle.com/pls/apex/</strong></td>\r\n                      </tr>\r\n                      </table><br>Click the button below to complete the approval process and set your password.<br><br><table border=\"0\" align=\"center\">\r\n                      <tr>\r\n                        <td bgcolor=\"#377E55\" style=\"padding: 16px 24px; -webkit-border-radius: 4px; border-radius: 4px; min-width: 200px;\" align=\"center\">\r\n                          <a href=\"https://apex.oracle.com/pls/apex/r/apex/sign-up/workspace-creation?provision_id=12895257309349291473\" style=\"font-size: 16px; line-height: 16px; font-weight: 700; color: #FCFBFA; text-decoration: none; display: inline-block; padding: 16px 24px; margin: -16px -24px;\">Create Workspace</a>\r\n                        </td>\r\n                      </tr>\r\n                    </table><br>\r\n                          </td>\r\n                          <td>&nbsp;</td>\r\n                        </tr>\r\n                      </table>\r\n                      <!-- // Content Wrapper -->\r\n\r\n                      <!-- Footer -->\r\n                      <table width=\"100%\">\r\n                        <tr>\r\n                          <td class=\"footer-reduced\" style=\"background-color: #FCFBFA; color: #6E6D6C; border-radius: 0 0 6px 6px; font-size: 12px; padding: 12px 36px; text-align: center; border-top: 1px solid #e6e6e6;\">This is a system generated message. Do not reply to this message.</td>\r\n                        </tr>\r\n                      </table>\r\n                      <!-- // Footer -->\r\n\r\n                    </td>\r\n                  </tr>\r\n                </table>\r\n                <!-- Container -->\r\n\r\n              </center>\r\n            </td>\r\n            <td>&nbsp;</td>\r\n          </tr>\r\n        </table>\r\n\r\n        </body>\r\n        </html>\n",
+        "raw": ""
+      },
+      "attachments": []
+    }
+  },
+  "attachments": {
+    "count": 0,
+    "total_size_bytes": 0,
+    "files": []
+  },
+  "statistics": {
+    "text_length": {
+      "body_text": 434,
+      "body_html": 8620,
+      "total_extracted_text": 0
+    },
+    "attachments": {
+      "total_count": 0,
+      "by_category": {},
+      "by_type": {},
+      "total_size_bytes": 0,
+      "largest_file": null,
+      "smallest_file": null
+    },
+    "recipients": {
+      "to_count": 1,
+      "cc_count": 0,
+      "bcc_count": 0,
+      "total_recipients": 1
+    },
+    "headers": {
+      "total_headers": 23,
+      "x_headers_count": 2
+    }
+  },
+  "processing_info": {
+    "extraction_successful": true,
+    "errors": [],
+    "warnings": [],
+    "processing_time": 0.0057027339935302734,
+    "extraction_method": "imap_direct",
+    "retry_count": 0
+  },
+  "analysis": {
+    "content_analysis": {
+      "content_type": "html",
+      "language_detected": "en",
+      "sentiment": "neutral",
+      "urgency_indicators": [],
+      "topics": [],
+      "contains_links": true,
+      "contains_images": true,
+      "text_quality": "good"
+    },
+    "attachment_analysis": {
+      "total_count": 0,
+      "total_size_mb": 0,
+      "risk_assessment": "low",
+      "file_types": {},
+      "suspicious_files": [],
+      "encrypted_files": [],
+      "large_files": []
+    },
+    "security_analysis": {
+      "authentication_status": "unknown",
+      "spf_status": "pass",
+      "dkim_status": "pass",
+      "dmarc_status": "pass",
+      "overall_trust_score": 0.9999999999999999,
+      "security_warnings": []
+    },
+    "communication_analysis": {
+      "communication_type": "personal",
+      "recipient_count": 1,
+      "is_broadcast": false,
+      "is_personal": true,
+      "is_automated": false,
+      "thread_participation": false
+    },
+    "technical_analysis": {
+      "routing_hops": 3,
+      "delivery_delay_estimated": false,
+      "client_info": {},
+      "server_info": {},
+      "encryption_used": true
+    }
+  },
+  "quality_metrics": {
+    "completeness_score": 0.75,
+    "extraction_success_rate": 1.0,
+    "data_integrity_score": 1.0,
+    "overall_quality_score": 0.9000000000000001
+  }
+}

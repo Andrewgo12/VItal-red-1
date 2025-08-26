@@ -1,0 +1,25 @@
+{
+  "text_length": {
+    "body_text": 1182,
+    "body_html": 23588,
+    "total_extracted_text": 0
+  },
+  "attachments": {
+    "total_count": 0,
+    "by_category": {},
+    "by_type": {},
+    "total_size_bytes": 0,
+    "largest_file": null,
+    "smallest_file": null
+  },
+  "recipients": {
+    "to_count": 1,
+    "cc_count": 0,
+    "bcc_count": 0,
+    "total_recipients": 1
+  },
+  "headers": {
+    "total_headers": 41,
+    "x_headers_count": 24
+  }
+}

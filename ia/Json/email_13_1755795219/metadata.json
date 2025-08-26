@@ -1,0 +1,170 @@
+{
+  "unique_id": "email_13_1755795219",
+  "message_id": "<ede81134386e1dd3e9d7dd918be58e6de5823dd4-20268502-111582634@google.com>",
+  "subject": "⚠️ El almacenamiento de tu cuenta de Gmail está lleno al 97 %",
+  "from": [
+    {
+      "name": "Google",
+      "email": "google-noreply@google.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [
+    {
+      "name": "Google",
+      "email": "google-noreply@google.com"
+    }
+  ],
+  "date": "2025-02-13T13:32:18",
+  "date_string": "Thu, 13 Feb 2025 10:32:18 -0800",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 53098,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id af79cd13be357-7c07c552148sor304667385a.0.2025.02.13.10.32.18\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 13 Feb 2025 10:32:19 -0800 (PST)",
+    "X-Received": "by 2002:ac8:5dcc:0:b0:471:9774:5f39 with SMTP id\r\n d75a77b69052e-471bed30751mr61891891cf.3.1739471538706; Thu, 13 Feb 2025\r\n 10:32:18 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1739471539; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=G+TvcHg+vcRnU4k1z7SR9czovQrNI9rWvg0EypsZms1J8Dfs+Q12QuEqWhKhRZxAOD\r\n         0kzPBf8SfNqpAVd2MbDzUmUzbNsxH95Vm0R5wbkGlCvC9Xy1n+dGW7wWn7IjnpR6ztuW\r\n         pWjDKZKCqBlI9GkNZxC8vktYS8/GJd1TW1X8ztSZgSpCWG1aqaPASDULDD1kKu/2D0d2\r\n         GHyFi6C1hoitlXyA1haqjRH1dLknDhKMInNjwRUA+BLgvt4NUVx5QnWiygUniFzNAwP7\r\n         f/lXXlpjxJvgfoPrLZDFfbKaqJWXQY1HNLfqtwaVo1IWc1g4m1QrdkaiH4HWX0JvMTSp\r\n         kx9w==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version\r\n         :dkim-signature;\r\n        bh=xb5LeH6VzdkXrRHVvy6hlcE2iy10w7svNop88Pu0+9s=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=SEv1N5USM6DxL/B0ITzztxGjlhv+nH/fPzEHhs1qZnbKFPRLwKfnwiqeCD4p3SGY2L\r\n         9KKXP8mGJP+8ua9oYXdq9i7aKM3bbahmBUhx+iq4rnBFStW5nQaRphBAPtIwVgwSQ74u\r\n         uLR0ntOxwQt0VXntvBoU2bMagSD/7SK1AulFy0Cnzcuy8kwKlG999WK+8AFLj5NL95la\r\n         EjNEOJgIlTybO1jgxSFwCwkEPx7Sh5HJqlhhn6ghQNf9y1Du06fKCEZt3UrEDLtKG/8W\r\n         4aFolr9iCLSg+6ix0QC9+IGCqcGu1jQsADqYJ9gjpEVY5YFwBO8xLqfCwECxtS6k70o2\r\n         vKdQ==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=AcRuhhVI;\r\n       spf=pass (google.com: domain of 3sjquzw4kcyuhpphmf-opsfqmzhpphmf.dpnlfwjosmjoafhnbjm.dpn@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3sjquZw4KCyUHPPHMF-OPSFQMZHPPHMF.DPNLFWJOSMJOaFHNBJM.DPN@scoutcamp.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+    "Return-Path": "<3sjquZw4KCyUHPPHMF-OPSFQMZHPPHMF.DPNLFWJOSMJOaFHNBJM.DPN@scoutcamp.bounces.google.com>",
+    "Received-SPF": "pass (google.com: domain of 3sjquzw4kcyuhpphmf-opsfqmzhpphmf.dpnlfwjosmjoafhnbjm.dpn@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=AcRuhhVI;\r\n       spf=pass (google.com: domain of 3sjquzw4kcyuhpphmf-opsfqmzhpphmf.dpnlfwjosmjoafhnbjm.dpn@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3sjquZw4KCyUHPPHMF-OPSFQMZHPPHMF.DPNLFWJOSMJOaFHNBJM.DPN@scoutcamp.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1739471538; x=1740076338; dara=google.com;\r\n        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=xb5LeH6VzdkXrRHVvy6hlcE2iy10w7svNop88Pu0+9s=;\r\n        b=AcRuhhVI5u0NLtrmKg0PnoRjqBu3OCFdt8QD83RYukwQB3KPYxGESuKq9CfR1E8f5G\r\n         DgEvXIwSRrQLonz3yOSb8mnjpG2UwLflQ7aoucb6TGVnY2HlX5SflS+0J9zCE4ruLRW9\r\n         BBYjFjbrxahKDXBtIFGAEHviXS/YdNMSTAN8iyxPjFzidLrcE5nezs5E6K2YushBse5P\r\n         62dBz/cTY/K2MFvPyRdmomkGKxru1QfC2pdZUlVqKyPfbF0MAw8VthFZItqrrezhTL2d\r\n         uoCTSG9yRllVQadDACpgnFLeRKulY/NaVNSAM2iPQ+bhl5ALU+EY1w2zGRyEnJHWgQMo\r\n         1Shg==",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1739471538; x=1740076338;\r\n        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version\r\n         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=xb5LeH6VzdkXrRHVvy6hlcE2iy10w7svNop88Pu0+9s=;\r\n        b=dEDorWWinhwkyF/ieTbhW0n3fpCAGNACABJH787Ts73WINdYTOv0yX8fpWLNiDGhke\r\n         rKj3Fc3V9mgNVcZzOqlWuPpFbbnLpcB6KVZLPqXBda8aBBhKZ6AnhaMsMYN+s2DVTKjA\r\n         +MUnJh7nzmo3JBJSmW88P2J/WgfuFQ68+V7IU7XKhI7rfeTj35Tg4UTNE4W2GHkkyS/7\r\n         TrxLqdhFZE267BQhvMxz7AqvBw4YVg1WEDKVwjnXcTs/SLw5k9blhoH1HGI53PbG0SU7\r\n         M+V59WkUVy5dEEjQggXQ2UuyUKWPeTC/Tz11fn0StcGRXmc2xbd+214vIm/WlVw6Tq/V\r\n         RcGQ==",
+    "X-Gm-Message-State": "AOJu0YyhuEak+WGn2X+ZzRe636s/XEZmE98Lxlxn+48MImkgNrX1kiDX\r\n\tO1hSNIOs8fmkcKmJbYD2mfxYTd3OHkieI6BPjR0nP9u4LiAL3xZfmbtH",
+    "X-Google-Smtp-Source": "AGHT+IGGXRfZ82UzeqrldUc75uTf8DPLB+GMACvTLZuB32YA1kJ+OrGKRxeN0YWor9xtCR6v3huqkxA=",
+    "MIME-Version": "1.0",
+    "Date": "Thu, 13 Feb 2025 10:32:18 -0800",
+    "Reply-To": "Google <google-noreply@google.com>",
+    "X-Google-Id": "4322138",
+    "Feedback-ID": "P-239-0:C20268502:M110812083-es:gamma",
+    "X-Notifications": "8ccf7f98dfd20000",
+    "X-Notifications-Bounce-Info": "AXul_mLb9Eu_I2b6q4dVJrx-uQnSq4IT_tbwX5YgWZPWMVpgXwvCCBTFg4Hxq6RzarF_DkkfTmSdS8Ul2rVPwhXCHntjBeBRWaDEFgweh4bDwHUpnaAKsJQCpz4zVOPez39Yp2K0pQSeCvpginv9Mu2PN6QVEdcLk-sCgo16FOyjlFlI7TJdAAZo59yHB2TMH1PhIbtAPvDFqHbDNBSmK9OW1cyrSvRVPZVffn5rz9FKdGk5EXjp-TtPja7VrpSL2vncnyMoMcPEBMwD4ZU76tmFZNF7Qci-kTKzKJOjX7SwXDmTcKBFVdZE2nvRWNUenCrc9wPyWLiMNww-6bbFl2L_gsG8raF7mUyZ1OA--pmAeqHvJ0ti5jz2Az9Gcm4_UiltJ73wifU_UwjhDjo70q3-8XtpFJ1K6syDtQ6BaxNbMtNt9OeXuTP90eHL5nMOeiq0udV639Vx0cyrg3nrAU1kYmn-dcOFxNhHkpvRpLmops0eDx5FNrkfNjAwNjA0MDQxNTM1NTk2OTMzMg",
+    "Message-ID": "<ede81134386e1dd3e9d7dd918be58e6de5823dd4-20268502-111582634@google.com>",
+    "Subject": "⚠️ El almacenamiento de tu cuenta de Gmail está lleno al 97 %",
+    "From": "Google <google-noreply@google.com>",
+    "To": "kevinrlinze@gmail.com",
+    "Content-Type": "multipart/alternative; boundary=\"000000000000295a39062e0a47bc\""
+  },
+  "extraction_timestamp": "2025-08-21T11:53:39.431561",
+  "received_headers": [
+    "by 2002:a05:6000:4022:b0:38d:c57e:3a1b with SMTP id cp34csp530855wrb;\r\n        Thu, 13 Feb 2025 10:32:19 -0800 (PST)",
+    "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id af79cd13be357-7c07c552148sor304667385a.0.2025.02.13.10.32.18\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 13 Feb 2025 10:32:19 -0800 (PST)"
+  ],
+  "x_headers": {
+    "X-Received": "by 2002:ac8:5dcc:0:b0:471:9774:5f39 with SMTP id\r\n d75a77b69052e-471bed30751mr61891891cf.3.1739471538706; Thu, 13 Feb 2025\r\n 10:32:18 -0800 (PST)",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1739471538; x=1740076338;\r\n        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version\r\n         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=xb5LeH6VzdkXrRHVvy6hlcE2iy10w7svNop88Pu0+9s=;\r\n        b=dEDorWWinhwkyF/ieTbhW0n3fpCAGNACABJH787Ts73WINdYTOv0yX8fpWLNiDGhke\r\n         rKj3Fc3V9mgNVcZzOqlWuPpFbbnLpcB6KVZLPqXBda8aBBhKZ6AnhaMsMYN+s2DVTKjA\r\n         +MUnJh7nzmo3JBJSmW88P2J/WgfuFQ68+V7IU7XKhI7rfeTj35Tg4UTNE4W2GHkkyS/7\r\n         TrxLqdhFZE267BQhvMxz7AqvBw4YVg1WEDKVwjnXcTs/SLw5k9blhoH1HGI53PbG0SU7\r\n         M+V59WkUVy5dEEjQggXQ2UuyUKWPeTC/Tz11fn0StcGRXmc2xbd+214vIm/WlVw6Tq/V\r\n         RcGQ==",
+    "X-Gm-Message-State": "AOJu0YyhuEak+WGn2X+ZzRe636s/XEZmE98Lxlxn+48MImkgNrX1kiDX\r\n\tO1hSNIOs8fmkcKmJbYD2mfxYTd3OHkieI6BPjR0nP9u4LiAL3xZfmbtH",
+    "X-Google-Smtp-Source": "AGHT+IGGXRfZ82UzeqrldUc75uTf8DPLB+GMACvTLZuB32YA1kJ+OrGKRxeN0YWor9xtCR6v3huqkxA=",
+    "X-Google-Id": "4322138",
+    "X-Notifications": "8ccf7f98dfd20000",
+    "X-Notifications-Bounce-Info": "AXul_mLb9Eu_I2b6q4dVJrx-uQnSq4IT_tbwX5YgWZPWMVpgXwvCCBTFg4Hxq6RzarF_DkkfTmSdS8Ul2rVPwhXCHntjBeBRWaDEFgweh4bDwHUpnaAKsJQCpz4zVOPez39Yp2K0pQSeCvpginv9Mu2PN6QVEdcLk-sCgo16FOyjlFlI7TJdAAZo59yHB2TMH1PhIbtAPvDFqHbDNBSmK9OW1cyrSvRVPZVffn5rz9FKdGk5EXjp-TtPja7VrpSL2vncnyMoMcPEBMwD4ZU76tmFZNF7Qci-kTKzKJOjX7SwXDmTcKBFVdZE2nvRWNUenCrc9wPyWLiMNww-6bbFl2L_gsG8raF7mUyZ1OA--pmAeqHvJ0ti5jz2Az9Gcm4_UiltJ73wifU_UwjhDjo70q3-8XtpFJ1K6syDtQ6BaxNbMtNt9OeXuTP90eHL5nMOeiq0udV639Vx0cyrg3nrAU1kYmn-dcOFxNhHkpvRpLmops0eDx5FNrkfNjAwNjA0MDQxNTM1NTk2OTMzMg"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<ede81134386e1dd3e9d7dd918be58e6de5823dd4-20268502-111582634@google.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of 3sjquzw4kcyuhpphmf-opsfqmzhpphmf.dpnlfwjosmjoafhnbjm.dpn@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1739471538; x=1740076338; dara=google.com;\r\n        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=xb5LeH6VzdkXrRHVvy6hlcE2iy10w7svNop88Pu0+9s=;\r\n        b=AcRuhhVI5u0NLtrmKg0PnoRjqBu3OCFdt8QD83RYukwQB3KPYxGESuKq9CfR1E8f5G\r\n         DgEvXIwSRrQLonz3yOSb8mnjpG2UwLflQ7aoucb6TGVnY2HlX5SflS+0J9zCE4ruLRW9\r\n         BBYjFjbrxahKDXBtIFGAEHviXS/YdNMSTAN8iyxPjFzidLrcE5nezs5E6K2YushBse5P\r\n         62dBz/cTY/K2MFvPyRdmomkGKxru1QfC2pdZUlVqKyPfbF0MAw8VthFZItqrrezhTL2d\r\n         uoCTSG9yRllVQadDACpgnFLeRKulY/NaVNSAM2iPQ+bhl5ALU+EY1w2zGRyEnJHWgQMo\r\n         1Shg==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=AcRuhhVI;\r\n       spf=pass (google.com: domain of 3sjquzw4kcyuhpphmf-opsfqmzhpphmf.dpnlfwjosmjoafhnbjm.dpn@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3sjquZw4KCyUHPPHMF-OPSFQMZHPPHMF.DPNLFWJOSMJOaFHNBJM.DPN@scoutcamp.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=AcRuhhVI;\r\n       spf=pass (google.com: domain of 3sjquzw4kcyuhpphmf-opsfqmzhpphmf.dpnlfwjosmjoafhnbjm.dpn@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3sjquZw4KCyUHPPHMF-OPSFQMZHPPHMF.DPNLFWJOSMJOaFHNBJM.DPN@scoutcamp.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a05:6000:4022:b0:38d:c57e:3a1b with SMTP id cp34csp530855wrb;\r\n        Thu, 13 Feb 2025 10:32:19 -0800 (PST)",
+      "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id af79cd13be357-7c07c552148sor304667385a.0.2025.02.13.10.32.18\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 13 Feb 2025 10:32:19 -0800 (PST)"
+    ],
+    "delivery_path": [
+      "mail-sor-f69.google.com"
+    ],
+    "total_hops": 2,
+    "delivery_delay": null,
+    "original_sender_ip": "209.85.220.69",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 5316
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 42431
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Tu almacenamiento de Gmail está lleno al 97 % 14,56 GB usados 15 GB Has usado 14,56 GB de los 15 GB de almacenamiento que incluye tu cuenta de Google. Una vez que el almacenamiento esté lleno, no podrás hacer lo siguiente: - Enviar ni recibir correos en Gmail - Crear más copias de seguridad de fotos...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 61,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=AcRuhhVI;\r\n       spf=pass (google.com: domain of 3sjquzw4kcyuhpphmf-opsfqmzhpphmf.dpnlfwjosmjoafhnbjm.dpn@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3sjquZw4KCyUHPPHMF-OPSFQMZHPPHMF.DPNLFWJOSMJOaFHNBJM.DPN@scoutcamp.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1739471538; x=1740076338; dara=google.com;\r\n        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=xb5LeH6VzdkXrRHVvy6hlcE2iy10w7svNop88Pu0+9s=;\r\n        b=AcRuhhVI5u0NLtrmKg0PnoRjqBu3OCFdt8QD83RYukwQB3KPYxGESuKq9CfR1E8f5G\r\n         DgEvXIwSRrQLonz3yOSb8mnjpG2UwLflQ7aoucb6TGVnY2HlX5SflS+0J9zCE4ruLRW9\r\n         BBYjFjbrxahKDXBtIFGAEHviXS/YdNMSTAN8iyxPjFzidLrcE5nezs5E6K2YushBse5P\r\n         62dBz/cTY/K2MFvPyRdmomkGKxru1QfC2pdZUlVqKyPfbF0MAw8VthFZItqrrezhTL2d\r\n         uoCTSG9yRllVQadDACpgnFLeRKulY/NaVNSAM2iPQ+bhl5ALU+EY1w2zGRyEnJHWgQMo\r\n         1Shg==",
+  "spf_result": "pass (google.com: domain of 3sjquzw4kcyuhpphmf-opsfqmzhpphmf.dpnlfwjosmjoafhnbjm.dpn@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;"
+}

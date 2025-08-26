@@ -1,0 +1,40 @@
+Email ID: email_61_1755795240
+==================================================
+
+EMAIL BODY:
+--------------------
+Hello,
+
+Please be aware that free trial accounts for the Cloud Platform have 
+limited Compute Engine quota during their trial period.
+
+We understand you'd like to have more quota; that's great! We'd love to 
+help you with that. Before we can move further, you'll need to upgrade to a 
+paid account, because the trial accounts have a hard limit on quota [1]. To 
+do so, please follow these quick steps:
+
+Login as Owner to your Google Developers Console at 
+http://cloud.google.com/ Click 'Upgrade my account' from the top of any 
+page once logged in to your Console.
+Voila! It's done. You've just been upgraded to a paid account.
+You should now benefit from the upgraded free resource/courtesy quotas!
+For more details on the default resource quotas provided with paid accounts,
+please refer to our Compute Engine Resource Quotas documentation [2]. If 
+you need more quotas beyond the aforementioned, you can always submit 
+another quota increase request on the bottom of the latter page.
+
+I truly hope this information was helpful. Feel free to let us know if you 
+require further assistance or have further questions in this regard.
+
+Have a nice day!
+
+Sincerely,
+Google Cloud Support
+
+[1] Please be aware that free trial accounts for the Cloud Platform have 
+limited
+Compute Engine quota during their trial period (
+https://cloud.google.com/free-trial/docs/free-trial-quotas )
+
+[2] https://cloud.google.com/compute/docs/resource-quotas
+

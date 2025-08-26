@@ -1,0 +1,55 @@
+{
+  "count": 1,
+  "total_size_bytes": 810750,
+  "files": [
+    {
+      "original_filename": "Estudiantes febrero.jpg",
+      "saved_filename": "Estudiantes febrero.jpg",
+      "file_path": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Imagenes\\email_12_1755795219\\Estudiantes febrero.jpg",
+      "relative_path": "Imagenes\\email_12_1755795219\\Estudiantes febrero.jpg",
+      "content_type": "image/jpeg",
+      "category": "image",
+      "size_bytes": 810750,
+      "size_human": "791.7 KB",
+      "md5_hash": "0cefbebfde77fc17b8b4adca5f515bef",
+      "attachment_index": 0,
+      "saved_successfully": true,
+      "security_analysis": {
+        "risk_level": "low",
+        "potential_threats": [],
+        "file_signature_valid": true,
+        "suspicious_extensions": false,
+        "encrypted": false,
+        "macro_enabled": false
+      },
+      "file_metadata": {
+        "file_stats": {
+          "size_bytes": 810750,
+          "creation_time": "2025-08-21T11:53:39.142308",
+          "modification_time": "2025-08-21T11:53:39.142308",
+          "access_time": "2025-08-21T11:53:39.160646",
+          "permissions": "666",
+          "inode": 844424930631330
+        },
+        "creation_time": null,
+        "modification_time": null,
+        "access_time": null,
+        "permissions": "",
+        "owner": "",
+        "file_type_details": {},
+        "embedded_metadata": {
+          "format": "JPEG",
+          "mode": "RGB",
+          "size": [
+            2250,
+            2250
+          ],
+          "exif": {}
+        }
+      },
+      "processing_timestamp": "2025-08-21T11:53:39.161511",
+      "disposition": "inline",
+      "extracted_text": ""
+    }
+  ]
+}

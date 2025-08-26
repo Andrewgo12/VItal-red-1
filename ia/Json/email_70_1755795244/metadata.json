@@ -1,0 +1,187 @@
+{
+  "unique_id": "email_70_1755795244",
+  "message_id": "<20250220164557.69daa3143ae5aa78@cio56699.info.n8n.io>",
+  "subject": "Verify your n8n account",
+  "from": [
+    {
+      "name": "n8n.io",
+      "email": "hello@info.n8n.io"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [
+    {
+      "name": "n8n Support",
+      "email": "help@n8n.io"
+    }
+  ],
+  "date": "2025-02-20T11:45:57",
+  "date_string": "Thu, 20 Feb 2025 16:45:57 +0000",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 70343,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "by cff64ebeddd7 with HTTP id 67b75c45a60f4bc796a13ed7; Thu, 20 Feb 2025\r\n 16:45:57 GMT",
+    "X-Google-Smtp-Source": "AGHT+IEYtg7hSkCInQEa6NiSKlYvcFteIOmZmJyEZKdrSqJkmvygi1nFKqr8KFJ366MP1TvWlnMZ",
+    "X-Received": "by 2002:a05:620a:4591:b0:7c0:b0eb:4fa9 with SMTP id af79cd13be357-7c0b51cde08mr1287974385a.5.1740069959230;\r\n        Thu, 20 Feb 2025 08:45:59 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740069959; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=fJfFXakSFDCudcPpsPCMI6tqWSnBZb7cdW1XthUKuLHjn1B5PIZRdV0OV2h/uHpE2w\r\n         IhhMSXLMUbhCUEKT2EyEjn7MSAtQ/tvRUEzDLBAEz8gus7uW9/70lcDy5NfyjASP03IS\r\n         i72QmuY4umu9eSWAJQvEQVHWtqu0rqli5IhXq9CF412/IwoNgrOWXgRwGek352p7o3Ac\r\n         Vi4t3LMn8mxocmadLTVHptZoOPIRkflNtePni1xFgKmZH7HnDtNzGYtX6D1bHk6twVSm\r\n         upO++q4xIY9bu7SkxUdVSiOI86g6wWNq1DWmQ8v4P4o12jkedHaovEBT9sREZtjQzZFV\r\n         RffA==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=message-id:list-unsubscribe-post:list-unsubscribe:reply-to:to:from\r\n         :subject:mime-version:date:dkim-signature:dkim-signature;\r\n        bh=TdCbgj3gB9HXnK140hLyvuKb8+//uyI+Fjv5Crf2CuI=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=XVoSJRaR4Fq6LdpHzxkeAbYrxg42+vSuQ+Wmh19xT7Lh6xZYgw/d+SsiD59WjvCm/i\r\n         Gh1zzGzs0X5LHDpstS+mFKSnI4nLUL/jAPKoKSoBYAuFy5QaemLnR8rMXzzK8+QyIy6I\r\n         DioNZw9z26kLSYAHKAdvpucOtssArCIDpdhs/Rogi4eBkYaStDPOnzWgfmMr/adL4rh2\r\n         TRMgYV0IQozRvM3vMc1me93Lu75VT4oMTBP5oKNqoQ95PwHB3CkRo1c/rZAWLpf0AZB6\r\n         HpQRqDMQHR/Lclc6yQ6Sf8xkMeJCriYjJKq6gDnWCzfk4zYJyC/PMR2Y/nVcTct/jFB1\r\n         lHUA==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@cio56699.info.n8n.io header.s=mx header.b=a7YI+4Ee;\r\n       dkim=pass header.i=@mailgun.org header.s=mg header.b=ccu94nNj;\r\n       spf=pass (google.com: domain of postmaster@cio56699.info.n8n.io designates 143.55.227.71 as permitted sender) smtp.mailfrom=postmaster@cio56699.info.n8n.io;\r\n       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=n8n.io",
+    "Return-Path": "<postmaster@cio56699.info.n8n.io>",
+    "Received-SPF": "pass (google.com: domain of postmaster@cio56699.info.n8n.io designates 143.55.227.71 as permitted sender) client-ip=143.55.227.71;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@cio56699.info.n8n.io header.s=mx header.b=a7YI+4Ee;\r\n       dkim=pass header.i=@mailgun.org header.s=mg header.b=ccu94nNj;\r\n       spf=pass (google.com: domain of postmaster@cio56699.info.n8n.io designates 143.55.227.71 as permitted sender) smtp.mailfrom=postmaster@cio56699.info.n8n.io;\r\n       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=n8n.io",
+    "DKIM-Signature": "a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg; t=1740069958; x=1740077158;\r\n h=Message-Id: List-Unsubscribe-Post: List-Unsubscribe: Reply-To: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;\r\n bh=TdCbgj3gB9HXnK140hLyvuKb8+//uyI+Fjv5Crf2CuI=;\r\n b=ccu94nNjQVxcoQkIzJdYIs5ZiEJIIUTrFOCpeYSjou4Ju7rk0UsLzg9j4H1Xjfcgoz7W4GbRx+Zo9Faqdlkduxlp4IkAErqcNoMn4cGdNe8p5oc6zPWFwt75ncsC34x+Vxf+mgwMgQ02YK40WTeSJxb5dBVxhXngO7Pbags/JuI=",
+    "X-Feedback-Id": "postmaster@cio56699.info.n8n.io::62ab0d3dd800ab26e5fffc4b:mailgun",
+    "X-Mailgun-Sending-Ip": "143.55.227.71",
+    "X-Mailgun-Sending-Ip-Pool-Name": "",
+    "X-Mailgun-Sending-Ip-Pool": "",
+    "X-Mailgun-Sid": "WyIwNTg1OCIsImtldmlucmxpbnplQGdtYWlsLmNvbSIsIjU1OTRiZSJd",
+    "Date": "Thu, 20 Feb 2025 16:45:57 +0000",
+    "Mime-Version": "1.0",
+    "Content-Type": "multipart/alternative;\r\n boundary=\"5d87671b76bacf33c293b8ac7e5cc513d9d91e69be3fa3e1a58cc8088f96\"",
+    "Subject": "Verify your n8n account",
+    "From": "n8n.io <hello@info.n8n.io>",
+    "To": "kevinrlinze@gmail.com",
+    "X-Mailgun-Dkim": "true",
+    "X-Mailgun-Native-Send": "true",
+    "X-Mailgun-Track-Clicks": "false",
+    "X-Mailgun-Track-Opens": "false",
+    "Reply-To": "n8n Support <help@n8n.io>",
+    "List-Unsubscribe": "<mailto:32.MRTVG2JSM5KUEQKKNFHUWNLFJ5FXOR2WJJCUESSHMR2TMNSRORDUCTSKMJKTSWJ5@unsubscribe2.customer.io>,\r\n <https://email.info.n8n.io/unsubscribe/dgSi2gUBAJiOK5eOKwGVJEBJGdu66QtGANJbU9Y=>",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    "X-Mailer": "Customer.io (dgSi2gUBAJiOK5eOKwGVJEBJGdu66QtGANJbU9Y=;\r\n +https://whatis.customeriomail.com)",
+    "X-Report-Abuse-To": "badactor@customer.io",
+    "X-Mailgun-Variables": "{\"email_id\": \"dgSi2gUBAJiOK5eOKwGVJEBJGdu66QtGANJbU9Y=\"}",
+    "Message-Id": "<20250220164557.69daa3143ae5aa78@cio56699.info.n8n.io>"
+  },
+  "extraction_timestamp": "2025-08-21T11:54:04.029024",
+  "received_headers": [
+    "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp148973wru;\r\n        Thu, 20 Feb 2025 08:45:59 -0800 (PST)",
+    "from a227-71.mailgun.net (a227-71.mailgun.net. [143.55.227.71])\r\n        by mx.google.com with UTF8SMTPS id af79cd13be357-7c09ddbe63bsi786587085a.150.2025.02.20.08.45.58\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 08:45:59 -0800 (PST)",
+    "by cff64ebeddd7 with HTTP id 67b75c45a60f4bc796a13ed7; Thu, 20 Feb 2025\r\n 16:45:57 GMT"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IEYtg7hSkCInQEa6NiSKlYvcFteIOmZmJyEZKdrSqJkmvygi1nFKqr8KFJ366MP1TvWlnMZ",
+    "X-Received": "by 2002:a05:620a:4591:b0:7c0:b0eb:4fa9 with SMTP id af79cd13be357-7c0b51cde08mr1287974385a.5.1740069959230;\r\n        Thu, 20 Feb 2025 08:45:59 -0800 (PST)",
+    "X-Feedback-Id": "postmaster@cio56699.info.n8n.io::62ab0d3dd800ab26e5fffc4b:mailgun",
+    "X-Mailgun-Sending-Ip": "143.55.227.71",
+    "X-Mailgun-Sending-Ip-Pool-Name": "",
+    "X-Mailgun-Sending-Ip-Pool": "",
+    "X-Mailgun-Sid": "WyIwNTg1OCIsImtldmlucmxpbnplQGdtYWlsLmNvbSIsIjU1OTRiZSJd",
+    "X-Mailgun-Dkim": "true",
+    "X-Mailgun-Native-Send": "true",
+    "X-Mailgun-Track-Clicks": "false",
+    "X-Mailgun-Track-Opens": "false",
+    "X-Mailer": "Customer.io (dgSi2gUBAJiOK5eOKwGVJEBJGdu66QtGANJbU9Y=;\r\n +https://whatis.customeriomail.com)",
+    "X-Report-Abuse-To": "badactor@customer.io",
+    "X-Mailgun-Variables": "{\"email_id\": \"dgSi2gUBAJiOK5eOKwGVJEBJGdu66QtGANJbU9Y=\"}"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<20250220164557.69daa3143ae5aa78@cio56699.info.n8n.io>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of postmaster@cio56699.info.n8n.io designates 143.55.227.71 as permitted sender) client-ip=143.55.227.71;",
+    "dkim_signature": "a=rsa-sha256; v=1; c=relaxed/relaxed; d=cio56699.info.n8n.io; q=dns/txt; s=mx; t=1740069958; x=1740077158;\r\n h=Message-Id: List-Unsubscribe-Post: List-Unsubscribe: Reply-To: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;\r\n bh=TdCbgj3gB9HXnK140hLyvuKb8+//uyI+Fjv5Crf2CuI=;\r\n b=a7YI+4EecZpBjaHU1RmNSZLZzlJRdy3fYIP8IjKvyTxHPrxVY/TpAgYoFYg6ihvJivuPgx7wQ0fhat+zgZMXOev2XZ409lRiMLccf+t72gtEOvMXpytUpDw3F6yS2ytU4Bp/vAGRzvk3pWWhwWKSuVD9ZMz5dE96UsM3rchGB3Ms6BFRIJHZ10vA8q+xqahQcEE+Bb2Z32+GyrGi6zn5ymvNFlz8/itxwWsbNrQEeiJUDoqa8pDnRamwZdF4A/Ws4qT/1/k+TwD+gRuUJDN2co/fMUtQfXyZ7/Ec1zgCmsNicdPOVIubm28ZMwfukEYatRSIyEf7ieg5oVAtPD8HfQ==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@cio56699.info.n8n.io header.s=mx header.b=a7YI+4Ee;\r\n       dkim=pass header.i=@mailgun.org header.s=mg header.b=ccu94nNj;\r\n       spf=pass (google.com: domain of postmaster@cio56699.info.n8n.io designates 143.55.227.71 as permitted sender) smtp.mailfrom=postmaster@cio56699.info.n8n.io;\r\n       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=n8n.io",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@cio56699.info.n8n.io header.s=mx header.b=a7YI+4Ee;\r\n       dkim=pass header.i=@mailgun.org header.s=mg header.b=ccu94nNj;\r\n       spf=pass (google.com: domain of postmaster@cio56699.info.n8n.io designates 143.55.227.71 as permitted sender) smtp.mailfrom=postmaster@cio56699.info.n8n.io;\r\n       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=n8n.io"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp148973wru;\r\n        Thu, 20 Feb 2025 08:45:59 -0800 (PST)",
+      "from a227-71.mailgun.net (a227-71.mailgun.net. [143.55.227.71])\r\n        by mx.google.com with UTF8SMTPS id af79cd13be357-7c09ddbe63bsi786587085a.150.2025.02.20.08.45.58\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 08:45:59 -0800 (PST)",
+      "by cff64ebeddd7 with HTTP id 67b75c45a60f4bc796a13ed7; Thu, 20 Feb 2025\r\n 16:45:57 GMT"
+    ],
+    "delivery_path": [
+      "a227-71.mailgun.net"
+    ],
+    "total_hops": 3,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 1232
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 64300
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Hi there! Thank you for creating an n8n account. To continue setting up your workspace, please verify your email by clicking the link below: Verify my email ( https://app.n8n.cloud/confirm-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtldmlucmxpbnplQGdtYWlsLmNvbSIsInN1YiI6NDc0MjY5LC...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 23,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@cio56699.info.n8n.io header.s=mx header.b=a7YI+4Ee;\r\n       dkim=pass header.i=@mailgun.org header.s=mg header.b=ccu94nNj;\r\n       spf=pass (google.com: domain of postmaster@cio56699.info.n8n.io designates 143.55.227.71 as permitted sender) smtp.mailfrom=postmaster@cio56699.info.n8n.io;\r\n       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=n8n.io",
+  "dkim_signature": "a=rsa-sha256; v=1; c=relaxed/relaxed; d=cio56699.info.n8n.io; q=dns/txt; s=mx; t=1740069958; x=1740077158;\r\n h=Message-Id: List-Unsubscribe-Post: List-Unsubscribe: Reply-To: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id: Sender;\r\n bh=TdCbgj3gB9HXnK140hLyvuKb8+//uyI+Fjv5Crf2CuI=;\r\n b=a7YI+4EecZpBjaHU1RmNSZLZzlJRdy3fYIP8IjKvyTxHPrxVY/TpAgYoFYg6ihvJivuPgx7wQ0fhat+zgZMXOev2XZ409lRiMLccf+t72gtEOvMXpytUpDw3F6yS2ytU4Bp/vAGRzvk3pWWhwWKSuVD9ZMz5dE96UsM3rchGB3Ms6BFRIJHZ10vA8q+xqahQcEE+Bb2Z32+GyrGi6zn5ymvNFlz8/itxwWsbNrQEeiJUDoqa8pDnRamwZdF4A/Ws4qT/1/k+TwD+gRuUJDN2co/fMUtQfXyZ7/Ec1zgCmsNicdPOVIubm28ZMwfukEYatRSIyEf7ieg5oVAtPD8HfQ==",
+  "spf_result": "pass (google.com: domain of postmaster@cio56699.info.n8n.io designates 143.55.227.71 as permitted sender) client-ip=143.55.227.71;"
+}

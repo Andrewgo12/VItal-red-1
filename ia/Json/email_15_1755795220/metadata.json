@@ -1,0 +1,155 @@
+{
+  "unique_id": "email_15_1755795220",
+  "message_id": "<18.0F.63997.B074FA76@i-09e3f85a86f43d91a.mta2vrest.sd.prd.sparkpost>",
+  "subject": "¡Estás invitado a aprender en Coursera!",
+  "from": [
+    {
+      "name": "Coursera",
+      "email": "no-reply@t.mail.coursera.org"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date": "2025-02-14T08:37:15",
+  "date_string": "Fri, 14 Feb 2025 13:37:15 +0000",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 85779,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from mta-83-13.sparkpostmail.com (mta-83-13.sparkpostmail.com. [192.174.83.13])\r\n        by mx.google.com with ESMTPS id d9443c01a7336-220d540bb53si44092125ad.288.2025.02.14.05.37.16\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Fri, 14 Feb 2025 05:37:16 -0800 (PST)",
+    "X-Google-Smtp-Source": "AGHT+IEX6Lx/2yWvz1dLdNu8p/shLDe9LEr67RYgODUzHoNghaDuzJCgZPSmECVhXVXFpz2TQBPz",
+    "X-Received": "by 2002:a17:902:c948:b0:220:cd9a:a167 with SMTP id d9443c01a7336-220cd9aa404mr133106105ad.4.1739540236482;\r\n        Fri, 14 Feb 2025 05:37:16 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1739540236; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=jXR/vLqU0AyL4s7IA+r9gliP78/2Ek/1A/WDVxx9+E5Nhdrmc3HBUD218lC+dHeORF\r\n         N5z6rgDaaHinWmvNE+6XJYPGd7GRQeoq29xr+qUu36GIbq5qbECTBnXWZu/YQfxHC/36\r\n         ZOlcO9M42WNJ73iSMqag5PkB3Fc77N/bPNpcq1urLwnMkZ+uLCZABgjOWns0xj/hnvhj\r\n         gAGEBYeigd0JbkQHFiRMNlYk162N7yCymfYREOM2uKM3m4yPmObDDpkXdyFPTEcYKwMQ\r\n         LjCk4Xuy9ol4K/HkFDweHqAChXWC6MgzWGnWW0bO3NmfE0Xw0/GiOqhvDnxyJvUKJWpB\r\n         Cd4Q==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=from:subject:mime-version:date:message-id:to:dkim-signature;\r\n        bh=ZwN95U+yu/SynNTralfr9k435tAJvvDMvwkqoka2uic=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=auu4qJjazoJfUeQDtJsTRF1023kMJv2tjUGobtSk2ppRbEw7xmibxBDdP0KNOUXkMo\r\n         /+trRkoAoyLBwP1ExeGqnx/FL+6w0L2enYfJ1cQS7ZovPGh50vYRXuov+8kbhDaG2jKU\r\n         ILMvmIzCYqE+9fdQGcLbXUZlTiQNjISU53YklQwb6KxnbL1xREXicSwspZdV+y2BgtHI\r\n         mQUY2J22teOGO0EU3HqohwVT4oHLSboL/0itz37ovkkCfmPst8UA5Cei9gkv3h+6dT/c\r\n         sE0I9P1XobS98BJs4kZRDFwb+igjf6JGB4bJc99fKLoLFoHRoJ5ho/9M1Ito2nUaoJD9\r\n         AGgg==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@t.mail.coursera.org header.s=scph0616 header.b=\"e2/MLIdV\";\r\n       spf=pass (google.com: domain of bounce@t.mail.coursera.org designates 192.174.83.13 as permitted sender) smtp.mailfrom=bounce@t.mail.coursera.org;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=coursera.org",
+    "Return-Path": "<bounce@t.mail.coursera.org>",
+    "Received-SPF": "pass (google.com: domain of bounce@t.mail.coursera.org designates 192.174.83.13 as permitted sender) client-ip=192.174.83.13;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@t.mail.coursera.org header.s=scph0616 header.b=\"e2/MLIdV\";\r\n       spf=pass (google.com: domain of bounce@t.mail.coursera.org designates 192.174.83.13 as permitted sender) smtp.mailfrom=bounce@t.mail.coursera.org;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=coursera.org",
+    "X-MSFBL": "LSp9Q5DVRE+N/5Lx+K2Q4Ww7DNfnmJXGImX9Q3IBKA0=|eyJtZXNzYWdlX2lkIjo\r\n\tiNjdhMzBiNDdhZjY3OWU5NzcwODEiLCJjdXN0b21lcl9pZCI6IjEiLCJyIjoia2V\r\n\t2aW5ybGluemVAZ21haWwuY29tIiwic3ViYWNjb3VudF9pZCI6IjAiLCJ0ZW5hbnR\r\n\tfaWQiOiJjb3Vyc2VyYSJ9",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=t.mail.coursera.org;\r\n\ts=scph0616; t=1739540235; i=@t.mail.coursera.org;\r\n\tbh=ZwN95U+yu/SynNTralfr9k435tAJvvDMvwkqoka2uic=;\r\n\th=To:Message-ID:Date:Content-Type:Subject:From:From:To:Cc:Subject;\r\n\tb=e2/MLIdVK1hSqPSk2Srj6ec4dB+jYqkprjhU/vGLqYY9tExbuAF/ugEQlnplD9b7M\r\n\t Y3qZyp+3WVeko17psWfZV4v//ikoCzo1FvUt2/qIdqf6bo2Wdap52t5ouhyM8PQQ3b\r\n\t Vx9xJg2Rp6Khw4Zf5MxRAdXxpr2Ag8JRAFmRbA5c=",
+    "To": "kevinrlinze@gmail.com",
+    "Message-ID": "<18.0F.63997.B074FA76@i-09e3f85a86f43d91a.mta2vrest.sd.prd.sparkpost>",
+    "Date": "Fri, 14 Feb 2025 13:37:15 +0000",
+    "Content-Type": "multipart/alternative; boundary=\"_----NjfvS9QWgsYpP1pRIyS8Ww===_B7/0F-63997-B074FA76\"",
+    "MIME-Version": "1.0",
+    "Subject": "¡Estás invitado a aprender en Coursera!",
+    "From": "\"Coursera\" <no-reply@t.mail.coursera.org>"
+  },
+  "extraction_timestamp": "2025-08-21T11:53:40.414296",
+  "received_headers": [
+    "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp149181wri;\r\n        Fri, 14 Feb 2025 05:37:16 -0800 (PST)",
+    "from mta-83-13.sparkpostmail.com (mta-83-13.sparkpostmail.com. [192.174.83.13])\r\n        by mx.google.com with ESMTPS id d9443c01a7336-220d540bb53si44092125ad.288.2025.02.14.05.37.16\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Fri, 14 Feb 2025 05:37:16 -0800 (PST)"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IEX6Lx/2yWvz1dLdNu8p/shLDe9LEr67RYgODUzHoNghaDuzJCgZPSmECVhXVXFpz2TQBPz",
+    "X-Received": "by 2002:a17:902:c948:b0:220:cd9a:a167 with SMTP id d9443c01a7336-220cd9aa404mr133106105ad.4.1739540236482;\r\n        Fri, 14 Feb 2025 05:37:16 -0800 (PST)",
+    "X-MSFBL": "LSp9Q5DVRE+N/5Lx+K2Q4Ww7DNfnmJXGImX9Q3IBKA0=|eyJtZXNzYWdlX2lkIjo\r\n\tiNjdhMzBiNDdhZjY3OWU5NzcwODEiLCJjdXN0b21lcl9pZCI6IjEiLCJyIjoia2V\r\n\t2aW5ybGluemVAZ21haWwuY29tIiwic3ViYWNjb3VudF9pZCI6IjAiLCJ0ZW5hbnR\r\n\tfaWQiOiJjb3Vyc2VyYSJ9"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<18.0F.63997.B074FA76@i-09e3f85a86f43d91a.mta2vrest.sd.prd.sparkpost>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of bounce@t.mail.coursera.org designates 192.174.83.13 as permitted sender) client-ip=192.174.83.13;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=t.mail.coursera.org;\r\n\ts=scph0616; t=1739540235; i=@t.mail.coursera.org;\r\n\tbh=ZwN95U+yu/SynNTralfr9k435tAJvvDMvwkqoka2uic=;\r\n\th=To:Message-ID:Date:Content-Type:Subject:From:From:To:Cc:Subject;\r\n\tb=e2/MLIdVK1hSqPSk2Srj6ec4dB+jYqkprjhU/vGLqYY9tExbuAF/ugEQlnplD9b7M\r\n\t Y3qZyp+3WVeko17psWfZV4v//ikoCzo1FvUt2/qIdqf6bo2Wdap52t5ouhyM8PQQ3b\r\n\t Vx9xJg2Rp6Khw4Zf5MxRAdXxpr2Ag8JRAFmRbA5c=",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@t.mail.coursera.org header.s=scph0616 header.b=\"e2/MLIdV\";\r\n       spf=pass (google.com: domain of bounce@t.mail.coursera.org designates 192.174.83.13 as permitted sender) smtp.mailfrom=bounce@t.mail.coursera.org;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=coursera.org",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@t.mail.coursera.org header.s=scph0616 header.b=\"e2/MLIdV\";\r\n       spf=pass (google.com: domain of bounce@t.mail.coursera.org designates 192.174.83.13 as permitted sender) smtp.mailfrom=bounce@t.mail.coursera.org;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=coursera.org"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp149181wri;\r\n        Fri, 14 Feb 2025 05:37:16 -0800 (PST)",
+      "from mta-83-13.sparkpostmail.com (mta-83-13.sparkpostmail.com. [192.174.83.13])\r\n        by mx.google.com with ESMTPS id d9443c01a7336-220d540bb53si44092125ad.288.2025.02.14.05.37.16\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Fri, 14 Feb 2025 05:37:16 -0800 (PST)"
+    ],
+    "delivery_path": [
+      "mta-83-13.sparkpostmail.com"
+    ],
+    "total_hops": 2,
+    "delivery_delay": null,
+    "original_sender_ip": "192.174.83.13",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 13571
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 68998
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Hola, Kevin Andres Gonzalez Dinas: Te invitamos a unirte al programa de aprendizaje Introducción a servicios en la nube - Azure en Coursera SENATIC - CURSOS_ CORTOS se asoció con Coursera, la plataforma global de aprendizaje en línea, para que puedas aprender nuevas habilidades relevantes para el tr...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 39,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@t.mail.coursera.org header.s=scph0616 header.b=\"e2/MLIdV\";\r\n       spf=pass (google.com: domain of bounce@t.mail.coursera.org designates 192.174.83.13 as permitted sender) smtp.mailfrom=bounce@t.mail.coursera.org;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=coursera.org",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=t.mail.coursera.org;\r\n\ts=scph0616; t=1739540235; i=@t.mail.coursera.org;\r\n\tbh=ZwN95U+yu/SynNTralfr9k435tAJvvDMvwkqoka2uic=;\r\n\th=To:Message-ID:Date:Content-Type:Subject:From:From:To:Cc:Subject;\r\n\tb=e2/MLIdVK1hSqPSk2Srj6ec4dB+jYqkprjhU/vGLqYY9tExbuAF/ugEQlnplD9b7M\r\n\t Y3qZyp+3WVeko17psWfZV4v//ikoCzo1FvUt2/qIdqf6bo2Wdap52t5ouhyM8PQQ3b\r\n\t Vx9xJg2Rp6Khw4Zf5MxRAdXxpr2Ag8JRAFmRbA5c=",
+  "spf_result": "pass (google.com: domain of bounce@t.mail.coursera.org designates 192.174.83.13 as permitted sender) client-ip=192.174.83.13;"
+}

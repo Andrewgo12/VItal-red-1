@@ -1,0 +1,35 @@
+{
+  "text_length": {
+    "body_text": 2049,
+    "body_html": 12495,
+    "total_extracted_text": 0
+  },
+  "attachments": {
+    "total_count": 1,
+    "by_category": {
+      "image": 1
+    },
+    "by_type": {
+      "image/jpeg": 1
+    },
+    "total_size_bytes": 810750,
+    "largest_file": {
+      "filename": "Estudiantes febrero.jpg",
+      "size_bytes": 810750
+    },
+    "smallest_file": {
+      "filename": "Estudiantes febrero.jpg",
+      "size_bytes": 810750
+    }
+  },
+  "recipients": {
+    "to_count": 1,
+    "cc_count": 0,
+    "bcc_count": 1,
+    "total_recipients": 2
+  },
+  "headers": {
+    "total_headers": 24,
+    "x_headers_count": 7
+  }
+}

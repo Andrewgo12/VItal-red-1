@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "generated_at": "2025-08-21T12:42:56.618119",
+    "total_cases": 5,
+    "source": "Gmail Data Extraction System v2.0",
+    "version": "1.0"
+  },
+  "cases": [
+    {
+      "id": "REF-55283262",
+      "patient": "María Elena Rodríguez",
+      "age": 45,
+      "gender": "Femenino",
+      "diagnosis": "MOTIVO DE CONSULTA:",
+      "priority": "Alta",
+      "status": "Pendiente",
+      "origin": "Email no identificado",
+      "specialty": "Cardiología",
+      "receivedAt": "2025-08-15T13:41:02.704676",
+      "timeElapsed": "5d 23h",
+      "clinicalSummary": "\n            Estimado colega,\n            \n            Le refiero paciente María Elena Rodríguez, femenina de 45 años, quien presenta:\n            \n            MOTIVO DE CONSULTA:\n            Dolor torácico de inicio súbito, tipo opresivo, irradiado a brazo izquierdo\n            \n            ANTECED...",
+      "vitalSigns": {
+        "bloodPressure": "No registrado",
+        "heartRate": "No registrado",
+        "temperature": "No registrado",
+        "oxygenSaturation": "No registrado",
+        "respiratoryRate": "No registrado"
+      },
+      "medicalHistory": [
+        "Información extraída de email"
+      ],
+      "currentMedications": [
+        "Por determinar"
+      ],
+      "attachments": [],
+      "referringDoctor": {
+        "name": "No especificado",
+        "specialty": "Cardiología",
+        "phone": "+57 300 000 0000",
+        "email": ""
+      },
+      "urgencyScore": 9.0,
+      "aiConfidence": 85,
+      "estimatedCost": "$1,500,000",
+      "emailSource": {
+        "originalSubject": "Referencia urgente - Dolor torácico agudo",
+        "originalSender": "",
+        "originalDate": "2025-08-15T13:41:02.704676",
+        "sourceType": "professional",
+        "sourcePath": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Professional_Email_Records\\test_email_001_1755283262"
+      }
+    },
+    {
+      "id": "REF-55217202",
+      "patient": "Carlos Alberto Pérez\n            Edad",
+      "age": 62,
+      "gender": "Masculino",
+      "diagnosis": "Insuficiencia cardíaca descompensada",
+      "priority": "Media",
+      "status": "Pendiente",
+      "origin": "Email no identificado",
+      "specialty": "Cardiología",
+      "receivedAt": "2025-08-14T19:20:02.704802",
+      "timeElapsed": "6d 17h",
+      "clinicalSummary": "\n            Estimado especialista,\n            \n            Paciente: Carlos Alberto Pérez\n            Edad: 62 años\n            Género: Masculino\n            \n            DIAGNÓSTICO:\n            Insuficiencia cardíaca descompensada\n            \n            HISTORIA CLÍNICA:\n            Paciente c...",
+      "vitalSigns": {
+        "bloodPressure": "No registrado",
+        "heartRate": "No registrado",
+        "temperature": "No registrado",
+        "oxygenSaturation": "No registrado",
+        "respiratoryRate": "No registrado"
+      },
+      "medicalHistory": [
+        "Información extraída de email"
+      ],
+      "currentMedications": [
+        "Por determinar"
+      ],
+      "attachments": [],
+      "referringDoctor": {
+        "name": "No especificado",
+        "specialty": "Cardiología",
+        "phone": "+57 300 000 0000",
+        "email": ""
+      },
+      "urgencyScore": 5.0,
+      "aiConfidence": 85,
+      "estimatedCost": "$1,500,000",
+      "emailSource": {
+        "originalSubject": "Consulta cardiológica - Insuficiencia cardíaca",
+        "originalSender": "",
+        "originalDate": "2025-08-14T19:20:02.704802",
+        "sourceType": "professional",
+        "sourcePath": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Professional_Email_Records\\test_email_002_1755217202"
+      }
+    },
+    {
+      "id": "REF-55143882",
+      "patient": "Ana Sofía Martínez\n            Edad",
+      "age": 28,
+      "gender": "Femenino",
+      "diagnosis": "Embarazo de alto riesgo - 32 semanas de gestación",
+      "priority": "Alta",
+      "status": "Pendiente",
+      "origin": "Email no identificado",
+      "specialty": "Ginecología",
+      "receivedAt": "2025-08-13T22:58:02.704860",
+      "timeElapsed": "7d 13h",
+      "clinicalSummary": "\n            Estimada colega,\n            \n            Paciente: Ana Sofía Martínez\n            Edad: 28 años\n            Género: Femenino\n            \n            DIAGNÓSTICO:\n            Embarazo de alto riesgo - 32 semanas de gestación\n            \n            MOTIVO DE REFERENCIA:\n            Hi...",
+      "vitalSigns": {
+        "bloodPressure": "No registrado",
+        "heartRate": "No registrado",
+        "temperature": "No registrado",
+        "oxygenSaturation": "No registrado",
+        "respiratoryRate": "No registrado"
+      },
+      "medicalHistory": [
+        "Información extraída de email"
+      ],
+      "currentMedications": [
+        "Por determinar"
+      ],
+      "attachments": [],
+      "referringDoctor": {
+        "name": "No especificado",
+        "specialty": "Ginecología",
+        "phone": "+57 300 000 0000",
+        "email": ""
+      },
+      "urgencyScore": 9.0,
+      "aiConfidence": 85,
+      "estimatedCost": "$1,500,000",
+      "emailSource": {
+        "originalSubject": "Embarazo de alto riesgo - Evaluación ginecológica",
+        "originalSender": "",
+        "originalDate": "2025-08-13T22:58:02.704860",
+        "sourceType": "professional",
+        "sourcePath": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Professional_Email_Records\\test_email_003_1755143882"
+      }
+    },
+    {
+      "id": "REF-55277742",
+      "patient": "Roberto Jiménez\n            Edad",
+      "age": 55,
+      "gender": "Masculino",
+      "diagnosis": "Fractura de cadera derecha",
+      "priority": "Media",
+      "status": "Pendiente",
+      "origin": "Email no identificado",
+      "specialty": "Medicina General",
+      "receivedAt": "2025-08-15T12:09:02.704906",
+      "timeElapsed": "6d 0h",
+      "clinicalSummary": "\n            Estimado ortopedista,\n            \n            Paciente: Roberto Jiménez\n            Edad: 55 años\n            Género: Masculino\n            \n            DIAGNÓSTICO:\n            Fractura de cadera derecha\n            \n            MECANISMO DE TRAUMA:\n            Caída desde altura de a...",
+      "vitalSigns": {
+        "bloodPressure": "No registrado",
+        "heartRate": "No registrado",
+        "temperature": "No registrado",
+        "oxygenSaturation": "No registrado",
+        "respiratoryRate": "No registrado"
+      },
+      "medicalHistory": [
+        "Información extraída de email"
+      ],
+      "currentMedications": [
+        "Por determinar"
+      ],
+      "attachments": [],
+      "referringDoctor": {
+        "name": "No especificado",
+        "specialty": "Medicina General",
+        "phone": "+57 300 000 0000",
+        "email": ""
+      },
+      "urgencyScore": 5.0,
+      "aiConfidence": 85,
+      "estimatedCost": "$1,500,000",
+      "emailSource": {
+        "originalSubject": "Fractura de cadera - Evaluación ortopédica",
+        "originalSender": "",
+        "originalDate": "2025-08-15T12:09:02.704906",
+        "sourceType": "professional",
+        "sourcePath": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Professional_Email_Records\\test_email_004_1755277742"
+      }
+    },
+    {
+      "id": "REF-55290042",
+      "patient": "José Miguel Torres\n            Edad",
+      "age": 55,
+      "gender": "Masculino",
+      "diagnosis": "PRESUNTIVO:",
+      "priority": "Alta",
+      "status": "Pendiente",
+      "origin": "Email no identificado",
+      "specialty": "Medicina General",
+      "receivedAt": "2025-08-15T15:34:02.704948",
+      "timeElapsed": "5d 21h",
+      "clinicalSummary": "\n            Estimado neurólogo,\n            \n            Paciente: José Miguel Torres\n            Edad: 55 años\n            Género: Masculino\n            \n            DIAGNÓSTICO PRESUNTIVO:\n            Accidente cerebrovascular agudo\n            \n            CUADRO CLÍNICO:\n            - Inicio sú...",
+      "vitalSigns": {
+        "bloodPressure": "No registrado",
+        "heartRate": "No registrado",
+        "temperature": "No registrado",
+        "oxygenSaturation": "No registrado",
+        "respiratoryRate": "No registrado"
+      },
+      "medicalHistory": [
+        "Información extraída de email"
+      ],
+      "currentMedications": [
+        "Por determinar"
+      ],
+      "attachments": [],
+      "referringDoctor": {
+        "name": "No especificado",
+        "specialty": "Medicina General",
+        "phone": "+57 300 000 0000",
+        "email": ""
+      },
+      "urgencyScore": 9.0,
+      "aiConfidence": 85,
+      "estimatedCost": "$1,500,000",
+      "emailSource": {
+        "originalSubject": "Accidente cerebrovascular - Evaluación neurológica urgente",
+        "originalSender": "",
+        "originalDate": "2025-08-15T15:34:02.704948",
+        "sourceType": "professional",
+        "sourcePath": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Professional_Email_Records\\test_email_005_1755290042"
+      }
+    }
+  ],
+  "statistics": {
+    "by_priority": {
+      "Alta": 3,
+      "Media": 2,
+      "Baja": 0
+    },
+    "by_specialty": {
+      "Cardiología": 2,
+      "Ginecología": 1,
+      "Medicina General": 2
+    },
+    "by_status": {
+      "Pendiente": 5
+    }
+  }
+}

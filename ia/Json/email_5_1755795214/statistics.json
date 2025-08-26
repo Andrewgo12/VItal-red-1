@@ -1,0 +1,37 @@
+{
+  "text_length": {
+    "body_text": 10304,
+    "body_html": 39645,
+    "total_extracted_text": 319
+  },
+  "attachments": {
+    "total_count": 2,
+    "by_category": {
+      "other": 1,
+      "document": 1
+    },
+    "by_type": {
+      "text/calendar": 1,
+      "application/pdf": 1
+    },
+    "total_size_bytes": 38964,
+    "largest_file": {
+      "filename": "CNCFA25240223.pdf",
+      "size_bytes": 38011
+    },
+    "smallest_file": {
+      "filename": "cncf-cloud-native-cali-presents-cncf-and-gdg-meetup-2025.ics",
+      "size_bytes": 953
+    }
+  },
+  "recipients": {
+    "to_count": 1,
+    "cc_count": 0,
+    "bcc_count": 0,
+    "total_recipients": 1
+  },
+  "headers": {
+    "total_headers": 23,
+    "x_headers_count": 6
+  }
+}

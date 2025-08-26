@@ -1,0 +1,95 @@
+{
+  "count": 2,
+  "total_size_bytes": 38964,
+  "files": [
+    {
+      "original_filename": "cncf-cloud-native-cali-presents-cncf-and-gdg-meetup-2025.ics",
+      "saved_filename": "cncf-cloud-native-cali-presents-cncf-and-gdg-meetup-2025.ics",
+      "file_path": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Archivos\\email_5_1755795214\\cncf-cloud-native-cali-presents-cncf-and-gdg-meetup-2025.ics",
+      "relative_path": "Archivos\\email_5_1755795214\\cncf-cloud-native-cali-presents-cncf-and-gdg-meetup-2025.ics",
+      "content_type": "text/calendar",
+      "category": "other",
+      "size_bytes": 953,
+      "size_human": "953.0 B",
+      "md5_hash": "1cc74d63ffba341d12bf25b6b450b313",
+      "attachment_index": 0,
+      "saved_successfully": true,
+      "security_analysis": {
+        "risk_level": "low",
+        "potential_threats": [],
+        "file_signature_valid": true,
+        "suspicious_extensions": false,
+        "encrypted": false,
+        "macro_enabled": false
+      },
+      "file_metadata": {
+        "file_stats": {
+          "size_bytes": 953,
+          "creation_time": "2025-08-21T11:53:34.951905",
+          "modification_time": "2025-08-21T11:53:34.951905",
+          "access_time": "2025-08-21T11:53:34.982061",
+          "permissions": "666",
+          "inode": 844424930631268
+        },
+        "creation_time": null,
+        "modification_time": null,
+        "access_time": null,
+        "permissions": "",
+        "owner": "",
+        "file_type_details": {},
+        "embedded_metadata": {}
+      },
+      "processing_timestamp": "2025-08-21T11:53:34.986542",
+      "extracted_text": ""
+    },
+    {
+      "original_filename": "CNCFA25240223.pdf",
+      "saved_filename": "CNCFA25240223.pdf",
+      "file_path": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Archivos\\email_5_1755795214\\CNCFA25240223.pdf",
+      "relative_path": "Archivos\\email_5_1755795214\\CNCFA25240223.pdf",
+      "content_type": "application/pdf",
+      "category": "document",
+      "size_bytes": 38011,
+      "size_human": "37.1 KB",
+      "md5_hash": "49f0c0cd9532af170a63d728c6d4b796",
+      "attachment_index": 1,
+      "saved_successfully": true,
+      "security_analysis": {
+        "risk_level": "low",
+        "potential_threats": [],
+        "file_signature_valid": true,
+        "suspicious_extensions": false,
+        "encrypted": false,
+        "macro_enabled": false
+      },
+      "file_metadata": {
+        "file_stats": {
+          "size_bytes": 38011,
+          "creation_time": "2025-08-21T11:53:34.982061",
+          "modification_time": "2025-08-21T11:53:34.982061",
+          "access_time": "2025-08-21T11:53:35.076289",
+          "permissions": "666",
+          "inode": 844424930631269
+        },
+        "creation_time": null,
+        "modification_time": null,
+        "access_time": null,
+        "permissions": "",
+        "owner": "",
+        "file_type_details": {},
+        "embedded_metadata": {
+          "title": "",
+          "author": "",
+          "subject": "",
+          "creator": "(unspecified)",
+          "producer": "xhtml2pdf <https://github.com/xhtml2pdf/xhtml2pdf/>",
+          "creation_date": "D:20250212164208+00'00'",
+          "modification_date": "D:20250212164208+00'00'",
+          "pages": 1
+        }
+      },
+      "processing_timestamp": "2025-08-21T11:53:35.077952",
+      "extracted_text": "This is your ticket\n\nCNCF - Cloud Native Cali\nCNCF and GDG Meetup 2025\nInstitución Universitaria Antonio José Camacho 28N - 102\nAvenida 6a Norte, Cali\nFEB 27, 2025, 6:30 PM (-05)\n\nISSUED TO\nAndres Gonzales\nORDER NUMBER\nCNCFE25217752\nRegistered\nFEB 12, 2025\nTICKET\nAcceso evento\nFREE\n\n © 2025 CNCF - All Rights Reserved."
+    }
+  ]
+}

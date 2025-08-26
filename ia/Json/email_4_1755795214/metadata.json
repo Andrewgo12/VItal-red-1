@@ -1,0 +1,172 @@
+{
+  "unique_id": "email_4_1755795214",
+  "message_id": "<7nT-PAr2TROcQcN2DoAOyA@geopod-ismtpd-9>",
+  "subject": "Welcome to CNCF!",
+  "from": [
+    {
+      "name": "CNCF",
+      "email": "no-reply@cncf.io"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [
+    {
+      "name": "CNCF",
+      "email": "no-reply@cncf.io"
+    }
+  ],
+  "date": "2025-02-12T11:41:54",
+  "date_string": "Wed, 12 Feb 2025 16:41:54 +0000 (UTC)",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 32597,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from MTYwMDQzMzM (unknown)\r\n\tby geopod-ismtpd-9 (SG) with HTTP\r\n\tid 7nT-PAr2TROcQcN2DoAOyA\r\n\tWed, 12 Feb 2025 16:41:54.669 +0000 (UTC)",
+    "X-Google-Smtp-Source": "AGHT+IGqsSpht6n0Je8imCBuz0+Fh+UpUN2OA/i5oqnedwZIWRYJk7TpYk2sRQG5dzuSkVKioDky",
+    "X-Received": "by 2002:a17:903:2385:b0:21f:3e2d:7d40 with SMTP id d9443c01a7336-220bbaf7c9cmr53215105ad.18.1739378516640;\r\n        Wed, 12 Feb 2025 08:41:56 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1739378516; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=ZU/yBZ4y3LQIOYaSyeflS6xgJuGZLKQQNOeuQKDcT+53/D+4WQ1xB4ZmAIcC9iMCGs\r\n         PJcPswr5/z6fgoVHbftAT40YfpiFi4ljg9rBjmm/N/lA+Fl9oPLoj/SFc+bWqB0dhrAa\r\n         DJyxXZr5qxqni19J5nQlJpnBvhD6UcO+hTdin7gCJS9INO/4kZpu3C79+u7dhAEvjkte\r\n         p7yJUvr9jVQHYwizb27tZ0IRDoiE7/7SEk7Ym2hEexZNnktQG/YnUePtml5pYfH4rW92\r\n         0TCLBqJuG14h6gQINJmsMDDIHwhTvJlZaeVoPB/J5e11940SRxBAG5vvbqOqbMGdjU5U\r\n         ESHg==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:reply-to:subject:message-id:mime-version:from:date\r\n         :dkim-signature:dkim-signature;\r\n        bh=faZSpCPKmLVoTQtNJQPZiJXM9X3dQ+F0bi3qQBXwBvE=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=BLP4k83wrMeqDCUWUUL3PcuNY+D/LWzSYpafomMpO/iiQlgRMaUs9HQoYLHuC0zhed\r\n         aAP95ZGvjg3ohHjjC1b0R9uuDVRvPksly5flM+ZeuU7GT2DPIeNQXLTRbJhQfFhYYcRj\r\n         g5NkUXMoxdJ5bNIJP1AnscOyGNEW2GRCBle49tmW/2MuhbpsCNB9zfzjoCyX9bUKdP6W\r\n         qld1yfkflA0bgmCos97PQO968ag/eOsPTzCce9V8Cf4Vyzf2euVnILU3yfgLoLUOG/FY\r\n         1TO6/gUaP92kD0BDTK/Q5jDqutWpiaNTqi/KWk+j7ABI2byHS9jWH1iR4GgmQhbgHoC2\r\n         qQOg==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@cncf.io header.s=bvy header.b=b4gQi+hE;\r\n       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=CXU14rD9;\r\n       spf=pass (google.com: domain of bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io designates 50.31.42.31 as permitted sender) smtp.mailfrom=\"bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io\";\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cncf.io",
+    "Return-Path": "<bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io>",
+    "Received-SPF": "pass (google.com: domain of bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io designates 50.31.42.31 as permitted sender) client-ip=50.31.42.31;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@cncf.io header.s=bvy header.b=b4gQi+hE;\r\n       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=CXU14rD9;\r\n       spf=pass (google.com: domain of bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io designates 50.31.42.31 as permitted sender) smtp.mailfrom=\"bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io\";\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cncf.io",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;\r\n\th=content-type:from:mime-version:subject:reply-to:x-feedback-id:to:cc:\r\n\tcontent-type:from:subject:to;\r\n\ts=smtpapi; bh=faZSpCPKmLVoTQtNJQPZiJXM9X3dQ+F0bi3qQBXwBvE=;\r\n\tb=CXU14rD9xFtXI8b9+nOZqfR3Ocxj8TMV2wVYHOsDuYDusqlnCI8joagpVJWMrC73dqhw\r\n\tfebb97Fe/XnlhXBFpFiXfFCPkdjZ+HHLaCbPRv1GKfW9I1fTdSgGvMIvDCczGOGL9RNVpB\r\n\tMml3+zQd9iQidbVhmEuKDQWGvK8Vq+AE8=",
+    "Content-Type": "multipart/alternative; boundary=21c6895c1fe6c263d9f7f8d6976abee5dc781feff60a35596f9206bb7976",
+    "Date": "Wed, 12 Feb 2025 16:41:54 +0000 (UTC)",
+    "From": "CNCF <no-reply@cncf.io>",
+    "Mime-Version": "1.0",
+    "Message-ID": "<7nT-PAr2TROcQcN2DoAOyA@geopod-ismtpd-9>",
+    "Subject": "Welcome to CNCF!",
+    "Reply-To": "CNCF <no-reply@cncf.io>",
+    "X-Feedback-ID": "16004333:SG",
+    "X-SG-EID": "u001.reeWgaF5v1MppUJUaRb6yRN/R859DKz/hl2G0ec6FPu/dohT2giD+raoGC7Nv4SpED4cPrXFNBMFAteGzTkPqULxfo84HKs0ekE+DTK1p1y0qrGXhNDbItAX/Drw0Yn0LL3FOfI5bo5QkmRKMBA3MPsy6cLruwZ2y8n3U0isXHzw+LP9bTAg7VDS/eGtsj+fZsMLPmtD+EhBcY2/B7/5Uttm2fQ2mtbwSTsI3y8qIhI=",
+    "X-SG-ID": "u001.SdBcvi+Evd/bQef8eZF3BpTL9BgbK5wfSJMJGMsmprD3lIaqsZOo0QJICge7mFl9FJHAtntsIOWK1QPdCndXz2hmKQUUCBz9c/fwM7GEVadXIeswwejKSEVkpU136ckx",
+    "To": "kevinrlinze@gmail.com",
+    "X-Entity-ID": "u001.57eXm/R5JmzvmigOpf0iGw=="
+  },
+  "extraction_timestamp": "2025-08-21T11:53:34.411213",
+  "received_headers": [
+    "by 2002:a05:6000:4022:b0:38d:c57e:3a1b with SMTP id cp34csp16278wrb;\r\n        Wed, 12 Feb 2025 08:41:57 -0800 (PST)",
+    "from o1.ptr7481.bevy.com (o1.ptr7481.bevy.com. [50.31.42.31])\r\n        by mx.google.com with ESMTPS id d9443c01a7336-220ce0d6209si2276895ad.403.2025.02.12.08.41.55\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Wed, 12 Feb 2025 08:41:56 -0800 (PST)",
+    "by recvd-7ffdcdfbd6-vgxmv with SMTP id recvd-7ffdcdfbd6-vgxmv-1-67ACCF52-36\r\n\t2025-02-12 16:41:54.682775512 +0000 UTC m=+7759170.447332091",
+    "from MTYwMDQzMzM (unknown)\r\n\tby geopod-ismtpd-9 (SG) with HTTP\r\n\tid 7nT-PAr2TROcQcN2DoAOyA\r\n\tWed, 12 Feb 2025 16:41:54.669 +0000 (UTC)"
+  ],
+  "x_headers": {
+    "X-Google-Smtp-Source": "AGHT+IGqsSpht6n0Je8imCBuz0+Fh+UpUN2OA/i5oqnedwZIWRYJk7TpYk2sRQG5dzuSkVKioDky",
+    "X-Received": "by 2002:a17:903:2385:b0:21f:3e2d:7d40 with SMTP id d9443c01a7336-220bbaf7c9cmr53215105ad.18.1739378516640;\r\n        Wed, 12 Feb 2025 08:41:56 -0800 (PST)",
+    "X-Feedback-ID": "16004333:SG",
+    "X-SG-EID": "u001.reeWgaF5v1MppUJUaRb6yRN/R859DKz/hl2G0ec6FPu/dohT2giD+raoGC7Nv4SpED4cPrXFNBMFAteGzTkPqULxfo84HKs0ekE+DTK1p1y0qrGXhNDbItAX/Drw0Yn0LL3FOfI5bo5QkmRKMBA3MPsy6cLruwZ2y8n3U0isXHzw+LP9bTAg7VDS/eGtsj+fZsMLPmtD+EhBcY2/B7/5Uttm2fQ2mtbwSTsI3y8qIhI=",
+    "X-SG-ID": "u001.SdBcvi+Evd/bQef8eZF3BpTL9BgbK5wfSJMJGMsmprD3lIaqsZOo0QJICge7mFl9FJHAtntsIOWK1QPdCndXz2hmKQUUCBz9c/fwM7GEVadXIeswwejKSEVkpU136ckx",
+    "X-Entity-ID": "u001.57eXm/R5JmzvmigOpf0iGw=="
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<7nT-PAr2TROcQcN2DoAOyA@geopod-ismtpd-9>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io designates 50.31.42.31 as permitted sender) client-ip=50.31.42.31;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=cncf.io;\r\n\th=content-type:from:mime-version:subject:reply-to:x-feedback-id:to:cc:\r\n\tcontent-type:from:subject:to;\r\n\ts=bvy; bh=faZSpCPKmLVoTQtNJQPZiJXM9X3dQ+F0bi3qQBXwBvE=;\r\n\tb=b4gQi+hEnLENZ9DPGVdBZtH98X3dJc0diwzfYuq/nnX6I7VpgczorqNkwzSPIgLMVYaQ\r\n\tCV91Pug4Dw2V08hSWA2mONYoKKY/+nn4ja8dI7bxY2TyGH51xxN4KGLjQCMf2lxpzwy5JO\r\n\t0YrEQ5Tbg1nTObVH6EKLcRAqc01UD/FISFp814Fmhp3IaRq+6YkmFFA1A59ipS7HClMEXR\r\n\tbXyJ27wf9rpzkTgz/maQC56duwpGVkJbqGbOwi6hWvLO4TmQd83Gwtl/BdSAlzXBmx+LjG\r\n\tZD2H4/RFQhjbI0pLXCiqNqswBZZq33OJeKzYkyL8TFo5FDiJtJfmP9JtLb7Q6djg==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@cncf.io header.s=bvy header.b=b4gQi+hE;\r\n       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=CXU14rD9;\r\n       spf=pass (google.com: domain of bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io designates 50.31.42.31 as permitted sender) smtp.mailfrom=\"bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io\";\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cncf.io",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@cncf.io header.s=bvy header.b=b4gQi+hE;\r\n       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=CXU14rD9;\r\n       spf=pass (google.com: domain of bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io designates 50.31.42.31 as permitted sender) smtp.mailfrom=\"bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io\";\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cncf.io"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a05:6000:4022:b0:38d:c57e:3a1b with SMTP id cp34csp16278wrb;\r\n        Wed, 12 Feb 2025 08:41:57 -0800 (PST)",
+      "from o1.ptr7481.bevy.com (o1.ptr7481.bevy.com. [50.31.42.31])\r\n        by mx.google.com with ESMTPS id d9443c01a7336-220ce0d6209si2276895ad.403.2025.02.12.08.41.55\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);\r\n        Wed, 12 Feb 2025 08:41:56 -0800 (PST)",
+      "by recvd-7ffdcdfbd6-vgxmv with SMTP id recvd-7ffdcdfbd6-vgxmv-1-67ACCF52-36\r\n\t2025-02-12 16:41:54.682775512 +0000 UTC m=+7759170.447332091",
+      "from MTYwMDQzMzM (unknown)\r\n\tby geopod-ismtpd-9 (SG) with HTTP\r\n\tid 7nT-PAr2TROcQcN2DoAOyA\r\n\tWed, 12 Feb 2025 16:41:54.669 +0000 (UTC)"
+    ],
+    "delivery_path": [
+      "o1.ptr7481.bevy.com",
+      "MTYwMDQzMzM"
+    ],
+    "total_hops": 4,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 8143
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 19187
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Welcome to CNCF!Here are some places to check out and get started:Attend a local event and meet the best innovators in your city.Build your profile and get connected across the community. Stay engaged with the latest discussions: CHENG-HAO YANG (https://u16004333.ct.sendgrid.net/ls/click?upn=u001.DR...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 16,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@cncf.io header.s=bvy header.b=b4gQi+hE;\r\n       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=CXU14rD9;\r\n       spf=pass (google.com: domain of bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io designates 50.31.42.31 as permitted sender) smtp.mailfrom=\"bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io\";\r\n       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cncf.io",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=cncf.io;\r\n\th=content-type:from:mime-version:subject:reply-to:x-feedback-id:to:cc:\r\n\tcontent-type:from:subject:to;\r\n\ts=bvy; bh=faZSpCPKmLVoTQtNJQPZiJXM9X3dQ+F0bi3qQBXwBvE=;\r\n\tb=b4gQi+hEnLENZ9DPGVdBZtH98X3dJc0diwzfYuq/nnX6I7VpgczorqNkwzSPIgLMVYaQ\r\n\tCV91Pug4Dw2V08hSWA2mONYoKKY/+nn4ja8dI7bxY2TyGH51xxN4KGLjQCMf2lxpzwy5JO\r\n\t0YrEQ5Tbg1nTObVH6EKLcRAqc01UD/FISFp814Fmhp3IaRq+6YkmFFA1A59ipS7HClMEXR\r\n\tbXyJ27wf9rpzkTgz/maQC56duwpGVkJbqGbOwi6hWvLO4TmQd83Gwtl/BdSAlzXBmx+LjG\r\n\tZD2H4/RFQhjbI0pLXCiqNqswBZZq33OJeKzYkyL8TFo5FDiJtJfmP9JtLb7Q6djg==",
+  "spf_result": "pass (google.com: domain of bounces+16004333-17cc-kevinrlinze=gmail.com@em4678.cncf.io designates 50.31.42.31 as permitted sender) client-ip=50.31.42.31;"
+}

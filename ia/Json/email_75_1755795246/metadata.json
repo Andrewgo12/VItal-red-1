@@ -1,0 +1,191 @@
+{
+  "unique_id": "email_75_1755795246",
+  "message_id": "<CAHUGy2w-RWPBM35LDfjrBnpcDjizWYRpQtbCHoHX0jn_3vUg+w@mail.gmail.com>",
+  "subject": "CAPACITACION PROGRAMADORES SOFTWARE",
+  "from": [
+    {
+      "name": "Mayra Dorado",
+      "email": "practicas.proyecto@pio.edu.co"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "lider.proyectos@pio.edu.co"
+    },
+    {
+      "name": "",
+      "email": "vicerrectoriaacademica@pio.edu.co"
+    },
+    {
+      "name": "Jefferson Sandoval",
+      "email": "asistente.proyectos@pio.edu.co"
+    }
+  ],
+  "cc": [],
+  "bcc": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "reply_to": [],
+  "date": "2025-02-19T16:49:46",
+  "date_string": "Wed, 19 Feb 2025 16:49:46 -0500",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/related",
+  "charset": null,
+  "size": 256711,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5614622812f47-3f3f667c86asor3255003b6e.9.2025.02.19.13.48.52\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Wed, 19 Feb 2025 13:48:52 -0800 (PST)",
+    "X-Forwarded-Encrypted": "i=1; AJvYcCXQ3N1F1BzGNrhAdMr8YO2lTYT/Fe65nxG8ywxFdO45/LJ3pCy4DlM43wQdFLSxmHC8qG2JolN/eoka0Q==@gmail.com",
+    "X-Received": "by 2002:a05:6808:320e:b0:3f4:4c8:9453 with SMTP id\r\n 5614622812f47-3f40f1e47f9mr3840634b6e.16.1740001731320; Wed, 19 Feb 2025\r\n 13:48:51 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740001732; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=Ou4XviUNDvGE1yUFDB7aJT30xuLVYy/uuuT0C93DCH2kJL22gxXaAHzXzz6tUeYSzm\r\n         Zxbb1NNr7zU+8jC5WFrDev8hJk1GQIndwgQjiHLbdr5MUtT1z4LsLH+FiV723JJiS2O3\r\n         E69JoV4n39Jz8L+5jWQ3c9psFrIBpabAbzk5yTa9dHkhfawO/SwTB86nEg7qJG7uWqae\r\n         kA9+K+mUkLCOiz/IlEOHO5VESPP1VP5kIlr/hUIUVw6X4brsNXeLgWHhR6LDb/NasHrd\r\n         +BBTVoUSWn7wJF/vom/sjCzblFTKTvCNus7Ci5eDRLQsKoiAlUVerlUJqoq06os6grK2\r\n         XSVg==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:subject:message-id:date:from:mime-version:dkim-signature;\r\n        bh=P/aaAyQjFb/B+//HITq7pURixYki7okXazd4mRLFHow=;\r\n        fh=diEyjRrl5YYmhiBnLnZfQbF9IMDxWXpQ1grU4eAYCiI=;\r\n        b=RbdlAYwqJjLqjRR3ISnAxnKyDiF8KlRdqsqLmV5qYTY+3oGuiXGdOESC0uZqtgwgg+\r\n         QKvlh4ceJe4gavi4PlP8LI+5zhxDQ79JhsJz+B25nmm0X6+o8YA7stEzRO0A4HDADnsZ\r\n         XgYk3e1ul6JoqqRSeL6X9GH5XBEtax0Q6ExoUSEOBguFgAL/VWrnyJ9aXDIB3bOG9OdD\r\n         yG1aB87k4Svtw9oPIh0shLtdO+rHOkI8PEHhOd/t1p4865EEWbXdhSQm7n6bsPSdYe9B\r\n         iyhPUEOB5wRYRJ4O1M1d47VmKdzcq9jiCfx0OHFRcGM7yQi/cCdIBIYOGGLu/VTcVSdW\r\n         gR8A==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@pio-edu-co.20230601.gappssmtp.com header.s=20230601 header.b=zxNOiT0v;\r\n       spf=pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=practicas.proyecto@pio.edu.co;\r\n       dara=pass header.i=@gmail.com",
+    "Return-Path": "<practicas.proyecto@pio.edu.co>",
+    "Received-SPF": "pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@pio-edu-co.20230601.gappssmtp.com header.s=20230601 header.b=zxNOiT0v;\r\n       spf=pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=practicas.proyecto@pio.edu.co;\r\n       dara=pass header.i=@gmail.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=pio-edu-co.20230601.gappssmtp.com; s=20230601; t=1740001732; x=1740606532; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=P/aaAyQjFb/B+//HITq7pURixYki7okXazd4mRLFHow=;\r\n        b=zxNOiT0vpWqSB4+dFBx/bC/xJ9TezEmUVxnqrCaxNarZDcqE5HZ3SyfBe3ZF9dWJUd\r\n         35utaRVtG7JT+6hcE6dRvt6oz4d9ljH65Lfjcq18z9FMP3KgYcWhAvyMLGA6H1C5svG8\r\n         w9ORrBUH7vZxa08uwglB7GUyuSrEx7lUx+ayhGYmbz29Ky3AHpm6EO2fgRmg82383UtO\r\n         jQwQgJpq0CP+2kTTZfO+C8wQaOeRsDhbZBYy44TY3qDFDDE4SRsVEoyfODQ04Gffr42z\r\n         Ab5Uqq1B1Xt7Q5yahrxlJn/V4R3Q+dYaNDZ3nm4qkGpVPkDFd811pC6fyUvYwR7fH3HI\r\n         Z+Yw==",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740001732; x=1740606532;\r\n        h=to:subject:message-id:date:from:mime-version:x-gm-message-state\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=P/aaAyQjFb/B+//HITq7pURixYki7okXazd4mRLFHow=;\r\n        b=DRSqag4C0R2ynL/rNtpK0Ff3YV1oKPC/kiXLHv+CkKZohvDje/UxqBlyH0uflr7Ooa\r\n         VjlDgB4zNC5HwMmiw+8i6JOBy4DngOmw1ENSMT9bRkIymkAJCk3F3IftVZmpjgaLqQWe\r\n         FwGkWqUfU7+fNtWrWGJkAfE/e8yth9FE1ghccZJrQjD3GWGNFmKnX0vluEmYdphp3w+R\r\n         9rumnpTgHO3DoLhgrK+4Tcorq+NVD68Mjxt4luQYpMTA+dNXFJFTru2f79V9Mg8EVSCt\r\n         C0HBOIPvuafzujhYZSUhFltxFbO0lF5TrhTiLxXHVceSv5FXQh05ZCNaBu5VJIaKXH1g\r\n         6XIw==",
+    "X-Gm-Message-State": "AOJu0Yy687q1/RUs2Rw7E+7G+x8VrUGnnzYXefnb0IJ/5zt8Pee4u5fe\r\n\tE1fDAGWPO5BEsLw5Q2W0axg6dwUIaK2R/mTRIOWoPD3cq2ljhtQTRF78xeJCPS6pUxZM5SUCKGM\r\n\taB9htk0Aa0Jb/whVWxOOQKmYVFor9N4Amwv5b0A==",
+    "X-Gm-Gg": "ASbGnctjxOjPv+XGr1QELyuzowjjyJNB65JD9U6901BBqHoEJwKfWP5ULDz7RkI3bhc\r\n\tM5Dvc8n0t7L+ZFnCH8/z94voccq0WTpAWZYzvA+8Kywv8JbIfVI78TA7xSWtTfJoBlPkqo8EKww\r\n\t==",
+    "X-Google-Smtp-Source": "AGHT+IH91P2Pl5/FUNDvuhzBMIBXwiMds2PuKKUQdxdYbF5DJBVe7lYtHQ93cRSSt3LHpeAvZc6PZlqxF5nZwjU2pFE=",
+    "MIME-Version": "1.0",
+    "From": "Mayra Dorado <practicas.proyecto@pio.edu.co>",
+    "Date": "Wed, 19 Feb 2025 16:49:46 -0500",
+    "X-Gm-Features": "AWEUYZkp9GnzyWtEZ3IWpK_sqEVYtAMQ9EO_6u54PM2e6ZY4NEcPSd5LUrTlOks",
+    "Message-ID": "<CAHUGy2w-RWPBM35LDfjrBnpcDjizWYRpQtbCHoHX0jn_3vUg+w@mail.gmail.com>",
+    "Subject": "CAPACITACION PROGRAMADORES SOFTWARE",
+    "To": "lider.proyectos@pio.edu.co, vicerrectoriaacademica@pio.edu.co, \r\n\tJefferson Sandoval <asistente.proyectos@pio.edu.co>",
+    "Content-Type": "multipart/related; boundary=\"0000000000001b52ca062e85b97a\"",
+    "Bcc": "kevinrlinze@gmail.com"
+  },
+  "extraction_timestamp": "2025-08-21T11:54:06.174222",
+  "received_headers": [
+    "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp2430995wri;\r\n        Wed, 19 Feb 2025 13:48:53 -0800 (PST)",
+    "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5614622812f47-3f3f667c86asor3255003b6e.9.2025.02.19.13.48.52\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Wed, 19 Feb 2025 13:48:52 -0800 (PST)"
+  ],
+  "x_headers": {
+    "X-Forwarded-Encrypted": "i=1; AJvYcCXQ3N1F1BzGNrhAdMr8YO2lTYT/Fe65nxG8ywxFdO45/LJ3pCy4DlM43wQdFLSxmHC8qG2JolN/eoka0Q==@gmail.com",
+    "X-Received": "by 2002:a05:6808:320e:b0:3f4:4c8:9453 with SMTP id\r\n 5614622812f47-3f40f1e47f9mr3840634b6e.16.1740001731320; Wed, 19 Feb 2025\r\n 13:48:51 -0800 (PST)",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740001732; x=1740606532;\r\n        h=to:subject:message-id:date:from:mime-version:x-gm-message-state\r\n         :from:to:cc:subject:date:message-id:reply-to;\r\n        bh=P/aaAyQjFb/B+//HITq7pURixYki7okXazd4mRLFHow=;\r\n        b=DRSqag4C0R2ynL/rNtpK0Ff3YV1oKPC/kiXLHv+CkKZohvDje/UxqBlyH0uflr7Ooa\r\n         VjlDgB4zNC5HwMmiw+8i6JOBy4DngOmw1ENSMT9bRkIymkAJCk3F3IftVZmpjgaLqQWe\r\n         FwGkWqUfU7+fNtWrWGJkAfE/e8yth9FE1ghccZJrQjD3GWGNFmKnX0vluEmYdphp3w+R\r\n         9rumnpTgHO3DoLhgrK+4Tcorq+NVD68Mjxt4luQYpMTA+dNXFJFTru2f79V9Mg8EVSCt\r\n         C0HBOIPvuafzujhYZSUhFltxFbO0lF5TrhTiLxXHVceSv5FXQh05ZCNaBu5VJIaKXH1g\r\n         6XIw==",
+    "X-Gm-Message-State": "AOJu0Yy687q1/RUs2Rw7E+7G+x8VrUGnnzYXefnb0IJ/5zt8Pee4u5fe\r\n\tE1fDAGWPO5BEsLw5Q2W0axg6dwUIaK2R/mTRIOWoPD3cq2ljhtQTRF78xeJCPS6pUxZM5SUCKGM\r\n\taB9htk0Aa0Jb/whVWxOOQKmYVFor9N4Amwv5b0A==",
+    "X-Gm-Gg": "ASbGnctjxOjPv+XGr1QELyuzowjjyJNB65JD9U6901BBqHoEJwKfWP5ULDz7RkI3bhc\r\n\tM5Dvc8n0t7L+ZFnCH8/z94voccq0WTpAWZYzvA+8Kywv8JbIfVI78TA7xSWtTfJoBlPkqo8EKww\r\n\t==",
+    "X-Google-Smtp-Source": "AGHT+IH91P2Pl5/FUNDvuhzBMIBXwiMds2PuKKUQdxdYbF5DJBVe7lYtHQ93cRSSt3LHpeAvZc6PZlqxF5nZwjU2pFE=",
+    "X-Gm-Features": "AWEUYZkp9GnzyWtEZ3IWpK_sqEVYtAMQ9EO_6u54PM2e6ZY4NEcPSd5LUrTlOks"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<CAHUGy2w-RWPBM35LDfjrBnpcDjizWYRpQtbCHoHX0jn_3vUg+w@mail.gmail.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=pio-edu-co.20230601.gappssmtp.com; s=20230601; t=1740001732; x=1740606532; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=P/aaAyQjFb/B+//HITq7pURixYki7okXazd4mRLFHow=;\r\n        b=zxNOiT0vpWqSB4+dFBx/bC/xJ9TezEmUVxnqrCaxNarZDcqE5HZ3SyfBe3ZF9dWJUd\r\n         35utaRVtG7JT+6hcE6dRvt6oz4d9ljH65Lfjcq18z9FMP3KgYcWhAvyMLGA6H1C5svG8\r\n         w9ORrBUH7vZxa08uwglB7GUyuSrEx7lUx+ayhGYmbz29Ky3AHpm6EO2fgRmg82383UtO\r\n         jQwQgJpq0CP+2kTTZfO+C8wQaOeRsDhbZBYy44TY3qDFDDE4SRsVEoyfODQ04Gffr42z\r\n         Ab5Uqq1B1Xt7Q5yahrxlJn/V4R3Q+dYaNDZ3nm4qkGpVPkDFd811pC6fyUvYwR7fH3HI\r\n         Z+Yw==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@pio-edu-co.20230601.gappssmtp.com header.s=20230601 header.b=zxNOiT0v;\r\n       spf=pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=practicas.proyecto@pio.edu.co;\r\n       dara=pass header.i=@gmail.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@pio-edu-co.20230601.gappssmtp.com header.s=20230601 header.b=zxNOiT0v;\r\n       spf=pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=practicas.proyecto@pio.edu.co;\r\n       dara=pass header.i=@gmail.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a5d:6487:0:b0:38d:c57e:3a1b with SMTP id o7csp2430995wri;\r\n        Wed, 19 Feb 2025 13:48:53 -0800 (PST)",
+      "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])\r\n        by mx.google.com with SMTPS id 5614622812f47-3f3f667c86asor3255003b6e.9.2025.02.19.13.48.52\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Wed, 19 Feb 2025 13:48:52 -0800 (PST)"
+    ],
+    "delivery_path": [
+      "mail-sor-f41.google.com"
+    ],
+    "total_hops": 2,
+    "delivery_delay": null,
+    "original_sender_ip": "209.85.220.41",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/related",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/related",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 2078
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 5473
+      },
+      {
+        "content_type": "image/jpeg",
+        "charset": null,
+        "disposition": "inline",
+        "filename": "Imagen de WhatsApp 2025-02-19 a las 16.32.59_cf24a9f7.jpg",
+        "size": 246166
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": true,
+    "total_parts": 5
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Buenas tardes. Estimados Pioneros, Tecnicos en Programacion de Software, es para mi un placer invitarlos a una capacitación el día *Viernes 21 de Febrero del 2025 *desde las *04:30 AM *a* 06:30 PM, transmisión en vivo por ZOOM*. Es de suma importancia su asistencia para tratar temas relevantes sobre...",
+  "content_stats": {
+    "total_recipients": 4,
+    "subject_length": 35,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@pio-edu-co.20230601.gappssmtp.com header.s=20230601 header.b=zxNOiT0v;\r\n       spf=pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) smtp.mailfrom=practicas.proyecto@pio.edu.co;\r\n       dara=pass header.i=@gmail.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=pio-edu-co.20230601.gappssmtp.com; s=20230601; t=1740001732; x=1740606532; dara=google.com;\r\n        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject\r\n         :date:message-id:reply-to;\r\n        bh=P/aaAyQjFb/B+//HITq7pURixYki7okXazd4mRLFHow=;\r\n        b=zxNOiT0vpWqSB4+dFBx/bC/xJ9TezEmUVxnqrCaxNarZDcqE5HZ3SyfBe3ZF9dWJUd\r\n         35utaRVtG7JT+6hcE6dRvt6oz4d9ljH65Lfjcq18z9FMP3KgYcWhAvyMLGA6H1C5svG8\r\n         w9ORrBUH7vZxa08uwglB7GUyuSrEx7lUx+ayhGYmbz29Ky3AHpm6EO2fgRmg82383UtO\r\n         jQwQgJpq0CP+2kTTZfO+C8wQaOeRsDhbZBYy44TY3qDFDDE4SRsVEoyfODQ04Gffr42z\r\n         Ab5Uqq1B1Xt7Q5yahrxlJn/V4R3Q+dYaNDZ3nm4qkGpVPkDFd811pC6fyUvYwR7fH3HI\r\n         Z+Yw==",
+  "spf_result": "pass (google.com: domain of practicas.proyecto@pio.edu.co designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+}

@@ -1,0 +1,163 @@
+{
+  "unique_id": "email_49_1755795234",
+  "message_id": "<HJtvOOIHPc2HhbF-gZNIMg@notifications.google.com>",
+  "subject": "Martha Dinas ha compartido una foto contigo",
+  "from": [
+    {
+      "name": "Martha Dinas (mediante Google Fotos)",
+      "email": "noreply-edfca58f62d8fe0316e86352828edab7@google.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date": "2025-02-20T16:44:24",
+  "date_string": "Thu, 20 Feb 2025 13:44:24 -0800",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "",
+  "references": "",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/alternative",
+  "charset": null,
+  "size": 11585,
+  "has_attachments": false,
+  "attachment_count": 0,
+  "attachment_names": [],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id e9e14a558f8ab-3d2b91fe08csor19359355ab.15.2025.02.20.13.44.24\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 13:44:24 -0800 (PST)",
+    "X-Received": "by 2002:a05:6e02:3dc4:b0:3d0:4c9c:965f with SMTP id\r\n e9e14a558f8ab-3d2cb543cf0mr5036745ab.20.1740087864553; Thu, 20 Feb 2025\r\n 13:44:24 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1740087864; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=CsUPvTiBkkJC6xQxGfQ5LYLm6jqrIcoa6VhVAsxlkO8G/CZyQg5Eyde16Ckw1gQKlR\r\n         vKhDzBnte5uZm6ua5IVsHLWMfE6/jcmYVNh6YxDmGm1EHYHzMxYXl38QyrUDegnu5FPN\r\n         RTxdGKYTd+yCqR29D5BsqFBFWto9/5lu4MKcuH8HOkcy1BaiY89gvqV+3hjyE5mfyMms\r\n         Eq45YonQNDmg21Zjq/jWBb5bQwbRougwP6yMiGp0cdJhuZkW9tlbDpwE5yYt8c9hUx2c\r\n         oM9JuqPeOLxwTtfj/P92kdjRv0x0HUfifyl8uSgTie31O5ril2zyYfd91KW1csa1jAoH\r\n         Xv+g==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:from:subject:message-id:list-unsubscribe-post:list-unsubscribe\r\n         :date:mime-version:dkim-signature;\r\n        bh=dgzMVQiY/ePRgTuR2iiO8sU8ByI8wm0L3g8nbJfWEDU=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=kXU/axBYfSaFdI1o8Jswl+lwSgIoQMACIpqbI3bIJBZyH+MnYmg4BDRkr+/UHjyK/2\r\n         CVp4WAvs5HygsmtmCeMjpzFMlg1CNP6Jq8Fmjzki9qJrMMXqtsGMG4T79v1kq6t/juc/\r\n         EUcVEjWEHePHcCgFbo9AJmvYaXe2SSQIyF3I/ZyVHtkuBSDQ1S0TqZ00b++IOpEDN6r5\r\n         SHPIwCt3nso1OFCeQ7Viz4pRXc3CKTBy1sxM6x5nMPBFr3C+HYHPQDTYN8BWqF7tLVIw\r\n         bHTjJwxvFbPNo7XnI9vb/GAGJnSEcL25IEKg7aD5PjzV87v3o1d5qQZ3bkVP1G68mVep\r\n         /yew==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=Uh3aRpHj;\r\n       spf=pass (google.com: domain of 3okk3zygkaj8mnqdokx-dceb9ehefbchedzcafdhfcebhbhdc9agfnnfkd.bnl@photos.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3OKK3ZygKAJ8MNQDOKX-DCEB9ehEfbChEDZcafDhfcebhbhDC9AgFNNFKD.BNL@photos.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+    "Return-Path": "<3OKK3ZygKAJ8MNQDOKX-DCEB9ehEfbChEDZcafDhfcebhbhDC9AgFNNFKD.BNL@photos.bounces.google.com>",
+    "Received-SPF": "pass (google.com: domain of 3okk3zygkaj8mnqdokx-dceb9ehefbchedzcafdhfcebhbhdc9agfnnfkd.bnl@photos.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=Uh3aRpHj;\r\n       spf=pass (google.com: domain of 3okk3zygkaj8mnqdokx-dceb9ehefbchedzcafdhfcebhbhdc9agfnnfkd.bnl@photos.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3OKK3ZygKAJ8MNQDOKX-DCEB9ehEfbChEDZcafDhfcebhbhDC9AgFNNFKD.BNL@photos.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1740087864; x=1740692664; dara=google.com;\r\n        h=to:from:subject:message-id:list-unsubscribe-post:list-unsubscribe\r\n         :date:mime-version:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=dgzMVQiY/ePRgTuR2iiO8sU8ByI8wm0L3g8nbJfWEDU=;\r\n        b=Uh3aRpHjKQZTEuw78NaLTKewew2tY9G5DCAueVon9/f/K41ob1zgwiGtE6bYOdkKLh\r\n         VF8JK8tk/3gbk/GBH0FEWD6Q0lY5EFQ+KPEGmwsIMLCPLAIUanMw0jtNgdUeEwe+KQZH\r\n         xS5L/8nMqFlUF2UK5xMWPVIauiwuqOjEMuyPH81ruzL5p/3Njq1+SfDI1ypWv3mE+2bD\r\n         6dw/1YMTn9bECQGb9F8D3+T4L3Qvg5gnQ6R/pM++BjTbS6J253ACbv6uECjUi9GKjqPi\r\n         J1sT5Xd6e7mnMX5QmP34EQZJLV5rNgDhcc3IfIEU1MHFH1477Z7QG8TACNEx+MhYSUte\r\n         7emg==",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740087864; x=1740692664;\r\n        h=to:from:subject:message-id:list-unsubscribe-post:list-unsubscribe\r\n         :date:mime-version:x-gm-message-state:from:to:cc:subject:date\r\n         :message-id:reply-to;\r\n        bh=dgzMVQiY/ePRgTuR2iiO8sU8ByI8wm0L3g8nbJfWEDU=;\r\n        b=ch0wB60n2ZdtvAfp6puQHxlk3UqUEd7D9q6mYwPYKJTH+QmgnH88xfEhp4FQVnMaY/\r\n         SRWh5pCltHd35pq6jMD4uHfReRI4fDU/w0vo1DUowZoK2UBm9CFqGmSZGZxcQyNTAtZH\r\n         y5I6XZ2d7Bbj8FsUsSEFoQaYu5icYX31k6AHLYXrRuRDKwLSMFlffihliVzeq9uvSmTn\r\n         oc1sKu1/akQMPu1vZ6XQfFAsFQYAoU4klT//8LE3tkwRDB8TQiTUZZ4QO8WOZ8WpfIZE\r\n         Phkpcnj/5Wsx9GUr2Sb6h/edGUpxg3dI9Brz9x/Cw5J9EEGRTfHz5TqB4yC8SiRgaKVE\r\n         l8og==",
+    "X-Gm-Message-State": "AOJu0YxdAUZ9ul7EtD14DV20CvroLkE6zx3eI+Mp9Gz2ROi2enkqH8MB\r\n\tY++Qqmopdd+DmXZN2j4STwJJK7YkApwiwKrhdQSvWrxW",
+    "X-Google-Smtp-Source": "AGHT+IEeMfHyC4+3LI6eL72Pqs7pHQyt8gc3dC5JdOIQohO19aVbYFGqN7bCKSh8jGJ/vCXNU5M=",
+    "MIME-Version": "1.0",
+    "Date": "Thu, 20 Feb 2025 13:44:24 -0800",
+    "List-Unsubscribe": "https://myaccount.google.com/communication-preferences/auto/unsubscribe?ct=AIbu_Fuqq7l5JmWe7bAwBmBalCko43ctdMoR3PYJh44a46ZoL2or03r8V6jkp23Sp-zQbqqn948HUzGD52RU6OmC9j0WmHFGJQWpY9u-z-6IzMIHJog4II913Dc4duAa5UowRRTq8JC0Tsn8BPpP0lpwo7IojxKe64vQciVjPekjw-G91t_kYKTuXEwVgf3IrV7SaTA_ZrWZmMzmx6UJhnk&utm_source=ch_header&utm_medium=email&auto=true",
+    "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    "X-Notifications": "5214ea6ab3c3dea5",
+    "X-Notifications-Bounce-Info": "AXul_mJf75XXpiDb0vkuVFK3Y7yPXCdpleg0cMtZ6hfd1gP0QiibqD4iMhC5eGkbx9VugRYewNfIGwkz9L81RGM5TaXFKGJor5AzQj6XP2HlQ9MBSjabKOQs1itOQG2CggvxFDSiVKbEjwsdo6xOPxUkfvdOwnXZndj0KB78lLUoU8Ab4dvDteEJ6Gwp7QPi79faR-BOmor4dzWaJgZRgFzU_wgNjAwNjA0MDQxNTM1NTk2OTMzMg",
+    "Message-ID": "<HJtvOOIHPc2HhbF-gZNIMg@notifications.google.com>",
+    "Subject": "Martha Dinas ha compartido una foto contigo",
+    "From": "\"Martha Dinas (mediante Google Fotos)\" <noreply-edfca58f62d8fe0316e86352828edab7@google.com>",
+    "To": "kevinrlinze@gmail.com",
+    "Content-Type": "multipart/alternative; boundary=\"0000000000000b7c5d062e99c7da\""
+  },
+  "extraction_timestamp": "2025-08-21T11:53:54.134627",
+  "received_headers": [
+    "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp264936wru;\r\n        Thu, 20 Feb 2025 13:44:25 -0800 (PST)",
+    "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id e9e14a558f8ab-3d2b91fe08csor19359355ab.15.2025.02.20.13.44.24\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 13:44:24 -0800 (PST)"
+  ],
+  "x_headers": {
+    "X-Received": "by 2002:a05:6e02:3dc4:b0:3d0:4c9c:965f with SMTP id\r\n e9e14a558f8ab-3d2cb543cf0mr5036745ab.20.1740087864553; Thu, 20 Feb 2025\r\n 13:44:24 -0800 (PST)",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740087864; x=1740692664;\r\n        h=to:from:subject:message-id:list-unsubscribe-post:list-unsubscribe\r\n         :date:mime-version:x-gm-message-state:from:to:cc:subject:date\r\n         :message-id:reply-to;\r\n        bh=dgzMVQiY/ePRgTuR2iiO8sU8ByI8wm0L3g8nbJfWEDU=;\r\n        b=ch0wB60n2ZdtvAfp6puQHxlk3UqUEd7D9q6mYwPYKJTH+QmgnH88xfEhp4FQVnMaY/\r\n         SRWh5pCltHd35pq6jMD4uHfReRI4fDU/w0vo1DUowZoK2UBm9CFqGmSZGZxcQyNTAtZH\r\n         y5I6XZ2d7Bbj8FsUsSEFoQaYu5icYX31k6AHLYXrRuRDKwLSMFlffihliVzeq9uvSmTn\r\n         oc1sKu1/akQMPu1vZ6XQfFAsFQYAoU4klT//8LE3tkwRDB8TQiTUZZ4QO8WOZ8WpfIZE\r\n         Phkpcnj/5Wsx9GUr2Sb6h/edGUpxg3dI9Brz9x/Cw5J9EEGRTfHz5TqB4yC8SiRgaKVE\r\n         l8og==",
+    "X-Gm-Message-State": "AOJu0YxdAUZ9ul7EtD14DV20CvroLkE6zx3eI+Mp9Gz2ROi2enkqH8MB\r\n\tY++Qqmopdd+DmXZN2j4STwJJK7YkApwiwKrhdQSvWrxW",
+    "X-Google-Smtp-Source": "AGHT+IEeMfHyC4+3LI6eL72Pqs7pHQyt8gc3dC5JdOIQohO19aVbYFGqN7bCKSh8jGJ/vCXNU5M=",
+    "X-Notifications": "5214ea6ab3c3dea5",
+    "X-Notifications-Bounce-Info": "AXul_mJf75XXpiDb0vkuVFK3Y7yPXCdpleg0cMtZ6hfd1gP0QiibqD4iMhC5eGkbx9VugRYewNfIGwkz9L81RGM5TaXFKGJor5AzQj6XP2HlQ9MBSjabKOQs1itOQG2CggvxFDSiVKbEjwsdo6xOPxUkfvdOwnXZndj0KB78lLUoU8Ab4dvDteEJ6Gwp7QPi79faR-BOmor4dzWaJgZRgFzU_wgNjAwNjA0MDQxNTM1NTk2OTMzMg"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<HJtvOOIHPc2HhbF-gZNIMg@notifications.google.com>",
+    "in_reply_to": "",
+    "references": [],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": false,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "pass (google.com: domain of 3okk3zygkaj8mnqdokx-dceb9ehefbchedzcafdhfcebhbhdc9agfnnfkd.bnl@photos.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1740087864; x=1740692664; dara=google.com;\r\n        h=to:from:subject:message-id:list-unsubscribe-post:list-unsubscribe\r\n         :date:mime-version:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=dgzMVQiY/ePRgTuR2iiO8sU8ByI8wm0L3g8nbJfWEDU=;\r\n        b=Uh3aRpHjKQZTEuw78NaLTKewew2tY9G5DCAueVon9/f/K41ob1zgwiGtE6bYOdkKLh\r\n         VF8JK8tk/3gbk/GBH0FEWD6Q0lY5EFQ+KPEGmwsIMLCPLAIUanMw0jtNgdUeEwe+KQZH\r\n         xS5L/8nMqFlUF2UK5xMWPVIauiwuqOjEMuyPH81ruzL5p/3Njq1+SfDI1ypWv3mE+2bD\r\n         6dw/1YMTn9bECQGb9F8D3+T4L3Qvg5gnQ6R/pM++BjTbS6J253ACbv6uECjUi9GKjqPi\r\n         J1sT5Xd6e7mnMX5QmP34EQZJLV5rNgDhcc3IfIEU1MHFH1477Z7QG8TACNEx+MhYSUte\r\n         7emg==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=Uh3aRpHj;\r\n       spf=pass (google.com: domain of 3okk3zygkaj8mnqdokx-dceb9ehefbchedzcafdhfcebhbhdc9agfnnfkd.bnl@photos.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3OKK3ZygKAJ8MNQDOKX-DCEB9ehEfbChEDZcafDhfcebhbhDC9AgFNNFKD.BNL@photos.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=Uh3aRpHj;\r\n       spf=pass (google.com: domain of 3okk3zygkaj8mnqdokx-dceb9ehefbchedzcafdhfcebhbhdc9agfnnfkd.bnl@photos.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3OKK3ZygKAJ8MNQDOKX-DCEB9ehEfbChEDZcafDhfcebhbhDC9AgFNNFKD.BNL@photos.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp264936wru;\r\n        Thu, 20 Feb 2025 13:44:25 -0800 (PST)",
+      "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id e9e14a558f8ab-3d2b91fe08csor19359355ab.15.2025.02.20.13.44.24\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 13:44:24 -0800 (PST)"
+    ],
+    "delivery_path": [
+      "mail-sor-f69.google.com"
+    ],
+    "total_hops": 2,
+    "delivery_delay": null,
+    "original_sender_ip": "209.85.220.69",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/alternative",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 1296
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 3900
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": false,
+    "has_inline_images": false,
+    "total_parts": 3
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "Google Fotos Martha Dinas ha compartido una foto contigo Ver las fotos aquí: https://accounts.google.com/AccountChooser?Email=kevinrlinze@gmail.com&continue=https://photos.google.com/direct/AF1QipNsyIcliodoD9CT2sBjDvj8w3G3kD9UCHNcqGWrR_uPaqML0XD7MF06EQTrmhDktQ Has recibido este mensaje porque Martha...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 43,
+    "has_thread_info": false,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=Uh3aRpHj;\r\n       spf=pass (google.com: domain of 3okk3zygkaj8mnqdokx-dceb9ehefbchedzcafdhfcebhbhdc9agfnnfkd.bnl@photos.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3OKK3ZygKAJ8MNQDOKX-DCEB9ehEfbChEDZcafDhfcebhbhDC9AgFNNFKD.BNL@photos.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1740087864; x=1740692664; dara=google.com;\r\n        h=to:from:subject:message-id:list-unsubscribe-post:list-unsubscribe\r\n         :date:mime-version:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=dgzMVQiY/ePRgTuR2iiO8sU8ByI8wm0L3g8nbJfWEDU=;\r\n        b=Uh3aRpHjKQZTEuw78NaLTKewew2tY9G5DCAueVon9/f/K41ob1zgwiGtE6bYOdkKLh\r\n         VF8JK8tk/3gbk/GBH0FEWD6Q0lY5EFQ+KPEGmwsIMLCPLAIUanMw0jtNgdUeEwe+KQZH\r\n         xS5L/8nMqFlUF2UK5xMWPVIauiwuqOjEMuyPH81ruzL5p/3Njq1+SfDI1ypWv3mE+2bD\r\n         6dw/1YMTn9bECQGb9F8D3+T4L3Qvg5gnQ6R/pM++BjTbS6J253ACbv6uECjUi9GKjqPi\r\n         J1sT5Xd6e7mnMX5QmP34EQZJLV5rNgDhcc3IfIEU1MHFH1477Z7QG8TACNEx+MhYSUte\r\n         7emg==",
+  "spf_result": "pass (google.com: domain of 3okk3zygkaj8mnqdokx-dceb9ehefbchedzcafdhfcebhbhdc9agfnnfkd.bnl@photos.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;"
+}

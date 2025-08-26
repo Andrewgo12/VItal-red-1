@@ -1,0 +1,42 @@
+Email ID: email_70_1755795244
+==================================================
+
+EMAIL BODY:
+--------------------
+Hi there!
+
+Thank you for creating an n8n account. To continue setting up your workspace, please verify your email by clicking the link below:
+
+Verify my email ( https://app.n8n.cloud/confirm-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtldmlucmxpbnplQGdtYWlsLmNvbSIsInN1YiI6NDc0MjY5LCJpYXQiOjE3NDAwNjk5MzcsImV4cCI6MTc0MDMyOTEzN30.LuypPYyJ59CpnjTpUBP95rjJCRki_xebssTPBdUOH0c )
+
+Best,
+
+Your n8n team
+
+( https://n8n.io/?utm_source=direct-email&utm_medium=email&utm_campaign=email-signature )
+
+( https://twitter.com/n8n_io )
+
+Custom ( https://github.com/n8n-io/n8n )
+
+Custom ( https://discord.gg/Cb8WvBcmWg )
+
+Custom ( https://www.youtube.com/c/n8n-io )
+
+Custom ( https://www.linkedin.com/company/n8n/ )
+
+Custom ( https://n8n.io )
+
+©2024 n8n GmbH, All rights reserved.
+
+n8n is an extendable workflow automation tool which enables you to connect anything to everything via its open, fair-code model.
+
+Unsubscribe from future emails like these. ( http://track.customer.io/unsubscribe/dgSi2gUBAJiOK5eOKwGVJEBJGdu66QtGANJbU9Y= )
+
+You can find us here:
+
+n8n GmbH
+Borsigstr. 27
+10115 Berlin
+GERMANY
+

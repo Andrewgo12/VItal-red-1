@@ -1,0 +1,262 @@
+{
+  "email_info": {
+    "unique_id": "email_58_1755795238",
+    "processing_timestamp": "2025-08-21T11:53:58.672651",
+    "schema_version": "1.0"
+  },
+  "metadata": {
+    "unique_id": "email_58_1755795238",
+    "message_id": "<EC2-CT-SMTP03Cdj4hy00052aef@ec2-ct-smtp03.computrabajo.com>",
+    "subject": "Aprendiz en Valle del Cauca",
+    "from": [
+      {
+        "name": "Equipo de Computrabajo",
+        "email": "empleos_co@computrabajo.com"
+      }
+    ],
+    "to": [
+      {
+        "name": "",
+        "email": "kevinrlinze@gmail.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "reply_to": [
+      {
+        "name": "",
+        "email": "sin-respuesta@computrabajo.com"
+      }
+    ],
+    "date": "2025-02-20T09:53:08",
+    "date_string": "20 Feb 2025 14:53:08 +0000",
+    "received_date": null,
+    "thread_topic": "",
+    "thread_index": "",
+    "in_reply_to": "",
+    "references": "",
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "content_type": "text/html",
+    "charset": "utf-8",
+    "size": 18144,
+    "has_attachments": false,
+    "attachment_count": 0,
+    "attachment_names": [],
+    "is_multipart": false,
+    "headers": {
+      "Delivered-To": "kevinrlinze@gmail.com",
+      "Received": "from mail pickup service by ec2-ct-smtp03.computrabajo.com with Microsoft SMTPSVC;\r\n\t Thu, 20 Feb 2025 14:53:43 +0000",
+      "X-Google-Smtp-Source": "AGHT+IEe3muOTIP93Fp7AgbC1VKT+9jKWOnVMQAkIRR5+9RhdboSwBY1rDBgkXPyDKnpsEXqEKUD",
+      "X-Received": "by 2002:a05:620a:4412:b0:7c0:a260:ec1d with SMTP id af79cd13be357-7c0b5246a15mr987572985a.14.1740063228085;\r\n        Thu, 20 Feb 2025 06:53:48 -0800 (PST)",
+      "ARC-Seal": "i=1; a=rsa-sha256; t=1740063228; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=VNde6evoZpoVWrcN0UQ/H5tFkz6Vj3okgKt7iJtY+W8QWCb27Y6yEBOI28a1FgtOeA\r\n         EPu8XsAI9uuNpKq8EQHoS45JESvEN/+Uh9PeT1KPu+jxmcPaIIaBcB4DB7+PxKrHTH3t\r\n         B+cvsnbCc4Slf9jlMIVG8DD/nhxUJk4qyoBnGIGVq8pf0QVFkzajo40TkXSRmfIHirUG\r\n         XvMm4VYtlOa08yNwBrXWzU4jkNZ8iOgMwGlcWC3TzX5vOSTx+0jzbGf1696nPnjC5A8G\r\n         KQP7s/+vjw5+xZyouj+ASurBBLucMmBZJLarJULiR+PyQuY/X0caBulmaL2FkM0bAG5X\r\n         vMuQ==",
+      "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=message-id:content-transfer-encoding:subject:date:reply-to:to:from\r\n         :mime-version:bimi-selector:feedback-id:list-unsubscribe-post\r\n         :list-unsubscribe:idtipomail:idportal:domainkey-signature\r\n         :dkim-signature;\r\n        bh=J1J3ta/E/2WtXFf/H/bqIj/UGbauJPD1qvhDeCmf95s=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=Ij1JvpPy5K2BJpTE6hwbogX/qPQmZRCXPaBRI5G8wlD7cvXxuMuPhRcV/ZF2iXmVJB\r\n         NeBOVP1LEcqmbeGuEtZeENeA9uBkm3xHQtcLWOPLJhcws7rVRQoKiYspfhnoQU+Y2T/B\r\n         oqbOXGQPAYCTPAbBIOt7NvVSz1OB2D2J++kNPgIOJH10vlKMzp2pOxV97SfIM4mGfh8y\r\n         RMPl8TuQgRNkG+OFA4wbaldFFB6VwX3xGtp4BrhjNoUJv+GfL5WvHTa9L9tfBrz6rw+Q\r\n         AR1U2UcdAM58NAtQWkTHL+v+7cYcjw8FuA/egZfwrG5lGf9zmq8tUePVaB7j4HeogbUR\r\n         17Bg==;\r\n        dara=google.com",
+      "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=Z8wodnx2;\r\n       spf=pass (google.com: domain of alertas_ct@computrabajo.com designates 52.1.236.22 as permitted sender) smtp.mailfrom=alertas_ct@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+      "Return-Path": "<alertas_ct@computrabajo.com>",
+      "Received-SPF": "pass (google.com: domain of alertas_ct@computrabajo.com designates 52.1.236.22 as permitted sender) client-ip=52.1.236.22;",
+      "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=Z8wodnx2;\r\n       spf=pass (google.com: domain of alertas_ct@computrabajo.com designates 52.1.236.22 as permitted sender) smtp.mailfrom=alertas_ct@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+      "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe:list-unsubscribe-post\r\n    :feedback-id:bimi-selector:mime-version:from:to:date:subject\r\n    :content-type:message-id;\r\n  bh=J1J3ta/E/2WtXFf/H/bqIj/UGbauJPD1qvhDeCmf95s=;\r\n  b=Z8wodnx2LChoDEu5ynT3MPhn1577w0WQ295Y7YfnBELEBvybcfiLs59Iw3Lpn6fRNGZkhmyR\r\n    aV2YiQx+S/N7GoVr/AOzLJgNHQ7T7I+SvxKsTlPQ6Gzv9yitVO7NyAu/pN0XhhNyzOyTWNlK\r\n    mAxzCFsoeUPlCC2qbocfjLPfZrs=",
+      "DomainKey-Signature": "a=rsa-sha1; q=dns; c=nofws;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe:list-unsubscribe-post\r\n    :feedback-id:bimi-selector:mime-version:from:to:date:subject\r\n    :content-type:message-id;\r\n  b=XD2zvTMDtBYfjzxH0wX8sysTkRa6szO9J64g7/dTCgUkmydku7mg0aaJpXHFgGWFVvf8urq9\r\n    5Lhf0FUhLDnvY2WGJjhTOf69XrQzU9oPAhsRE5blmomkEFvGL4O0QgOIP54hstE2wDJ4wFmK\r\n    nt3CYjfWrZ9BJCYGD0FRfjdOsOM=",
+      "IdPortal": "1",
+      "IdTipoMail": "100",
+      "X-Sender": "<alertas_ct@computrabajo.com>",
+      "List-Unsubscribe": "<mailto:unsubscribe+{0}@computrabajo.com?subject=unsubscribe_{1}_{2}>,<https://go.computrabajo.com/go/u?ipo=469814F59E4D6F04&idp=EF0EE8EB822988BFBD96D32A0AC99587&idu=59AD1982846783FF61373E686DCF3405&ai=59F9B8BC04510B63469814F59E4D6F04&inl=100&isd=59345408-a339-4e38-b116-39f1983c2024&rcvi=26D5D16099F708FC61373E686DCF3405>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Feedback-ID": "nwsl_100_portal_1:nwsl_100_tmpl_232:nwsl_100_subj_119:CO-EmailSender-1",
+      "BIMI-Selector": "v=BIMI1; s=mailing;",
+      "MIME-Version": "1.0",
+      "From": "\"Equipo de Computrabajo\" <empleos_co@computrabajo.com>",
+      "To": "kevinrlinze@gmail.com",
+      "Reply-To": "sin-respuesta@computrabajo.com",
+      "Date": "20 Feb 2025 14:53:08 +0000",
+      "Subject": "Aprendiz en Valle del Cauca",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Transfer-Encoding": "base64",
+      "Message-ID": "<EC2-CT-SMTP03Cdj4hy00052aef@ec2-ct-smtp03.computrabajo.com>",
+      "X-OriginalArrivalTime": "20 Feb 2025 14:53:43.0520 (UTC) FILETIME=[3C7D8E00:01DB83A7]"
+    },
+    "extraction_timestamp": "2025-08-21T11:53:58.666601",
+    "received_headers": [
+      "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp92576wru;\r\n        Thu, 20 Feb 2025 06:53:48 -0800 (PST)",
+      "from ec2-ct-smtp03.computrabajo.com (ec2-ct-smtp03.computrabajo.com. [52.1.236.22])\r\n        by mx.google.com with ESMTPS id 6a1803df08f44-6e65d9a1f85si145556416d6.174.2025.02.20.06.53.47\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 06:53:48 -0800 (PST)",
+      "from mail pickup service by ec2-ct-smtp03.computrabajo.com with Microsoft SMTPSVC;\r\n\t Thu, 20 Feb 2025 14:53:43 +0000"
+    ],
+    "x_headers": {
+      "X-Google-Smtp-Source": "AGHT+IEe3muOTIP93Fp7AgbC1VKT+9jKWOnVMQAkIRR5+9RhdboSwBY1rDBgkXPyDKnpsEXqEKUD",
+      "X-Received": "by 2002:a05:620a:4412:b0:7c0:a260:ec1d with SMTP id af79cd13be357-7c0b5246a15mr987572985a.14.1740063228085;\r\n        Thu, 20 Feb 2025 06:53:48 -0800 (PST)",
+      "X-Sender": "<alertas_ct@computrabajo.com>",
+      "X-OriginalArrivalTime": "20 Feb 2025 14:53:43.0520 (UTC) FILETIME=[3C7D8E00:01DB83A7]"
+    },
+    "delivery_receipt": "",
+    "read_receipt": "",
+    "thread_info": {
+      "message_id": "<EC2-CT-SMTP03Cdj4hy00052aef@ec2-ct-smtp03.computrabajo.com>",
+      "in_reply_to": "",
+      "references": [],
+      "thread_topic": "",
+      "thread_index": "",
+      "is_reply": false,
+      "is_forward": false
+    },
+    "security_info": {
+      "spf_result": "pass (google.com: domain of alertas_ct@computrabajo.com designates 52.1.236.22 as permitted sender) client-ip=52.1.236.22;",
+      "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe:list-unsubscribe-post\r\n    :feedback-id:bimi-selector:mime-version:from:to:date:subject\r\n    :content-type:message-id;\r\n  bh=J1J3ta/E/2WtXFf/H/bqIj/UGbauJPD1qvhDeCmf95s=;\r\n  b=Z8wodnx2LChoDEu5ynT3MPhn1577w0WQ295Y7YfnBELEBvybcfiLs59Iw3Lpn6fRNGZkhmyR\r\n    aV2YiQx+S/N7GoVr/AOzLJgNHQ7T7I+SvxKsTlPQ6Gzv9yitVO7NyAu/pN0XhhNyzOyTWNlK\r\n    mAxzCFsoeUPlCC2qbocfjLPfZrs=",
+      "dmarc_result": "",
+      "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=Z8wodnx2;\r\n       spf=pass (google.com: domain of alertas_ct@computrabajo.com designates 52.1.236.22 as permitted sender) smtp.mailfrom=alertas_ct@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+      "received_spf": "",
+      "arc_authentication_results": [
+        "i=1; mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=Z8wodnx2;\r\n       spf=pass (google.com: domain of alertas_ct@computrabajo.com designates 52.1.236.22 as permitted sender) smtp.mailfrom=alertas_ct@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com"
+      ],
+      "message_security": "high"
+    },
+    "routing_info": {
+      "received_headers": [
+        "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp92576wru;\r\n        Thu, 20 Feb 2025 06:53:48 -0800 (PST)",
+        "from ec2-ct-smtp03.computrabajo.com (ec2-ct-smtp03.computrabajo.com. [52.1.236.22])\r\n        by mx.google.com with ESMTPS id 6a1803df08f44-6e65d9a1f85si145556416d6.174.2025.02.20.06.53.47\r\n        for <kevinrlinze@gmail.com>\r\n        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);\r\n        Thu, 20 Feb 2025 06:53:48 -0800 (PST)",
+        "from mail pickup service by ec2-ct-smtp03.computrabajo.com with Microsoft SMTPSVC;\r\n\t Thu, 20 Feb 2025 14:53:43 +0000"
+      ],
+      "delivery_path": [
+        "ec2-ct-smtp03.computrabajo.com",
+        "mail"
+      ],
+      "total_hops": 3,
+      "delivery_delay": null,
+      "original_sender_ip": "",
+      "final_recipient": ""
+    },
+    "content_analysis": {
+      "is_multipart": false,
+      "main_content_type": "text/html",
+      "charset": "utf-8",
+      "content_parts": [],
+      "has_html": true,
+      "has_plain_text": false,
+      "has_attachments": false,
+      "has_inline_images": false,
+      "total_parts": 1
+    },
+    "priority_info": {
+      "priority": "",
+      "importance": "",
+      "sensitivity": "",
+      "precedence": "",
+      "urgency": "normal",
+      "delivery_receipt_requested": false,
+      "read_receipt_requested": false
+    },
+    "body_preview": "",
+    "content_stats": {
+      "total_recipients": 1,
+      "subject_length": 27,
+      "has_thread_info": false,
+      "estimated_read_time": 1
+    },
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@computrabajo.com header.s=s1024 header.b=Z8wodnx2;\r\n       spf=pass (google.com: domain of alertas_ct@computrabajo.com designates 52.1.236.22 as permitted sender) smtp.mailfrom=alertas_ct@computrabajo.com;\r\n       dmarc=pass (p=REJECT sp=QUARANTINE dis=NONE) header.from=computrabajo.com",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n  s=s1024; d=computrabajo.com;\r\n  h=idportal:idtipomail:list-unsubscribe:list-unsubscribe-post\r\n    :feedback-id:bimi-selector:mime-version:from:to:date:subject\r\n    :content-type:message-id;\r\n  bh=J1J3ta/E/2WtXFf/H/bqIj/UGbauJPD1qvhDeCmf95s=;\r\n  b=Z8wodnx2LChoDEu5ynT3MPhn1577w0WQ295Y7YfnBELEBvybcfiLs59Iw3Lpn6fRNGZkhmyR\r\n    aV2YiQx+S/N7GoVr/AOzLJgNHQ7T7I+SvxKsTlPQ6Gzv9yitVO7NyAu/pN0XhhNyzOyTWNlK\r\n    mAxzCFsoeUPlCC2qbocfjLPfZrs=",
+    "spf_result": "pass (google.com: domain of alertas_ct@computrabajo.com designates 52.1.236.22 as permitted sender) client-ip=52.1.236.22;"
+  },
+  "content": {
+    "body": {
+      "text": "TABASCO OC, envía, SIIGO S.A.S, Importante empresa del sector, DHL SUPPLY\nCHAIN, GRUPO FALABELLA, BairesDev LLC, MEDIVALLE SF SAS, Teleperformance\nColombia , Conectar Tv tienen nuevos empleos para ti!  \n  \n---  \nHola Andres,  \nHoy seleccionamos para ti **13 oportunidades laborales** de empresas que están\nbuscando nuevos talentos para los puestos de:  \n| **Aprendiz en Valle del Cauca**  \n---  \n| **Revisa la selección**  \n---  \nSi las vacantes encajan contigo, aplica hoy mismo.  \nEnviado con 💙 desde Computrabajo  \nDisfruta de una mejor experiencia desde nuestra app  \n|  \nAviso legal | Política de privacidad | Contactar | Cancelar la suscripción  \nHas recibido este e-mail porque eres usuario registrado en Computrabajo al\namparo de nuestra Política de Privacidad. Este e-mail se ha enviado desde\nComputrabajo (DGNET Ltd, con número de registro 189977 y domicilio en 26\nFrederick Street, EH2 2JR Edimburgo, Reino Unido)\n\n",
+      "html": "<!DOCTYPE html><html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /><title>Computrabajo</title><style type=\"text/css\">body {width: 100%; margin:0; padding:0; -webkit-font-smoothing: antialiased;}table {border-collapse: collapse;}table[class=deviceWidth] {width: 600px; max-width: 600px;}@media only screen and (max-width: 600px), screen and (max-device-width: 600px) {table[class=deviceWidth] {width:440px!important; padding:0!important;}.fs16 {font-size: 16px !important;}}@media only screen and (max-width: 479px), screen and (max-device-width: 479px) {table[class=deviceWidth] {width:100%!important;padding:0!important;}}</style></head><body leftmargin=\"0\" topmargin=\"0\" yahoo=\"fix\" marginheight=\"0\" marginwidth=\"0\" style=\"background-color:#ffffff;\"><div itemscope=\"\" itemtype=\"http://schema.org/Organization\"><meta itemprop=\"name\" content=\"Computrabajo\" /><meta itemprop=\"logo\" content=\"https://images.computrabajo.com/2021/12/01/logoct/logo_ct.png\" /></div><div style=\"float:right;\"><img src=\"https://go.computrabajo.com/go/gov?ipo=469814F59E4D6F04&idu=59AD1982846783FF61373E686DCF3405&idp=EF0EE8EB822988BFBD96D32A0AC99587&ai=59F9B8BC04510B63469814F59E4D6F04&ei=6AF008592C7259F961373E686DCF3405&tv=3&ov=2&ep=gmail&rt=20250219&isd=59345408-a339-4e38-b116-39f1983c2024&inl=100&ek=A616924C38775180D34A702EF8AE5EE5F4B61E3E6AEE6F12\"height=\"1\" class=\"hide-md\" style=\"display:block;min-width:1px;height:1px;\" alt=\" \" /></div><!-- Hidden quote --><div style=\"display: none; max-height: 0px; overflow: hidden;\">TABASCO OC, envía, SIIGO S.A.S, Importante empresa del sector, DHL SUPPLY CHAIN, GRUPO FALABELLA, BairesDev LLC, MEDIVALLE SF SAS, Teleperformance Colombia , Conectar Tv tienen nuevos empleos para ti!</div><table bgcolor=\"#ffffff\" align=\"center\" style=\"max-width: 600px;width:100% !important;table-layout:fixed;font-family:Arial,sans-serif;\" yahoo=\"fix\"><!--[if mso]> <tr><td><center><table width=\"600\"> <![endif]--><tr><td class=\"pAll\" colspan=\"2\" style=\"color: #353e4a; font-family:'Arial'; font-size:22px;text-align: center;padding-top: 40px;\"><a href=\"https://go.computrabajo.com/go/goa?url=https%3a%2f%2fco.computrabajo.com%3futm_source%3Dauto_cand_alertacargosdiaria%26utm_campaign%3Dauto_cand_alertacargosdiaria_3_gmail%26utm_medium%3Demail&idp=EF0EE8EB822988BFBD96D32A0AC99587&ai=59F9B8BC04510B63469814F59E4D6F04&ei=6AF008592C7259F961373E686DCF3405&ipo=469814F59E4D6F04&ov=2&tv=3&ep=gmail&isd=59345408-a339-4e38-b116-39f1983c2024&inl=100&idu=59AD1982846783FF61373E686DCF3405&ek=A616924C38775180D34A702EF8AE5EE5F4B61E3E6AEE6F12&tl=g_home&lc=PushCargo-Header-NoPosition-Logo\" title=\"Computrabajo Colombia\" style=\"color: #353e4a; text-decoration:none; font-family:'Arial'; font-size:22px;\"><img height=\"33\" alt=\"Computrabajo\" style=\"height:33px;\" src=\"https://images.computrabajo.com/2022/12/05/logos/LOGO_NUEVO_CT.png\" /></a></td></tr><tr><td colspan=\"2\" style=\"color:#353e4a;text-align:center;font-size:16px;line-height:23px;padding-right:10px;padding-left:10px;padding-bottom:20px;padding-top: 20px;\">Hola Andres,</td></tr><tr><td colspan=\"2\" style=\"color:#353e4a;text-align:center;font-size:16px;line-height:23px;padding-right:10px;padding-left:10px;padding-bottom:20px;\">Hoy seleccionamos para ti <b>13  oportunidades laborales</b> de empresas que están buscando nuevos talentos para los puestos de:</td></tr><tr><td colspan=\"2\" style=\"padding-top:10px;padding-left:10px;padding-right:10px;font-size: 18px;\"><table align=\"center\" border=\"0\" bgcolor=\"#eaf3fb\"  cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: #eaf3fb; color:#353e4a;font-family:Arial,sans-serif;font-size:14px;-moz-border-radius:10px 10px 10px 10px;-webkit-border-radius: 10px 10px 10px 10px;border-radius: 10px 10px 10px 10px;max-width: 350px;\"><tr><td class=\"fs16\" colspan=\"2\" style=\"font-size: 18px;text-align: center;padding-bottom:20px;padding-top:20px;line-height: 35px;\"><b> Aprendiz  en Valle del Cauca</b></td></tr></table></td><tr><tr><td colspan=\"2\" style=\"padding-top:25px;padding-left:10px;padding-right:10px;\"><table width=\"250\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" bgcolor=\"#ffffff\" style=\"width:250px;color: #333333;margin:auto; background-color:#ffffff; -moz-border-radius:50px;-webkit-border-radius: 50px;border-radius:50px;\"><tr><!--[if mso]> <td> <center> <table width=\"250\" style=\"width:250px;background-color:#0C3877\"> <tr style=\"height:50px;vertical-align:middle;\"> <![endif]--><td style=\"background: #0C3877;font-family:Arial,sans-serif;font-size:16px; -moz-border-radius:50px;-webkit-border-radius: 50px;border-radius:50px;color: #ffffff;text-decoration:none; text-align:center;\"><a style=\"color:#ffffff;text-decoration:none;width:250px;display:table-cell;height:50px;vertical-align:middle;\"href=\"https://go.computrabajo.com/go/goa?url=https%3a%2f%2fco.computrabajo.com%2fofertas-de-trabajo%2f%3fprov%3d25%26q%3dAprendiz%26om%3dB6433DE865CC965F444AAF1E9424CC8019AC5B110AF4E5C2C9CCC533BA69214C36CC76121EE5879BC1B05361E23BE7546FD3912F5F084F4F64DCF62128CC116C311DCD2BFF68FCEBFCC7302FEE0B3C4895D35CCC326C753C9A69881560DE5BDA8BC002C8B362402F9C6C70A72B2F09F7650B6674F0011ECED64895D1E5B6E2E832E887BA4ED1655261CEFAF792968CBE%26by%3Dpublicationtime%26utm_source%3Dauto_cand_alertacargosdiaria%26utm_campaign%3Dauto_cand_alertacargosdiaria_3_gmail%26utm_medium%3Demail&idp=EF0EE8EB822988BFBD96D32A0AC99587&ai=59F9B8BC04510B63469814F59E4D6F04&ei=6AF008592C7259F961373E686DCF3405&ipo=469814F59E4D6F04&ov=2&tv=3&ep=gmail&isd=59345408-a339-4e38-b116-39f1983c2024&inl=100&idu=59AD1982846783FF61373E686DCF3405&ek=A616924C38775180D34A702EF8AE5EE5F4B61E3E6AEE6F12&tl=o_grid&lc=PushCargo-Main-NoPosition-Button\"title=\"Revisa la selección\"><strong>Revisa la selección</strong></a></td><!--[if mso]> </tr> </table> </center> </td> <![endif]--></tr></table></td></tr><tr><td colspan=\"2\" style=\"color:#353e4a;text-align:center;font-size:16px;line-height:23px;padding-right:10px;padding-left:10px;padding-bottom:30px;padding-top:20px;\">Si las vacantes encajan contigo, aplica hoy mismo.</td></tr><!-- Footer --><tr><td colspan=\"2\" style=\"border-top:1px solid #dcdfe8;\"></td></tr><tr><td colspan=\"2\" style=\"color: #a0a6b5; font-size: 12px; padding-top:20px; padding-bottom:10px;text-align:center;line-height:18px;padding-left:10px;padding-right:10px;\">Enviado con <span>💙</span> desde Computrabajo</td></tr><tr><td colspan=\"2\" style=\"padding-top:10px; padding-bottom:10px; padding-right:10px; padding-left:10px;text-align: center;\"><img height=\"34\" alt=\"Computrabajo\" style=\"height:34px;\" src=\"https://images.computrabajo.com/2022/12/09/logos/LOGO_NUEVO_CT.png\" /></td></tr><tr><td colspan=\"2\" style=\"color: #a0a6b5; font-size: 12px; padding-bottom:10px;text-align:center;line-height:18px;padding-left:10px;padding-right:10px;\">Disfruta de una mejor experiencia desde nuestra app</td></tr><tr><td colspan=\"1\" align=\"right\" style=\"padding-bottom:20px; padding-top:10px;padding-right: 8px;\"><a style=\"text-decoration:none;width:130px;display:table-cell;height:50px;vertical-align:middle;\" href=\"https://play.google.com/store/apps/details?id=com.redarbor.computrabajo&hl=es&referrer=cts%3D31%26ctp%3D1%26ctz%3D14%26ctn%3D0\" title=\"Google Play\"><img width=\"130\" style=\"width:130px;padding-right:15px;\" src=\"https://images.computrabajo.com/2021/05/20/footerapp/googleplay.png\" alt=\"GooglePlay\"></a></td><td colspan=\"1\" align=\"left\" style=\"padding-bottom:20px; padding-top:10px;padding-left: 8px;\"><a style=\"text-decoration:none;width:130px;display:table-cell;height:50px;vertical-align:middle;\" href=\"https://itunes.apple.com/es/app/computrabajo-ofertas-empleo/id1093787284?mt=8\" title=\"App Store\"><img width=\"130\" style=\"width:130px;padding-left:15px;\" src=\"https://images.computrabajo.com/2021/05/20/footerapp/appstore.png\" alt=\"AppStore\"></a></td></tr><tr><td colspan=\"2\" style=\"color: #a0a6b5; font-size: 12px; padding-top:10px; padding-bottom:10px;text-align:center;line-height:18px;\"><a style=\"color:#a0a6b5;\" href=\"https://co.computrabajo.com/avisolegal/?utm_source=auto_cand_alertacargosdiaria&utm_campaign=auto_cand_alertacargosdiaria_3_gmail&utm_medium=email&lc=PushCargo-Footer-NoPosition-Legal\">Aviso legal</a> | <a style=\"color:#a0a6b5;\" href=\"https://co.computrabajo.com/privacidad/?utm_source=auto_cand_alertacargosdiaria&utm_campaign=auto_cand_alertacargosdiaria_3_gmail&utm_medium=email&lc=PushCargo-Footer-NoPosition-Privacy\">Política de privacidad</a> | <a style=\"color:#a0a6b5;\" href=\"https://candidato.co.computrabajo.com/contacto/?utm_source=auto_cand_alertacargosdiaria&utm_campaign=auto_cand_alertacargosdiaria_3_gmail&utm_medium=email&lc=PushCargo-Footer-NoPosition-Contact\">Contactar</a> | <a style=\"color:#a0a6b5;\" href=\"https://go.computrabajo.com/go/u?ipo=469814F59E4D6F04&idp=EF0EE8EB822988BFBD96D32A0AC99587&ai=59F9B8BC04510B63469814F59E4D6F04&idu=59AD1982846783FF61373E686DCF3405&eml=A616924C38775180D34A702EF8AE5EE5F4B61E3E6AEE6F12&ipu=EF0EE8EB822988BFBD96D32A0AC99587&isd=59345408-a339-4e38-b116-39f1983c2024&inl=100&lc=PushCargo-Footer-NoPosition-Unsubscribe\">Cancelar la suscripción</a></td></tr><tr><td colspan=\"2\" style=\"color: #a0a6b5; font-size: 12px; padding-bottom:10px;text-align:center;line-height:18px;\">Has recibido este e-mail porque eres usuario registrado en Computrabajo al amparo de nuestra Política de Privacidad. Este e-mail se ha enviado desde Computrabajo (DGNET Ltd, con número de registro 189977 y domicilio en 26 Frederick Street, EH2 2JR Edimburgo, Reino Unido)</td></tr><!--[if mso]>  </table> </center> </td> </tr> <![endif]--></table></body></html>",
+      "raw": ""
+    },
+    "extracted_text": {
+      "email_body": {
+        "text": "TABASCO OC, envía, SIIGO S.A.S, Importante empresa del sector, DHL SUPPLY\nCHAIN, GRUPO FALABELLA, BairesDev LLC, MEDIVALLE SF SAS, Teleperformance\nColombia , Conectar Tv tienen nuevos empleos para ti!  \n  \n---  \nHola Andres,  \nHoy seleccionamos para ti **13 oportunidades laborales** de empresas que están\nbuscando nuevos talentos para los puestos de:  \n| **Aprendiz en Valle del Cauca**  \n---  \n| **Revisa la selección**  \n---  \nSi las vacantes encajan contigo, aplica hoy mismo.  \nEnviado con 💙 desde Computrabajo  \nDisfruta de una mejor experiencia desde nuestra app  \n|  \nAviso legal | Política de privacidad | Contactar | Cancelar la suscripción  \nHas recibido este e-mail porque eres usuario registrado en Computrabajo al\namparo de nuestra Política de Privacidad. Este e-mail se ha enviado desde\nComputrabajo (DGNET Ltd, con número de registro 189977 y domicilio en 26\nFrederick Street, EH2 2JR Edimburgo, Reino Unido)\n\n",
+        "html": "<!DOCTYPE html><html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /><title>Computrabajo</title><style type=\"text/css\">body {width: 100%; margin:0; padding:0; -webkit-font-smoothing: antialiased;}table {border-collapse: collapse;}table[class=deviceWidth] {width: 600px; max-width: 600px;}@media only screen and (max-width: 600px), screen and (max-device-width: 600px) {table[class=deviceWidth] {width:440px!important; padding:0!important;}.fs16 {font-size: 16px !important;}}@media only screen and (max-width: 479px), screen and (max-device-width: 479px) {table[class=deviceWidth] {width:100%!important;padding:0!important;}}</style></head><body leftmargin=\"0\" topmargin=\"0\" yahoo=\"fix\" marginheight=\"0\" marginwidth=\"0\" style=\"background-color:#ffffff;\"><div itemscope=\"\" itemtype=\"http://schema.org/Organization\"><meta itemprop=\"name\" content=\"Computrabajo\" /><meta itemprop=\"logo\" content=\"https://images.computrabajo.com/2021/12/01/logoct/logo_ct.png\" /></div><div style=\"float:right;\"><img src=\"https://go.computrabajo.com/go/gov?ipo=469814F59E4D6F04&idu=59AD1982846783FF61373E686DCF3405&idp=EF0EE8EB822988BFBD96D32A0AC99587&ai=59F9B8BC04510B63469814F59E4D6F04&ei=6AF008592C7259F961373E686DCF3405&tv=3&ov=2&ep=gmail&rt=20250219&isd=59345408-a339-4e38-b116-39f1983c2024&inl=100&ek=A616924C38775180D34A702EF8AE5EE5F4B61E3E6AEE6F12\"height=\"1\" class=\"hide-md\" style=\"display:block;min-width:1px;height:1px;\" alt=\" \" /></div><!-- Hidden quote --><div style=\"display: none; max-height: 0px; overflow: hidden;\">TABASCO OC, envía, SIIGO S.A.S, Importante empresa del sector, DHL SUPPLY CHAIN, GRUPO FALABELLA, BairesDev LLC, MEDIVALLE SF SAS, Teleperformance Colombia , Conectar Tv tienen nuevos empleos para ti!</div><table bgcolor=\"#ffffff\" align=\"center\" style=\"max-width: 600px;width:100% !important;table-layout:fixed;font-family:Arial,sans-serif;\" yahoo=\"fix\"><!--[if mso]> <tr><td><center><table width=\"600\"> <![endif]--><tr><td class=\"pAll\" colspan=\"2\" style=\"color: #353e4a; font-family:'Arial'; font-size:22px;text-align: center;padding-top: 40px;\"><a href=\"https://go.computrabajo.com/go/goa?url=https%3a%2f%2fco.computrabajo.com%3futm_source%3Dauto_cand_alertacargosdiaria%26utm_campaign%3Dauto_cand_alertacargosdiaria_3_gmail%26utm_medium%3Demail&idp=EF0EE8EB822988BFBD96D32A0AC99587&ai=59F9B8BC04510B63469814F59E4D6F04&ei=6AF008592C7259F961373E686DCF3405&ipo=469814F59E4D6F04&ov=2&tv=3&ep=gmail&isd=59345408-a339-4e38-b116-39f1983c2024&inl=100&idu=59AD1982846783FF61373E686DCF3405&ek=A616924C38775180D34A702EF8AE5EE5F4B61E3E6AEE6F12&tl=g_home&lc=PushCargo-Header-NoPosition-Logo\" title=\"Computrabajo Colombia\" style=\"color: #353e4a; text-decoration:none; font-family:'Arial'; font-size:22px;\"><img height=\"33\" alt=\"Computrabajo\" style=\"height:33px;\" src=\"https://images.computrabajo.com/2022/12/05/logos/LOGO_NUEVO_CT.png\" /></a></td></tr><tr><td colspan=\"2\" style=\"color:#353e4a;text-align:center;font-size:16px;line-height:23px;padding-right:10px;padding-left:10px;padding-bottom:20px;padding-top: 20px;\">Hola Andres,</td></tr><tr><td colspan=\"2\" style=\"color:#353e4a;text-align:center;font-size:16px;line-height:23px;padding-right:10px;padding-left:10px;padding-bottom:20px;\">Hoy seleccionamos para ti <b>13  oportunidades laborales</b> de empresas que están buscando nuevos talentos para los puestos de:</td></tr><tr><td colspan=\"2\" style=\"padding-top:10px;padding-left:10px;padding-right:10px;font-size: 18px;\"><table align=\"center\" border=\"0\" bgcolor=\"#eaf3fb\"  cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: #eaf3fb; color:#353e4a;font-family:Arial,sans-serif;font-size:14px;-moz-border-radius:10px 10px 10px 10px;-webkit-border-radius: 10px 10px 10px 10px;border-radius: 10px 10px 10px 10px;max-width: 350px;\"><tr><td class=\"fs16\" colspan=\"2\" style=\"font-size: 18px;text-align: center;padding-bottom:20px;padding-top:20px;line-height: 35px;\"><b> Aprendiz  en Valle del Cauca</b></td></tr></table></td><tr><tr><td colspan=\"2\" style=\"padding-top:25px;padding-left:10px;padding-right:10px;\"><table width=\"250\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" bgcolor=\"#ffffff\" style=\"width:250px;color: #333333;margin:auto; background-color:#ffffff; -moz-border-radius:50px;-webkit-border-radius: 50px;border-radius:50px;\"><tr><!--[if mso]> <td> <center> <table width=\"250\" style=\"width:250px;background-color:#0C3877\"> <tr style=\"height:50px;vertical-align:middle;\"> <![endif]--><td style=\"background: #0C3877;font-family:Arial,sans-serif;font-size:16px; -moz-border-radius:50px;-webkit-border-radius: 50px;border-radius:50px;color: #ffffff;text-decoration:none; text-align:center;\"><a style=\"color:#ffffff;text-decoration:none;width:250px;display:table-cell;height:50px;vertical-align:middle;\"href=\"https://go.computrabajo.com/go/goa?url=https%3a%2f%2fco.computrabajo.com%2fofertas-de-trabajo%2f%3fprov%3d25%26q%3dAprendiz%26om%3dB6433DE865CC965F444AAF1E9424CC8019AC5B110AF4E5C2C9CCC533BA69214C36CC76121EE5879BC1B05361E23BE7546FD3912F5F084F4F64DCF62128CC116C311DCD2BFF68FCEBFCC7302FEE0B3C4895D35CCC326C753C9A69881560DE5BDA8BC002C8B362402F9C6C70A72B2F09F7650B6674F0011ECED64895D1E5B6E2E832E887BA4ED1655261CEFAF792968CBE%26by%3Dpublicationtime%26utm_source%3Dauto_cand_alertacargosdiaria%26utm_campaign%3Dauto_cand_alertacargosdiaria_3_gmail%26utm_medium%3Demail&idp=EF0EE8EB822988BFBD96D32A0AC99587&ai=59F9B8BC04510B63469814F59E4D6F04&ei=6AF008592C7259F961373E686DCF3405&ipo=469814F59E4D6F04&ov=2&tv=3&ep=gmail&isd=59345408-a339-4e38-b116-39f1983c2024&inl=100&idu=59AD1982846783FF61373E686DCF3405&ek=A616924C38775180D34A702EF8AE5EE5F4B61E3E6AEE6F12&tl=o_grid&lc=PushCargo-Main-NoPosition-Button\"title=\"Revisa la selección\"><strong>Revisa la selección</strong></a></td><!--[if mso]> </tr> </table> </center> </td> <![endif]--></tr></table></td></tr><tr><td colspan=\"2\" style=\"color:#353e4a;text-align:center;font-size:16px;line-height:23px;padding-right:10px;padding-left:10px;padding-bottom:30px;padding-top:20px;\">Si las vacantes encajan contigo, aplica hoy mismo.</td></tr><!-- Footer --><tr><td colspan=\"2\" style=\"border-top:1px solid #dcdfe8;\"></td></tr><tr><td colspan=\"2\" style=\"color: #a0a6b5; font-size: 12px; padding-top:20px; padding-bottom:10px;text-align:center;line-height:18px;padding-left:10px;padding-right:10px;\">Enviado con <span>💙</span> desde Computrabajo</td></tr><tr><td colspan=\"2\" style=\"padding-top:10px; padding-bottom:10px; padding-right:10px; padding-left:10px;text-align: center;\"><img height=\"34\" alt=\"Computrabajo\" style=\"height:34px;\" src=\"https://images.computrabajo.com/2022/12/09/logos/LOGO_NUEVO_CT.png\" /></td></tr><tr><td colspan=\"2\" style=\"color: #a0a6b5; font-size: 12px; padding-bottom:10px;text-align:center;line-height:18px;padding-left:10px;padding-right:10px;\">Disfruta de una mejor experiencia desde nuestra app</td></tr><tr><td colspan=\"1\" align=\"right\" style=\"padding-bottom:20px; padding-top:10px;padding-right: 8px;\"><a style=\"text-decoration:none;width:130px;display:table-cell;height:50px;vertical-align:middle;\" href=\"https://play.google.com/store/apps/details?id=com.redarbor.computrabajo&hl=es&referrer=cts%3D31%26ctp%3D1%26ctz%3D14%26ctn%3D0\" title=\"Google Play\"><img width=\"130\" style=\"width:130px;padding-right:15px;\" src=\"https://images.computrabajo.com/2021/05/20/footerapp/googleplay.png\" alt=\"GooglePlay\"></a></td><td colspan=\"1\" align=\"left\" style=\"padding-bottom:20px; padding-top:10px;padding-left: 8px;\"><a style=\"text-decoration:none;width:130px;display:table-cell;height:50px;vertical-align:middle;\" href=\"https://itunes.apple.com/es/app/computrabajo-ofertas-empleo/id1093787284?mt=8\" title=\"App Store\"><img width=\"130\" style=\"width:130px;padding-left:15px;\" src=\"https://images.computrabajo.com/2021/05/20/footerapp/appstore.png\" alt=\"AppStore\"></a></td></tr><tr><td colspan=\"2\" style=\"color: #a0a6b5; font-size: 12px; padding-top:10px; padding-bottom:10px;text-align:center;line-height:18px;\"><a style=\"color:#a0a6b5;\" href=\"https://co.computrabajo.com/avisolegal/?utm_source=auto_cand_alertacargosdiaria&utm_campaign=auto_cand_alertacargosdiaria_3_gmail&utm_medium=email&lc=PushCargo-Footer-NoPosition-Legal\">Aviso legal</a> | <a style=\"color:#a0a6b5;\" href=\"https://co.computrabajo.com/privacidad/?utm_source=auto_cand_alertacargosdiaria&utm_campaign=auto_cand_alertacargosdiaria_3_gmail&utm_medium=email&lc=PushCargo-Footer-NoPosition-Privacy\">Política de privacidad</a> | <a style=\"color:#a0a6b5;\" href=\"https://candidato.co.computrabajo.com/contacto/?utm_source=auto_cand_alertacargosdiaria&utm_campaign=auto_cand_alertacargosdiaria_3_gmail&utm_medium=email&lc=PushCargo-Footer-NoPosition-Contact\">Contactar</a> | <a style=\"color:#a0a6b5;\" href=\"https://go.computrabajo.com/go/u?ipo=469814F59E4D6F04&idp=EF0EE8EB822988BFBD96D32A0AC99587&ai=59F9B8BC04510B63469814F59E4D6F04&idu=59AD1982846783FF61373E686DCF3405&eml=A616924C38775180D34A702EF8AE5EE5F4B61E3E6AEE6F12&ipu=EF0EE8EB822988BFBD96D32A0AC99587&isd=59345408-a339-4e38-b116-39f1983c2024&inl=100&lc=PushCargo-Footer-NoPosition-Unsubscribe\">Cancelar la suscripción</a></td></tr><tr><td colspan=\"2\" style=\"color: #a0a6b5; font-size: 12px; padding-bottom:10px;text-align:center;line-height:18px;\">Has recibido este e-mail porque eres usuario registrado en Computrabajo al amparo de nuestra Política de Privacidad. Este e-mail se ha enviado desde Computrabajo (DGNET Ltd, con número de registro 189977 y domicilio en 26 Frederick Street, EH2 2JR Edimburgo, Reino Unido)</td></tr><!--[if mso]>  </table> </center> </td> </tr> <![endif]--></table></body></html>",
+        "raw": ""
+      },
+      "attachments": []
+    }
+  },
+  "attachments": {
+    "count": 0,
+    "total_size_bytes": 0,
+    "files": []
+  },
+  "statistics": {
+    "text_length": {
+      "body_text": 926,
+      "body_html": 9630,
+      "total_extracted_text": 0
+    },
+    "attachments": {
+      "total_count": 0,
+      "by_category": {},
+      "by_type": {},
+      "total_size_bytes": 0,
+      "largest_file": null,
+      "smallest_file": null
+    },
+    "recipients": {
+      "to_count": 1,
+      "cc_count": 0,
+      "bcc_count": 0,
+      "total_recipients": 1
+    },
+    "headers": {
+      "total_headers": 29,
+      "x_headers_count": 4
+    }
+  },
+  "processing_info": {
+    "extraction_successful": true,
+    "errors": [],
+    "warnings": [],
+    "processing_time": 0.009054899215698242,
+    "extraction_method": "imap_direct",
+    "retry_count": 0
+  },
+  "analysis": {
+    "content_analysis": {
+      "content_type": "html",
+      "language_detected": "es",
+      "sentiment": "neutral",
+      "urgency_indicators": [],
+      "topics": [],
+      "contains_links": false,
+      "contains_images": true,
+      "text_quality": "good"
+    },
+    "attachment_analysis": {
+      "total_count": 0,
+      "total_size_mb": 0,
+      "risk_assessment": "low",
+      "file_types": {},
+      "suspicious_files": [],
+      "encrypted_files": [],
+      "large_files": []
+    },
+    "security_analysis": {
+      "authentication_status": "unknown",
+      "spf_status": "pass",
+      "dkim_status": "pass",
+      "dmarc_status": "pass",
+      "overall_trust_score": 0.9999999999999999,
+      "security_warnings": []
+    },
+    "communication_analysis": {
+      "communication_type": "personal",
+      "recipient_count": 1,
+      "is_broadcast": false,
+      "is_personal": true,
+      "is_automated": false,
+      "thread_participation": false
+    },
+    "technical_analysis": {
+      "routing_hops": 3,
+      "delivery_delay_estimated": false,
+      "client_info": {},
+      "server_info": {},
+      "encryption_used": true
+    }
+  },
+  "quality_metrics": {
+    "completeness_score": 0.75,
+    "extraction_success_rate": 1.0,
+    "data_integrity_score": 1.0,
+    "overall_quality_score": 0.9000000000000001
+  }
+}

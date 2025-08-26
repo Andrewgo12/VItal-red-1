@@ -1,0 +1,223 @@
+{
+  "unique_id": "email_1_1755795212",
+  "message_id": "<67ab9643.050a0220.33d243.008b.GMR@mx.google.com>",
+  "subject": "Delivery Status Notification (Failure)",
+  "from": [
+    {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    }
+  ],
+  "to": [
+    {
+      "name": "",
+      "email": "kevinrlinze@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date": "2025-02-11T13:26:11",
+  "date_string": "Tue, 11 Feb 2025 10:26:11 -0800 (PST)",
+  "received_date": null,
+  "thread_topic": "",
+  "thread_index": "",
+  "in_reply_to": "<CAO_YAiubdV0VcrzeH1mWbDwd9OPqu2p0MuBm-HOP38T_KFFGjA@mail.gmail.com>",
+  "references": "<CAO_YAiubdV0VcrzeH1mWbDwd9OPqu2p0MuBm-HOP38T_KFFGjA@mail.gmail.com>",
+  "priority": "",
+  "importance": "",
+  "sensitivity": "",
+  "content_type": "multipart/report",
+  "charset": null,
+  "size": 13944,
+  "has_attachments": true,
+  "attachment_count": 1,
+  "attachment_names": [
+    "icon.png"
+  ],
+  "is_multipart": true,
+  "headers": {
+    "Delivered-To": "kevinrlinze@gmail.com",
+    "Received": "by 2002:a05:6000:2ab:b0:38d:d39a:d13c with SMTP id\r\n ffacd0b85a97d-38dea256ee7mr44744f8f.2; Tue, 11 Feb 2025 10:26:11 -0800 (PST)",
+    "X-Received": "by 2002:a05:6000:2ab:b0:38d:d39a:d13c with SMTP id ffacd0b85a97d-38dea256ee7mr47601f8f.2.1739298371596;\r\n        Tue, 11 Feb 2025 10:26:11 -0800 (PST)",
+    "ARC-Seal": "i=1; a=rsa-sha256; t=1739299154; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=ffQk7NjceXEbSkvfd4r+g4C2FOIUU2Tg0GoV/zoDyut3eWjK8VJOmXHDiASgjlXtKu\r\n         qn3UNY/jw1C+bwZX2POXDh8u8POf9sVvQpPwKNm1BXI/VA/wbKavCiqJ4h19wvg7Pbo5\r\n         gJHtr1j6J7Cu/KYLaE4zx9z1j+4eabfigFNJ1ApL+m2d86acQ46go4OsW/wvPbHAxUxJ\r\n         HH1o292GSnhAt3Nm0PDZxU7uYx8oQAczrwuHtKX8C4PHaVmcJ2Hgq8Z6Vo7gFxe3jkEm\r\n         JFjRL5CCG3bKSnfRBpLCOse7OV+v3p1sWgd43iUAN4v3L0/iSv36Oypg++5cLaRQVAJZ\r\n         qxrQ==",
+    "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=in-reply-to:references:subject:from:date:message-id:auto-submitted\r\n         :to:dkim-signature;\r\n        bh=aGLTnuNc/7E884k90AzqbJQoBnPZ2kpoJ2t58thIzaQ=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=OrL3zDVPs56eUJpNXZeZYluN8uUdAAJx/vfYcF54bh9HE6G66LvHl8RHtekiQQp58M\r\n         TLeRcGc1NZw5xf3ls9cLfseJvSOoYPrLp67e30ftab4DD65TcX+qmt6/qKg3VSwO3kFm\r\n         fTibotGAPJcRqrifMinwVq2I/y70gCwNeuAtfKROV2YLcvvLjo+wvToDmlCDSYPwYRr+\r\n         eg3fK6szEu7kMDvj7fRE7yrQVAasrl3lDwnePcSUoVa2+xVhPtQk+or1+c77tZHG1I2f\r\n         RHbmzxZVtvw1PZf3AEhNA0jKjii0fxexLx7zuxkad3dOZ/X2ppORk7iXe5zNJQ88CO4p\r\n         aijA==;\r\n        dara=google.com",
+    "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@googlemail.com header.s=20230601 header.b=P7HxLFgq;\r\n       spf=none (google.com: postmaster@mail-sor-f69.google.com does not designate permitted sender hosts) smtp.helo=mail-sor-f69.google.com;\r\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=googlemail.com;\r\n       dara=pass header.i=@gmail.com",
+    "Return-Path": "<>",
+    "Received-SPF": "none (google.com: postmaster@mail-sor-f69.google.com does not designate permitted sender hosts) client-ip=209.85.220.69;",
+    "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@googlemail.com header.s=20230601 header.b=P7HxLFgq;\r\n       spf=none (google.com: postmaster@mail-sor-f69.google.com does not designate permitted sender hosts) smtp.helo=mail-sor-f69.google.com;\r\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=googlemail.com;\r\n       dara=pass header.i=@gmail.com",
+    "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=googlemail.com; s=20230601; t=1739299154; x=1739903954; dara=google.com;\r\n        h=in-reply-to:references:subject:from:date:message-id:auto-submitted\r\n         :to:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=aGLTnuNc/7E884k90AzqbJQoBnPZ2kpoJ2t58thIzaQ=;\r\n        b=P7HxLFgqJBvrMBSezPEvrW4LL42cqcYKmuKGHkZa8hdSsXI0Hjn/zr4uhhwEoIFulq\r\n         dXwl741NLB3IphxlCSCZnMvbsrsOHkxeWOSyHj5cxgS3ANIbqtDGxszIW/bSVoNbpy1S\r\n         59cB2Hxqn2dwh4WyL0d/DQgrfUhk+90nmmDL/wNP0XulC0YzOIPp7dQIAosQxSO1KGGm\r\n         wuMYbfRMim0SzOh4N9yTi/h3pPF1ukmqMNeRfq64WW7MUZXYIvu9GUyt+CpKGIWoNn/u\r\n         Se65F/l9j9vT6rpXMh8MTrwFwHo8vNQyUDQveMg4v15Gs9OAawIu9T1y0QHbXSnq5jZh\r\n         PvYA==",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1739299154; x=1739903954;\r\n        h=in-reply-to:references:subject:from:date:message-id:auto-submitted\r\n         :to:x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=aGLTnuNc/7E884k90AzqbJQoBnPZ2kpoJ2t58thIzaQ=;\r\n        b=Bnz5y3hipwe/mk7GjohJXIRWvS/uiJnkeLpEMptIJYLj/0kr0oZ19zt6oENrj7T5VU\r\n         wr4CSICEGMksdPauBzmh/7I+Fn0jxGKiAC7BeADdAejf+cVk/ntbBSISeLJ5cW94KVfm\r\n         4lEaTcCQte+Vl8Qou9Y9axh3eX0XvaqUhjtOvRP1bCC/pP6kbIg3+MiY2ctyJjxSmLjW\r\n         xG75J0lvi9GB/slFPDqR8bQs/65OoDXdC/DQoFvRLYf4yRY3EjYX+PE8D3hU8g26+3ms\r\n         pw4yEv8Kw3lQEEtwPQhUXc2E/jxCd3eUQWDWJs66Sz6PRJMyGV9O+p6m+dhMPLsvI+8o\r\n         9Urw==",
+    "X-Gm-Message-State": "AOJu0Yx17KFn9h/Xvmfmv9GbGcQNgs8IdU2Snu8EgVW5KzNexmAkc3nK\r\n\tnvdoMYbmN7sdQEtE10zXHE39sNZhIs26VJvcBmmdQvL3eISeZlI1YZQiA7GdQYH8cMpw/wcIyBx\r\n\tqIrhp65lHLnU7yrAqFOeSPzqc5QhUBI8dotDlaIZ7l9JknEh/nXkExg==",
+    "X-Google-Smtp-Source": "AGHT+IFPb3skpPJA602u+VQQd/vZ7Xoc4YzE1/4H4nC/tZIsnVell8nfIfYmakuVd4ZqtDsVohRTkSvEa/QTAwhj+s5a0RHbs0clrAs=",
+    "Content-Type": "multipart/report; boundary=\"00000000000098d250062de1f581\"; report-type=delivery-status",
+    "To": "kevinrlinze@gmail.com",
+    "Auto-Submitted": "auto-replied",
+    "Message-ID": "<67ab9643.050a0220.33d243.008b.GMR@mx.google.com>",
+    "Date": "Tue, 11 Feb 2025 10:26:11 -0800 (PST)",
+    "From": "Mail Delivery Subsystem <mailer-daemon@googlemail.com>",
+    "Subject": "Delivery Status Notification (Failure)",
+    "References": "<CAO_YAiubdV0VcrzeH1mWbDwd9OPqu2p0MuBm-HOP38T_KFFGjA@mail.gmail.com>",
+    "In-Reply-To": "<CAO_YAiubdV0VcrzeH1mWbDwd9OPqu2p0MuBm-HOP38T_KFFGjA@mail.gmail.com>",
+    "X-Failed-Recipients": "educacion.epccali@inpec.goov.co"
+  },
+  "extraction_timestamp": "2025-08-21T11:53:32.992084",
+  "received_headers": [
+    "by 2002:a05:6000:1814:b0:38d:c57e:3a1b with SMTP id m20csp369327wrh;\r\n        Tue, 11 Feb 2025 10:39:15 -0800 (PST)",
+    "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id a640c23a62f3a-ab7d77c5222sor174232166b.7.2025.02.11.10.39.14\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Tue, 11 Feb 2025 10:39:14 -0800 (PST)",
+    "by 2002:a05:6000:2ab:b0:38d:d39a:d13c with SMTP id\r\n ffacd0b85a97d-38dea256ee7mr44744f8f.2; Tue, 11 Feb 2025 10:26:11 -0800 (PST)"
+  ],
+  "x_headers": {
+    "X-Received": "by 2002:a05:6000:2ab:b0:38d:d39a:d13c with SMTP id ffacd0b85a97d-38dea256ee7mr47601f8f.2.1739298371596;\r\n        Tue, 11 Feb 2025 10:26:11 -0800 (PST)",
+    "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1739299154; x=1739903954;\r\n        h=in-reply-to:references:subject:from:date:message-id:auto-submitted\r\n         :to:x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=aGLTnuNc/7E884k90AzqbJQoBnPZ2kpoJ2t58thIzaQ=;\r\n        b=Bnz5y3hipwe/mk7GjohJXIRWvS/uiJnkeLpEMptIJYLj/0kr0oZ19zt6oENrj7T5VU\r\n         wr4CSICEGMksdPauBzmh/7I+Fn0jxGKiAC7BeADdAejf+cVk/ntbBSISeLJ5cW94KVfm\r\n         4lEaTcCQte+Vl8Qou9Y9axh3eX0XvaqUhjtOvRP1bCC/pP6kbIg3+MiY2ctyJjxSmLjW\r\n         xG75J0lvi9GB/slFPDqR8bQs/65OoDXdC/DQoFvRLYf4yRY3EjYX+PE8D3hU8g26+3ms\r\n         pw4yEv8Kw3lQEEtwPQhUXc2E/jxCd3eUQWDWJs66Sz6PRJMyGV9O+p6m+dhMPLsvI+8o\r\n         9Urw==",
+    "X-Gm-Message-State": "AOJu0Yx17KFn9h/Xvmfmv9GbGcQNgs8IdU2Snu8EgVW5KzNexmAkc3nK\r\n\tnvdoMYbmN7sdQEtE10zXHE39sNZhIs26VJvcBmmdQvL3eISeZlI1YZQiA7GdQYH8cMpw/wcIyBx\r\n\tqIrhp65lHLnU7yrAqFOeSPzqc5QhUBI8dotDlaIZ7l9JknEh/nXkExg==",
+    "X-Google-Smtp-Source": "AGHT+IFPb3skpPJA602u+VQQd/vZ7Xoc4YzE1/4H4nC/tZIsnVell8nfIfYmakuVd4ZqtDsVohRTkSvEa/QTAwhj+s5a0RHbs0clrAs=",
+    "X-Failed-Recipients": "educacion.epccali@inpec.goov.co"
+  },
+  "delivery_receipt": "",
+  "read_receipt": "",
+  "thread_info": {
+    "message_id": "<67ab9643.050a0220.33d243.008b.GMR@mx.google.com>",
+    "in_reply_to": "<CAO_YAiubdV0VcrzeH1mWbDwd9OPqu2p0MuBm-HOP38T_KFFGjA@mail.gmail.com>",
+    "references": [
+      "CAO_YAiubdV0VcrzeH1mWbDwd9OPqu2p0MuBm-HOP38T_KFFGjA@mail.gmail.com"
+    ],
+    "thread_topic": "",
+    "thread_index": "",
+    "is_reply": true,
+    "is_forward": false
+  },
+  "security_info": {
+    "spf_result": "none (google.com: postmaster@mail-sor-f69.google.com does not designate permitted sender hosts) client-ip=209.85.220.69;",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=googlemail.com; s=20230601; t=1739299154; x=1739903954; dara=google.com;\r\n        h=in-reply-to:references:subject:from:date:message-id:auto-submitted\r\n         :to:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=aGLTnuNc/7E884k90AzqbJQoBnPZ2kpoJ2t58thIzaQ=;\r\n        b=P7HxLFgqJBvrMBSezPEvrW4LL42cqcYKmuKGHkZa8hdSsXI0Hjn/zr4uhhwEoIFulq\r\n         dXwl741NLB3IphxlCSCZnMvbsrsOHkxeWOSyHj5cxgS3ANIbqtDGxszIW/bSVoNbpy1S\r\n         59cB2Hxqn2dwh4WyL0d/DQgrfUhk+90nmmDL/wNP0XulC0YzOIPp7dQIAosQxSO1KGGm\r\n         wuMYbfRMim0SzOh4N9yTi/h3pPF1ukmqMNeRfq64WW7MUZXYIvu9GUyt+CpKGIWoNn/u\r\n         Se65F/l9j9vT6rpXMh8MTrwFwHo8vNQyUDQveMg4v15Gs9OAawIu9T1y0QHbXSnq5jZh\r\n         PvYA==",
+    "dmarc_result": "",
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@googlemail.com header.s=20230601 header.b=P7HxLFgq;\r\n       spf=none (google.com: postmaster@mail-sor-f69.google.com does not designate permitted sender hosts) smtp.helo=mail-sor-f69.google.com;\r\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=googlemail.com;\r\n       dara=pass header.i=@gmail.com",
+    "received_spf": "",
+    "arc_authentication_results": [
+      "i=1; mx.google.com;\r\n       dkim=pass header.i=@googlemail.com header.s=20230601 header.b=P7HxLFgq;\r\n       spf=none (google.com: postmaster@mail-sor-f69.google.com does not designate permitted sender hosts) smtp.helo=mail-sor-f69.google.com;\r\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=googlemail.com;\r\n       dara=pass header.i=@gmail.com"
+    ],
+    "message_security": "high"
+  },
+  "routing_info": {
+    "received_headers": [
+      "by 2002:a05:6000:1814:b0:38d:c57e:3a1b with SMTP id m20csp369327wrh;\r\n        Tue, 11 Feb 2025 10:39:15 -0800 (PST)",
+      "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id a640c23a62f3a-ab7d77c5222sor174232166b.7.2025.02.11.10.39.14\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Tue, 11 Feb 2025 10:39:14 -0800 (PST)",
+      "by 2002:a05:6000:2ab:b0:38d:d39a:d13c with SMTP id\r\n ffacd0b85a97d-38dea256ee7mr44744f8f.2; Tue, 11 Feb 2025 10:26:11 -0800 (PST)"
+    ],
+    "delivery_path": [
+      "mail-sor-f69.google.com"
+    ],
+    "total_hops": 3,
+    "delivery_delay": null,
+    "original_sender_ip": "",
+    "final_recipient": ""
+  },
+  "content_analysis": {
+    "is_multipart": true,
+    "main_content_type": "multipart/report",
+    "charset": null,
+    "content_parts": [
+      {
+        "content_type": "multipart/report",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 3
+      },
+      {
+        "content_type": "multipart/related",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "multipart/alternative",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 600
+      },
+      {
+        "content_type": "text/html",
+        "charset": "utf-8",
+        "disposition": null,
+        "filename": null,
+        "size": 1894
+      },
+      {
+        "content_type": "image/png",
+        "charset": null,
+        "disposition": "attachment",
+        "filename": "icon.png",
+        "size": 1986
+      },
+      {
+        "content_type": "message/delivery-status",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 2
+      },
+      {
+        "content_type": "text/plain",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 0
+      },
+      {
+        "content_type": "text/plain",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 0
+      },
+      {
+        "content_type": "message/rfc822",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 1
+      },
+      {
+        "content_type": "multipart/mixed",
+        "charset": null,
+        "disposition": null,
+        "filename": null,
+        "size": 31
+      }
+    ],
+    "has_html": true,
+    "has_plain_text": true,
+    "has_attachments": true,
+    "has_inline_images": false,
+    "total_parts": 11
+  },
+  "priority_info": {
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "precedence": "",
+    "urgency": "normal",
+    "delivery_receipt_requested": false,
+    "read_receipt_requested": false
+  },
+  "body_preview": "** No se ha encontrado la dirección ** Tu mensaje no se ha entregado a educacion.epccali@inpec.goov.co porque no se ha encontrado el dominio inpec.goov.co. Comprueba que no haya erratas ni espacios innecesarios y vuelve a intentarlo. Encontrarás más información en el siguiente enlace: https://suppor...",
+  "content_stats": {
+    "total_recipients": 1,
+    "subject_length": 38,
+    "has_thread_info": true,
+    "estimated_read_time": 1
+  },
+  "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@googlemail.com header.s=20230601 header.b=P7HxLFgq;\r\n       spf=none (google.com: postmaster@mail-sor-f69.google.com does not designate permitted sender hosts) smtp.helo=mail-sor-f69.google.com;\r\n       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=googlemail.com;\r\n       dara=pass header.i=@gmail.com",
+  "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=googlemail.com; s=20230601; t=1739299154; x=1739903954; dara=google.com;\r\n        h=in-reply-to:references:subject:from:date:message-id:auto-submitted\r\n         :to:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=aGLTnuNc/7E884k90AzqbJQoBnPZ2kpoJ2t58thIzaQ=;\r\n        b=P7HxLFgqJBvrMBSezPEvrW4LL42cqcYKmuKGHkZa8hdSsXI0Hjn/zr4uhhwEoIFulq\r\n         dXwl741NLB3IphxlCSCZnMvbsrsOHkxeWOSyHj5cxgS3ANIbqtDGxszIW/bSVoNbpy1S\r\n         59cB2Hxqn2dwh4WyL0d/DQgrfUhk+90nmmDL/wNP0XulC0YzOIPp7dQIAosQxSO1KGGm\r\n         wuMYbfRMim0SzOh4N9yTi/h3pPF1ukmqMNeRfq64WW7MUZXYIvu9GUyt+CpKGIWoNn/u\r\n         Se65F/l9j9vT6rpXMh8MTrwFwHo8vNQyUDQveMg4v15Gs9OAawIu9T1y0QHbXSnq5jZh\r\n         PvYA==",
+  "spf_result": "none (google.com: postmaster@mail-sor-f69.google.com does not designate permitted sender hosts) client-ip=209.85.220.69;"
+}

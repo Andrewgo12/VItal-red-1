@@ -1,0 +1,275 @@
+{
+  "email_info": {
+    "unique_id": "email_62_1755795240",
+    "processing_timestamp": "2025-08-21T11:54:00.742811",
+    "schema_version": "1.0"
+  },
+  "metadata": {
+    "unique_id": "email_62_1755795240",
+    "message_id": "<reqId=df6c3c50004f452882%reqId%nXlDm6VMBOK09qMr7YdGUXeM@google.com>",
+    "subject": "[#df6c3c50004f452882] Quota Increase Request [ref:nXlDm6VMBOK09qMr7YdGUXeM:ref]",
+    "from": [
+      {
+        "name": "",
+        "email": "cloudquota@google.com"
+      }
+    ],
+    "to": [
+      {
+        "name": "",
+        "email": "kevinrlinze@gmail.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "reply_to": [
+      {
+        "name": "",
+        "email": "cloudquota@google.com"
+      }
+    ],
+    "date": "2025-02-20T12:51:01",
+    "date_string": "Thu, 20 Feb 2025 17:51:01 +0000",
+    "received_date": null,
+    "thread_topic": "",
+    "thread_index": "",
+    "in_reply_to": "",
+    "references": "",
+    "priority": "",
+    "importance": "",
+    "sensitivity": "",
+    "content_type": "multipart/alternative",
+    "charset": null,
+    "size": 7498,
+    "has_attachments": false,
+    "attachment_count": 0,
+    "attachment_names": [],
+    "is_multipart": true,
+    "headers": {
+      "Delivered-To": "kevinrlinze@gmail.com",
+      "Received": "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id 41be03b00d2f7-adcbe0311absor8336068a12.2.2025.02.20.09.51.01\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 09:51:02 -0800 (PST)",
+      "X-Received": "by 2002:a05:6a02:4982:b0:adc:f6e6:d29e with SMTP id\r\n 41be03b00d2f7-ae6caf94fa7mr8404a12.1.1740073861543; Thu, 20 Feb 2025 09:51:01\r\n -0800 (PST)",
+      "ARC-Seal": "i=1; a=rsa-sha256; t=1740073862; cv=none;\r\n        d=google.com; s=arc-20240605;\r\n        b=FztsLiOacczyBtJX7pfRnXgFzYB2J1x1ZjUXKPVDJ2wHwhIBTQ8G9pc9Qn9rdIYTfl\r\n         JNjaOfHmRkpP6WZrj+4dHcZCSNJ9dW9WZtFdnFS8VyvEHhSbssS7ERQOxK54yi8EXaLm\r\n         IZmNaHjiU44SAvyOVfHCZt7GoRi7CY7L/MlCevz6f3VNM7pKresET7iaAyFVgKR6W5YS\r\n         alqK2g8AnuoqkvvEnEtajmyrydTpu2PjqG8sxKyveZBvahFybqfK4KrltxmrGWCwIhKd\r\n         tbVYY8JdACpLCy0som6oz/UNbltxE1AVhFsRkoj4HWxY/e5Cwcnom4C9wtbRQ3qYQkFA\r\n         8icg==",
+      "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version\r\n         :dkim-signature;\r\n        bh=8awIoYg5yWQ37sOlguYuvDEVGxpRKMnMGfQ0guADu7w=;\r\n        fh=uZAs7uYqzPH1ykEyBYOU9SIAeY0oJsejq8BE0/aX2/o=;\r\n        b=c80i80fdCdFVOOkzobGZwjEK1FHTFel8Vl7cYxnJHW7c4dxNTcdVhTKx4GJv9ChNXu\r\n         1RIyc78fxZD/J0P62t7ItcKgSR0hqsD3QOUBaIaRyouNfW2QN3GIu4ixvXtu+TrzYjKI\r\n         JHX1QaHqxJH7fsclB2Nf9P66KEywQe2aHoGlvUv8Z8bEQ3qH/sOLt6H1N7K3vwd6V2pw\r\n         petYkpsRmAt7v9/MmlCSiy1vqQnqQCOdcHcPRRjoICL69qjOPkeP1JQ0rpIxAUsFU8vg\r\n         OzGIkvC2VUo5p8pwt3+REkVzA+XqkcgvO+AvruM1Lrpa4vrDMaVYy3Cgfq3wrpnZO+uB\r\n         BqKQ==;\r\n        dara=google.com",
+      "ARC-Authentication-Results": "i=1; mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=LD3itet4;\r\n       spf=pass (google.com: domain of 3hwu3zwokc34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3hWu3ZwoKC34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+      "Return-Path": "<3hWu3ZwoKC34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com>",
+      "Received-SPF": "pass (google.com: domain of 3hwu3zwokc34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;",
+      "Authentication-Results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=LD3itet4;\r\n       spf=pass (google.com: domain of 3hwu3zwokc34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3hWu3ZwoKC34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+      "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1740073861; x=1740678661; dara=google.com;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version:from:to:cc\r\n         :subject:date:message-id:reply-to;\r\n        bh=8awIoYg5yWQ37sOlguYuvDEVGxpRKMnMGfQ0guADu7w=;\r\n        b=LD3itet4VTKj1sSPi6OIATTs/wv67Cpq0TKoytdOLEwZstVbRCCbPNwuhjbpIG6m97\r\n         sAkuPCF5lhQ5WaV7sMsqQGBT03zc6shk+8/nVG1/yLACyI6i+WC1eGeZjNILOhiVC8Al\r\n         NRg477Y9zxn3inU1MaWLoEvSt3HebeXhQOEug63wStBMadrAXL+GhKf3rsmijfweTSLR\r\n         3K1DdbdT91iABWh90b/jJ8gl83+72f9zOz51k4HYwnstRt1ODTw7ogJiZwoQEkxBXrgg\r\n         cb6wMljQp6pRiDKM51xtm35dsk6iZvPWpHTT0bqkSn6RJhhB37DwYYTmpPl1GX34Ufb7\r\n         qIpQ==",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740073861; x=1740678661;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version\r\n         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=8awIoYg5yWQ37sOlguYuvDEVGxpRKMnMGfQ0guADu7w=;\r\n        b=rP9C4Z/khysVlGt3IuMmm7Yl21iiPbe3zTHdo0T+SQhzv1OOwwDqggcaGjaf/r8Z4U\r\n         GBxVobcL+7qMRLKLZCynIMCtRRLF/nHsRE/aTeFSP5gDH4GtWn3mqeJJ9oQdDoRlrgPq\r\n         Zmm+DjMa1r7iRPDy4iR0cUtZvPQFjpHT4GaXLrcqcIGu8mWeT9gMc/b+9hz0BB/VngpA\r\n         qiAJeP/a/ZHfffutISs1Y8cBeNL1hSa9IFWS3NbaA9AvoESA2Swh11fOVwf63FPnuV1F\r\n         37WzgnZVF8fZQ1WsQ+v7V8g2aOZ9tqpkw0cFS5qkHv+wcR/bjYOPefbhQpuNW45U/W+I\r\n         qJ/A==",
+      "X-Gm-Message-State": "AOJu0YytlG+FhM4Bx4s34b5L8/Xk3aQ9uBcLmq6v/OLlJ7fYuazLhDAq\r\n\trJMJnxNdtEx/hXeE+X+mIVUvUQ5NtllgXaBh3Om8RNFWqvgs4caS+PitarTy8/nLo9mquy5amis\r\n\tTu9KtAe5mBJep+TR5BVBYe8OO5N/fKNTq9uMeld2fM3cYL0gpd3Vch1YVvfzJV8BrwGj3QLG7CV\r\n\tEQki65l74d8FaViklb6XGySZk+PDkUnJ0+T+A1ZymWtgzLn+e1ADUHNdKk",
+      "X-Google-Smtp-Source": "AGHT+IF6bwN2z/rvK32i6YGBnJaAAb5g1CtnCh1M7WHXXH3Oq/mXTXwlqFGo+BGwqGuEtQQt8FrH3vovokcUchG3yJ62URg6+o4FUme+",
+      "MIME-Version": "1.0",
+      "Reply-To": "cloudquota@google.com",
+      "Message-ID": "<reqId=df6c3c50004f452882%reqId%nXlDm6VMBOK09qMr7YdGUXeM@google.com>",
+      "Date": "Thu, 20 Feb 2025 17:51:01 +0000",
+      "Subject": "[#df6c3c50004f452882] Quota Increase Request [ref:nXlDm6VMBOK09qMr7YdGUXeM:ref]",
+      "From": "cloudquota@google.com",
+      "To": "kevinrlinze@gmail.com",
+      "Content-Type": "multipart/alternative; boundary=\"00000000000066cdf9062e968449\""
+    },
+    "extraction_timestamp": "2025-08-21T11:54:00.735336",
+    "received_headers": [
+      "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp178784wru;\r\n        Thu, 20 Feb 2025 09:51:02 -0800 (PST)",
+      "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id 41be03b00d2f7-adcbe0311absor8336068a12.2.2025.02.20.09.51.01\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 09:51:02 -0800 (PST)"
+    ],
+    "x_headers": {
+      "X-Received": "by 2002:a05:6a02:4982:b0:adc:f6e6:d29e with SMTP id\r\n 41be03b00d2f7-ae6caf94fa7mr8404a12.1.1740073861543; Thu, 20 Feb 2025 09:51:01\r\n -0800 (PST)",
+      "X-Google-DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=1e100.net; s=20230601; t=1740073861; x=1740678661;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version\r\n         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\r\n        bh=8awIoYg5yWQ37sOlguYuvDEVGxpRKMnMGfQ0guADu7w=;\r\n        b=rP9C4Z/khysVlGt3IuMmm7Yl21iiPbe3zTHdo0T+SQhzv1OOwwDqggcaGjaf/r8Z4U\r\n         GBxVobcL+7qMRLKLZCynIMCtRRLF/nHsRE/aTeFSP5gDH4GtWn3mqeJJ9oQdDoRlrgPq\r\n         Zmm+DjMa1r7iRPDy4iR0cUtZvPQFjpHT4GaXLrcqcIGu8mWeT9gMc/b+9hz0BB/VngpA\r\n         qiAJeP/a/ZHfffutISs1Y8cBeNL1hSa9IFWS3NbaA9AvoESA2Swh11fOVwf63FPnuV1F\r\n         37WzgnZVF8fZQ1WsQ+v7V8g2aOZ9tqpkw0cFS5qkHv+wcR/bjYOPefbhQpuNW45U/W+I\r\n         qJ/A==",
+      "X-Gm-Message-State": "AOJu0YytlG+FhM4Bx4s34b5L8/Xk3aQ9uBcLmq6v/OLlJ7fYuazLhDAq\r\n\trJMJnxNdtEx/hXeE+X+mIVUvUQ5NtllgXaBh3Om8RNFWqvgs4caS+PitarTy8/nLo9mquy5amis\r\n\tTu9KtAe5mBJep+TR5BVBYe8OO5N/fKNTq9uMeld2fM3cYL0gpd3Vch1YVvfzJV8BrwGj3QLG7CV\r\n\tEQki65l74d8FaViklb6XGySZk+PDkUnJ0+T+A1ZymWtgzLn+e1ADUHNdKk",
+      "X-Google-Smtp-Source": "AGHT+IF6bwN2z/rvK32i6YGBnJaAAb5g1CtnCh1M7WHXXH3Oq/mXTXwlqFGo+BGwqGuEtQQt8FrH3vovokcUchG3yJ62URg6+o4FUme+"
+    },
+    "delivery_receipt": "",
+    "read_receipt": "",
+    "thread_info": {
+      "message_id": "<reqId=df6c3c50004f452882%reqId%nXlDm6VMBOK09qMr7YdGUXeM@google.com>",
+      "in_reply_to": "",
+      "references": [],
+      "thread_topic": "",
+      "thread_index": "",
+      "is_reply": false,
+      "is_forward": false
+    },
+    "security_info": {
+      "spf_result": "pass (google.com: domain of 3hwu3zwokc34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;",
+      "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1740073861; x=1740678661; dara=google.com;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version:from:to:cc\r\n         :subject:date:message-id:reply-to;\r\n        bh=8awIoYg5yWQ37sOlguYuvDEVGxpRKMnMGfQ0guADu7w=;\r\n        b=LD3itet4VTKj1sSPi6OIATTs/wv67Cpq0TKoytdOLEwZstVbRCCbPNwuhjbpIG6m97\r\n         sAkuPCF5lhQ5WaV7sMsqQGBT03zc6shk+8/nVG1/yLACyI6i+WC1eGeZjNILOhiVC8Al\r\n         NRg477Y9zxn3inU1MaWLoEvSt3HebeXhQOEug63wStBMadrAXL+GhKf3rsmijfweTSLR\r\n         3K1DdbdT91iABWh90b/jJ8gl83+72f9zOz51k4HYwnstRt1ODTw7ogJiZwoQEkxBXrgg\r\n         cb6wMljQp6pRiDKM51xtm35dsk6iZvPWpHTT0bqkSn6RJhhB37DwYYTmpPl1GX34Ufb7\r\n         qIpQ==",
+      "dmarc_result": "",
+      "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=LD3itet4;\r\n       spf=pass (google.com: domain of 3hwu3zwokc34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3hWu3ZwoKC34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+      "received_spf": "",
+      "arc_authentication_results": [
+        "i=1; mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=LD3itet4;\r\n       spf=pass (google.com: domain of 3hwu3zwokc34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3hWu3ZwoKC34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com"
+      ],
+      "message_security": "high"
+    },
+    "routing_info": {
+      "received_headers": [
+        "by 2002:adf:a184:0:b0:38d:c57e:3a1b with SMTP id u4csp178784wru;\r\n        Thu, 20 Feb 2025 09:51:02 -0800 (PST)",
+        "from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])\r\n        by mx.google.com with SMTPS id 41be03b00d2f7-adcbe0311absor8336068a12.2.2025.02.20.09.51.01\r\n        for <kevinrlinze@gmail.com>\r\n        (Google Transport Security);\r\n        Thu, 20 Feb 2025 09:51:02 -0800 (PST)"
+      ],
+      "delivery_path": [
+        "mail-sor-f69.google.com"
+      ],
+      "total_hops": 2,
+      "delivery_delay": null,
+      "original_sender_ip": "209.85.220.69",
+      "final_recipient": ""
+    },
+    "content_analysis": {
+      "is_multipart": true,
+      "main_content_type": "multipart/alternative",
+      "charset": null,
+      "content_parts": [
+        {
+          "content_type": "multipart/alternative",
+          "charset": null,
+          "disposition": null,
+          "filename": null,
+          "size": 2
+        },
+        {
+          "content_type": "text/plain",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 820
+        },
+        {
+          "content_type": "text/html",
+          "charset": "utf-8",
+          "disposition": null,
+          "filename": null,
+          "size": 831
+        }
+      ],
+      "has_html": true,
+      "has_plain_text": true,
+      "has_attachments": false,
+      "has_inline_images": false,
+      "total_parts": 3
+    },
+    "priority_info": {
+      "priority": "",
+      "importance": "",
+      "sensitivity": "",
+      "precedence": "",
+      "urgency": "normal",
+      "delivery_receipt_requested": false,
+      "read_receipt_requested": false
+    },
+    "body_preview": "Hello, Thank you for contacting Google Cloud Support. This message is to confirm that we've received your quota request for project 'double-goal-440313-r5'. Quota increase requests typically take two business days to process. If this quota request is very urgent, please respond to this message so th...",
+    "content_stats": {
+      "total_recipients": 1,
+      "subject_length": 79,
+      "has_thread_info": false,
+      "estimated_read_time": 1
+    },
+    "authentication_results": "mx.google.com;\r\n       dkim=pass header.i=@google.com header.s=20230601 header.b=LD3itet4;\r\n       spf=pass (google.com: domain of 3hwu3zwokc34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3hWu3ZwoKC34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com;\r\n       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;\r\n       dara=pass header.i=@gmail.com",
+    "dkim_signature": "v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20230601; t=1740073861; x=1740678661; dara=google.com;\r\n        h=to:from:subject:date:message-id:reply-to:mime-version:from:to:cc\r\n         :subject:date:message-id:reply-to;\r\n        bh=8awIoYg5yWQ37sOlguYuvDEVGxpRKMnMGfQ0guADu7w=;\r\n        b=LD3itet4VTKj1sSPi6OIATTs/wv67Cpq0TKoytdOLEwZstVbRCCbPNwuhjbpIG6m97\r\n         sAkuPCF5lhQ5WaV7sMsqQGBT03zc6shk+8/nVG1/yLACyI6i+WC1eGeZjNILOhiVC8Al\r\n         NRg477Y9zxn3inU1MaWLoEvSt3HebeXhQOEug63wStBMadrAXL+GhKf3rsmijfweTSLR\r\n         3K1DdbdT91iABWh90b/jJ8gl83+72f9zOz51k4HYwnstRt1ODTw7ogJiZwoQEkxBXrgg\r\n         cb6wMljQp6pRiDKM51xtm35dsk6iZvPWpHTT0bqkSn6RJhhB37DwYYTmpPl1GX34Ufb7\r\n         qIpQ==",
+    "spf_result": "pass (google.com: domain of 3hwu3zwokc34enqwfswqvciqqing.eqomgxkptnkp1giockn.eqo@quota-orchestration-platform.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;"
+  },
+  "content": {
+    "body": {
+      "text": "Hello,\n\nThank you for contacting Google Cloud Support.\n\nThis message is to confirm that we've received your quota request for \nproject 'double-goal-440313-r5'. Quota increase requests typically take two \nbusiness days to process. If this quota request is very urgent, please \nrespond to this message so that our support agents can have full context \nwhen processing your quota increase request.\n\nWhile we make every effort to provide you with a resolution to your case \nwithin two business days, please understand that some of the quota increase \nrequests may require further evaluation which takes additional time.\n\nIf you have any further information and clarification you would like to \ninclude in your request, please feel free to reply to this message.\n\nBest regards,\nGoogle Cloud Support",
+      "html": "<pre>Hello,\r\n\r\nThank you for contacting Google Cloud Support.\r\n\r\nThis message is to confirm that we've received your quota request for project 'double-goal-440313-r5'. Quota increase requests typically take two business days to process. If this quota request is very urgent, please respond to this message so that our support agents can have full context when processing your quota increase request.\r\n\r\nWhile we make every effort to provide you with a resolution to your case within two business days, please understand that some of the quota increase requests may require further evaluation which takes additional time.\r\n\r\nIf you have any further information and clarification you would like to include in your request, please feel free to reply to this message.\r\n\r\nBest regards,\r\nGoogle Cloud Support\r\n</pre>\n",
+      "raw": ""
+    },
+    "extracted_text": {
+      "email_body": {
+        "text": "Hello,\n\nThank you for contacting Google Cloud Support.\n\nThis message is to confirm that we've received your quota request for \nproject 'double-goal-440313-r5'. Quota increase requests typically take two \nbusiness days to process. If this quota request is very urgent, please \nrespond to this message so that our support agents can have full context \nwhen processing your quota increase request.\n\nWhile we make every effort to provide you with a resolution to your case \nwithin two business days, please understand that some of the quota increase \nrequests may require further evaluation which takes additional time.\n\nIf you have any further information and clarification you would like to \ninclude in your request, please feel free to reply to this message.\n\nBest regards,\nGoogle Cloud Support",
+        "html": "<pre>Hello,\r\n\r\nThank you for contacting Google Cloud Support.\r\n\r\nThis message is to confirm that we've received your quota request for project 'double-goal-440313-r5'. Quota increase requests typically take two business days to process. If this quota request is very urgent, please respond to this message so that our support agents can have full context when processing your quota increase request.\r\n\r\nWhile we make every effort to provide you with a resolution to your case within two business days, please understand that some of the quota increase requests may require further evaluation which takes additional time.\r\n\r\nIf you have any further information and clarification you would like to include in your request, please feel free to reply to this message.\r\n\r\nBest regards,\r\nGoogle Cloud Support\r\n</pre>\n",
+        "raw": ""
+      },
+      "attachments": []
+    }
+  },
+  "attachments": {
+    "count": 0,
+    "total_size_bytes": 0,
+    "files": []
+  },
+  "statistics": {
+    "text_length": {
+      "body_text": 793,
+      "body_html": 811,
+      "total_extracted_text": 0
+    },
+    "attachments": {
+      "total_count": 0,
+      "by_category": {},
+      "by_type": {},
+      "total_size_bytes": 0,
+      "largest_file": null,
+      "smallest_file": null
+    },
+    "recipients": {
+      "to_count": 1,
+      "cc_count": 0,
+      "bcc_count": 0,
+      "total_recipients": 1
+    },
+    "headers": {
+      "total_headers": 21,
+      "x_headers_count": 4
+    }
+  },
+  "processing_info": {
+    "extraction_successful": true,
+    "errors": [],
+    "warnings": [],
+    "processing_time": 0.01426839828491211,
+    "extraction_method": "imap_direct",
+    "retry_count": 0
+  },
+  "analysis": {
+    "content_analysis": {
+      "content_type": "html",
+      "language_detected": "en",
+      "sentiment": "neutral",
+      "urgency_indicators": [
+        "urgent"
+      ],
+      "topics": [],
+      "contains_links": false,
+      "contains_images": false,
+      "text_quality": "good"
+    },
+    "attachment_analysis": {
+      "total_count": 0,
+      "total_size_mb": 0,
+      "risk_assessment": "low",
+      "file_types": {},
+      "suspicious_files": [],
+      "encrypted_files": [],
+      "large_files": []
+    },
+    "security_analysis": {
+      "authentication_status": "unknown",
+      "spf_status": "pass",
+      "dkim_status": "pass",
+      "dmarc_status": "pass",
+      "overall_trust_score": 0.9999999999999999,
+      "security_warnings": []
+    },
+    "communication_analysis": {
+      "communication_type": "personal",
+      "recipient_count": 1,
+      "is_broadcast": false,
+      "is_personal": true,
+      "is_automated": false,
+      "thread_participation": false
+    },
+    "technical_analysis": {
+      "routing_hops": 2,
+      "delivery_delay_estimated": false,
+      "client_info": {},
+      "server_info": {},
+      "encryption_used": false
+    }
+  },
+  "quality_metrics": {
+    "completeness_score": 0.75,
+    "extraction_success_rate": 1.0,
+    "data_integrity_score": 1.0,
+    "overall_quality_score": 0.9000000000000001
+  }
+}

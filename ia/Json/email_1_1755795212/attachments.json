@@ -1,0 +1,54 @@
+{
+  "count": 1,
+  "total_size_bytes": 1450,
+  "files": [
+    {
+      "original_filename": "icon.png",
+      "saved_filename": "icon.png",
+      "file_path": "C:\\Users\\Soporte\\Desktop\\code}\\vital-red-system\\ia\\Imagenes\\email_1_1755795212\\icon.png",
+      "relative_path": "Imagenes\\email_1_1755795212\\icon.png",
+      "content_type": "image/png",
+      "category": "image",
+      "size_bytes": 1450,
+      "size_human": "1.4 KB",
+      "md5_hash": "f0fca727b15b1ca91a2c74958fbe0a3d",
+      "attachment_index": 0,
+      "saved_successfully": true,
+      "security_analysis": {
+        "risk_level": "low",
+        "potential_threats": [],
+        "file_signature_valid": true,
+        "suspicious_extensions": false,
+        "encrypted": false,
+        "macro_enabled": false
+      },
+      "file_metadata": {
+        "file_stats": {
+          "size_bytes": 1450,
+          "creation_time": "2025-08-21T11:53:32.999677",
+          "modification_time": "2025-08-21T11:53:32.999677",
+          "access_time": "2025-08-21T11:53:33.011474",
+          "permissions": "666",
+          "inode": 1125899907341890
+        },
+        "creation_time": null,
+        "modification_time": null,
+        "access_time": null,
+        "permissions": "",
+        "owner": "",
+        "file_type_details": {},
+        "embedded_metadata": {
+          "format": "PNG",
+          "mode": "RGBA",
+          "size": [
+            144,
+            144
+          ],
+          "exif": {}
+        }
+      },
+      "processing_timestamp": "2025-08-21T11:53:33.055984",
+      "extracted_text": ""
+    }
+  ]
+}
