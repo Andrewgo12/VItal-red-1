@@ -149,7 +149,7 @@ class GeminiAIService
     public function analyzePatientDocument(string $text): array
     {
         $prompt = $this->buildAnalysisPrompt($text);
-        
+
         $maxRetries = count($this->apiKeys);
         $attempt = 0;
 
@@ -157,14 +157,14 @@ class GeminiAIService
             try {
                 $apiKey = $this->getNextApiKey();
                 $response = $this->callGeminiAPI($prompt, $apiKey);
-                
+
                 if ($response) {
                     return $this->parseGeminiResponse($response);
                 }
             } catch (\Exception $e) {
                 Log::warning("Error con API key {$attempt}: " . $e->getMessage());
                 $attempt++;
-                
+
                 if ($attempt >= $maxRetries) {
                     throw new \Exception("Todas las API keys fallaron. Último error: " . $e->getMessage());
                 }
@@ -246,12 +246,12 @@ class GeminiAIService
     {
         // Limpiar la respuesta de posibles caracteres extra
         $response = trim($response);
-        
+
         // Buscar JSON en la respuesta
         if (preg_match('/\{.*\}/s', $response, $matches)) {
             $jsonString = $matches[0];
             $data = json_decode($jsonString, true);
-            
+
             if (json_last_error() === JSON_ERROR_NONE) {
                 return $this->validateAndCleanData($data);
             }
@@ -269,12 +269,12 @@ class GeminiAIService
 
         // Validar tipo_identificacion
         $validTypes = ['cc', 'ti', 'ce', 'pp', 'rc'];
-        $cleanData['tipo_identificacion'] = in_array($data['tipo_identificacion'] ?? '', $validTypes) 
-            ? $data['tipo_identificacion'] 
+        $cleanData['tipo_identificacion'] = in_array($data['tipo_identificacion'] ?? '', $validTypes)
+            ? $data['tipo_identificacion']
             : null;
 
         // Limpiar número de identificación
-        $cleanData['numero_identificacion'] = isset($data['numero_identificacion']) 
+        $cleanData['numero_identificacion'] = isset($data['numero_identificacion'])
             ? preg_replace('/[^0-9]/', '', $data['numero_identificacion'])
             : null;
 
@@ -317,10 +317,330 @@ class GeminiAIService
 
         // Validar sexo
         $validSexes = ['masculino', 'femenino', 'otro'];
-        $cleanData['sexo'] = in_array($data['sexo'] ?? '', $validSexes) 
-            ? $data['sexo'] 
+        $cleanData['sexo'] = in_array($data['sexo'] ?? '', $validSexes)
+            ? $data['sexo']
             : null;
 
         return $cleanData;
+    }
+
+    /**
+     * Enhanced medical text analysis with Gemini AI
+     */
+    public function analyzeMedicalText(string $text): array
+    {
+        try {
+            $prompt = $this->buildMedicalAnalysisPrompt($text);
+
+            foreach ($this->apiKeys as $apiKey) {
+                if (empty($apiKey)) continue;
+
+                try {
+                    $response = $this->callGeminiAPI($prompt, $apiKey);
+                    if ($response) {
+                        return $this->parseMedicalAnalysisResponse($response);
+                    }
+                } catch (\Exception $e) {
+                    Log::warning("Error con API key, intentando siguiente: " . $e->getMessage());
+                    continue;
+                }
+            }
+
+            throw new \Exception("Todas las API keys fallaron");
+
+        } catch (\Exception $e) {
+            Log::error('Error en analyzeMedicalText: ' . $e->getMessage());
+            return [
+                'success' => false,
+                'error' => $e->getMessage()
+            ];
+        }
+    }
+
+    /**
+     * Build comprehensive medical analysis prompt
+     */
+    private function buildMedicalAnalysisPrompt(string $text): string
+    {
+        return "Analiza el siguiente texto médico y extrae información clínica detallada en formato JSON.
+
+INSTRUCCIONES ESPECÍFICAS:
+- Extrae TODA la información médica disponible
+- Si no encuentras un dato, usa null
+- Sé preciso con los valores numéricos
+- Identifica el nivel de urgencia del caso
+
+FORMATO JSON REQUERIDO:
+{
+    \"patient_info\": {
+        \"name\": \"string\",
+        \"age\": number,
+        \"gender\": \"masculino|femenino|otro\",
+        \"identification\": \"string\",
+        \"phone\": \"string\"
+    },
+    \"clinical_data\": {
+        \"chief_complaint\": \"string\",
+        \"current_illness\": \"string\",
+        \"medical_history\": \"string\",
+        \"primary_diagnosis\": \"string\",
+        \"secondary_diagnoses\": [\"string\"],
+        \"medications\": [\"string\"],
+        \"allergies\": [\"string\"]
+    },
+    \"vital_signs\": {
+        \"heart_rate\": number,
+        \"respiratory_rate\": number,
+        \"blood_pressure_systolic\": number,
+        \"blood_pressure_diastolic\": number,
+        \"temperature\": number,
+        \"oxygen_saturation\": number,
+        \"glasgow_scale\": \"string\"
+    },
+    \"referral_info\": {
+        \"specialty_requested\": \"string\",
+        \"referral_type\": \"consulta|hospitalizacion|cirugia|urgencia|otro\",
+        \"reason_for_referral\": \"string\",
+        \"urgency_level\": \"Alta|Media|Baja\",
+        \"oxygen_requirement\": \"SI|NO\"
+    },
+    \"institution_info\": {
+        \"referring_institution\": \"string\",
+        \"referring_doctor\": \"string\",
+        \"contact_email\": \"string\",
+        \"contact_phone\": \"string\"
+    },
+    \"temporal_info\": {
+        \"symptom_duration\": \"string\",
+        \"onset_date\": \"string\",
+        \"evolution\": \"string\"
+    },
+    \"severity_indicators\": {
+        \"critical_keywords\": [\"string\"],
+        \"urgency_score\": number,
+        \"priority_justification\": \"string\"
+    }
+}
+
+TEXTO MÉDICO A ANALIZAR:
+" . $text . "
+
+RESPONDE ÚNICAMENTE CON EL JSON, SIN TEXTO ADICIONAL.";
+    }
+
+    /**
+     * Parse medical analysis response from Gemini
+     */
+    private function parseMedicalAnalysisResponse(string $response): array
+    {
+        try {
+            $response = trim($response);
+
+            // Extract JSON from response
+            if (preg_match('/\{.*\}/s', $response, $matches)) {
+                $jsonString = $matches[0];
+                $data = json_decode($jsonString, true);
+
+                if (json_last_error() === JSON_ERROR_NONE) {
+                    return [
+                        'success' => true,
+                        'data' => $this->validateMedicalAnalysisData($data),
+                        'raw_response' => $response
+                    ];
+                }
+            }
+
+            return [
+                'success' => false,
+                'error' => 'No se pudo parsear la respuesta como JSON válido',
+                'raw_response' => $response
+            ];
+
+        } catch (\Exception $e) {
+            return [
+                'success' => false,
+                'error' => $e->getMessage(),
+                'raw_response' => $response
+            ];
+        }
+    }
+
+    /**
+     * Validate and clean medical analysis data
+     */
+    private function validateMedicalAnalysisData(array $data): array
+    {
+        $validated = [
+            'patient_info' => [
+                'name' => $this->cleanString($data['patient_info']['name'] ?? null),
+                'age' => $this->validateAge($data['patient_info']['age'] ?? null),
+                'gender' => $this->validateGender($data['patient_info']['gender'] ?? null),
+                'identification' => $this->cleanString($data['patient_info']['identification'] ?? null),
+                'phone' => $this->cleanString($data['patient_info']['phone'] ?? null)
+            ],
+            'clinical_data' => [
+                'chief_complaint' => $this->cleanString($data['clinical_data']['chief_complaint'] ?? null),
+                'current_illness' => $this->cleanString($data['clinical_data']['current_illness'] ?? null),
+                'medical_history' => $this->cleanString($data['clinical_data']['medical_history'] ?? null),
+                'primary_diagnosis' => $this->cleanString($data['clinical_data']['primary_diagnosis'] ?? null),
+                'secondary_diagnoses' => $this->validateArray($data['clinical_data']['secondary_diagnoses'] ?? []),
+                'medications' => $this->validateArray($data['clinical_data']['medications'] ?? []),
+                'allergies' => $this->validateArray($data['clinical_data']['allergies'] ?? [])
+            ],
+            'vital_signs' => [
+                'heart_rate' => $this->validateVitalSign($data['vital_signs']['heart_rate'] ?? null, 30, 250),
+                'respiratory_rate' => $this->validateVitalSign($data['vital_signs']['respiratory_rate'] ?? null, 5, 60),
+                'blood_pressure_systolic' => $this->validateVitalSign($data['vital_signs']['blood_pressure_systolic'] ?? null, 60, 300),
+                'blood_pressure_diastolic' => $this->validateVitalSign($data['vital_signs']['blood_pressure_diastolic'] ?? null, 30, 200),
+                'temperature' => $this->validateTemperature($data['vital_signs']['temperature'] ?? null),
+                'oxygen_saturation' => $this->validateVitalSign($data['vital_signs']['oxygen_saturation'] ?? null, 50, 100),
+                'glasgow_scale' => $this->cleanString($data['vital_signs']['glasgow_scale'] ?? null)
+            ],
+            'referral_info' => [
+                'specialty_requested' => $this->cleanString($data['referral_info']['specialty_requested'] ?? null),
+                'referral_type' => $this->validateReferralType($data['referral_info']['referral_type'] ?? null),
+                'reason_for_referral' => $this->cleanString($data['referral_info']['reason_for_referral'] ?? null),
+                'urgency_level' => $this->validateUrgencyLevel($data['referral_info']['urgency_level'] ?? null),
+                'oxygen_requirement' => $this->validateYesNo($data['referral_info']['oxygen_requirement'] ?? null)
+            ],
+            'institution_info' => [
+                'referring_institution' => $this->cleanString($data['institution_info']['referring_institution'] ?? null),
+                'referring_doctor' => $this->cleanString($data['institution_info']['referring_doctor'] ?? null),
+                'contact_email' => $this->validateEmail($data['institution_info']['contact_email'] ?? null),
+                'contact_phone' => $this->cleanString($data['institution_info']['contact_phone'] ?? null)
+            ],
+            'temporal_info' => [
+                'symptom_duration' => $this->cleanString($data['temporal_info']['symptom_duration'] ?? null),
+                'onset_date' => $this->cleanString($data['temporal_info']['onset_date'] ?? null),
+                'evolution' => $this->cleanString($data['temporal_info']['evolution'] ?? null)
+            ],
+            'severity_indicators' => [
+                'critical_keywords' => $this->validateArray($data['severity_indicators']['critical_keywords'] ?? []),
+                'urgency_score' => $this->validateScore($data['severity_indicators']['urgency_score'] ?? null),
+                'priority_justification' => $this->cleanString($data['severity_indicators']['priority_justification'] ?? null)
+            ]
+        ];
+
+        return $validated;
+    }
+
+    /**
+     * Helper validation methods
+     */
+    private function cleanString($value): ?string
+    {
+        if (is_string($value)) {
+            $cleaned = trim($value);
+            return empty($cleaned) ? null : $cleaned;
+        }
+        return null;
+    }
+
+    private function validateAge($value): ?int
+    {
+        if (is_numeric($value)) {
+            $age = (int) $value;
+            return ($age >= 0 && $age <= 120) ? $age : null;
+        }
+        return null;
+    }
+
+    private function validateGender($value): ?string
+    {
+        $validGenders = ['masculino', 'femenino', 'otro'];
+        return in_array($value, $validGenders) ? $value : null;
+    }
+
+    private function validateArray($value): array
+    {
+        return is_array($value) ? array_filter($value, 'is_string') : [];
+    }
+
+    private function validateVitalSign($value, $min, $max): ?int
+    {
+        if (is_numeric($value)) {
+            $vital = (int) $value;
+            return ($vital >= $min && $vital <= $max) ? $vital : null;
+        }
+        return null;
+    }
+
+    private function validateTemperature($value): ?float
+    {
+        if (is_numeric($value)) {
+            $temp = (float) $value;
+            return ($temp >= 30.0 && $temp <= 45.0) ? $temp : null;
+        }
+        return null;
+    }
+
+    private function validateReferralType($value): string
+    {
+        $validTypes = ['consulta', 'hospitalizacion', 'cirugia', 'urgencia', 'otro'];
+        return in_array($value, $validTypes) ? $value : 'consulta';
+    }
+
+    private function validateUrgencyLevel($value): string
+    {
+        $validLevels = ['Alta', 'Media', 'Baja'];
+        return in_array($value, $validLevels) ? $value : 'Media';
+    }
+
+    private function validateYesNo($value): string
+    {
+        return in_array($value, ['SI', 'NO']) ? $value : 'NO';
+    }
+
+    private function validateEmail($value): ?string
+    {
+        if (is_string($value) && filter_var($value, FILTER_VALIDATE_EMAIL)) {
+            return $value;
+        }
+        return null;
+    }
+
+    private function validateScore($value): ?float
+    {
+        if (is_numeric($value)) {
+            $score = (float) $value;
+            return ($score >= 0 && $score <= 100) ? $score : null;
+        }
+        return null;
+    }
+
+    /**
+     * Analyze medical document with enhanced AI
+     */
+    public function analyzeMedicalDocument(string $filePath): array
+    {
+        try {
+            // Extract text from document
+            $extractedText = $this->extractTextFromFile($filePath);
+
+            if (empty($extractedText)) {
+                return [
+                    'success' => false,
+                    'error' => 'No se pudo extraer texto del documento'
+                ];
+            }
+
+            // Analyze with enhanced medical AI
+            $analysis = $this->analyzeMedicalText($extractedText);
+
+            if ($analysis['success']) {
+                $analysis['extracted_text'] = $extractedText;
+                $analysis['file_path'] = $filePath;
+                $analysis['analysis_timestamp'] = now()->toISOString();
+            }
+
+            return $analysis;
+
+        } catch (\Exception $e) {
+            Log::error('Error en analyzeMedicalDocument: ' . $e->getMessage());
+            return [
+                'success' => false,
+                'error' => $e->getMessage()
+            ];
+        }
     }
 }
