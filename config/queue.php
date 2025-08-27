@@ -72,6 +72,43 @@ return [
             'after_commit' => false,
         ],
 
+        // Vital Red specific queues
+        'emails' => [
+            'driver' => 'redis',
+            'connection' => env('REDIS_QUEUE_CONNECTION', 'default'),
+            'queue' => 'emails',
+            'retry_after' => 300, // 5 minutes
+            'block_for' => null,
+            'after_commit' => false,
+        ],
+
+        'notifications' => [
+            'driver' => 'redis',
+            'connection' => env('REDIS_QUEUE_CONNECTION', 'default'),
+            'queue' => 'notifications',
+            'retry_after' => 120, // 2 minutes
+            'block_for' => null,
+            'after_commit' => false,
+        ],
+
+        'backups' => [
+            'driver' => 'redis',
+            'connection' => env('REDIS_QUEUE_CONNECTION', 'default'),
+            'queue' => 'backups',
+            'retry_after' => 3600, // 1 hour
+            'block_for' => null,
+            'after_commit' => false,
+        ],
+
+        'ai_processing' => [
+            'driver' => 'redis',
+            'connection' => env('REDIS_QUEUE_CONNECTION', 'default'),
+            'queue' => 'ai_processing',
+            'retry_after' => 600, // 10 minutes
+            'block_for' => null,
+            'after_commit' => false,
+        ],
+
     ],
 
     /*

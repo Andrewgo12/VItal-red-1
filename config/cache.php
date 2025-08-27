@@ -90,6 +90,53 @@ return [
             'driver' => 'octane',
         ],
 
+        // Vital Red specific cache stores
+        'medical_data' => [
+            'driver' => 'redis',
+            'connection' => 'cache',
+            'lock_connection' => 'default',
+            'prefix' => 'medical_',
+        ],
+
+        'ai_cache' => [
+            'driver' => 'redis',
+            'connection' => 'cache',
+            'lock_connection' => 'default',
+            'prefix' => 'ai_',
+        ],
+
+        'metrics' => [
+            'driver' => 'redis',
+            'connection' => 'cache',
+            'lock_connection' => 'default',
+            'prefix' => 'metrics_',
+        ],
+
+        'sessions_cache' => [
+            'driver' => 'redis',
+            'connection' => 'cache',
+            'lock_connection' => 'default',
+            'prefix' => 'sessions_',
+        ],
+
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Cache TTL Settings
+    |--------------------------------------------------------------------------
+    |
+    | Default TTL values for different types of cached data in the medical system.
+    |
+    */
+
+    'ttl' => [
+        'medical_data' => env('CACHE_TTL_MEDICAL', 3600), // 1 hour
+        'ai_analysis' => env('CACHE_TTL_AI', 7200), // 2 hours
+        'metrics' => env('CACHE_TTL_METRICS', 900), // 15 minutes
+        'user_sessions' => env('CACHE_TTL_SESSIONS', 1800), // 30 minutes
+        'reports' => env('CACHE_TTL_REPORTS', 1800), // 30 minutes
+        'system_config' => env('CACHE_TTL_CONFIG', 86400), // 24 hours
     ],
 
     /*
