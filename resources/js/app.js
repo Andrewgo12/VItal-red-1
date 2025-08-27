@@ -1,7 +1,7 @@
 import { createApp, h } from 'vue'
 import { createInertiaApp } from '@inertiajs/vue3'
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers'
-import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m.js'
+// import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m.js'
 import '../css/app.css'
 
 // Global components
@@ -16,23 +16,79 @@ createInertiaApp({
             `./Pages/${name}.vue`,
             import.meta.glob('./Pages/**/*.vue')
         )
-        
+
         // Set default layout for all pages
         page.then((module) => {
             if (!module.default.layout) {
                 module.default.layout = Layout
             }
         })
-        
+
         return page
     },
     setup({ el, App, props, plugin }) {
         const app = createApp({ render: () => h(App, props) })
             .use(plugin)
-            .use(ZiggyVue, Ziggy)
+            // .use(ZiggyVue, Ziggy)
 
         // Global properties
-        app.config.globalProperties.$route = route
+        // Simple route function for development
+        window.route = window.route || function(name, params = {}) {
+            const routes = {
+                'dashboard': '/dashboard',
+                'login': '/login',
+                'logout': '/logout',
+                'register': '/register',
+                'password.request': '/forgot-password',
+                'profile.edit': '/profile',
+                'medico.bandeja-casos': '/medico/bandeja-casos',
+                'medico.casos-urgentes': '/medico/casos-urgentes',
+                'medico.evaluar-solicitud': '/medico/evaluar-solicitud',
+                'solicitudes-medicas.create': '/solicitudes-medicas/create',
+                'admin.users.index': '/admin/users',
+                'admin.reports.index': '/admin/reports',
+                'admin.config': '/admin/config',
+                'admin.system-status': '/admin/system-status',
+                'notifications.index': '/notifications',
+                'notifications.mark-all-read': '/notifications/mark-all-read',
+                'settings.notifications': '/settings/notifications',
+                'settings.appearance': '/settings/appearance'
+            }
+
+            let url = routes[name] || '/'
+
+            // Simple parameter replacement
+            if (params.id) {
+                url = url.replace('{id}', params.id)
+            }
+
+            return url
+        }
+
+        app.config.globalProperties.$route = window.route
+        // Global utility functions
+        window.formatDate = window.formatDate || function(date, format = 'DD/MM/YYYY') {
+            if (!date) return ''
+            const d = new Date(date)
+            return d.toLocaleDateString('es-ES')
+        }
+
+        window.showToast = window.showToast || function(message, type = 'info') {
+            console.log(`Toast [${type}]: ${message}`)
+        }
+
+        window.showConfirm = window.showConfirm || function(title, text) {
+            return Promise.resolve({ isConfirmed: confirm(`${title}\n${text}`) })
+        }
+
+        window.showLoading = window.showLoading || function() {
+            console.log('Loading...')
+        }
+
+        window.hideLoading = window.hideLoading || function() {
+            console.log('Loading finished')
+        }
+
         app.config.globalProperties.$formatDate = window.formatDate
         app.config.globalProperties.$showToast = window.showToast
         app.config.globalProperties.$showConfirm = window.showConfirm
@@ -112,9 +168,9 @@ createInertiaApp({
                 // Handle API errors
                 handleError(error) {
                     console.error('API Error:', error)
-                    
+
                     let message = 'Ha ocurrido un error inesperado'
-                    
+
                     if (error.response) {
                         if (error.response.status === 422) {
                             // Validation errors
@@ -128,7 +184,7 @@ createInertiaApp({
                     } else if (error.message) {
                         message = error.message
                     }
-                    
+
                     this.$showToast(message, 'error')
                 },
 
@@ -235,7 +291,7 @@ createInertiaApp({
         // Global error handler
         app.config.errorHandler = (error, instance, info) => {
             console.error('Vue Error:', error, info)
-            
+
             // Don't show error toast in development
             if (import.meta.env.PROD) {
                 window.showToast('Ha ocurrido un error en la aplicación', 'error')
@@ -276,11 +332,11 @@ window.addEventListener('offline', () => {
 // Handle unhandled promise rejections
 window.addEventListener('unhandledrejection', (event) => {
     console.error('Unhandled promise rejection:', event.reason)
-    
+
     if (import.meta.env.PROD) {
         window.showToast('Error de conexión', 'error')
     }
-    
+
     // Prevent the default browser error handling
     event.preventDefault()
 })
@@ -295,7 +351,7 @@ document.addEventListener('keydown', (event) => {
             searchInput.focus()
         }
     }
-    
+
     // Escape to close modals
     if (event.key === 'Escape') {
         const modals = document.querySelectorAll('.modal.show')
@@ -311,20 +367,20 @@ document.addEventListener('keydown', (event) => {
 // Auto-save functionality for forms
 window.autoSave = {
     timers: new Map(),
-    
+
     start(formId, saveFunction, delay = 30000) {
         this.stop(formId)
-        
+
         const timer = setInterval(() => {
             const form = document.getElementById(formId)
             if (form && form.checkValidity()) {
                 saveFunction()
             }
         }, delay)
-        
+
         this.timers.set(formId, timer)
     },
-    
+
     stop(formId) {
         const timer = this.timers.get(formId)
         if (timer) {

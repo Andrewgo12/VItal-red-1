@@ -42,18 +42,18 @@ class MonitorGmailCommand extends Command
         do {
             try {
                 $this->info('Checking for new emails...');
-                
+
                 $newEmails = $this->fetchNewEmails($maxEmails);
-                
+
                 if (empty($newEmails)) {
                     $this->info('No new emails found.');
                 } else {
                     $this->info('Found ' . count($newEmails) . ' new emails. Processing...');
-                    
+
                     foreach ($newEmails as $email) {
                         ProcessGmailEmailJob::dispatch($email);
                     }
-                    
+
                     $this->info('Dispatched ' . count($newEmails) . ' email processing jobs.');
                 }
 
@@ -88,7 +88,7 @@ class MonitorGmailCommand extends Command
     {
         // This would integrate with the Python Gmail service
         $pythonServiceUrl = config('services.python.url', 'http://localhost:8001');
-        
+
         try {
             $response = $this->callPythonService($pythonServiceUrl . '/gmail/check', [
                 'max_emails' => $maxEmails
@@ -121,7 +121,7 @@ class MonitorGmailCommand extends Command
     private function callPythonService(string $url, array $data = []): ?array
     {
         $ch = curl_init();
-        
+
         curl_setopt_array($ch, [
             CURLOPT_URL => $url,
             CURLOPT_RETURNTRANSFER => true,
@@ -138,7 +138,7 @@ class MonitorGmailCommand extends Command
         $response = curl_exec($ch);
         $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         $error = curl_error($ch);
-        
+
         curl_close($ch);
 
         if ($error) {
@@ -150,7 +150,7 @@ class MonitorGmailCommand extends Command
         }
 
         $decoded = json_decode($response, true);
-        
+
         if (json_last_error() !== JSON_ERROR_NONE) {
             throw new Exception("JSON decode error: " . json_last_error_msg());
         }
@@ -164,18 +164,35 @@ class MonitorGmailCommand extends Command
     private function getMockEmails(): array
     {
         // Return empty array most of the time to avoid spam
-        if (rand(1, 10) > 2) {
+        if (rand(1, 10) > 3) {
             return [];
         }
 
-        return [
+        $mockEmails = [
             [
                 'id' => 'mock_' . uniqid(),
-                'subject' => 'Solicitud médica urgente - Paciente Juan Pérez',
-                'from' => 'doctor@hospital.com',
-                'body' => "Paciente: Juan Pérez García\nEdad: 45 años\nSexo: Masculino\nDiagnóstico: Dolor torácico agudo\nMotivo: Evaluación cardiológica urgente\nEspecialidad: Cardiología\nInstitución: Hospital General",
+                'subject' => 'Solicitud médica urgente - Paciente Juan Pérez García',
+                'from' => 'doctor.martinez@hospitalgeneral.com',
+                'body' => "Estimados colegas,\n\nSolicito evaluación urgente para el siguiente paciente:\n\nPaciente: Juan Pérez García\nEdad: 45 años\nSexo: Masculino\nIdentificación: 12345678\nDiagnóstico Principal: Dolor torácico agudo con irradiación a brazo izquierdo\nMotivo de Consulta: Paciente presenta dolor torácico de inicio súbito hace 2 horas, asociado a diaforesis y náuseas. ECG muestra cambios sugestivos de SCASEST.\nAntecedentes: HTA, DM tipo 2, tabaquismo\nMedicamentos actuales: Metformina 850mg BID, Losartán 50mg QD\nEspecialidad Solicitada: Cardiología\nInstitución Remitente: Hospital General San José\nMédico Remitente: Dr. Carlos Martínez\nTeléfono: +573001234567\n\nGracias por su pronta atención.\n\nDr. Carlos Martínez\nMedicina Interna\nHospital General San José",
                 'received_at' => now()->toISOString()
+            ],
+            [
+                'id' => 'mock_' . uniqid(),
+                'subject' => 'Interconsulta Pediatría - Paciente María González',
+                'from' => 'pediatria@clinicasanrafael.com',
+                'body' => "Solicitud de interconsulta:\n\nPaciente: María González López\nEdad: 8 años\nSexo: Femenino\nDiagnóstico: Fiebre prolongada de origen no determinado\nMotivo: Niña de 8 años con fiebre de 7 días de evolución, sin foco aparente. Hemograma con leucocitosis y neutrofilia.\nEspecialidad Solicitada: Infectología Pediátrica\nInstitución: Clínica San Rafael\nMédico: Dra. Ana Rodríguez\nTeléfono: +573009876543",
+                'received_at' => now()->subMinutes(30)->toISOString()
+            ],
+            [
+                'id' => 'mock_' . uniqid(),
+                'subject' => 'Evaluación Neurológica - Paciente Roberto Silva',
+                'from' => 'urgencias@centromedico.com',
+                'body' => "Paciente: Roberto Silva Mendoza\nEdad: 67 años\nSexo: Masculino\nDiagnóstico: Cefalea súbita intensa\nMotivo: Paciente presenta cefalea de inicio súbito, tipo trueno, asociada a rigidez nucal. Se sospecha HSA.\nEspecialidad Solicitada: Neurología\nInstitución: Centro Médico del Norte\nMédico: Dr. Luis Herrera\nTeléfono: +573005555555",
+                'received_at' => now()->subHours(1)->toISOString()
             ]
         ];
+
+        // Return random email
+        return [array_rand($mockEmails) ? $mockEmails[array_rand($mockEmails)] : $mockEmails[0]];
     }
 }

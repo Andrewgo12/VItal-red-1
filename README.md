@@ -1,6 +1,38 @@
-# 🏥 Vital Red - Sistema de Gestión Médica
+# 🏥 Vital Red - Sistema de Gestión Médica con IA
 
-Sistema integral de gestión médica con inteligencia artificial para la evaluación y priorización de solicitudes médicas.
+<div align="center">
+
+![Vital Red Logo](public/images/logo.png)
+
+**Sistema avanzado de gestión médica que utiliza inteligencia artificial para la evaluación y priorización automática de solicitudes médicas.**
+
+[![Laravel](https://img.shields.io/badge/Laravel-11.x-red.svg)](https://laravel.com)
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.x-green.svg)](https://vuejs.org)
+[![PHP](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)](tests/)
+
+</div>
+
+## 🌟 Características Principales
+
+### 🤖 **Inteligencia Artificial Avanzada**
+- **Procesamiento con Google Gemini Pro**: Análisis inteligente de contenido médico
+- **Clasificación Automática**: Priorización de casos por urgencia
+- **Extracción de Datos**: Identificación automática de información médica
+- **Análisis de Sentimientos**: Evaluación del tono y urgencia del mensaje
+
+### 📧 **Integración Gmail Completa**
+- **Procesamiento Automático**: Monitoreo continuo de emails médicos
+- **Filtros Inteligentes**: Identificación de solicitudes médicas válidas
+- **Extracción de Adjuntos**: Procesamiento de documentos médicos
+- **Sincronización en Tiempo Real**: Actualización automática de casos
+
+### 📊 **Dashboard Avanzado**
+- **Métricas en Tiempo Real**: Estadísticas actualizadas automáticamente
+- **Gráficos Interactivos**: Visualización de tendencias y patrones
+- **Alertas Inteligentes**: Notificaciones para casos urgentes
+- **Análisis Predictivo**: Tendencias de carga de trabajo
 
 ## 🚀 Características Principales
 

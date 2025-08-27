@@ -4,19 +4,19 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
       <div class="container-fluid">
         <!-- Brand -->
-        <router-link class="navbar-brand d-flex align-items-center" :href="route('dashboard')">
+        <Link class="navbar-brand d-flex align-items-center" :href="route('dashboard')">
           <i class="fas fa-heartbeat me-2 text-primary"></i>
           <span class="fw-bold">Vital Red</span>
-        </router-link>
+        </Link>
 
         <!-- Mobile toggle -->
-        <button 
-          class="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
-          aria-controls="navbarNav" 
-          aria-expanded="false" 
+          aria-controls="navbarNav"
+          aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
@@ -27,8 +27,8 @@
           <ul class="navbar-nav me-auto">
             <!-- Dashboard -->
             <li class="nav-item">
-              <Link 
-                class="nav-link" 
+              <Link
+                class="nav-link"
                 :class="{ active: $page.component === 'Dashboard' }"
                 :href="route('dashboard')"
               >
@@ -39,10 +39,10 @@
 
             <!-- Medical Cases (for doctors and admins) -->
             <li v-if="can('view-medical-cases')" class="nav-item dropdown">
-              <a 
-                class="nav-link dropdown-toggle" 
-                href="#" 
-                role="button" 
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
                 data-bs-toggle="dropdown"
                 :class="{ active: $page.component.startsWith('Medical') }"
               >
@@ -74,10 +74,10 @@
 
             <!-- Admin section -->
             <li v-if="can('view-admin-panel')" class="nav-item dropdown">
-              <a 
-                class="nav-link dropdown-toggle" 
-                href="#" 
-                role="button" 
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
                 data-bs-toggle="dropdown"
                 :class="{ active: $page.component.startsWith('Admin') }"
               >
@@ -118,15 +118,15 @@
           <ul class="navbar-nav">
             <!-- Notifications -->
             <li class="nav-item dropdown">
-              <a 
-                class="nav-link position-relative" 
-                href="#" 
-                role="button" 
+              <a
+                class="nav-link position-relative"
+                href="#"
+                role="button"
                 data-bs-toggle="dropdown"
                 @click="markNotificationsAsRead"
               >
                 <i class="fas fa-bell"></i>
-                <span 
+                <span
                   v-if="unreadNotificationsCount > 0"
                   class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
                 >
@@ -142,8 +142,8 @@
                   No hay notificaciones
                 </div>
                 <div v-else>
-                  <div 
-                    v-for="notification in notifications.slice(0, 5)" 
+                  <div
+                    v-for="notification in notifications.slice(0, 5)"
                     :key="notification.id"
                     class="dropdown-item notification-item"
                     @click="handleNotificationClick(notification)"
@@ -169,16 +169,16 @@
 
             <!-- User menu -->
             <li class="nav-item dropdown">
-              <a 
-                class="nav-link dropdown-toggle d-flex align-items-center" 
-                href="#" 
-                role="button" 
+              <a
+                class="nav-link dropdown-toggle d-flex align-items-center"
+                href="#"
+                role="button"
                 data-bs-toggle="dropdown"
               >
                 <div class="avatar me-2">
-                  <img 
+                  <img
                     v-if="$page.props.auth.user.avatar_url"
-                    :src="$page.props.auth.user.avatar_url" 
+                    :src="$page.props.auth.user.avatar_url"
                     :alt="$page.props.auth.user.name"
                     class="rounded-circle"
                     width="32"
@@ -219,9 +219,9 @@
                 </li>
                 <li><hr class="dropdown-divider"></li>
                 <li>
-                  <Link 
-                    class="dropdown-item text-danger" 
-                    :href="route('logout')" 
+                  <Link
+                    class="dropdown-item text-danger"
+                    :href="route('logout')"
                     method="post"
                     as="button"
                   >
@@ -323,6 +323,21 @@ export default {
     }
   },
   methods: {
+    can(permission) {
+      // Simple permission check - in production this would check user permissions
+      const user = this.$page.props.auth?.user
+      if (!user) return false
+
+      const permissions = {
+        'view-medical-cases': ['medico', 'administrador'],
+        'view-admin-panel': ['administrador'],
+        'manage-users': ['administrador'],
+        'view-reports': ['medico', 'administrador']
+      }
+
+      return permissions[permission]?.includes(user.role) || false
+    },
+
     getInitials(name) {
       return name
         .split(' ')
@@ -331,7 +346,7 @@ export default {
         .toUpperCase()
         .substring(0, 2)
     },
-    
+
     getNotificationIcon(type) {
       const icons = {
         'urgent_case': 'fas fa-exclamation-triangle text-danger',
@@ -343,13 +358,13 @@ export default {
       }
       return icons[type] || 'fas fa-info-circle text-info'
     },
-    
+
     handleNotificationClick(notification) {
       if (notification.url) {
         this.$inertia.visit(notification.url)
       }
     },
-    
+
     markNotificationsAsRead() {
       if (this.unreadNotificationsCount > 0) {
         this.$inertia.post(route('notifications.mark-all-read'), {}, {
